@@ -41,3 +41,8 @@ submit.addEventListener("click", function (event) {
       const errorMessage = error.message;
     });
 });
+
+const signup = document.getElementById("signup");
+signup.addEventListener("click",()=>{
+  window.open("signup.html");
+})
