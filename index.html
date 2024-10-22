@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="module" src="./JS/login.js" defer></script>
+    <style>
+        @media only screen and (max-width:720px) {
+            body {
+                background-image: url("./assets/Mobile_wallpaper/YN.png");
+                background-size: 110%;
+                background-repeat: no-repeat;
+            }
+
+            #form {
+                position: absolute;
+                top: 20%;
+                left: 15%;
+                border: 1px black solid;
+                width: 70%;
+                height: 60%;
+                border-radius: 10px;
+                backdrop-filter: blur(2px);
+            }
+
+            #email {
+                border-radius: 30px;
+                position: absolute;
+                border: 1px solid black;
+                width: 80%;
+                height: 2em;
+                top: 33%;
+                left: 8%;
+            }
+
+            #password {
+                border-radius: 30px;
+                border: 1px solid black;
+                position: absolute;
+                top: 55%;
+                left: 8%;
+                width: 80%;
+                height: 2em;
+            }
+
+            #lab1 {
+                position: absolute;
+                top: 28%;
+                left: 10%;
+                font-size: 15px;
+            }
+
+            #lab2 {
+                position: absolute;
+                top: 50%;
+                left: 10%;
+                font-size: 15px;
+            }
+
+            h1 {
+                position: absolute;
+                top: 7%;
+                left: 30%;
+            }
+            #submit{
+                position: absolute;
+                top: 70%;
+                right: 15%;
+                width: 70%;
+                height: 8%;
+                border-radius: 30px;
+            }
+            #signup{
+                position: absolute;
+                top: 80%;
+                right: 15%;
+                width: 70%;
+                height: 8%;
+                border-radius: 30px;
+            }
+        }
+
+        @media only screen and (min-width:1024px) and (max-width:1920px) {
+            body {
+                background: fixed;
+                background-image: url("./assets/PC_wallpaper/DS.jpg");
+
+                background-size: 103%;
+                background-repeat: no-repeat;
+            }
+
+            #form {
+                position: absolute;
+                top: 30%;
+                left: 25%;
+                border: transparent;
+                border-radius: 30px;
+                width: 800px;
+                height: 500px;
+                background-color: transparent;
+
+            }
+
+            #email {
+               
+                position: absolute;
+                top: 11.5em;
+                left: 20em;
+                width: 50%;
+                height: 2em;
+            }
+
+            #lab1 {
+                position: absolute;
+                top: 5em;
+                left: 5.5em;
+                font-size: 30px;
+            }
+
+            h1 {
+                font-size: 50px;
+                position: absolute;
+                left: 40%;
+            }
+
+            #password {
+                position: absolute;
+                top: 20em;
+                left: 20em;
+                width: 50%;
+                height: 2em;
+            }
+
+            #lab2 {
+                font-size: 30px;
+                position: absolute;
+                top: 9em;
+                left: 4em;
+            }
+
+            #submit {
+                width: 20%;
+                height: 10%;
+                font-size: 30px;
+                border-radius: 20px;
+                position: absolute;
+                top: 12em;
+                left: 55%;
+            }
+
+            #signup {
+                width: 20%;
+                height: 10%;
+                font-size: 30px;
+                border-radius: 20px;
+                position: absolute;
+                top: 12em;
+                left: 25%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <form id="form">
+        <h1>LOGIN</h1>
+        <label id="lab1" for="email">Email</label>
+        <input id="email" type="text">
+        <span id="sp1"></span>
+        <label id="lab2" for="password">Password</label>
+        <input id="password" type="password">
+        <button id="signup">SIGN UP</button>
+        <button id="submit">LOG IN</button>
+    </form>
+</body>
+
+</html>
