@@ -8,85 +8,87 @@
     <script type="module" src="./JS/login.js" defer></script>
     <style>
         body {
-                
-                background-image: url("./assets/PC_wallpaper/IWTEYP.jpg");
 
-                background-size: 103%;
-                background-repeat: no-repeat;
-            }
+            background-image: url("./assets/PC_wallpaper/IWTEYP.jpg");
+            background-size: 103%;
+            background-repeat: no-repeat;
+        }
 
-            #form {
-                position: absolute;
-                top: 30%;
-                left: 25%;
-                border: 2px solid black;
-                backdrop-filter: blur(5px);
-                border-radius: 30px;
-                width: 800px;
-                height: 500px;
-                background-color: transparent;
+        #form {
+            position: absolute;
+            top: 30%;
+            left: 25%;
+            border: 2px solid black;
+            backdrop-filter: blur(10px);
+            border-radius: 30px;
+            width: 800px;
+            height: 500px;
+            background-color: transparent;
+        }
 
-            }
+        #email {
+            width: 60%;
+            height: 3em;
+            position: absolute;
+            top: 35%;
+            left: 18%;
+            border-radius: 20px;
+            opacity: 0.5;
+        }
 
-            #email {
-               
-                position: absolute;
-                top: 11.5em;
-                left: 20em;
-                width: 50%;
-                height: 2em;
-            }
+        #password {
+            width: 60%;
+            height: 3em;
+            position: absolute;
+            top: 58%;
+            left: 18%;
+            border-radius: 20px;
+            opacity: 0.5;
+        }
 
-            #lab1 {
-                position: absolute;
-                top: 5em;
-                left: 5.5em;
-                font-size: 30px;
-            }
+        #lab1 {
+            position: absolute;
+            top: 4.5em;
+            left: 5em;
+            font-size: 30px;
+        }
 
-            h1 {
-                font-size: 50px;
-                position: absolute;
-                left: 40%;
-            }
+        h1 {
+            font-size: 50px;
+            position: absolute;
+            left: 40%;
+        }
+        #lab2 {
+            font-size: 30px;
+            position: absolute;
+            top: 8.5em;
+            left: 4.8em;
+        }
 
-            #password {
-                position: absolute;
-                top: 20em;
-                left: 20em;
-                width: 50%;
-                height: 2em;
-            }
+        #submit {
+            width: 20%;
+            height: 10%;
+            font-size: 30px;
+            border-radius: 20px;
+            position: absolute;
+            top: 12em;
+            left: 55%;
+        }
 
-            #lab2 {
-                font-size: 30px;
-                position: absolute;
-                top: 9em;
-                left: 4em;
-            }
+        #signup {
+            width: 20%;
+            height: 10%;
+            font-size: 30px;
+            border-radius: 20px;
+            position: absolute;
+            top: 12em;
+            left: 25%;
+        }
 
-            #submit {
-                width: 20%;
-                height: 10%;
-                font-size: 30px;
-                border-radius: 20px;
-                position: absolute;
-                top: 12em;
-                left: 55%;
-            }
-
-            #signup {
-                width: 20%;
-                height: 10%;
-                font-size: 30px;
-                border-radius: 20px;
-                position: absolute;
-                top: 12em;
-                left: 25%;
-            }
         @media screen and (max-width:720px) {
             body {
-                background-image: url("./assets/Mobile_wallpaper/YN.png");
+                background-color: black;
+                background-image: url("./assets/Mobile_wallpaper/YN_LogP.png");
                 background-size: 105%;
                 background-repeat: no-repeat;
             }
@@ -140,7 +142,8 @@
                 position: absolute;
                 left: 20%;
             }
-            #submit{
+
+            #submit {
                 position: absolute;
                 top: 70%;
                 left: 12%;
@@ -148,7 +151,8 @@
                 height: 8%;
                 border-radius: 30px;
             }
-            #signup{
+
+            #signup {
                 position: absolute;
                 top: 80%;
                 left: 12%;
@@ -157,9 +161,9 @@
                 border-radius: 30px;
             }
         }
-            
     </style>
 </head>
+
 <body>
     <form id="form">
         <h1>LOGIN</h1>
