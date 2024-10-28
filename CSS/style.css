@@ -1,7 +1,14 @@
 body{
-    background-color: black;
-    color: white;
+    background-color: rgb(33, 33, 33);
+    width: 100%;
+    overflow-x: hidden;
+    background: fixed;
+    background-size: 100% 100% ;
+    animation: slider 10s linear infinite;
 }
-.values{
-    display:none;
+@keyframes slider{
+    0%{background-image: url("../assets/PC_wallpaper/Attack\ on\ Titan.jpg");}
+    30%{background-image: url("../assets/PC_wallpaper/DS.jpg");}
+    60%{background-image: url("./assets/Images/background3.jpg");}
+    100%{background-image: url("./assets/Images/background4.jpg");}
 }

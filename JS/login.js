@@ -40,9 +40,19 @@ submit.addEventListener("click", function (event) {
       const errorCode = error.code;
       const errorMessage = error.message;
     });
+    if(email == "" || password == ""){
+      alert("Hai");
+    }
+    else{
+      alert("You Have loginned successful");
+      localStorage.setItem("Username",email);
+      localStorage.setItem("Password",password);
+    }
 });
+
+
 
 const signup = document.getElementById("signup");
 signup.addEventListener("click",()=>{
-  window.open("./signup.html");
+  window.open("signup.html"); 
 })
