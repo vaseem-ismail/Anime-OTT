@@ -14,7 +14,7 @@ body {
     border: 2px solid black;
     backdrop-filter: blur(10px);
     border-radius: 30px;
-    width: 800px;
+    width: 45%;
     height: 500px;
     background-color: transparent;
 }
