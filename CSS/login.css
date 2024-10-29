@@ -10,7 +10,7 @@ body {
 #form {
     position: absolute;
     top: 30%;
-    left: 25%;
+    left: 30%;
     border: 2px solid black;
     backdrop-filter: blur(10px);
     border-radius: 30px;
