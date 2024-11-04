@@ -2,7 +2,7 @@
     body{
         margin: 0;
         padding: 0;
-        background-image: url("../assets/PC_wallpaper/JJK.jpg");
+        background-image: url("../assets/pc_size_pics/JJK.jpg");
         background-repeat: no-repeat;
         background-size: 103%;
         
@@ -68,7 +68,7 @@
    @media screen and (max-width:720px){
     body{
         background-color: black;
-        background-image: url("../assets/Mobile_wallpaper/DN_New.jpg");
+        background-image: url("../assets/small_size_pics/DN_New.jpg");
         background-size: 100%;
         background-repeat: no-repeat;
         color: white;

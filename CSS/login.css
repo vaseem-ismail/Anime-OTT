@@ -2,7 +2,7 @@
     
 body {
 
-    background-image: url("../assets/PC_wallpaper/IWTEYP.jpg");
+    background-image: url("../assets/pc_size_pics/IWTEYP.jpg");
     background-size: 103%;
     background-repeat: no-repeat;
 }
@@ -59,7 +59,12 @@ h1 {
     top: 8.5em;
     left: 4.8em;
 }
-
+p{
+    position: absolute;
+    top: 86%;
+    left: 35%;
+    font-size: 20px;
+}
 #submit {
     width: 20%;
     height: 10%;
@@ -67,24 +72,25 @@ h1 {
     border-radius: 20px;
     position: absolute;
     top: 12em;
-    left: 55%;
+    left: 36%;
 }
 
 #signup {
     width: 20%;
     height: 10%;
-    font-size: 30px;
+    font-size: 20px;
     border-radius: 20px;
     position: absolute;
-    top: 12em;
-    left: 25%;
+    top: 90%;
+    left: 50%;
+    color: blueviolet;
 }
 }
 
 @media screen and (max-width:720px) {
     body {
         background-color: black;
-        background-image: url("../assets/Mobile_wallpaper/YN_LogP.png");
+        background-image: url("../assets/small_size_pics/YN_LogP.png");
         background-size: 105%;
         background-repeat: no-repeat;
     }
