@@ -159,14 +159,21 @@ p{
         width: 70%;
         height: 8%;
         border-radius: 30px;
+       
     }
 
     #signup {
         position: absolute;
-        top: 80%;
-        left: 15%;
+        top: 88%;
+        left: 55%;
         width: 70%;
         height: 8%;
         border-radius: 30px;
+        color: blueviolet;
+    }
+    p{
+        position: absolute;
+        top: 85%;
+        left: 20%;
     }
 }
