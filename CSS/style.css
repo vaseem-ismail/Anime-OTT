@@ -7,8 +7,33 @@ body{
     animation: slider 10s linear infinite;
 }
 @keyframes slider{
-    0%{background-image: url("../assets/PC_wallpaper/Attack\ on\ Titan.jpg");}
-    30%{background-image: url("../assets/PC_wallpaper/DS.jpg");}
-    60%{background-image: url("./assets/Images/background3.jpg");}
-    100%{background-image: url("./assets/Images/background4.jpg");}
+    0%{background-image: url("../assets/pc_size_pics/AOT.jpg");}
+    30%{background-image: url("../assets/pc_size_pics/Sukuna.png");}
+    60%{background-image: url("../assets/pc_size_pics/DS.jpg");}
+    100%{background-image: url("../assets/pc_size_pics/AOT_2.jpg");}
+}
+#search{
+    font-size: 30px;
+    width: 3.2%;
+    height: 2em;
+    border-radius: 30px;
+    position: absolute;
+    left: 92%;
+    top: 15%;
+}
+#btn_img{
+    position: absolute;
+    top: 125px;
+    right: 70px;
+    color: white;
+    padding-top: 20px;
+}
+#search-bar{
+    width: 20%;
+    height: 3.7em;
+    border-radius: 30px;
+    opacity: 0.75;
+    position: absolute;
+    top: 15%;
+    left:70%;
 }
