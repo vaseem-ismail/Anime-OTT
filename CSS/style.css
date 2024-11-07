@@ -30,10 +30,32 @@ body{
 }
 #search-bar{
     width: 20%;
-    height: 3.7em;
+    height: 2.5em;
     border-radius: 30px;
     opacity: 0.75;
     position: absolute;
     top: 15%;
     left:70%;
+    font-size: larger;
+}
+#idname{
+    position: absolute;
+    width: 25%;
+    height: 7%;
+    color: black;
+    background-color: white;
+    left: 70%;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#idimage{
+    background-color: black;
+    position: absolute;
+    width: 3.5%;
+    height: 4em;
+    left: 91%;
+    top: 58.5px;
+    border-radius: 50px;
 }
