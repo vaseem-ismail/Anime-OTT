@@ -1,61 +1,1351 @@
-body{
+@media screen and (min-width: 720px) {
+  body {
     background-color: rgb(33, 33, 33);
     width: 100%;
     overflow-x: hidden;
     background: fixed;
-    background-size: 100% 100% ;
+    background-size: 100% 100%;
     animation: slider 10s linear infinite;
-}
-@keyframes slider{
-    0%{background-image: url("../assets/pc_size_pics/AOT.jpg");}
-    30%{background-image: url("../assets/pc_size_pics/Sukuna.png");}
-    60%{background-image: url("../assets/pc_size_pics/DS.jpg");}
-    100%{background-image: url("../assets/pc_size_pics/AOT_2.jpg");}
-}
-#search{
-    font-size: 30px;
-    width: 3.2%;
-    height: 2em;
-    border-radius: 30px;
-    position: absolute;
-    left: 92%;
-    top: 15%;
-}
-#btn_img{
-    position: absolute;
-    top: 125px;
-    right: 70px;
-    color: white;
-    padding-top: 20px;
-}
-#search-bar{
+  }
+  @keyframes slider {
+    0% {
+      background-image: url("../assets/pc_size_pics/2.jpg");
+    }
+    30% {
+      background-image: url("../assets/pc_size_pics/4.jpg");
+    }
+    60% {
+      background-image: url("../assets/pc_size_pics/6.jpg");
+    }
+    100% {
+      background-image: url("../assets/pc_size_pics/8.jpg");
+    }
+  }
+  #search-bar {
     width: 20%;
-    height: 2.5em;
+    height: 2em;
+    font-size: x-large;
+    opacity: 0.7;
     border-radius: 30px;
-    opacity: 0.75;
     position: absolute;
-    top: 15%;
-    left:70%;
-    font-size: larger;
-}
-#idname{
-    position: absolute;
-    width: 25%;
-    height: 7%;
-    color: black;
-    background-color: white;
+    top: 25%;
     left: 70%;
-    border-radius: 30px;
-    text-align: center;
-    font-size: 55px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-#idimage{
-    background-color: black;
-    position: absolute;
-    width: 3.5%;
-    height: 4em;
-    left: 91%;
-    top: 58.5px;
+    border: none;
+  }
+  #search-btn {
+    width: 3.3%;
+    height: 4.3em;
     border-radius: 50px;
+    position: absolute;
+    top: 25%;
+    left: 91%;
+    z-index: -1;
+    background-color: aquamarine;
+  }
+  #btn_img {
+    position: absolute;
+    top: 23%;
+    left: 90%;
+  }
+  #header {
+    width: 90%;
+    height: 6em;
+    background-color: black;
+    border: 2px white solid;
+    border-radius: 30px;
+    position: fixed;
+    top: 3%;
+    left: 5%;
+    z-index: 5;
+  }
+  #logo {
+    margin-left: 20px;
+    margin-top: 3px;
+  }
+  #title {
+    margin-left: 5px;
+  }
+  #id-name {
+    position: absolute;
+    bottom: 12%;
+    left: 78%;
+    font-size: 50px;
+    color: white;
+    margin-bottom: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #id-img {
+    background-color: black;
+    border: 2px white solid;
+    border-radius: 30px;
+    position: absolute;
+    top: 14px;
+    left: 95%;
+  }
+  #anislide {
+    background-color: black;
+    border: 2px white solid;
+    width: 45%;
+    height: 25em;
+    position: absolute;
+    top: 18%;
+    left: 10%;
+  }
+  #slide-img3 {
+    position: absolute;
+    top: 20%;
+    left: 65%;
+    opacity: 0.5;
+  }
+  #slide-img2 {
+    position: absolute;
+    top: 13%;
+    left: 38%;
+  }
+  #slide-img1 {
+    position: absolute;
+    top: 20%;
+    left: 17%;
+    opacity: 0.5;
+  }
+  #point1 {
+    color: rgb(84, 82, 82);
+    position: absolute;
+    top: 75%;
+    left: 25%;
+  }
+  #point2 {
+    color: white;
+    position: absolute;
+    top: 83%;
+    left: 49.5%;
+  }
+  #point3 {
+    color: rgb(84, 82, 82);
+    position: absolute;
+    top: 75%;
+    left: 73%;
+  }
+  /* #greatest-ever{
+    background-color: black;
+    width: 90%;
+} */
+  #title1 {
+    background-color: black;
+    color: black;
+    height: 5em;
+    width: 90%;
+    position: absolute;
+    top: 60%;
+    left: 80px;
+    border-radius: 30px;
+    border: 2px red solid;
+  }
+  #hone {
+    color: white;
+    position: absolute;
+    left: 80px;
+    letter-spacing: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #greatest-one {
+    background-color: black;
+    width: 9%;
+    height: 16em;
+    position: absolute;
+    top: 70%;
+    left: 5%;
+    border-radius: 30px;
+    border: 2px white solid;
+  }
+  #greatest-two {
+    background-color: black;
+    width: 9%;
+    height: 16em;
+    position: absolute;
+    top: 70%;
+    left: 18%;
+    border-radius: 30px;
+    border: 2px white solid;
+  }
+  #greatest-three {
+    background-color: black;
+    width: 9%;
+    height: 16em;
+    position: absolute;
+    top: 70%;
+    left: 31%;
+    border-radius: 30px;
+    border: 2px white solid;
+  }
+  #greatest-four {
+    background-color: black;
+    width: 9%;
+    height: 16em;
+    position: absolute;
+    top: 70%;
+    left: 46%;
+    border-radius: 30px;
+    border: 2px white solid;
+  }
+  #greatest-five {
+    background-color: black;
+    width: 9%;
+    height: 16em;
+    position: absolute;
+    top: 70%;
+    left: 60%;
+    border-radius: 30px;
+    border: 2px white solid;
+  }
+  #greatest-six {
+    background-color: black;
+    width: 9%;
+    height: 16em;
+    position: absolute;
+    top: 70%;
+    left: 73%;
+    border-radius: 30px;
+    border: 2px white solid;
+  }
+  #greatest-seven {
+    background-color: black;
+    width: 9%;
+    height: 16em;
+    position: absolute;
+    top: 70%;
+    left: 85%;
+    border-radius: 30px;
+    border: 2px white solid;
+  }
+  #title2 {
+    background-color: black;
+    color: black;
+    height: 5em;
+    width: 90%;
+    position: absolute;
+    top: 100%;
+    left: 80px;
+    border-radius: 30px;
+    border: 2px red solid;
+  }
+  #htwo {
+    color: white;
+    position: absolute;
+    left: 80px;
+    letter-spacing: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #action-one {
+    background-color: black;
+    width: 9%;
+    height: 16em;
+    position: absolute;
+    top: 110%;
+    left: 5%;
+    border-radius: 30px;
+    border: 2px white solid;
+  }
+  #action-two {
+    background-color: black;
+    width: 9%;
+    height: 16em;
+    position: absolute;
+    top: 110%;
+    left: 18%;
+    border-radius: 30px;
+    border: 2px white solid;
+  }
+  #action-three {
+    background-color: black;
+    width: 9%;
+    height: 16em;
+    position: absolute;
+    top: 110%;
+    left: 31%;
+    border-radius: 30px;
+    border: 2px white solid;
+  }
+  #action-four {
+    background-color: black;
+    width: 9%;
+    height: 16em;
+    position: absolute;
+    top: 110%;
+    left: 46%;
+    border-radius: 30px;
+    border: 2px white solid;
+  }
+  #action-five {
+    background-color: black;
+    width: 9%;
+    height: 16em;
+    position: absolute;
+    top: 110%;
+    left: 60%;
+    border-radius: 30px;
+    border: 2px white solid;
+  }
+  #action-six {
+    background-color: black;
+    width: 9%;
+    height: 16em;
+    position: absolute;
+    top: 110%;
+    left: 73%;
+    border-radius: 30px;
+    border: 2px white solid;
+  }
+  #action-seven {
+    background-color: black;
+    width: 9%;
+    height: 16em;
+    position: absolute;
+    top: 110%;
+    left: 85%;
+    border-radius: 30px;
+    border: 2px white solid;
+  }
+  #title3 {
+    background-color: black;
+    color: black;
+    height: 5em;
+    width: 90%;
+    position: absolute;
+    top: 140%;
+    left: 80px;
+    border-radius: 30px;
+    border: 2px red solid;
+  }
+  #hthree {
+    color: white;
+    position: absolute;
+    left: 80px;
+    letter-spacing: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #ls-one {
+    background-color: black;
+    width: 9%;
+    height: 16em;
+    position: absolute;
+    top: 150%;
+    left: 5%;
+    border-radius: 30px;
+    border: 2px white solid;
+  }
+  #ls-two {
+    background-color: black;
+    width: 9%;
+    height: 16em;
+    position: absolute;
+    top: 150%;
+    left: 18%;
+    border-radius: 30px;
+    border: 2px white solid;
+  }
+  #ls-three {
+    background-color: black;
+    width: 9%;
+    height: 16em;
+    position: absolute;
+    top: 150%;
+    left: 31%;
+    border-radius: 30px;
+    border: 2px white solid;
+  }
+  #ls-four {
+    background-color: black;
+    width: 9%;
+    height: 16em;
+    position: absolute;
+    top: 150%;
+    left: 46%;
+    border-radius: 30px;
+    border: 2px white solid;
+  }
+  #ls-five {
+    background-color: black;
+    width: 9%;
+    height: 16em;
+    position: absolute;
+    top: 150%;
+    left: 60%;
+    border-radius: 30px;
+    border: 2px white solid;
+  }
+  #ls-six {
+    background-color: black;
+    width: 9%;
+    height: 16em;
+    position: absolute;
+    top: 150%;
+    left: 73%;
+    border-radius: 30px;
+    border: 2px white solid;
+  }
+  #ls-seven {
+    background-color: black;
+    width: 9%;
+    height: 16em;
+    position: absolute;
+    top: 150%;
+    left: 85%;
+    border-radius: 30px;
+    border: 2px white solid;
+  }
+  #title4 {
+    background-color: black;
+    color: black;
+    height: 5em;
+    width: 90%;
+    position: absolute;
+    top: 180%;
+    left: 80px;
+    border-radius: 30px;
+    border: 2px red solid;
+  }
+  #hfour {
+    color: white;
+    position: absolute;
+    left: 80px;
+    letter-spacing: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #sf-one {
+    background-color: black;
+    width: 9%;
+    height: 16em;
+    position: absolute;
+    top: 190%;
+    left: 5%;
+    border-radius: 30px;
+    border: 2px white solid;
+  }
+  #sf-two {
+    background-color: black;
+    width: 9%;
+    height: 16em;
+    position: absolute;
+    top: 190%;
+    left: 18%;
+    border-radius: 30px;
+    border: 2px white solid;
+  }
+  #sf-three {
+    background-color: black;
+    width: 9%;
+    height: 16em;
+    position: absolute;
+    top: 190%;
+    left: 31%;
+    border-radius: 30px;
+    border: 2px white solid;
+  }
+  #sf-four {
+    background-color: black;
+    width: 9%;
+    height: 16em;
+    position: absolute;
+    top: 190%;
+    left: 46%;
+    border-radius: 30px;
+    border: 2px white solid;
+  }
+  #sf-five {
+    background-color: black;
+    width: 9%;
+    height: 16em;
+    position: absolute;
+    top: 190%;
+    left: 60%;
+    border-radius: 30px;
+    border: 2px white solid;
+  }
+  #sf-six {
+    background-color: black;
+    width: 9%;
+    height: 16em;
+    position: absolute;
+    top: 190%;
+    left: 73%;
+    border-radius: 30px;
+    border: 2px white solid;
+  }
+  #sf-seven {
+    background-color: black;
+    width: 9%;
+    height: 16em;
+    position: absolute;
+    top: 190%;
+    left: 85%;
+    border-radius: 30px;
+    border: 2px white solid;
+  }
+  #title5 {
+    background-color: black;
+    color: black;
+    height: 5em;
+    width: 90%;
+    position: absolute;
+    top: 220%;
+    left: 80px;
+    border-radius: 30px;
+    border: 2px red solid;
+  }
+  #hfive {
+    color: white;
+    position: absolute;
+    left: 80px;
+    letter-spacing: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #horror-one {
+    background-color: black;
+    width: 9%;
+    height: 16em;
+    position: absolute;
+    top: 230%;
+    left: 5%;
+    border-radius: 30px;
+    border: 2px white solid;
+  }
+  #horror-two {
+    background-color: black;
+    width: 9%;
+    height: 16em;
+    position: absolute;
+    top: 230%;
+    left: 18%;
+    border-radius: 30px;
+    border: 2px white solid;
+  }
+  #horror-three {
+    background-color: black;
+    width: 9%;
+    height: 16em;
+    position: absolute;
+    top: 230%;
+    left: 31%;
+    border-radius: 30px;
+    border: 2px white solid;
+  }
+  #horror-four {
+    background-color: black;
+    width: 9%;
+    height: 16em;
+    position: absolute;
+    top: 230%;
+    left: 46%;
+    border-radius: 30px;
+    border: 2px white solid;
+  }
+  #horror-five {
+    background-color: black;
+    width: 9%;
+    height: 16em;
+    position: absolute;
+    top: 230%;
+    left: 60%;
+    border-radius: 30px;
+    border: 2px white solid;
+  }
+  #horror-six {
+    background-color: black;
+    width: 9%;
+    height: 16em;
+    position: absolute;
+    top: 230%;
+    left: 73%;
+    border-radius: 30px;
+    border: 2px white solid;
+  }
+  #horror-seven {
+    background-color: black;
+    width: 9%;
+    height: 16em;
+    position: absolute;
+    top: 230%;
+    left: 85%;
+    border-radius: 30px;
+    border: 2px white solid;
+  }
+  #title6 {
+    background-color: black;
+    color: black;
+    height: 5em;
+    width: 90%;
+    position: absolute;
+    top: 260%;
+    left: 80px;
+    border-radius: 30px;
+    border: 2px red solid;
+  }
+  #hsix {
+    color: white;
+    position: absolute;
+    left: 80px;
+    letter-spacing: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #sport-one {
+    background-color: black;
+    width: 9%;
+    height: 16em;
+    position: absolute;
+    top: 270%;
+    left: 5%;
+    border-radius: 30px;
+    border: 2px white solid;
+  }
+  #sport-two {
+    background-color: black;
+    width: 9%;
+    height: 16em;
+    position: absolute;
+    top: 270%;
+    left: 18%;
+    border-radius: 30px;
+    border: 2px white solid;
+  }
+  #sport-three {
+    background-color: black;
+    width: 9%;
+    height: 16em;
+    position: absolute;
+    top: 270%;
+    left: 31%;
+    border-radius: 30px;
+    border: 2px white solid;
+  }
+  #sport-four {
+    background-color: black;
+    width: 9%;
+    height: 16em;
+    position: absolute;
+    top: 270%;
+    left: 46%;
+    border-radius: 30px;
+    border: 2px white solid;
+  }
+  #sport-five {
+    background-color: black;
+    width: 9%;
+    height: 16em;
+    position: absolute;
+    top: 270%;
+    left: 60%;
+    border-radius: 30px;
+    border: 2px white solid;
+  }
+  #sport-six {
+    background-color: black;
+    width: 9%;
+    height: 16em;
+    position: absolute;
+    top: 270%;
+    left: 73%;
+    border-radius: 30px;
+    border: 2px white solid;
+  }
+  #sport-seven {
+    background-color: black;
+    width: 9%;
+    height: 16em;
+    position: absolute;
+    top: 270%;
+    left: 85%;
+    border-radius: 30px;
+    border: 2px white solid;
+  }
+  #see_more {
+    background-color: black;
+    color: black;
+    height: 5em;
+    width: 90%;
+    position: absolute;
+    top: 320%;
+    left: 80px;
+    border-radius: 30px;
+    border: 2px green solid;
+  }
+  #w-more {
+    text-decoration: none;
+    font-size: 50px;
+    position: absolute;
+    top: 15px;
+    left: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  #footer {
+    background-color: black;
+    color: black;
+    height: 8em;
+    width: 90%;
+    position: absolute;
+    top: 360%;
+    left: 80px;
+    border-radius: 30px;
+    margin-bottom: 50px;
+    border: 2px white solid;
+  }
+  #empty {
+    background-color: transparent;
+    height: 5em;
+    width: 90%;
+    position: absolute;
+    top: 370%;
+    left: 80px;
+    border-radius: 30px;
+    margin-bottom: 50px;
+  }
+  #f-hone {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 20px;
+    left: 15%;
+  }
+  #link-one {
+    color: red;
+    font-size: 25px;
+    position: absolute;
+    top: 47px;
+    left: 65%;
+  }
+  #link-two {
+    color: red;
+    font-size: 25px;
+    position: absolute;
+    top: 47px;
+    left: 80%;
+  }
+  .greatest-img,
+  .action-img,
+  .ls-img,
+  .sf-img,
+  .horror-img,
+  .sport-img {
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-left: 18px;
+  }
+  .greatest-p,
+  .action-p,
+  .ls-p,
+  .sf-p,
+  .horror-p,
+  .sport-p {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    margin-left: 2px;
+    width: 20px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .show_more{
+   position: absolute;
+   top: 15px;
+   left: 93%;
+   padding: 15px;
+   background-color: gray;
+   color: white;
+   border: 2px solid blue;
+   border-radius: 20px;
+  }
+}
+@media screen and (max-width: 720px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+  body {
+    background-color: black;
+    animation: slimob 10s linear infinite;
+    width: 100%;
+    overflow-x: hidden;
+    background: fixed;
+    background-size: 100% 100%;
+  }
+  @keyframes slimob {
+    0% {
+      background-image: url("../assets/small_size_pics/bg-mobile/Another.jpg");
+    }
+    30% {
+      background-image: url("../assets/small_size_pics/bg-mobile/Ace_of_diamond.jpg");
+    }
+    60% {
+      background-image: url("../assets/small_size_pics/bg-mobile/Fullmetal_Alchemist.jpg");
+    }
+    100% {
+      background-image: url("../assets/small_size_pics/bg-mobile/Psycho_pass.jpg");
+    }
+  }
+  #header {
+    width: 110%;
+    background-color: black;
+    height: 5em;
+    border-radius: 30px;
+    border: 2px solid white;
+    position: absolute;
+    top: 20px;
+    left: 2%;
+  }
+  #logo {
+    position: absolute;
+    border-radius: 50px;
+    width: 15%;
+    top: 5px;
+    left: 10px;
+    /* display: none; */
+  }
+  #title {
+    width: 60%;
+    position: absolute;
+    top: 20px;
+    left: 18%;
+    /* display: none; */
+  }
+  #id-name {
+    display: none;
+  }
+  #id-img {
+    position: absolute;
+    top: 10px;
+    left: 84%;
+    border-radius: 30px;
+    /* display: none; */
+  }
+  #anislide {
+    background-color: black;
+    width: 100%;
+    height: 220px;
+    position: absolute;
+    top: 25%;
+    left: 6%;
+    /* display: none; */
+  }
+  #slide-img1 {
+    position: absolute;
+    top: 10%;
+    left: 40px;
+    width: 20%;
+    opacity: 0.8;
+    border: 2px white solid;
+    /* display: none; */
+  }
+  #slide-img2 {
+    position: absolute;
+    top: 10px;
+    left: 35%;
+    width: 30%;
+    z-index: 3;
+    border: 2px white solid;
+    /* display: none; */
+  }
+  #slide-img3 {
+    position: absolute;
+    top: 10%;
+    left: 70%;
+    width: 20%;
+    opacity: 0.8;
+    border: 2px white solid;
+  }
+  #point1,
+  #point2,
+  #point3 {
+    display: none;
+  }
+  #search-bar {
+    position: absolute;
+    top: 13%;
+    width: 80%;
+    height: 2.5em;
+    left: 15%;
+    border-radius: 30px;
+    font-size: 25px;
+    opacity: 0.7;
+  }
+  #search-btn {
+    position: absolute;
+    top: 13.7%;
+    width: 13%;
+    height: 55px;
+    left: 82%;
+    border-radius: 50px;
+    background-color: green;
+  }
+  #btn_img {
+    position: absolute;
+    top: 11%;
+    left: 76%;
+  }
+  #title1 {
+    position: absolute;
+    top: 58%;
+    left: 3%;
+    width: 107%;
+    background-color: black;
+    height: 80px;
+    border-radius: 30px;
+    border: 2px solid red;
+  }
+  #hone {
+    position: absolute;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 20px;
+    left: 30px;
+  }
+  #greatest-four,
+  #greatest-five,
+  #greatest-six,
+  #greatest-seven,
+  #action-four,
+  #action-five,
+  #action-six,
+  #action-seven,
+  #ls-four,
+  #ls-five,
+  #ls-six,
+  #ls-seven,
+  #sf-four,
+  #sf-five,
+  #sf-six,
+  #sf-seven,
+  #horror-four,
+  #horror-five,
+  #horror-six,
+  #horror-seven,
+  #sport-six,
+  #sport-four,
+  #sport-five,
+  #sport-seven {
+    display: none;
+  }
+  .greatest-img {
+    width: 110px;
+    height: 160px;
+    margin-top: 5px;
+    margin-left: 10px;
+    border-radius: 30px;
+  }
+  #greatest-one {
+    background-color: black;
+    width: 130px;
+    height: 220px;
+    position: absolute;
+    top: 70%;
+    border-radius: 30px;
+    left: 1%;
+    border: 2px white solid;
+  }
+  .greatest-p {
+    position: absolute;
+    top: 170px;
+    left: 30px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  #greatest-two {
+    background-color: black;
+    width: 130px;
+    height: 220px;
+    position: absolute;
+    top: 70%;
+    left: 41%;
+    border-radius: 30px;
+    border: 2px white solid;
+  }
+  #greatest-three {
+    background-color: black;
+    width: 130px;
+    height: 220px;
+    position: absolute;
+    top: 70%;
+    left: 80%;
+    border-radius: 30px;
+    border: 2px white solid;
+  }
+  #title2 {
+    position: absolute;
+    top: 98%;
+    left: 3%;
+    width: 107%;
+    background-color: black;
+    height: 80px;
+    border-radius: 30px;
+    border: 2px solid red;
+  }
+  #title3 {
+    position: absolute;
+    top: 138%;
+    left: 3%;
+    width: 107%;
+    background-color: black;
+    height: 80px;
+    border-radius: 30px;
+    border: 2px solid red;
+  }
+  #title4 {
+    position: absolute;
+    top: 178%;
+    left: 3%;
+    width: 107%;
+    background-color: black;
+    height: 80px;
+    border-radius: 30px;
+    border: 2px solid red;
+  }
+  #title5 {
+    position: absolute;
+    top: 218%;
+    left: 3%;
+    width: 107%;
+    background-color: black;
+    height: 80px;
+    border-radius: 30px;
+    border: 2px solid red;
+  }
+  #title6 {
+    position: absolute;
+    top: 258%;
+    left: 3%;
+    width: 107%;
+    background-color: black;
+    height: 80px;
+    border-radius: 30px;
+    border: 2px solid red;
+  }
+  #htwo {
+    position: absolute;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 20px;
+    left: 30px;
+  }
+  #hthree {
+    position: absolute;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 20px;
+    left: 30px;
+  }
+  #hfour {
+    position: absolute;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 20px;
+    left: 30px;
+  }
+  #hfive {
+    position: absolute;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 20px;
+    left: 30px;
+  }
+  #hsix {
+    position: absolute;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 20px;
+    left: 30px;
+  }
+  #action-one {
+    background-color: black;
+    width: 130px;
+    height: 220px;
+    border-radius: 30px;
+    position: absolute;
+    top: 110%;
+    left: 1%;
+    border: 2px white solid;
+  }
+  #action-two {
+    background-color: black;
+    width: 130px;
+    height: 220px;
+    border-radius: 30px;
+    position: absolute;
+    top: 110%;
+    left: 41%;
+    border: 2px white solid;
+  }
+  #action-three {
+    background-color: black;
+    width: 130px;
+    height: 220px;
+    border-radius: 30px;
+    position: absolute;
+    top: 110%;
+    left: 80%;
+    border: 2px white solid;
+  }
+  .action-img {
+    width: 110px;
+    height: 160px;
+    margin-top: 5px;
+    margin-left: 10px;
+    border-radius: 30px;
+  }
+  .action-p {
+    position: absolute;
+    top: 170px;
+    left: 30px;
+    width: 100px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  .ls-img {
+    width: 110px;
+    height: 160px;
+    margin-top: 5px;
+    margin-left: 10px;
+    border-radius: 30px;
+  }
+  .ls-p {
+    position: absolute;
+    top: 170px;
+    left: 30px;
+    width: 100px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  #ls-one {
+    background-color: black;
+    width: 130px;
+    height: 220px;
+    border-radius: 30px;
+    position: absolute;
+    top: 150%;
+    left: 1%;
+    border: 2px white solid;
+  }
+  #ls-two {
+    background-color: black;
+    width: 130px;
+    height: 220px;
+    border-radius: 30px;
+    position: absolute;
+    top: 150%;
+    left: 41%;
+    border: 2px white solid;
+  }
+  #ls-three {
+    background-color: black;
+    width: 130px;
+    height: 220px;
+    border-radius: 30px;
+    position: absolute;
+    top: 150%;
+    left: 80%;
+    border: 2px white solid;
+  }
+  .sf-img {
+    width: 110px;
+    height: 160px;
+    margin-top: 5px;
+    margin-left: 10px;
+    border-radius: 30px;
+  }
+  .sf-p {
+    position: absolute;
+    top: 170px;
+    left: 30px;
+    width: 100px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  #sf-one {
+    background-color: black;
+    width: 130px;
+    height: 220px;
+    border-radius: 30px;
+    position: absolute;
+    top: 190%;
+    left: 1%;
+    border: 2px white solid;
+  }
+  #sf-two {
+    background-color: black;
+    width: 130px;
+    height: 220px;
+    border-radius: 30px;
+    position: absolute;
+    top: 190%;
+    left: 41%;
+    border: 2px white solid;
+  }
+  #sf-three {
+    background-color: black;
+    width: 130px;
+    height: 220px;
+    border-radius: 30px;
+    position: absolute;
+    top: 190%;
+    left: 80%;
+    border: 2px white solid;
+  }
+  .horror-img {
+    width: 110px;
+    height: 160px;
+    margin-top: 5px;
+    margin-left: 10px;
+    border-radius: 30px;
+  }
+  .horror-p {
+    position: absolute;
+    top: 170px;
+    left: 30px;
+    width: 100px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  #horror-one {
+    background-color: black;
+    width: 130px;
+    height: 220px;
+    border-radius: 30px;
+    position: absolute; 
+    top: 230%;
+    left: 1%;
+    border: 2px white solid;
+  }
+  #horror-two {
+    background-color: black;
+    width: 130px;
+    height: 220px;
+    border-radius: 30px;
+    position: absolute;
+    top: 230%;
+    left: 41%;
+    border: 2px white solid;
+  }
+  #horror-three {
+    background-color: black;
+    width: 130px;
+    height: 220px;
+    border-radius: 30px;
+    position: absolute;
+    top: 230%;
+    left: 80%;
+    border: 2px white solid;
+  }
+  .sport-img {
+    width: 110px;
+    height: 160px;
+    margin-top: 5px;
+    margin-left: 10px;
+    border-radius: 30px;
+  }
+  .sport-p {
+    position: absolute;
+    top: 170px;
+    left: 30px;
+    width: 100px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  #sport-one {
+    background-color: black;
+    width: 130px;
+    height: 220px;
+    border-radius: 30px;
+    position: absolute;
+    top: 270%;
+    left: 1%;
+    border: 2px white solid;
+  }
+  #sport-two {
+    background-color: black;
+    width: 130px;
+    height: 220px;
+    border-radius: 30px;
+    position: absolute;
+    top: 270%;
+    left: 41%;
+    border: 2px white solid;
+  }
+  #sport-three {
+    background-color: black;
+    width: 130px;
+    height: 220px;
+    border-radius: 30px;
+    position: absolute;
+    top: 270%;
+    left: 80%;
+    border: 2px white solid;
+  }
+  #see_more{
+   position: absolute;
+    top: 320%;
+    left: 3%;
+    width: 107%;
+    background-color: black;
+    height: 80px;
+    border-radius: 30px;
+    border: 2px solid green;
+  }
+  #w-more{
+   position: absolute;
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   top: 30px;
+   left: 20%;
+   text-decoration: none;
+   font-size: 20px;
+  }
+  #footer{
+   position: absolute;
+    top: 350%;
+    left: 3%;
+    width: 107%;
+    background-color: black;
+    height: 100px;
+    border-radius: 30px;
+    border: 2px solid white;
+  }
+  #f-hone{
+   position: absolute;
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   top: 30px;
+   left: 10%;
+   font-size: 15px;
+  }
+  #link-one{
+   position: absolute;
+   color: red;
+   font-family: Arial, Helvetica, sans-serif;
+   top: 55px;
+   left: 20%;
+   font-size: 15px;
+  }
+  #link-two{
+   position: absolute;
+   color: red;
+   font-family: Arial, Helvetica, sans-serif;
+   top: 55px;
+   left: 60%;
+   font-size: 15px;
+  }
+  .show_more{
+   position: absolute;
+   top: 22px;
+   color: white;
+   left: 80%;
+   background-color: gray;
+   border-radius: 10px;
+   border: 2px solid blue;
+   padding: 5px;
+  }
 }

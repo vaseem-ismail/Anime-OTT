@@ -28,6 +28,7 @@ body {
     border-radius: 20px;
     opacity: 0.5;
     font-size: 30px;
+    border: 5px green solid;
 }
 
 #password {
@@ -39,6 +40,7 @@ body {
     border-radius: 20px;
     opacity: 0.5;
     font-size: 30px;
+    border: 5px green solid;
 }
 
 #lab1 {
@@ -46,18 +48,22 @@ body {
     top: 4.5em;
     left: 5em;
     font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
     font-size: 50px;
     position: absolute;
     left: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
 }
 #lab2 {
     font-size: 30px;
     position: absolute;
     top: 8.5em;
     left: 4.8em;
+    font-family: Arial, Helvetica, sans-serif;
 }
 p{
     position: absolute;
@@ -71,8 +77,9 @@ p{
     font-size: 30px;
     border-radius: 20px;
     position: absolute;
-    top: 12em;
+    top: 12.5em;
     left: 36%;
+    border: 2px solid red;
 }
 
 #signup {
@@ -85,12 +92,34 @@ p{
     left: 50%;
     color: blueviolet;
 }
+#sp1{
+    display: none;
+    position: absolute;
+    top: 230px;
+    left: 57%;
+}
+#sp2{
+    display: none;
+    position: absolute;
+    top: 340px;
+    left: 55%;
+    color: green;
+}
+#togglePassword{
+    position: absolute;
+    top: 60%;
+    left: 74%;
+    background-color: black;
+    border-radius: 30px;
+    padding: 5px;
+    cursor: grab;
+}
 }
 
 @media screen and (max-width:720px) {
     body {
         background-color: black;
-        background-image: url("../assets/small_size_pics/YN_LogP.png");
+        background-image: url("../assets/small_size_pics/bg-mobile/YN_LogP.png");
         background-size: 105%;
         background-repeat: no-repeat;
     }
@@ -117,6 +146,7 @@ p{
         left: 8%;
         font-size: 20px;
         opacity: 0.75;
+        border: 5px green solid;
     }
 
     #password {
@@ -129,6 +159,7 @@ p{
         height: 1.9rem;
         font-size: 20px;
         opacity: 0.75;
+        border: 5px green solid;
     }
 
     #lab1 {
@@ -159,6 +190,7 @@ p{
         width: 70%;
         height: 8%;
         border-radius: 30px;
+        border: 2px solid red;
        
     }
 
@@ -175,5 +207,27 @@ p{
         position: absolute;
         top: 85%;
         left: 20%;
+    }
+    #sp1{
+        display: none;
+        position: absolute;
+        top: 220px;
+        left: 30%;
+    }
+    #sp2{
+        display: none;
+        position: absolute;
+        top: 340px;
+        left: 30%;
+        color: green;
+    }
+    #togglePassword{
+        position: absolute;
+        top: 55.3%;
+        left: 79%;
+        background-color: black;
+        border-radius: 30px;
+        padding: 5px;
+        cursor: grab;
     }
 }

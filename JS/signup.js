@@ -35,15 +35,32 @@ submit.addEventListener("click", function (event) {
         .then((userCredential) => {
             // Signed up 
             const user = userCredential.user;
-            alert(user);
-            window.location.href = "index.html";
-            // ...
+            const span1= document.getElementById("sp1");
+            const span2= document.getElementById("sp2");
+            window.location.href = "home.html";
+            span1.textContent = "Signup Successfully Successful";
+            span1.style.color = "green";
+            span2.textContent = "Redirecting to Anime-Galaxy...";
+            span2.style.color = "green";
+            span1.style.display = "block";
+            span2.style.display = "block";
         })
         .catch((error) => {
-            const errorCode = error.code;
-            const errorMessage = error.message;
-            alert(errorMessage)
-
-            // ..
+            const span1= document.getElementById("sp1");
+            const span2= document.getElementById("sp2");
+            span1.textContent = "Email already in use";
+            span1.style.color = "red";
+            span1.style.display = "block";
+            span2.textContent = "Please Use Different Email";
+            span2.style.color = "red";
+            span2.style.display = "block";
         });
 });
+
+const password = document.getElementById("password");
+const togglePassword = document.getElementById("togglePassword")
+togglePassword.addEventListener('click', () => {
+  // Toggle password input type
+  const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
+  password.setAttribute('type', type);
+})

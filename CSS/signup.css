@@ -15,7 +15,7 @@
         border: 1px solid black;
         width: 800px;
         height: 500px;
-        backdrop-filter: blur(15px);
+        backdrop-filter: blur(20px);
         border-radius: 30px;
         position: absolute;
         top: 18em;
@@ -23,56 +23,86 @@
     }
     h1{
         position: absolute;
+        top: 1%;
         left: 25%;
         font-size: 70px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 800;
     }
     #lab1{
         font-size: 30px;
         position: absolute;
-        top: 35%;
+        top: 25%;
         left: 20%;
+        font-family: Arial, Helvetica, sans-serif;
     }
     #lab2{
         font-size: 30px;
         position: absolute;
-        top: 55%;
+        top: 50%;
         left: 20%;
+        font-family: Arial, Helvetica, sans-serif;
     }
     #email{
         width: 60%;
         height: 3em;    
         position: absolute;
-        top: 42%;    
+        top: 32%;    
         left: 20%;
         border-radius: 20px;
         opacity: 0.5;
         border: fixed;
         font-size: large;
+        border: 5px green solid;
     }
     #password{
         width: 60%;
         height: 3em;    
         position: absolute;
-        top: 62%;    
+        top: 57%;    
         left: 20%;
         border-radius: 20px;
         opacity: 0.5;
         font-size: large;
+        border: 5px green solid;
     }
     #submit{
         width: 25%;
         height: 10%;
         position: absolute;
-        top: 80%;
-        left: 38%;
+        top: 75%;
+        left:35%;
         border-radius: 30px;
         font-size: 30px;
+        border: 2px solid red;
+    }
+    #sp1{
+        display: none;
+        position: absolute;
+        top: 225px;
+        left: 63%;
+    }
+    #sp2{
+        display: none;
+        position: absolute;
+        top: 350px;
+        left: 58%;
+        color: green;
+    }
+    #togglePassword{
+        position: absolute;
+        top: 60%;
+        left: 75%;
+        background-color: black;
+        border-radius: 30px;
+        padding: 5px;
+        cursor: grab;
     }
 }
    @media screen and (max-width:720px){
     body{
         background-color: black;
-        background-image: url("../assets/small_size_pics/DN_New.jpg");
+        background-image: url("../assets/small_size_pics/bg-mobile/DN_New.jpg");
         background-size: 100%;
         background-repeat: no-repeat;
         color: white;
@@ -81,6 +111,7 @@
         position: absolute;
         left: 20%;
         top: 5%;
+        font-family: Arial, Helvetica, sans-serif;
     }
     #form{
         position: absolute;
@@ -99,35 +130,62 @@
         height: 7%;
         opacity: 0.5;
         border-radius: 30px;
-        font-size: 2rem;
+        font-size: 15px;
+        border: 5px green solid;
     }
     #password{
         position: absolute;
-        top: 54%;
+        top: 57%;
         left: 10%;
         width: 80%;
         height: 7%;
         opacity: 0.5;
         border-radius: 30px;
-        font-size: large;
+        font-size: 15px;
+        border: 5px green solid;
     }
     #lab1{
        position:absolute;
        top: 28%;
        left: 14%;
+       font-family: Arial, Helvetica, sans-serif;
     }
     #lab2{
        position:absolute;
-       top: 48%;
+       top: 51%;
        left: 14%;
+       font-family: Arial, Helvetica, sans-serif;
     }
     #submit{
         position: absolute;
-        top: 70%;
+        top:75%;
         left: 28%;
         width: 40%;
         height: 10%;
         font-size: 20px;
         border-radius: 30px;
+         border: 2px solid red;
+    }
+    #sp1{
+        display: none;
+        position: absolute;
+        top: 220px;
+        left: 30%;
+    }
+    #sp2{
+        display: none;
+        position: absolute;
+        top: 340px;
+        left: 30%;
+        color: green;
+    }
+    #togglePassword{
+        position: absolute;
+        top: 57.5%;
+        left: 82%;
+        background-color: black;
+        border-radius: 30px;
+        padding: 5px;
+        cursor: grab;
     }
    }
