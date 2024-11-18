@@ -1,23 +1,46 @@
-const Btn1 = document.getElementsByClassName("search-button");
-const inp = document.getElementById("search-bar");
-const dataTy = document.getElementById("suggestion");
-const values = document.getElementsByClassName("values");
-// const Animelist = document.getElementsByClassName("anime-list");
+//header
+const userName = document.getElementById("id-name");
+const userId = document.getElementById("id-img");
 
-Btn1[0].addEventListener("click", () => {
-    for (i = 0; i <= Animelist.length - 1; i++)
-        if (inp.textContent == Animelist[i].textContent) {
-            Animelist[i].style.display = "block";
-        }
-        else {
-            dataTy.style.display = "none";
-        }
-})
-inp.addEventListener("click", () => {
-    while(values.length>=0){
-        values[0].style.display = "none";
-    }
-  });
-// if(values.length>=0){
-//     values[0].style.display = "none";
-// }
+//sliding image
+const sl_img1 = document.getElementById("slide-img1");
+const sl_img2 = document.getElementById("slide-img2");
+const sl_img3 = document.getElementById("slide-img3");
+
+//search input
+const searchInput = document.getElementById("search-bar");
+const searchBtn =document.getElementById("search-btn");
+
+//show-Catagories
+const show_more = document.getElementsByClassName("show_more");
+
+//Fetching Data to insert
+
+//1
+const greatestImg = document.getElementsByClassName("greatest-img");
+const greatestP = document.getElementsByClassName("greatest-p");
+
+//2
+const actionImg = document.getElementsByClassName("action-img");
+const actionP = document.getElementsByClassName("action-p");
+
+//3
+const lsImg = document.getElementsByClassName("ls-img");
+const lsP = document.getElementsByClassName("ls-p");
+
+//4
+const sfImg = document.getElementsByClassName("sf-img");
+const sfP = document.getElementsByClassName("sf-p");
+
+//5
+const horrorImg = document.getElementsByClassName("horror-img");
+const horrorP = document.getElementsByClassName("horror-p");
+
+//6
+const sportImg = document.getElementsByClassName("sport-img");
+const sportP = document.getElementsByClassName("sport-p");
+
+
+//Footer
+const TandC = document.getElementById("link-one");
+const PP = document.getElementById("link-two");

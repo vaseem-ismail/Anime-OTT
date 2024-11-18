@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login</title>
+    <link rel="icon" type="image/x-icon" href="./assets/home_page_pics/def-user.png">
     <script type="module" src="./JS/login.js" defer></script>
     <link rel="stylesheet" href="./CSS/login.css">
 </head>
@@ -11,11 +12,13 @@
 <body>
     <form id="form">
         <h1>LOGIN</h1>
-        <label id="lab1" for="email">EMAIL</label>
+        <label id="lab1" >EMAIL</label>
         <input id="email" type="text">
         <span id="sp1"></span>
         <label id="lab2" for="password">PASSWORD</label>
         <input id="password" type="password">
+        <span class="toggle-password" id="togglePassword">👁️</span>
+        <span id="sp2"></span>
         <p>NEW USER?</p>
         <a id="signup">SIGN UP</a>
         <button id="submit">LOG IN</button>
