@@ -1,0 +1,159 @@
+@media screen and (min-width: 720px) {
+  * {
+    margin: 0%;
+    padding: 0%;
+  }
+  body {
+    background-color: black;
+    overflow-x: hidden;
+    background: fixed;
+    background-size: 100% 100%;
+    animation: slider 10s linear infinite;
+  }
+  @keyframes slider {
+    0% {
+      background-image: url("../assets/pc_size_pics/2.jpg");
+    }
+    30% {
+      background-image: url("../assets/pc_size_pics/4.jpg");
+    }
+    60% {
+      background-image: url("../assets/pc_size_pics/6.jpg");
+    }
+    100% {
+      background-image: url("../assets/pc_size_pics/8.jpg");
+    }
+  }
+  #border0,
+  #border1,
+  #border2,
+  #border3,
+  #border4,
+  #border5,
+  #border6,
+  #border7,
+  #border8,
+  #border9,
+  #border10,
+  #border11,
+  #border12 {
+    width: 90%;
+    height: 8em;
+    background-color: black;
+    border: 2px white solid;
+    border-radius: 30px;
+    margin-top: 100px;
+    margin-left: 80px;
+  }
+  #text0,
+  #text1,
+  #text2,
+  #text3,
+  #text4,
+  #text5,
+  #text6,
+  #text7,
+  #text8,
+  #text9,
+  #text10,
+  #text11,
+  #text12 {
+    color: white;
+    text-decoration: none;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #back{
+    font-size: 50px;
+    color: white;
+    position: fixed;
+    background-color: black;
+    border-radius: 20px;
+    top: 15px;
+    left: 20px;
+  }
+}
+@media screen and (max-width: 720px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+  body {
+    background-color: black;
+    animation: slimob 10s linear infinite;
+    width: 100%;
+    overflow-x: hidden;
+    background: fixed;
+    background-size: 100% 100%;
+  }
+  @keyframes slimob {
+    0% {
+      background-image: url("../assets/small_size_pics/bg-mobile/Another.jpg");
+    }
+    30% {
+      background-image: url("../assets/small_size_pics/bg-mobile/Ace_of_diamond.jpg");
+    }
+    60% {
+      background-image: url("../assets/small_size_pics/bg-mobile/Fullmetal_Alchemist.jpg");
+    }
+    100% {
+      background-image: url("../assets/small_size_pics/bg-mobile/Psycho_pass.jpg");
+    }
+  }
+  #border0,
+  #border1,
+  #border2,
+  #border3,
+  #border4,
+  #border5,
+  #border6,
+  #border7,
+  #border8,
+  #border9,
+  #border10,
+  #border11,
+  #border12{
+    width: 70%;
+    height: 5em;
+    background-color: black;
+    border: 2px white solid;
+    border-radius: 30px;
+    margin-left: 60px;
+    margin-top: 40px;
+  }
+  #text0,
+  #text1,
+  #text2,
+  #text3,
+  #text4,
+  #text5,
+  #text6,
+  #text7,
+  #text8,
+  #text9,
+  #text10,
+  #text11,
+  #text12{
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+  }
+  #back{
+    font-size: 30px;
+    position: absolute;
+    background-color: black;
+    color: white;
+    top: 10px;
+    left: 20px;
+    border: transparent;
+    border-radius: 20px;
+    padding: 10px;
+    
+   }
+}
