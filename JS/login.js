@@ -29,7 +29,7 @@ submit.addEventListener("click", function (event) {
     .then((userCredential) => {
       // Signed in 
       const user = userCredential.user;
-      window.location.href = "/Frontend/home.html";
+      window.location.href = "home.html";
       localStorage.setItem("Username", email);
       localStorage.setItem("Password", password);
       localStorage.setItem("isLoggedIn", "true");

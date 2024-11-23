@@ -1,36 +1,45 @@
-const fetch = require("node-fetch");
+import fetch from 'node-fetch';
+import readline from 'readline';
 
-async function fetchImageData(imageName) {
-    if (!imageName) {
-        console.error("Please provide an image name.");
-        return;
-    }
+// Set up a readline interface for user input
+const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout,
+});
 
+// Function to fetch the video and console log Base64
+async function fetchVideo(query) {
     try {
-        // Make a GET request to the Flask backend
-        const response = await fetch(`http://127.0.0.1:5000/get-image?name=${encodeURIComponent(imageName)}`);
-        const contentType = response.headers.get("content-type");
+        const response = await fetch('http://127.0.0.1:5000/fetch-video', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ query }),
+        });
 
         if (!response.ok) {
-            const errorData = contentType.includes("application/json")
-                ? await response.json()
-                : await response.text(); // Fallback for HTML error pages
-            console.error("Error:", errorData);
-            return;
+            const errorData = await response.json();
+            throw new Error(errorData.message || 'Failed to fetch video.');
         }
 
-        if (contentType.includes("application/json")) {
-            const data = await response.json();
-            console.log("Image Data:", data);
-        } else {
-            const data = await response.text();
-            console.error("Unexpected response:", data);
-        }
+        const result = await response.json();
+        console.log('Filename:', result.filename);
+        console.log('Base64 Data:', result.base64);
     } catch (error) {
-        console.error("Error fetching image data:", error);
+        console.error('Error:', error.message);
+    } finally {
+        rl.close();
     }
 }
 
-// Call the function with the image name (example usage)
-const imageName = process.argv[2]; // Pass the image name as a command-line argument
-fetchImageData(imageName);
+// Prompt the user for a MongoDB query
+rl.question('Enter your MongoDB query as JSON: ', (input) => {
+    try {
+        const query = JSON.parse(input); // Parse the input to JSON
+        fetchVideo(query); // Fetch the video with the given query
+    } catch (err) {
+        console.error('Invalid JSON input. Please try again.');
+        rl.close();
+    }
+});
