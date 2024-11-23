@@ -82,7 +82,7 @@
         margin-top: 3%;
         text-align: center;
      }
-     #episode1{
+     #episode1>button{
         background-color: blue;
         color: white;
         width: max-content;
@@ -95,7 +95,7 @@
         margin-left: 4%;
         text-align: center;
      }
-     #mp4{
+     #video-player{
         position: absolute;
         border: 2px white solid;
         width: 80%;
