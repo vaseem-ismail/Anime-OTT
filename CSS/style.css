@@ -23,67 +23,78 @@
       background-image: url("../assets/pc_size_pics/8.jpg");
     }
   }
+  #search{
+    background-color: transparent;
+    /* border: 2px red solid; */
+    width: 30%;
+    height: 80px;
+    position: absolute;
+    top: 25px;
+    left: 34% ;
+  }
   #search-bar {
-    width: 20%;
+    width: 70%;
     height: 2em;
     font-size: x-large;
     opacity: 0.7;
     border-radius: 30px;
     position: absolute;
-    top: 25%;
-    left: 70%;
-    border: none;
+    top: 20%;
+   background-color: black;
+   border: 5px white solid;
+   color: white;
   }
   #search-btn {
-    width: 3.3%;
+    width: 10%;
     height: 4.3em;
     border-radius: 50px;
     position: absolute;
-    top: 25%;
-    left: 91%;
+    top: 17%;
+    left: 75%;
     z-index: -1;
     background-color: aquamarine;
   }
   #btn_img {
     position: absolute;
-    top: 23%;
-    left: 90%;
+    top: -5%;
+    left: 71%;
   }
   #header {
-    width: 90%;
+    width: 100%;
     height: 6em;
     background-color: black;
-    border: 2px white solid;
-    border-radius: 30px;
+    border-bottom: 2px white solid;
     position: fixed;
-    top: 3%;
-    left: 5%;
     z-index: 5;
+    left: -1px;
+    padding-top: 30px;
+    top: 0%;
   }
   #logo {
-    margin-left: 20px;
-    margin-top: 3px;
+    position: absolute;
+    top: 15px;
+    left: 2%;
     border-radius: 50px;
   }
   #title {
-    margin-left: 5px;
+    position: absolute;
+    left: 8%;
   }
   #id-name {
     position: absolute;
-    bottom: 12%;
     right: 6%;
     font-size: 50px;
     color: white;
-    margin-bottom: 2px;
+    top: 1px;
     font-family: Arial, Helvetica, sans-serif;
   }
   #id-img {
-    width:3.9%;
+    width: 3.5%;
     height: 4rem;
     border-radius: 30px;
     border: 2px white solid;
     position: absolute;
-    top: -15px;
+    top: -10px;
     left: 95%;
     color: white;
     font-size: 50px;
@@ -110,11 +121,12 @@
     align-items: center;
     position: absolute;
     top: 180px;
-    left: 15%;
-    width: 40%;
-    height: 400px;
+    left: 2%;
+    width: 95%;
+    height: 450px;
     overflow: hidden;
     background: black;
+    border: 2px white solid;
   }
   
   .image-container {
@@ -125,12 +137,16 @@
   }
   
   .carousel-image {
-    width: 200px;
-    height: 300px;
+    width: 280px;
+    height: 400px;
     margin: 0 10px;
     opacity: 0.2;
     transform: scale(0.8);
     transition: transform 0.5s, opacity 0.5s;
+  }
+  .carousel-image:hover{
+    transform: scale(1.1);
+
   }
   
   .carousel-image.center {
@@ -161,24 +177,6 @@
     letter-spacing: 20px;
     font-family: Arial, Helvetica, sans-serif;
   }
-  #cat1 {
-    position: absolute;
-    top: 70%;
-    display: flex;
-    gap: 4%;
-    scrollbar-width: none;
-    overflow-x: auto;
-    margin-left: 20px;
-  }
-  .greatest {
-    background-color: black;
-    width: 9%;
-    height: 16em;
-    border-radius: 30px;
-    border: 2px white solid;
-    text-align: center;
-    padding-right: 15px;
-  }
   #title2 {
     background-color: black;
     color: black;
@@ -196,24 +194,6 @@
     left: 80px;
     letter-spacing: 20px;
     font-family: Arial, Helvetica, sans-serif;
-  }
-  #cat2 {
-    position: absolute;
-    top: 110%;
-    display: flex;
-    gap: 4%;
-    scrollbar-width: none;
-    overflow-x: auto;
-    margin-left: 20px;
-  }
-  .action {
-    background-color: black;
-    width: 9%;
-    height: 16em;
-    border-radius: 30px;
-    border: 2px white solid;
-    text-align: center;
-    padding-right: 15px;
   }
   #title3 {
     background-color: black;
@@ -233,24 +213,6 @@
     letter-spacing: 20px;
     font-family: Arial, Helvetica, sans-serif;
   }
-  #cat3 {
-    position: absolute;
-    top: 150%;
-    display: flex;
-    gap: 4%;
-    scrollbar-width: none;
-    overflow-x: auto;
-    margin-left: 20px;
-  }
-  .ls {
-    background-color: black;
-    width: 9%;
-    height: 16em;
-    border-radius: 30px;
-    border: 2px white solid;
-    text-align: center;
-    padding-right: 15px;
-  }
   #title4 {
     background-color: black;
     color: black;
@@ -268,24 +230,6 @@
     left: 80px;
     letter-spacing: 20px;
     font-family: Arial, Helvetica, sans-serif;
-  }
-  #cat4 {
-    position: absolute;
-    top: 190%;
-    display: flex;
-    gap: 4%;
-    scrollbar-width: none;
-    overflow-x: auto;
-    margin-left: 20px;
-  }
-  .sf {
-    background-color: black;
-    width: 9%;
-    height: 16em;
-    border-radius: 30px;
-    border: 2px white solid;
-    text-align: center;
-    padding-right: 15px;
   }
   #title5 {
     background-color: black;
@@ -305,24 +249,6 @@
     letter-spacing: 20px;
     font-family: Arial, Helvetica, sans-serif;
   }
-  #cat5 {
-    position: absolute;
-    top: 230%;
-    display: flex;
-    gap: 4%;
-    scrollbar-width: none;
-    overflow-x: auto;
-    margin-left: 20px;
-  }
-  .hrr {
-    background-color: black;
-    width: 9%;
-    height: 16em;
-    border-radius: 30px;
-    border: 2px white solid;
-    text-align: center;
-    padding-right: 15px;
-  }
   #title6 {
     background-color: black;
     color: black;
@@ -340,25 +266,6 @@
     left: 80px;
     letter-spacing: 20px;
     font-family: Arial, Helvetica, sans-serif;
-  }
-
-  #cat6 {
-    position: absolute;
-    top: 270%;
-    display: flex;
-    gap: 4%;
-    scrollbar-width: none;
-    overflow-x: auto;
-    margin-left: 20px;
-  }
-  .sport {
-    background-color: black;
-    width: 9%;
-    height: 16em;
-    border-radius: 30px;
-    border: 2px white solid;
-    text-align: center;
-    padding-right: 15px;
   }
   #see_more {
     background-color: black;
@@ -430,22 +337,6 @@
   .horror-img,
   .sport-img {
     border-radius: 30px;
-    margin-top: 10px;
-    margin-left: 18px;
-  }
-  .greatest-p,
-  .action-p,
-  .ls-p,
-  .sf-p,
-  .horror-p,
-  .sport-p {
-    font-size: 20px;
-    color: white;
-    text-decoration: none;
-    margin-left: 2px;
-    width: 20px;
-    text-align: center;
-    margin-top: 20px;
   }
   .show_more {
     position: absolute;
@@ -458,6 +349,108 @@
     border-radius: 20px;
     font-size: 20px;
     text-decoration: none;
+  }
+  #cat1{
+    position: absolute;
+    top: 70%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow-x: auto;
+    scrollbar-width: none;
+    gap: 4%;
+  }
+  .greatest{
+    width: 100%;
+    height: 300px;
+    border-radius: 30px;
+    display: flex;
+    border: 2px white solid ;
+  }
+  #cat2{
+    position: absolute;
+    top: 110%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow-x: auto;
+    scrollbar-width: none;
+    gap: 4%;
+  }
+  .action{
+    width: 100%;
+    height: 300px;
+    border-radius: 30px;
+    display: flex;
+    border: 2px white solid ;
+  }
+  #cat3{
+    position: absolute;
+    top: 150%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow-x: auto;
+    scrollbar-width: none;
+    gap: 4%;
+  }
+  .ls{
+    width: 100%;
+    height: 300px;
+    border-radius: 30px;
+    display: flex;
+    border: 2px white solid ;
+  }
+  #cat4{
+    position: absolute;
+    top: 190%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow-x: auto;
+    scrollbar-width: none;
+    gap: 4%;
+  }
+  .sf{
+    width: 100%;
+    height: 300px;
+    border-radius: 30px;
+    display: flex;
+    border: 2px white solid ;
+  }
+  #cat5{
+    position: absolute;
+    top: 230%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow-x: auto;
+    scrollbar-width: none;
+    gap: 4%;
+  }
+  .hrr{
+    width: 100%;
+    height: 300px;
+    border-radius: 30px;
+    display: flex;
+    border: 2px white solid ;
+  }
+  #cat6{
+    position: absolute;
+    top: 270%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow-x: auto;
+    scrollbar-width: none;
+    gap: 4%;
+  }
+  .sport{
+    width: 100%;
+    height: 300px;
+    border-radius: 30px;
+    display: flex;
+    border: 2px white solid ;
   }
 }
 @media screen and (max-width: 720px) {
@@ -475,39 +468,38 @@
   }
   @keyframes slimob {
     0% {
-      background-image: url("../assets/small_size_pics/bg-mobile/Another.jpg");
+      background-image: url("../assets/home_page_pics/Ace_bg.jpg");
     }
     30% {
-      background-image: url("../assets/small_size_pics/bg-mobile/Ace_of_diamond.jpg");
+      background-image: url("../assets/home_page_pics/Another.jpg");
     }
     60% {
-      background-image: url("../assets/small_size_pics/bg-mobile/Fullmetal_Alchemist.jpg");
+      background-image: url("../assets/home_page_pics/Fullmetal_Alchemist.jpg");
     }
     100% {
-      background-image: url("../assets/small_size_pics/bg-mobile/Psycho_pass.jpg");
+      background-image: url("../assets/home_page_pics/Psycho_pass.jpg");
     }
   }
   #header {
-    width: 110%;
+    width: 120%;
     background-color: black;
-    height: 5em;
-    border-radius: 30px;
-    border: 2px solid white;
+    height: 7em;
+    /* border-radius: 30px; */
+    border-bottom: 2px solid white;
     position: absolute;
-    top: 20px;
-    left: 2%;
+    /* left: 2%; */
   }
   #logo {
     position: absolute;
     border-radius: 50px;
     width: 15%;
-    top: 5px;
-    left: 10px;
+    top: 13px;
+    left: 7px;
   }
   #title {
     width: 60%;
     position: absolute;
-    top: 20px;
+    top: 25px;
     left: 18%;
   }
   #id-name {
@@ -515,7 +507,7 @@
   }
   #id-img {
     position: absolute;
-    top: 8px;
+    top: 2  0px;
     left: 85%;
     border-radius: 30px;
     color: white;
@@ -544,11 +536,12 @@
     align-items: center;
     position: absolute;
     top: 25%;
-    left: 15%;
-    width: 80%;
-    height: 270px;
+    left: 1%;
+    width: 115%;
+    height: 320px;
     overflow: hidden;
     background: black;
+    border: 2px white solid;
   }
   
   .image-container {
@@ -559,8 +552,8 @@
   }
   
   .carousel-image {
-    width: 150px;
-    height: 250px;
+    width: 180px;
+    height: 280px;
     margin: 0 10px;
     opacity: 0.2;
     transform: scale(0.8);
@@ -579,33 +572,38 @@
 
   #search-bar {
     position: absolute;
-    top: 13%;
+    background-color: black;
+    color: white;
+    top: 113%;
     width: 80%;
+    border: 2px red solid;
     height: 2.5em;
-    left: 15%;
+    left: 10%;
     border-radius: 30px;
     font-size: 25px;
     opacity: 0.7;
+    /* display: none; */
   }
+
   #search-btn {
     position: absolute;
-    top: 13.7%;
+    top: 113%;
     width: 13%;
-    height: 55px;
-    left: 82%;
+    height: 65px;
+    left: 77.6%;
     border-radius: 50px;
     background-color: green;
   }
   #btn_img {
     position: absolute;
-    top: 11%;
-    left: 76%;
+    top: 100%;
+    left: 74%;
   }
   #title1 {
     position: absolute;
-    top: 58%;
+    top: 65%;
     left: 3%;
-    width: 107%;
+    width: 115%;
     background-color: black;
     height: 80px;
     border-radius: 30px;
@@ -618,40 +616,28 @@
     top: 20px;
     left: 30px;
   }
-
-  .greatest-img {
-    width: 110px;
-    height: 160px;
-    margin-top: 5px;
-    margin-left: 10px;
-    border-radius: 30px;
-  }
-  .greatest-p {
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-  }
   #cat1{
+    position: absolute;
+    top: 80%;
+    width: 120%;
+    height: 100%;
     display: flex;
     overflow-x: auto;
-    margin-top: 150%;
-    top: 10px;
-    gap: 20px;
-    width: 120%;
+    scrollbar-width: none;
+    gap: 4%;
   }
   .greatest {
-    background-color: black;
-    height: 220px;
+    width: 100%;
+    height: 300px;
     border-radius: 30px;
-    border: 2px white solid;
-    text-align: center;
-    padding-right: 10px;
+    display: flex;
+    border: 2px white solid ;
   }
   #title2 {
     position: absolute;
-    top: 98%;
+    top: 118%;
     left: 3%;
-    width: 107%;
+    width: 115%;
     background-color: black;
     height: 80px;
     border-radius: 30px;
@@ -659,9 +645,9 @@
   }
   #title3 {
     position: absolute;
-    top: 138%;
+    top: 168%;
     left: 3%;
-    width: 107%;
+    width: 115%;
     background-color: black;
     height: 80px;
     border-radius: 30px;
@@ -669,9 +655,9 @@
   }
   #title4 {
     position: absolute;
-    top: 178%;
+    top: 218%;
     left: 3%;
-    width: 107%;
+    width: 115%;
     background-color: black;
     height: 80px;
     border-radius: 30px;
@@ -679,9 +665,9 @@
   }
   #title5 {
     position: absolute;
-    top: 218%;
+    top: 268%;
     left: 3%;
-    width: 107%;
+    width: 115%;
     background-color: black;
     height: 80px;
     border-radius: 30px;
@@ -689,9 +675,9 @@
   }
   #title6 {
     position: absolute;
-    top: 258%;
+    top: 320%;
     left: 3%;
-    width: 107%;
+    width: 115%;
     background-color: black;
     height: 80px;
     border-radius: 30px;
@@ -733,152 +719,101 @@
     left: 30px;
   }
   #cat2{
+    position: absolute;
+    top: 130%;
+    width: 120%;
+    height: 100%;
     display: flex;
     overflow-x: auto;
-    margin-top: 40%;
-    top: 10px;
-    gap: 20px;
-    width: 120%;
+    scrollbar-width: none;
+    gap: 4%;
   }
   .action {
-    background-color: black;
-    height: 220px;
+    width: 100%;
+    height: 300px;
     border-radius: 30px;
-    border: 2px white solid;
-    text-align: center;
-    padding-right: 10px;
-  }
-  .action-img {
-    width: 110px;
-    height: 160px;
-    margin-top: 5px;
-    margin-left: 10px;
-    border-radius: 30px;
-  }
-  .action-p {
-    width: 100px;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-  }
-  .ls-img {
-    width: 110px;
-    height: 160px;
-    margin-top: 5px;
-    margin-left: 10px;
-    border-radius: 30px;
-  }
-  .ls-p {
-    width: 100px;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    display: flex;
+    border: 2px white solid ;
   }
   #cat3{
+    position: absolute;
+    top: 180%;
+    width: 120%;
+    height: 100%;
     display: flex;
     overflow-x: auto;
-    margin-top: 30%;
-    gap: 20px;
-    width: 120%;
+    scrollbar-width: none;
+    gap: 4%;
   }
   .ls {
-    background-color: black;
-    height: 220px;
+    width: 100%;
+    height: 300px;
     border-radius: 30px;
-    border: 2px white solid;
-    text-align: center;
-    padding-right: 10px;
-  }
-  .sf-img {
-    width: 110px;
-    height: 160px;
-    margin-top: 5px;
-    margin-left: 10px;
-    border-radius: 30px;
-  }
-  .sf-p {
-    width: 100px;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    display: flex;
+    border: 2px white solid ;
   }
   #cat4{
+    position: absolute;
+    top: 230%;
+    width: 120%;
+    height: 100%;
     display: flex;
     overflow-x: auto;
-    margin-top: 33%;
-    top: 10px;
-    gap: 20px;
-    width: 120%;
+    scrollbar-width: none;
+    gap: 4%;
   }
   .sf {
-    background-color: black;
-    height: 220px;
+    width: 100%;
+    height: 300px;
     border-radius: 30px;
-    border: 2px white solid;
-    text-align: center;
-    padding-right: 10px;
-  }
-  .horror-img {
-    width: 110px;
-    height: 160px;
-    margin-top: 5px;
-    margin-left: 10px;
-    border-radius: 30px;
-  }
-  .horror-p {
-    width: 100px;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    display: flex;
+    border: 2px white solid ;
   }
   #cat5{
+    position: absolute;
+    top: 280%;
+    width: 120%;
+    height: 100%;
     display: flex;
     overflow-x: auto;
-    margin-top: 35%;
-    top: 10px;
-    gap: 20px;
-    width: 120%;
+    scrollbar-width: none;
+    gap: 4%;
   }
   .hrr {
-    background-color: black;
-    height: 220px;
+    width: 100%;
+    height: 300px;
     border-radius: 30px;
-    border: 2px white solid;
-    text-align: center;
-    padding-right: 10px;
-  }
-  .sport-img {
-    width: 110px;
-    height: 160px;
-    margin-top: 5px;
-    margin-left: 10px;
-    border-radius: 30px;
-  }
-  .sport-p {
-    width: 100px;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    display: flex;
+    border: 2px white solid ;
   }
   #cat6{
+    position: absolute;
+    top: 332%;
+    width: 120%;
+    height: 100%;
     display: flex;
     overflow-x: auto;
-    margin-top: 40%;
-    top: 10px;
-    gap: 20px;
-    width: 120%;
+    scrollbar-width: none;
+    gap: 4%;
   }
   .sport {
-    background-color: black;
-    height: 220px;
+    width: 100%;
+    height: 300px;
     border-radius: 30px;
-    border: 2px white solid;
-    text-align: center;
-    padding-right: 10px;
+    display: flex;
+    border: 2px white solid ;
+  }
+  .greatest-img,
+  .action-img,
+  .ls-img,
+  .sf-img,
+  .horror-img,
+  .sport-img {
+    border-radius: 30px;
   }
   #see_more {
     position: absolute;
-    top: 320%;
+    top: 380%;
     left: 3%;
     width: 107%;
     background-color: black;
@@ -897,9 +832,9 @@
   }
   #footer {
     position: absolute;
-    top: 350%;
-    left: 3%;
-    width: 107%;
+    top: 430%;
+    left: 2%;
+    width: 115%;
     background-color: black;
     height: 100px;
     border-radius: 30px;
@@ -938,5 +873,6 @@
     border-radius: 10px;
     border: 2px solid blue;
     padding: 5px;
+    text-decoration: none;
   }
 }
