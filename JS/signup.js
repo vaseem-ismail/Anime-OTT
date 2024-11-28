@@ -87,7 +87,7 @@ const pattern = /^(?=.*[!@#$%^&*(),.?":{}|<>])[a-zA-Z0-9!@#$%^&*(),.?":{}|<>]{8,
         span1.textContent = "Signup Successful!";
         span1.style.color = "green";
         span1.style.display = "block";
-
+        localStorage.setItem("isLoggedIn", "true");
         span2.textContent = "Redirecting to Anime-Galaxy...";
         span2.style.color = "green";
         span2.style.display = "block";
@@ -118,3 +118,10 @@ const pattern = /^(?=.*[!@#$%^&*(),.?":{}|<>])[a-zA-Z0-9!@#$%^&*(),.?":{}|<>]{8,
         }
       });
   });
+  window.addEventListener("load", () => {
+    const isLoggedIn = localStorage.getItem("isLoggedIn");
+    if (isLoggedIn === "true") {
+      window.location.href = "home.html";
+    }
+  });
+  

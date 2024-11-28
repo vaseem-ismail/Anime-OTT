@@ -74,3 +74,17 @@ logOut.addEventListener("click",()=>{
     localStorage.removeItem('isLoggedIn');
     window.location.href = 'index.html';
 })
+
+//setup pannanum
+const buttons = document.querySelectorAll(".video-btn");
+buttons.forEach(button => {
+    button.addEventListener("click", (e) => {
+        // Get filename from the clicked image's value attribute
+        const filename = e.target.getAttribute("value");
+
+        if (filename) {
+            // Navigate to the player page with the filename as a query parameter
+            window.location.href = `player.html?video=${encodeURIComponent(filename)}`;
+        }
+    });
+});

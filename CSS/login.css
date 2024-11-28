@@ -2,9 +2,10 @@
     
 body {
 
-    background-image: url("../assets/pc_size_pics/IWTEYP.jpg");
+    background-image: url("../assets/home_page_pics/IWTEYP.jpg");
     background-size: 103%;
     background-repeat: no-repeat;
+    color: white;
 }
 
 #form {

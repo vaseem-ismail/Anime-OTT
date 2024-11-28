@@ -95,8 +95,6 @@ signup.addEventListener("click", () => {
 
 window.addEventListener("load", () => {
   const isLoggedIn = localStorage.getItem("isLoggedIn");
-
-  // Redirect if logged in
   if (isLoggedIn === "true") {
     window.location.href = "home.html";
   }
