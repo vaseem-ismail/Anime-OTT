@@ -36,45 +36,51 @@ window.addEventListener("load", () => {
         });
     });
 });
- // Get the video filename from the URL query parameters
- // const urlParams = new URLSearchParams(window.location.search);
- //        const filename = urlParams.get("video");
- //
- //        if (filename) {
- //            // Set the video player source to stream from the backend
- //            const videoPlayer = document.getElementById("videoPlayer");
- //            videoPlayer.src = `http://127.0.0.1:5000/stream-video?filename=${encodeURIComponent(filename)}`;
- //            videoPlayer.load();
- //        } else {
- //            alert("No video specified.");
- //        }
- function playVideo() {
-            const filename = document.getElementById("filename").value.trim();
-            if (!filename) {
-                alert("Please enter a filename.");
-                return;
-            }
-
-            const videoPlayer = document.getElementById("videoPlayer");
-            const videoSource = document.getElementById("videoSource");
-
-            // Set the video source URL
-            const serverURL = "http://192.168.50.120:5000/stream-video";
-            videoSource.src = `${serverURL}?filename=${filename}`;
-            videoPlayer.load(); // Reload the video player
-        }
 
 
-//setup pannanum //set for episode divs
+//Changed
+function playVideo() {
+    const filename = document.getElementById("filename").value.trim();
+    if (!filename) {
+        alert("Please enter a filename.");
+        return;
+    }
+
+    const videoPlayer = document.getElementById("videoPlayer");
+    const videoSource = document.getElementById("videoSource");
+
+    // Backend URL
+    const serverURL = "http://192.168.50.120:5000/stream-video";
+    videoSource.src = `${serverURL}?filename=${encodeURIComponent(filename)}`;
+    videoPlayer.load();
+}
+
+// Setup episode buttons to redirect to player.html
 const buttons = document.querySelectorAll(".video-btn");
 buttons.forEach(button => {
     button.addEventListener("click", (e) => {
-        // Get filename from the clicked image's value attribute
         const filename = e.target.getAttribute("value");
-
         if (filename) {
-            // Navigate to the player page with the filename as a query parameter
+            // Redirect to player.html with filename as a query parameter
             window.location.href = `player.html?video=${encodeURIComponent(filename)}`;
         }
     });
 });
+
+// Player page logic
+window.onload = function () {
+    const urlParams = new URLSearchParams(window.location.search);
+    const filename = urlParams.get('video');
+
+    if (filename) {
+        const videoPlayer = document.getElementById("videoPlayer");
+        const videoSource = document.getElementById("videoSource");
+
+        // Backend URL
+        const serverURL = "http://192.168.50.120:5000/stream-video";
+        videoSource.src = `${serverURL}?filename=${encodeURIComponent(filename)}`;
+        videoPlayer.load();
+    } else {
+        alert("No video selected!");
+    }
+};
