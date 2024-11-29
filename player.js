@@ -37,16 +37,31 @@ window.addEventListener("load", () => {
     });
 });
  // Get the video filename from the URL query parameters
- const urlParams = new URLSearchParams(window.location.search);
-        const filename = urlParams.get("video");
+ // const urlParams = new URLSearchParams(window.location.search);
+ //        const filename = urlParams.get("video");
+ //
+ //        if (filename) {
+ //            // Set the video player source to stream from the backend
+ //            const videoPlayer = document.getElementById("videoPlayer");
+ //            videoPlayer.src = `http://127.0.0.1:5000/stream-video?filename=${encodeURIComponent(filename)}`;
+ //            videoPlayer.load();
+ //        } else {
+ //            alert("No video specified.");
+ //        }
+ function playVideo() {
+            const filename = document.getElementById("filename").value.trim();
+            if (!filename) {
+                alert("Please enter a filename.");
+                return;
+            }
 
-        if (filename) {
-            // Set the video player source to stream from the backend
             const videoPlayer = document.getElementById("videoPlayer");
-            videoPlayer.src = `http://127.0.0.1:5000/stream-video?filename=${encodeURIComponent(filename)}`;
-            videoPlayer.load();
-        } else {
-            alert("No video specified.");
+            const videoSource = document.getElementById("videoSource");
+
+            // Set the video source URL
+            const serverURL = "http://192.168.50.120:5000/stream-video";
+            videoSource.src = `${serverURL}?filename=${filename}`;
+            videoPlayer.load(); // Reload the video player
         }
 
 
