@@ -55,17 +55,17 @@ function playVideo() {
     videoPlayer.load();
 }
 
-// Setup episode buttons to redirect to player.html
-const buttons = document.querySelectorAll(".video-btn");
-buttons.forEach(button => {
-    button.addEventListener("click", (e) => {
-        const filename = e.target.getAttribute("value");
-        if (filename) {
-            // Redirect to player.html with filename as a query parameter
-            window.location.href = `player.html?video=${encodeURIComponent(filename)}`;
-        }
-    });
-});
+// // Setup episode buttons to redirect to player.html
+// const buttons = document.querySelectorAll(".video-btn");
+// buttons.forEach(button => {
+//     button.addEventListener("click", (e) => {
+//         const filename = e.target.getAttribute("value");
+//         if (filename) {
+//             // Redirect to player.html with filename as a query parameter
+//             window.location.href = `player.html?video=${encodeURIComponent(filename)}`;
+//         }
+//     });
+// });
 
 // Player page logic
 window.onload = function () {
