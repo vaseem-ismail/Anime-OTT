@@ -76,7 +76,7 @@ window.onload = function () {
         const videoPlayer = document.getElementById("videoPlayer");
         const videoSource = document.getElementById("videoSource");
 
-        // Backend URL
+        // Replace with your public backend URL
         const serverURL = "http://192.168.50.120:5000/stream-video";
         videoSource.src = `${serverURL}?filename=${encodeURIComponent(filename)}`;
         videoPlayer.load();
@@ -84,3 +84,4 @@ window.onload = function () {
         alert("No video selected!");
     }
 };
+
