@@ -1,6 +1,9 @@
 # from flask import Flask, request, Response, jsonify
 # from pymongo import MongoClient
 import logging
+import os
+MONGO_URI = os.getenv("MONGO_URI", "mongodb://localhost:27017/")
+
 
 # app = Flask(__name__)
 from flask import Flask, request, Response, jsonify
