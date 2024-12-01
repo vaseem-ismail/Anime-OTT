@@ -12,48 +12,31 @@ button.addEventListener('click', () => {
 window.addEventListener("load", () => {
     seasonsBar.classList.toggle('collapsed');
 })
-window.addEventListener("load", () => {
-    const showSeasonsButton = document.getElementById("show-seasons");
-    const seasonsContainer = document.getElementById("seasons");
+window.onload = function () {
+    // Get the video player elements
     const videoPlayer = document.getElementById("videoPlayer");
     const videoSource = document.getElementById("videoSource");
-    const episodes = document.querySelectorAll(".episode");
 
-    // Toggle season list visibility
-    showSeasonsButton.addEventListener("click", () => {
-        seasonsContainer.classList.toggle("hidden");
-    });
-
-    // Add functionality to select episodes
-    episodes.forEach(episode => {
-        episode.addEventListener("click", () => {
-            const filename = episode.dataset.filename;
-            if (!filename) {
-                alert("Episode not available.");
-                return;
-            }
-
-            const serverURL = "http://192.168.50.120:5000/stream-video";
-            videoSource.src = `${serverURL}?filename=${encodeURIComponent(filename)}`;
-            videoPlayer.load();
-            videoPlayer.play();
-        });
-    });
-});
-
-window.onload = function () {
+    // Extract the video filename from the URL query parameter
     const urlParams = new URLSearchParams(window.location.search);
-    const filename = urlParams.get('video');
+    const filename = urlParams.get("video");
 
-    if (filename) {
-        const videoPlayer = document.getElementById("videoPlayer");
-        const videoSource = document.getElementById("videoSource");
-
-        const serverURL = "http://192.168.50.120:5000/stream-video";
-        videoSource.src = `${serverURL}?filename=${encodeURIComponent(filename)}`;
-        videoPlayer.load();
-        videoPlayer.play();
-    } else {
-        alert("No video selected!");
+    if (!filename) {
+        alert("No video selected! Please return to the homepage and select a video.");
+        return;
     }
+
+    // Construct the video URL from the backend
+    const serverURL = "http://192.168.74.120:5000/stream-video";
+    const videoURL = `${serverURL}?filename=${encodeURIComponent(filename)}`;
+
+    // Update the video source and load the video
+    videoSource.src = videoURL;
+    videoPlayer.load();
+
+    // Play the video automatically
+    videoPlayer.play().catch((error) => {
+        console.error("Error playing video:", error);
+        alert("Unable to play the video. Please check the connection or try again later.");
+    });
 };
