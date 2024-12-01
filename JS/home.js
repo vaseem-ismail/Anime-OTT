@@ -86,3 +86,38 @@ buttons.forEach(button => {
         }
     });
 });
+
+
+ // Fetch and display grouped images by genre
+ fetch("images_by_genre.json")
+ .then(response => response.json())
+ .then(data => {
+     const genresContainer = document.getElementById("genres");
+
+     Object.keys(data).forEach(genre => {
+         // Create a section for each genre
+         const genreSection = document.createElement("div");
+         genreSection.classList.add("genre");
+
+         // Add the genre title
+         const genreTitle = document.createElement("div");
+         genreTitle.classList.add("genre-title");
+         genreTitle.textContent = genre;
+         genreSection.appendChild(genreTitle);
+
+         // Add the images
+         const imageContainer = document.createElement("div");
+         imageContainer.classList.add("image-container");
+
+         data[genre].forEach(image => {
+             const imgElement = document.createElement("img");
+             imgElement.src = image.imageUrl; // Replace with your image field key
+             imgElement.alt = image.name || "Image";
+             imageContainer.appendChild(imgElement);
+         });
+
+         genreSection.appendChild(imageContainer);
+         genresContainer.appendChild(genreSection);
+     });
+ })
+ .catch(err => console.error("Error loading genres:", err));

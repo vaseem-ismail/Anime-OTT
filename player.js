@@ -27,7 +27,7 @@ window.onload = function () {
     }
 
     // Construct the video URL from the backend
-    const serverURL = "http://video.fetch:5000/stream-video";
+    const serverURL = "http://192.168.74.120:5000/stream-video";
     const videoURL = `${serverURL}?filename=${encodeURIComponent(filename)}`;
 
     // Update the video source and load the video
