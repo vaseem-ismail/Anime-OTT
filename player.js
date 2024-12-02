@@ -27,22 +27,22 @@ window.onload = function () {
     }
 
 
-    async function getServerIP() {
-        const response = await fetch('http://your-backend-host:5000/get-ip');
-        const data = await response.json();
-        return data.ip;
-    }
+    // async function getServerIP() {
+    //     const response = await fetch('http://your-backend-host:5000/get-ip');
+    //     const data = await response.json();
+    //     return data.ip;
+    // }
     
-    async function getVideoURL(filename) {
-        const ip = await getServerIP();
-        return `http://${ip}:5000/stream-video?filename=${encodeURIComponent(filename)}`;
-    }
+    // async function getVideoURL(filename) {
+    //     const ip = await getServerIP();
+    //     return `http://${ip}:5000/stream-video?filename=${encodeURIComponent(filename)}`;
+    // }
     
-    // Example usage:
-    getVideoURL('example.mp4').then((videoURL) => {
-        console.log(videoURL);
-        // Use the videoURL as needed
-    });
+    // // Example usage:
+    // getVideoURL('example.mp4').then((videoURL) => {
+    //     console.log(videoURL);
+    //     // Use the videoURL as needed
+    // });
     
 
 
@@ -50,10 +50,8 @@ window.onload = function () {
     const serverURL = "http://video.fetch:5000/stream-video";
     // const videoURL = `${serverURL}?filename=${encodeURIComponent(filename)}`;
     // window.open(`http://10.20.135.22:5000/stream-video?filename=${encodeURIComponent(filename)}`);
-    // const videoURL = `http://10.20.135.22:5000/stream-video?filename=${encodeURIComponent(filename)}`;
-    const videoURL = `http://${window.location.hostname}:5000/stream-video?filename=${encodeURIComponent(filename)}`;
-    // window.location.href = `http://10.20.135.22:5000/stream-video?filename=${encodeURIComponent(filename)}`;
-    window.location.href = `http://${window.location.hostname}:5000/stream-video?filename=${encodeURIComponent(filename)}`;
+    const videoURL = `http://192.168.203.120:5000/stream-video?filename=${encodeURIComponent(filename)}`;
+    // window.location.href = `http://192.168.203.120:5000/stream-video?filename=${encodeURIComponent(filename)}`;
 
     // Update the video source and load the video
     videoSource.src = videoURL;
@@ -65,3 +63,20 @@ window.onload = function () {
         alert("Unable to play the video. Please check the connection or try again later.");
     });
 };
+
+
+document.addEventListener("load", () => {
+    const videoTag = document.getElementById("videoSource");
+  
+    // Video source URL
+    const videoURL = "http://127.0.0.1/:5000/stream-video?filename=Naruto_Ship_1";
+  
+    // Set the source dynamically
+    const sourceTag = videoTag.querySelector("source");
+    sourceTag.src = videoURL;
+  
+    // Refresh the video player to load the new source
+    const player = videojs(videoTag);
+    player.src({ src: videoURL, type: "video/mp4" });
+    player.play();
+  });
