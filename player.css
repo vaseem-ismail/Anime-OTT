@@ -78,7 +78,7 @@
          width: 100px;
          text-align: center;
      }
-     #videoPlayer{
+     #videoSource{
         position: absolute;
         border: 2px white solid;
         width: 80%;
