@@ -51,7 +51,7 @@ window.onload = function () {
     // const videoURL = `${serverURL}?filename=${encodeURIComponent(filename)}`;
     // window.open(`http://10.20.135.22:5000/stream-video?filename=${encodeURIComponent(filename)}`);
     const videoURL = `http://10.20.135.5:5000/stream-video?filename=${encodeURIComponent(filename)}`;
-    // window.location.href = `http://192.168.203.120:5000/stream-video?filename=${encodeURIComponent(filename)}`;
+    window.location.href = `http://10.20.135.5:5000/stream-video?filename=${encodeURIComponent(filename)}`;
 
     // Update the video source and load the video
     videoSource.src = videoURL;
