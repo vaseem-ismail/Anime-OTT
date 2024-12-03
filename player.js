@@ -47,10 +47,10 @@ window.onload = function () {
 
 
     // Construct the video URL from the backend
-    const serverURL = "http://video.fetch:5000/stream-video";
+    // const serverURL = "http://video.fetch:5000/stream-video";
     // const videoURL = `${serverURL}?filename=${encodeURIComponent(filename)}`;
     // window.open(`http://10.20.135.22:5000/stream-video?filename=${encodeURIComponent(filename)}`);
-    const videoURL = `http://192.168.203.120:5000/stream-video?filename=${encodeURIComponent(filename)}`;
+    const videoURL = `http://10.20.135.5:5000/stream-video?filename=${encodeURIComponent(filename)}`;
     // window.location.href = `http://192.168.203.120:5000/stream-video?filename=${encodeURIComponent(filename)}`;
 
     // Update the video source and load the video
@@ -65,18 +65,18 @@ window.onload = function () {
 };
 
 
-document.addEventListener("load", () => {
-    const videoTag = document.getElementById("videoSource");
+// document.addEventListener("load", () => {
+//     const videoTag = document.getElementById("videoSource");
   
-    // Video source URL
-    const videoURL = "http://127.0.0.1/:5000/stream-video?filename=Naruto_Ship_1";
+//     // Video source URL
+//     const videoURL = "http://127.0.0.1/:5000/stream-video?filename=Naruto_Ship_1";
   
-    // Set the source dynamically
-    const sourceTag = videoTag.querySelector("source");
-    sourceTag.src = videoURL;
+//     // Set the source dynamically
+//     const sourceTag = videoTag.querySelector("source");
+//     sourceTag.src = videoURL;
   
-    // Refresh the video player to load the new source
-    const player = videojs(videoTag);
-    player.src({ src: videoURL, type: "video/mp4" });
-    player.play();
-  });
+//     // Refresh the video player to load the new source
+//     const player = videojs(videoTag);
+//     player.src({ src: videoURL, type: "video/mp4" });
+//     player.play();
+//   });
