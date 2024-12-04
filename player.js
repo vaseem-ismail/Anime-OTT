@@ -14,7 +14,7 @@ window.addEventListener("load", () => {
 })
 window.onload = function () {
     // Get the video player elements
-    const videoPlayer = document.getElementById("videoPlayer");
+    // const videoPlayer = document.getElementById("videoPlayer");
     const videoSource = document.getElementById("videoSource");
 
     // Extract the video filename from the URL query parameter
@@ -51,14 +51,14 @@ window.onload = function () {
     // const videoURL = `${serverURL}?filename=${encodeURIComponent(filename)}`;
     // window.open(`http://10.20.135.22:5000/stream-video?filename=${encodeURIComponent(filename)}`);
     const videoURL = `http://10.20.135.5:5000/stream-video?filename=${encodeURIComponent(filename)}`;
-    window.location.href = `http://10.20.135.5:5000/stream-video?filename=${encodeURIComponent(filename)}`;
+    // window.location.href = `http://10.20.135.5:5000/stream-video?filename=${encodeURIComponent(filename)}`;
 
     // Update the video source and load the video
     videoSource.src = videoURL;
-    videoPlayer.load();
+    videoSource.load();
 
     // Play the video automatically
-    videoPlayer.play().catch((error) => {
+    videoSource.play().catch((error) => {
         console.error("Error playing video:", error);
         alert("Unable to play the video. Please check the connection or try again later.");
     });
