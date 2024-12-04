@@ -631,7 +631,7 @@
     height: 300px;
     border-radius: 30px;
     display: flex;
-    border: 2px white solid ;
+    /* border: 2px white solid ; */
   }
   #title2 {
     position: absolute;
@@ -733,7 +733,7 @@
     height: 300px;
     border-radius: 30px;
     display: flex;
-    border: 2px white solid ;
+    /* border: 2px white solid ; */
   }
   #cat3{
     position: absolute;
@@ -750,7 +750,7 @@
     height: 300px;
     border-radius: 30px;
     display: flex;
-    border: 2px white solid ;
+    /* border: 2px white solid ; */
   }
   #cat4{
     position: absolute;
@@ -767,7 +767,7 @@
     height: 300px;
     border-radius: 30px;
     display: flex;
-    border: 2px white solid ;
+    /* border: 2px white solid ; */
   }
   #cat5{
     position: absolute;
@@ -784,7 +784,7 @@
     height: 300px;
     border-radius: 30px;
     display: flex;
-    border: 2px white solid ;
+    /* border: 2px white solid ; */
   }
   #cat6{
     position: absolute;
@@ -799,18 +799,18 @@
   .sport {
     width: 100%;
     height: 300px;
-    border-radius: 30px;
-    display: flex;
-    border: 2px white solid ;
+    /* border-radius: 30px; */
+    display: none;
+    /* border: 2px white solid ; */
   }
-  .greatest-img,
+  /* .greatest-img,
   .action-img,
   .ls-img,
   .sf-img,
   .horror-img,
   .sport-img {
-    border-radius: 30px;
-  }
+    /* border-radius: 30px; */
+  } */
   #see_more {
     position: absolute;
     top: 380%;
