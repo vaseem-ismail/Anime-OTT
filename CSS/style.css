@@ -799,18 +799,10 @@
   .sport {
     width: 100%;
     height: 300px;
-    /* border-radius: 30px; */
+   
     display: none;
-    /* border: 2px white solid ; */
   }
-  /* .greatest-img,
-  .action-img,
-  .ls-img,
-  .sf-img,
-  .horror-img,
-  .sport-img {
-    /* border-radius: 30px; */
-  } */
+
   #see_more {
     position: absolute;
     top: 380%;
