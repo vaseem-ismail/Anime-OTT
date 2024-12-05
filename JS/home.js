@@ -125,7 +125,7 @@ buttons.forEach(button => {
  window.addEventListener("load",()=>{
 
  // Target container
-const videoListContainer = document.getElementById("cat2");
+const videoListContainer = document.getElementById("");
 
 // Fetch and display the videos
 fetch('../images.json') // Path to your JSON file
