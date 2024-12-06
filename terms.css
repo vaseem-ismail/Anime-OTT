@@ -1,0 +1,90 @@
+@media screen and (min-width: 720px) {
+  * {
+    margin: 0%;
+    padding: 0%;
+  }
+  body {
+    background-color: black;
+  }
+  #terms {
+    background-image: url('./assets/home_page_pics/png-transparent-beige-scroll-scrolling-naruto-archaic-elements-reel-naruto-game-game-antiquity-video-game-thumbnail-removebg-preview.png');
+    background-repeat: no-repeat;
+    background-size: 103%   ;
+    overflow-y: scroll;
+    width: 40%;
+    height: 700px;
+    position: absolute;
+    top: 15%;
+    border-radius: 10px;
+    scrollbar-width: none;
+    left: 30%;
+    transition: linear;
+  }
+  
+  #head1 {
+    position: fixed;
+    left: 35%;
+    top: 155px;
+    font-size: 50px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .content{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+  }
+ #first{
+    margin-top: 10%;
+    margin-left: 35%;
+ }
+ #second{
+    margin-top: 2%;
+    margin-left: 35%;
+ }
+ #agree{
+    background-color: red;
+    position: absolute;
+    width: 20%;
+    height: 50px;
+    border-radius: 20px;
+    margin: 50px 0px 50px 35%;
+ }
+}
+@media screen and (max-width:720px) {
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
+    body{
+        background-color: black;
+    }
+    #terms{
+        background-color: white;
+        width: 90%;
+        height: 800px;
+        overflow-y: scroll;
+        margin-top: 60px;
+        margin-left: 20px;
+    }
+    #head1{
+      margin-bottom: 30px;
+      margin-top: 30px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      text-align: center;
+    }
+    .content{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 10%;
+    }
+    #first,#second{
+        text-align: center;
+        margin-top: 20px;
+    }
+    #agree{
+        width: 25%;
+        height: 30px;
+        background-color: red;
+        border-radius: 10px;
+    }
+}
