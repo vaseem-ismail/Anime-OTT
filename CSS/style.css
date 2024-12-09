@@ -6,10 +6,11 @@
     overflow-y: auto;
     scrollbar-width: none;
     background: fixed;
+    background-color: black;
     background-size: 100% 100%;
-    animation: slider 10s linear infinite;
+    /* animation: slider 10s linear infinite; */
   }
-  @keyframes slider {
+  /* @keyframes slider {
     0% {
       background-image: url("../assets/pc_size_pics/2.jpg");
     }
@@ -22,7 +23,7 @@
     100% {
       background-image: url("../assets/pc_size_pics/8.jpg");
     }
-  }
+  } */
   #search{
     background-color: transparent;
     width: 30%;

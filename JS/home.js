@@ -181,75 +181,6 @@ function displayVideos(videos) {
 // }
   
 })
-// document.addEventListener("DOMContentLoaded", function() {
-//     fetch('../images.json')
-//         .then(response => response.json())
-//         .then(data => {
-//             const categories = {
-//                 cat1: document.getElementById('cat1'),
-//                 cat2: document.getElementById('cat2'),
-//                 cat3: document.getElementById('cat3'),
-//                 cat4: document.getElementById('cat4'),
-//                 cat5: document.getElementById('cat5'),
-//                 cat6: document.getElementById('cat6')
-//             };
-
-//             for (const category in data) {
-//                 data[category].forEach(image => {
-//                     const imgElement = document.createElement('img');
-//                     imgElement.src = image['image-url'];
-//                     imgElement.alt = image.name;
-//                     imgElement.title = image.name;
-//                     imgElement.style.margin = "10px";
-//                     imgElement.style.width = "200px";
-
-//                     categories[category].appendChild(imgElement);
-//                 });
-//             }
-//         })
-//         .catch(error => console.error('Error loading images:', error));
-// });
-
-// document.addEventListener('DOMContentLoaded', () => {
-//     const cat1Container = document.getElementById('cat1');
-
-//     // Fetch the "greatest_ever" movie data from the JSON file
-//     fetch('image.json?timestamp=' + Date.now()) // Cache busting
-//         .then(response => {
-//             if (!response.ok) {
-//                 throw new Error('Failed to fetch movie data: ' + response.statusText);
-//             }
-//             return response.json();
-//         })
-//         .then(data => {
-//             console.log('Fetched data:', data); // Debugging
-
-//             const greatestMovies = data.Greatest;
-
-//             // Loop through the "greatest_ever" category and append each movie
-//             greatestMovies.forEach(movie => {
-//                 const movieCard = document.createElement('div');
-//                 movieCard.classList.add('movie-card');
-                
-//                 movieCard.innerHTML = `
-//                     <img class="movie-image" 
-//                          src="${movie['image-url']}" 
-//                          alt="${movie.name}" 
-//                          loading="lazy">
-//                     <p class="movie-title">${movie.name}</p>
-//                     <p class="movie-genre">${movie.genre}</p>
-//                     <p class="movie-released-year">Released Year: ${movie.released-year}</p>
-//                     <p class="movie-description">${movie.description}</p>
-//                 `;
-
-//                 cat1Container.appendChild(movieCard);
-//             });
-//         })
-//         .catch(error => {
-//             console.error('Error fetching categories:', error);
-//             cat1Container.innerHTML = '<p>Failed to load categories. Please try again later.</p>';
-//         });
-// });
 window.addEventListener("load",()=>{
 
 // Fetch JSON data and append images to corresponding categories
@@ -270,7 +201,7 @@ fetch('../images.json') // Correct relative path to the JSON file
                     window.location.href = 'details.html'; // Navigate to details page
                 });
 
-                
+
                 container.appendChild(img);
             });
         };
@@ -286,3 +217,9 @@ fetch('../images.json') // Correct relative path to the JSON file
     .catch(error => console.error('Error fetching or processing JSON data:', error));
     
 })
+
+const slideImg = document.querySelectorAll(".carousel-image");
+slideImg.addEventListener('click', () => {
+    localStorage.setItem('selectedImageName', item.name); // Store name in localStorage
+    window.location.href = 'details.html'; // Navigate to details page
+});
