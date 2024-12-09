@@ -1,10 +1,812 @@
-{ "Action"[
+{ 
+  "Greatest" : [
+    {
+      "name" : "Jujutsu Kaisen",
+      "genre" : "Action/Adventure",
+      "image-url" : "https://m.media-amazon.com/images/I/81XO20bHFjL.jpg",
+      "total-seasons" : "3",
+      "released-year" : "2021",
+      "description": "Jujutsu Kaisen follows Yuji Itadori, a high school student who possesses immense physical strength. After swallowing a cursed object, a finger from the legendary cursed spirit Ryomen Sukuna, Yuji becomes the host of Sukuna. To prevent disaster, he joins Jujutsu High, where he trains to fight curses and protect humanity from malevolent spirits."
+    },
+    {
+      "name" : "Naruto Shippuden",
+      "genre" : "Action/Adventure",
+      "image-url" : "https://upload.wikimedia.org/wikipedia/en/4/49/Shippudenkeyvisual.png",
+      "total-seasons" : "22",
+      "released-year" : "2007",
+      "description": "Naruto Shippuden follows Naruto Uzumaki, a young ninja with a dream of becoming the Hokage, the leader of his village. As he grows stronger and faces numerous challenges, Naruto deals with the burden of being the host of the Nine-Tails Fox, a powerful and dangerous creature. Alongside his friends, Naruto confronts dark forces, including the Akatsuki organization, and learns the true meaning of friendship, sacrifice, and responsibility."
+    },
+    {
+      "name" : "Dragon Ball",
+      "genre" : "Action/Adventure",
+      "image-url" : "https://upload.wikimedia.org/wikipedia/en/thumb/7/74/Dragon_Ball_Super_Key_visual.jpg/200px-Dragon_Ball_Super_Key_visual.jpg",
+      "total-seasons" : "1",
+      "released-year" : "1986",
+      "description": "Dragon Ball follows Goku, a martial artist with a pure heart, as he embarks on adventures to find the Dragon Balls, seven mystical orbs that grant wishes when gathered. Along the way, Goku makes friends and faces powerful enemies, including foes from other planets, while constantly striving to become the strongest warrior in the universe."
+    },
+    {
+      "name" : "Demon Slayer",
+      "genre" : "Action",
+      "image-url" : "https://m.media-amazon.com/images/M/MV5BMWU1OGEwNmQtNGM3MS00YTYyLThmYmMtN2FjYzQzNzNmNTE0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      "total-seasons" : "5",
+      "released-year" : "2019",
+      "description": "Demon Slayer follows Tanjiro Kamado, a kind-hearted boy who becomes a demon slayer to save his sister Nezuko, who has been turned into a demon, and to avenge his family against the demon who killed them."
+    },
+    {
+      "name" : "Attack on Titan",
+      "genre" : "Action",
+      "image-url" : "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p10701949_b_v8_ah.jpg",
+      "total-seasons" : "3",
+      "released-year" : "2013",
+      "description": "Attack on Titan follows Eren Yeager and his friends as they join the military to fight gigantic humanoid creatures known as Titans, uncovering dark secrets about their world along the way."
+    },
+    {
+      "name" : "Tokyo Revengers",
+      "genre" : "Action/Adventure",
+      "image-url" : "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=480,height=720/catalog/crunchyroll/70975a1227b453c1caf24fa05a93617d.jpg",
+      "total-seasons" : "3",
+      "released-year" : "2021",
+      "description": "Tokyo Revengers follows Takemichi Hanagaki, a man who learns that his childhood girlfriend and her brother have been killed by a notorious gang. When he is sent back in time to his middle school years, Takemichi decides to change the course of the future by rising through the ranks of the gang, making new friends, and trying to prevent the tragic events that will unfold."
+    },
+    {
+      "name" : "Bleach",
+      "genre" : "Action/Adventure",
+      "image-url" : "https://upload.wikimedia.org/wikipedia/en/7/72/Bleachanime.png",
+      "total-seasons" : "26",
+      "released-year" : "2004",
+      "description": "Bleach follows Ichigo Kurosaki, a teenager with the ability to see ghosts. After accidentally obtaining the powers of a Soul Reaper, a being tasked with protecting the living from evil spirits, Ichigo must defend the human world from the threat of malevolent spirits known as Hollows. As he grows stronger, Ichigo uncovers the mysteries of the Soul Society and its powerful protectors."
+    }
+   ],
+  "Action":[
   {
     "name" : "Kaiju No-8",
     "genre" : "Action",
     "image-url" : "https://external-preview.redd.it/kaiju-no-8-new-key-visual-v0-riZoN9c_q3T3E5WOQ7WhQt94LwRtXvi-kcUc3S31HJY.jpg?width=640&crop=smart&auto=webp&s=f9896f9ed97f8b763f98892e2e9b117e28746967",
     "total-seasons" : "1",
-    "released-year"
+    "released-year" : "2024",
+    "description": "Kaiju No. 8 follows Kafka Hibino, a man who dreams of joining the Defense Force to fight giant monsters (kaiju) that threaten humanity. After an unexpected encounter with a kaiju, Kafka finds himself turning into a kaiju himself, and must balance his newfound powers with his desire to protect people, all while concealing his secret from the world. The series blends action, mystery, and the challenge of reconciling one's identity."
+  },
+  {
+    "name" : "Naruto Shippuden",
+    "genre" : "Action",
+    "image-url" : "https://upload.wikimedia.org/wikipedia/en/4/49/Shippudenkeyvisual.png",
+    "total-seasons" : "22",
+    "released-year" : "2007",
+    "description": "Naruto Shippuden follows Naruto Uzumaki, a young ninja with a dream of becoming the Hokage, the leader of his village. As he grows stronger and faces numerous challenges, Naruto deals with the burden of being the host of the Nine-Tails Fox, a powerful and dangerous creature. Alongside his friends, Naruto confronts dark forces, including the Akatsuki organization, and learns the true meaning of friendship, sacrifice, and responsibility." 
+  },
+  {
+    "name" : "Naruto : classic",
+    "genre" : "Action",
+    "image-url" : "https://qph.cf2.quoracdn.net/main-qimg-4f5f54fe8d440e70c41bd6d57c9ee6ed-lq",
+    "total-seasons" : "5",
+    "released-year" : "2002",
+    "description": "Naruto follows the journey of Naruto Uzumaki, a young and spirited ninja who dreams of becoming the Hokage, the strongest ninja and leader of his village. Despite being ostracized for being the host of the Nine-Tails Fox, Naruto forms close bonds with his friends and fellow ninjas, working tirelessly to prove his worth and grow stronger in the face of many challenges."
+  },
+  {
+    "name" : "Solo Leveling",
+    "genre" : "Action",
+    "image-url" : "https://rukminim2.flixcart.com/image/850/1000/xif0q/book/g/d/c/solo-leveling-vol-8-comic-original-imahy5kgrhcc2tq8.jpeg?q=90&crop=false",
+    "total-seasons" : "1",
+    "released-year" : "2024",
+    "description": "Solo Leveling follows Sung Jin-Woo, an E-rank hunter in a world where hunters battle monsters in dangerous dungeons. After surviving a near-death encounter in a dungeon, he is granted the unique ability to level up and grow stronger with no limit. As he embarks on a journey to become the strongest hunter, he faces increasingly powerful monsters and uncovers dark secrets about the world of hunters."
+  },
+  {
+    "name" : "Attack on Titan",
+    "genre" : "Action",
+    "image-url" : "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p10701949_b_v8_ah.jpg",
+    "total-seasons" : "3",
+    "released-year" : "2013",
+    "description": "Attack on Titan follows Eren Yeager and his friends as they join the military to fight gigantic humanoid creatures known as Titans, uncovering dark secrets about their world along the way."
+  },
+  {
+    "name" : "Demon Slayer",
+    "genre" : "Action",
+    "image-url" : "https://m.media-amazon.com/images/M/MV5BMWU1OGEwNmQtNGM3MS00YTYyLThmYmMtN2FjYzQzNzNmNTE0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "total-seasons" : "5",
+    "released-year" : "2013",
+     "description": "Demon Slayer follows Tanjiro Kamado, a kind-hearted boy who becomes a demon slayer to save his sister Nezuko, who has been turned into a demon, and to avenge his family against the demon who killed them."
+  },
+  {
+    "name" : "Death Note",
+    "genre" : "Action/Crime",
+    "image-url" : "https://m.media-amazon.com/images/M/MV5BYTgyZDhmMTEtZDFhNi00MTc4LTg3NjUtYWJlNGE5Mzk2NzMxXkEyXkFqcGc@._V1_.jpg",
+    "total-seasons" : "1",
+    "released-year" : "2006",
+    "description": "Death Note follows Light Yagami, a highly intelligent high school student who discovers a mysterious notebook that grants the ability to kill anyone whose name is written in it. As he attempts to use the Death Note to create a utopian world free of crime, he is pursued by L, a genius detective who seeks to stop him. The battle of wits between Light and L forms the core of this psychological thriller."
+  },
+  {
+    "name" : "Dragon Ball",
+    "genre" : "Action",
+    "image-url" : "https://upload.wikimedia.org/wikipedia/en/thumb/7/74/Dragon_Ball_Super_Key_visual.jpg/200px-Dragon_Ball_Super_Key_visual.jpg",
+    "total-seasons" : "1",
+    "released-year" : "1986",
+    "description": "Dragon Ball follows Goku, a martial artist with a pure heart, as he embarks on adventures to find the Dragon Balls, seven mystical orbs that grant wishes when gathered. Along the way, Goku makes friends and faces powerful enemies, including foes from other planets, while constantly striving to become the strongest warrior in the universe."
+  },
+  {
+    "name" : "One Punch Man",
+    "genre" : "Action",
+    "image-url" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiABNbvCkNfI6RAfliCdOq9Zqz0xzcRj4HhA&s",
+    "total-seasons" : "2",
+    "released-year" : "2016",
+    "description": "One Punch Man follows Saitama, a hero who can defeat any opponent with a single punch. Bored by his overwhelming strength and the lack of a true challenge, he joins the Hero Association to fight evil and protect the world. The series combines humor, action, and satire of superhero tropes as Saitama struggles to find meaning in his life while facing increasingly bizarre villains."
+  },
+  {
+    "name" : "Tokyo Revengers",
+    "genre" : "Action",
+    "image-url" : "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=480,height=720/catalog/crunchyroll/70975a1227b453c1caf24fa05a93617d.jpg",
+    "total-seasons" : "3",
+    "released-year" : "2021",
+    "description": "Tokyo Revengers follows Takemichi Hanagaki, a man who learns that his childhood girlfriend and her brother have been killed by a notorious gang. When he is sent back in time to his middle school years, Takemichi decides to change the course of the future by rising through the ranks of the gang, making new friends, and trying to prevent the tragic events that will unfold."
   }
-]
+],
+ "Love-Story" : [
+  {
+    "name" : "I Want to Eat Your Pancreas",
+    "genre" : "Love Story",
+    "image-url" : "https://m.media-amazon.com/images/M/MV5BMTQ1ODIzOGQtOGFkZC00MWViLTgyYmUtNWJkNmIxZjYxMTdmXkEyXkFqcGc@._V1_.jpg",
+    "total-seasons" : "1",
+    "released-year" : "2019",
+    "description": "I Want to Eat Your Pancreas follows an introverted high school boy who discovers the secret diary of Sakura Yamauchi, a cheerful classmate suffering from a terminal pancreatic illness. As they spend time together, they form a deep bond, experiencing joy, heartbreak, and the fleeting nature of life."
+  },
+  {
+    "name" : "Tamako Love Story",
+    "genre" : "Love Story",
+    "image-url" : "https://m.media-amazon.com/images/M/MV5BNjQ2ZjkxNTctZjI3Yi00MDM1LWI3MWEtMTcxMTU4MzQ5MzhhXkEyXkFqcGc@._V1_.jpg",
+    "total-seasons" : "1",
+    "released-year" : "2014",
+    "description": "Tamako Love Story is a romantic tale about Tamako Kitashirakawa, a cheerful girl working in her family's mochi shop, and her childhood friend Mochizou Ooji, who secretly harbors feelings for her. The story beautifully portrays their evolving relationship as they navigate their dreams and unspoken emotions."
+  },
+  {
+    "name" : "Weathering With You",
+    "genre" : "Love Story",
+    "image-url" : "https://upload.wikimedia.org/wikipedia/en/6/66/Weathering_with_You_Poster.jpg",
+    "total-seasons" : "1",
+    "released-year" : "2019",
+    "description": "Weathering With You follows Hodaka Morishima, a runaway teenager who meets Hina Amano, a girl with the mysterious ability to control the weather. Together, they embark on a journey of love and sacrifice as they navigate a world where their choices have far-reaching consequences."
+  },
+  {
+    "name" : "5 Centimeter Per Second",
+    "genre" : "Love Story",
+    "image-url" : "https://musicart.xboxlive.com/7/55825e00-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080",
+    "total-seasons" : "1",
+    "released-year" : "2007",
+    "description": "5 Centimeters Per Second tells the poignant story of Takaki Tono and Akari Shinohara, childhood friends separated by distance, as they struggle with unspoken feelings and the passage of time. The film captures the bittersweet nature of love, loss, and longing through a series of beautifully animated vignettes."
+  },
+  {
+    "name" : "Suzume No Tojimari",
+    "genre" : "Love Story",
+    "image-url" : "https://stewarthotston.com/wp-content/uploads/2024/10/images.jpeg?w=452",
+    "total-seasons" : "1",
+    "released-year" : "2022",
+    "description": "Suzume No Tojimari follows Suzume, a young girl who encounters a mysterious traveler searching for doors linked to catastrophic disasters. Together, they journey across Japan, closing these magical portals while uncovering the secrets of Suzume's past and the bond they share."
+  },
+  {
+    "name" : "The Tunnel to Summer",
+    "genre" : "Love Story",
+    "image-url" : "https://m.media-amazon.com/images/I/81qr1OTWnCL._AC_UF1000,1000_QL80_.jpg",
+    "total-seasons" : "1",
+    "released-year" : "2022",
+    "description": "The Tunnel to Summer, the Exit of Goodbyes explores the story of Kaoru Touno, who discovers a mysterious tunnel that grants wishes in exchange for time. As he forms an unexpected connection with Anzu Hanashiro, the two confront their personal struggles and make life-changing decisions in the face of the tunnel's allure."
+  },
+  {
+    "name" : "A Silent Voice",
+    "genre" : "Love Story",
+    "image-url" : "https://m.media-amazon.com/images/M/MV5BOTFiNzRiOWEtYTQwNy00NmRiLWE0ZWYtNTE0YjExZjFmZjkwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "total-seasons" : "1",
+    "released-year" : "2017",
+    "description": "A Silent Voice follows Shoya Ishida, a former bully seeking redemption by reconnecting with Shoko Nishimiya, a deaf girl he tormented in the past. The film delves into themes of guilt, forgiveness, and the power of empathy as they navigate their shared pain and strive for healing."
+  }
+ ],
+ "Sci-Fi" : [
+  {
+    "name" : "CyberPunk",
+    "genre" : "Sci-Fi",
+    "image-url" : "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p22812509_b_v13_ab.jpg",
+    "total-seasons" : "1",
+    "released-year" : "2022",
+    "description": "Cyberpunk: Edgerunners follows David Martinez, a street kid trying to survive in a futuristic, tech-driven dystopian city. After a tragedy, he becomes an Edgerunner, an outlaw mercenary, and delves into the dangerous world of cyber-enhanced criminals while grappling with his humanity."
+  },
+  {
+    "name" : "Pokemon",
+    "genre" : "Sci-Fi",
+    "image-url" : "https://m.media-amazon.com/images/M/MV5BMzE0ZDU1MzQtNTNlYS00YjNlLWE2ODktZmFmNDYzMTBlZTBmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "total-seasons" : "27",
+    "released-year" : "1997",
+    "description": "Pokémon follows Ash Ketchum, a young trainer on his journey to become a Pokémon Master. Alongside his loyal Pikachu and friends, Ash explores new regions, captures Pokémon, competes in battles, and forms lasting bonds with his team while facing rivals and villains like Team Rocket."
+  },
+  {
+    "name" : "Dandadan",
+    "genre" : "Sci-Fi",
+    "image-url" : "https://m.media-amazon.com/images/M/MV5BYWFhOWMxNTYtZThiMi00ZmQ5LTlmODktN2QwNzUyZjMyZGQzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "total-seasons" : "1",
+    "released-year" : "2024",
+    "description": "Dandadan is a supernatural adventure that follows Ken Takakura and Momo Ayase as they encounter bizarre phenomena, from aliens to ghosts. Together, they navigate a series of chaotic and comedic battles while unraveling mysteries in a world where the paranormal and extraterrestrial collide."
+  },
+  {
+    "name" : "Fullmetal Alchemist",
+    "genre" : "Sci-Fi",
+    "image-url" : "https://qph.cf2.quoracdn.net/main-qimg-952ee45d770ba6a22c281c05088bfbe2-lq",
+    "total-seasons" : "1",
+    "released-year" : "2003",
+    "description": "Fullmetal Alchemist follows brothers Edward and Alphonse Elric, who use alchemy to search for the Philosopher's Stone to restore their bodies after a failed alchemical experiment. Their journey explores themes of sacrifice, morality, and the consequences of human ambition in a richly woven narrative."
+  },
+  {
+    "name" : "Gintama",
+    "genre" : "Sci-Fi",
+    "image-url" : "https://m.media-amazon.com/images/M/MV5BNTMzNjE0N2ItNjFiYi00NmIzLTk1MzMtZWFjNThjMzI5MTJlXkEyXkFqcGc@._V1_.jpg",
+    "total-seasons" : "10",
+    "released-year" : "2006",
+    "description": "Gintama is a comedic adventure set in an alternate Edo-period Japan overrun by alien invaders. It follows Gintoki Sakata, a silver-haired samurai, and his eccentric friends as they take on odd jobs, fight against oppression, and hilariously parody anime and pop culture along the way."
+  },
+  {
+    "name" : "Cowboy Bebop",
+    "genre" : "Sci-Fi",
+    "image-url" : "https://m.media-amazon.com/images/M/MV5BM2VhZjk2MWMtZjc2OC00YzA4LWI0NzAtZGQ1YjVkOTk5YzVlXkEyXkFqcGc@._V1_.jpg",
+    "total-seasons" : "1",
+    "released-year" : "1998",
+    "description": "Cowboy Bebop follows a group of bounty hunters led by Spike Spiegel as they travel across the galaxy in their spaceship, the Bebop. Combining action, jazz-infused style, and existential themes, the series explores the crew's personal struggles and their pursuit of redemption."
+  },
+  {
+    "name" : "Psycho Pass",
+    "genre" : "Sci-Fi",
+    "image-url" : "https://upload.wikimedia.org/wikipedia/en/8/88/Psycho-Pass_key_visual.png",
+    "total-seasons" : "3",
+    "released-year" : "2013",
+    "description": "Psycho-Pass is set in a dystopian future where people's mental states are monitored to predict and prevent crimes. Akane Tsunemori, a young Inspector, navigates the moral complexities of this system as she works alongside enforcers, uncovering dark truths about society and herself."
+  }
+ ],
+ "Horror" : [
+  {
+    "name" : "Elfed Lied",
+    "genre" : "Horror",
+    "image-url" : "https://www.justwatch.com/images/poster/175569366/s718/elfen-lied.jpg",
+    "total-seasons" : "1",
+    "released-year" : "2004",
+    "description": "Elfen Lied follows Lucy, a genetically modified human with deadly telekinetic abilities, as she escapes from a research facility. After suffering memory loss, she is taken in by two kindhearted college students, but her violent past and the government's pursuit threaten their safety and unravel dark secrets."
+  },
+  {
+    "name" : "Devilman CryBaby",
+    "genre" : "Horror",
+    "image-url" : "https://m.media-amazon.com/images/M/MV5BMjRjOGI4M2YtMGQ4NC00OTk3LTg4MWItYjBjYzNiOGI0Y2ZkXkEyXkFqcGc@._V1_.jpg  ",
+    "total-seasons" : "1",
+    "released-year" : "2018",
+    "description": "Devilman Crybaby tells the story of Akira Fudo, a kind-hearted teenager who gains the powers of a demon while retaining his human soul. As he battles against demonic forces threatening humanity, Akira faces moral dilemmas, personal loss, and the true nature of love and humanity."
+  },
+  {
+    "name" : "Shiki",
+    "genre" : "Horror",
+    "image-url" : "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=480,height=720/catalog/crunchyroll/20ede03b53db10bf98e7bbef3c47afe3.jpe",
+    "total-seasons" : "1",
+    "released-year" : "2010",
+    "description": "Shiki is set in a remote village where mysterious deaths occur following the arrival of a strange family. As the town's residents confront the truth about vampires among them, the series delves into moral ambiguity, human nature, and the thin line between victim and predator."
+  },
+  {
+    "name" : "Another",
+    "genre" : "Horror",
+    "image-url" : "https://upload.wikimedia.org/wikipedia/en/4/4c/Another_series_cover.jpg",
+    "total-seasons" : "1",
+    "released-year" : "2009",
+    "description": "Another follows Koichi Sakakibara, a transfer student who discovers a dark secret surrounding his new class. As mysterious and gruesome deaths occur, he teams up with the enigmatic Mei Misaki to uncover the truth behind a deadly curse haunting their school."
+  },
+  {
+    "name" : "Hell Sing",
+    "genre" : "Horror",
+    "image-url" : "https://m.media-amazon.com/images/M/MV5BYWFmMWE4YTMtMWViNS00NzI5LTljZGUtMGM1YTFkNmMzZjE3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "total-seasons" : "1",
+    "released-year" : "2001",
+    "description": "Hellsing follows the Hellsing Organization, led by Sir Integra Hellsing, as they combat supernatural threats to humanity. With the help of Alucard, a powerful vampire bound to the organization, they face deadly ghouls, rival factions, and a dark conspiracy threatening the world."
+  },
+  {
+    "name" : "Paranoic Agent",
+    "genre" : "Horror",
+    "image-url" : "https://upload.wikimedia.org/wikipedia/en/8/8e/Paranoia_Agent.png",
+    "total-seasons" : "1",
+    "released-year" : "2004",
+    "description": "Paranoia Agent explores a series of mysterious attacks in Tokyo by a figure known as 'Lil' Slugger.' As detectives investigate the case, the psychological series unravels the lives of the victims, revealing how fear, anxiety, and societal pressures intertwine in unexpected ways."
+  },
+  {
+    "name" : "Tokyo Ghoul",
+    "genre" : "Horror",
+    "image-url" : "https://a.storyblok.com/f/178900/960x1377/5fa26f43de/tokyo-ghoul.jpg/m/filters:quality(95)format(webp)",
+    "total-seasons" : "3",
+    "released-year" : "2014",
+    "description": "Tokyo Ghoul follows Ken Kaneki, a college student who becomes a half-ghoul after a chance encounter with a deadly creature. Struggling with his dual identity, Kaneki navigates a brutal world of human and ghoul conflicts while seeking to protect those he loves."
+  }
+ ],
+ "Sports" : [
+  {
+    "name" : "Blue Lock",
+    "genre" : "Sports",
+    "image-url" : "https://a.storyblok.com/f/178900/240x360/1e21acb8f4/blue-lock-2nd-season-kv-2-240.png/m/filters:quality(95)format(webp)",
+    "total-seasons" : "2",
+    "released-year" : "2022",
+    "description": "Blue Lock follows Yoichi Isagi, a talented soccer player who joins a rigorous and controversial training program designed to create the ultimate striker for Japan's national team. The series explores themes of ambition, competition, and individuality in the high-stakes world of soccer."
+  },
+  {
+    "name" : "Haikyuu",
+    "genre" : "Sports",
+    "image-url" : "https://m.media-amazon.com/images/M/MV5BYjYxMWFlYTAtYTk0YS00NTMxLWJjNTQtM2E0NjdhYTRhNzE4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "total-seasons" : "4",
+    "released-year" : "2014",
+    "description": "Haikyuu!! follows Shoyo Hinata, a passionate volleyball player who dreams of becoming a top player despite his short stature. Teaming up with the talented but arrogant Kageyama, they strive to lead their high school team to national victory while overcoming personal and team challenges."
+  },
+  {
+    "name" : "Ace of the Diamond",
+    "genre" : "Sports",
+    "image-url" : "https://m.media-amazon.com/images/M/MV5BMDkwNmU2NzYtYzA4ZS00NTRhLWIzN2ItNWI5M2Q4OGYwNTQ5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "total-seasons" : "2",
+    "released-year" : "2013",
+    "description": "Ace of Diamond follows Eijun Sawamura, a gifted pitcher with an unorthodox throwing style, as he joins a prestigious high school baseball team. The series highlights Eijun's growth as a player and leader, along with the team's journey toward becoming national champions."
+  },
+  {
+    "name" : "Kuroko's Basket",
+    "genre" : "Sports",
+    "image-url" : "https://m.media-amazon.com/images/M/MV5BMjVjZTZjMjktYzAyYS00YTgyLTlhZjItYjVkZjU0MmU3OTY3XkEyXkFqcGc@._V1_.jpg",
+    "total-seasons" : "3",
+    "released-year" : "2012",
+    "description": "Kuroko's Basketball follows Tetsuya Kuroko, a seemingly invisible player with exceptional passing skills, as he joins Seirin High's basketball team. Alongside the passionate Taiga Kagami, Kuroko faces off against his former teammates from the 'Generation of Miracles' in thrilling matches."
+  },
+  {
+    "name" : "Major",
+    "genre" : "Sports",
+    "image-url" : "https://www.animenewsnetwork.com/images/encyc/A20204-2351498559.1516422090.jpg",
+    "total-seasons" : "6",
+    "released-year" : "2004",
+    "description": "Major chronicles the life of Goro Honda, from his childhood dreams of following in his father's footsteps as a baseball player to his journey as a professional athlete. The series explores themes of perseverance, family, and the love for the game across generations."
+  },
+  {
+    "name" : "The Prince of Tennis",
+    "genre" : "Sports",
+    "image-url" : "https://upload.wikimedia.org/wikipedia/en/1/11/The_Prince_of_Tennis_DVD_box_set_1.jpg",
+    "total-seasons" : "1",
+    "released-year" : "2005",
+    "description": "The Prince of Tennis follows Ryoma Echizen, a tennis prodigy who joins the prestigious Seigaku tennis team. As he competes in challenging matches, Ryoma hones his skills, builds friendships, and aims to prove himself as the best player in Japan."
+  },
+  {
+    "name" : "Run with the Wind",
+    "genre" : "Sports",
+    "image-url" : "https://m.media-amazon.com/images/M/MV5BODc4NjczYjAtMjAwMi00YWQ3LWI1NTQtZWNlZDk4YmIzYWM4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "total-seasons" : "1",
+    "released-year" : "2018",
+    "description": "Run with the Wind follows Kakeru Kurahara, a former elite runner who is persuaded by Haiji Kiyose to join a university's long-distance running team. Together with an eclectic group of teammates, they train for the grueling Hakone Ekiden marathon, facing physical and emotional hurdles along the way."
+  }
+ ],
+ "Adventure" : [
+  {
+    "name" : "One Piece",
+    "genre" : "Adventure",
+    "image-url" : "https://upload.wikimedia.org/wikipedia/en/9/90/One_Piece%2C_Volume_61_Cover_%28Japanese%29.jpg",
+    "total-seasons" : "21",
+    "released-year" : "1999",
+    "description": "One Piece follows Monkey D. Luffy, a spirited young pirate with the ability to stretch his body like rubber after eating a Devil Fruit. Along with his diverse and loyal crew, the Straw Hat Pirates, Luffy embarks on an epic journey to find the legendary One Piece treasure and become the Pirate King."
+  },
+  {
+    "name" : "Naruto Shippuden",
+    "genre" : "Adventure",
+    "image-url" : "https://upload.wikimedia.org/wikipedia/en/4/49/Shippudenkeyvisual.png",
+    "total-seasons" : "22",
+    "released-year" : "2007",
+    "description": "Naruto Shippuden follows Naruto Uzumaki, a young ninja with a dream of becoming the Hokage, the leader of his village. As he grows stronger and faces numerous challenges, Naruto deals with the burden of being the host of the Nine-Tails Fox, a powerful and dangerous creature. Alongside his friends, Naruto confronts dark forces, including the Akatsuki organization, and learns the true meaning of friendship, sacrifice, and responsibility." 
+  },
+  {
+    "name" : "Naruto",
+    "genre" : "Adventure",
+    "image-url" : "https://qph.cf2.quoracdn.net/main-qimg-4f5f54fe8d440e70c41bd6d57c9ee6ed-lq",
+    "total-seasons" : "5",
+    "released-year" : "2002",
+    "description": "Naruto follows the journey of Naruto Uzumaki, a young and spirited ninja who dreams of becoming the Hokage, the strongest ninja and leader of his village. Despite being ostracized for being the host of the Nine-Tails Fox, Naruto forms close bonds with his friends and fellow ninjas, working tirelessly to prove his worth and grow stronger in the face of many challenges."
+  },
+  {
+    "name" : "Dragon Ball",
+    "genre" : "Adventure",
+    "image-url" : "https://upload.wikimedia.org/wikipedia/en/thumb/7/74/Dragon_Ball_Super_Key_visual.jpg/200px-Dragon_Ball_Super_Key_visual.jpg",
+    "total-seasons" : "1",
+    "released-year" : "1986",
+    "description": "Dragon Ball follows Goku, a martial artist with a pure heart, as he embarks on adventures to find the Dragon Balls, seven mystical orbs that grant wishes when gathered. Along the way, Goku makes friends and faces powerful enemies, including foes from other planets, while constantly striving to become the strongest warrior in the universe."
+  },
+  {
+    "name" : "Hunter X Hunter",
+    "genre" : "Adventure",
+    "image-url" : "https://m.media-amazon.com/images/I/71aoeOhdNnL._AC_UF1000,1000_QL80_.jpg",
+    "total-seasons" : "6",
+    "released-year" : "2011",
+    "description": "Hunter x Hunter follows Gon Freecss, a cheerful and determined boy who dreams of becoming a Hunter like his father. Along his journey, Gon befriends Killua, Kurapika, and Leorio as they face dangerous challenges, uncover dark secrets, and strive to achieve their personal goals in a world filled with powerful adversaries."
+  },
+  {
+    "name" : "Fullmetal Alchemist",
+    "genre" : "Adventure",
+    "image-url" : "https://qph.cf2.quoracdn.net/main-qimg-952ee45d770ba6a22c281c05088bfbe2-lq",
+    "total-seasons" : "1",
+    "released-year" : "2003",
+    "description": "Fullmetal Alchemist follows brothers Edward and Alphonse Elric, who use alchemy to search for the Philosopher's Stone to restore their bodies after a failed alchemical experiment. Their journey explores themes of sacrifice, morality, and the consequences of human ambition in a richly woven narrative."
+  },
+  {
+    "name" : "Attack on Titan",
+    "genre" : "Adventure",
+    "image-url" : "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p10701949_b_v8_ah.jpg",
+    "total-seasons" : "3",
+    "released-year" : "2013",
+    "description": "Attack on Titan follows Eren Yeager and his friends as they join the military to fight gigantic humanoid creatures known as Titans, uncovering dark secrets about their world along the way."
+  },
+  {
+    "name" : "Demon Slayer",
+    "genre" : "Action",
+    "image-url" : "https://m.media-amazon.com/images/M/MV5BMWU1OGEwNmQtNGM3MS00YTYyLThmYmMtN2FjYzQzNzNmNTE0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "total-seasons" : "5",
+    "released-year" : "2013",
+    "description": "Demon Slayer follows Tanjiro Kamado, a kind-hearted boy who becomes a demon slayer to save his sister Nezuko, who has been turned into a demon, and to avenge his family against the demon who killed them."
+
+  },
+  {
+    "name" : "Vinland Saga",
+    "genre" : "Adventure",
+    "image-url" : "https://upload.wikimedia.org/wikipedia/en/8/8c/Vinland_Saga_key_visual.png",
+    "total-seasons" : "2",
+    "released-year" : "2019",
+    "description": "Vinland Saga follows the journey of Thorfinn, a young Viking warrior, as he seeks revenge against Askeladd, the man who killed his father, while being drawn into the larger conflicts of Viking-era Europe."
+  }
+ ],
+ "Comedy" : [
+  {
+    "name": "Ouran High School Host Club",
+    "genre": "Comedy, Romance, Slice of Life",
+    "image-url": "https://m.media-amazon.com/images/I/71a6uJY-SLL._AC_UF894,1000_QL80_.jpg",
+    "total-seasons": "1",
+    "released-year": "2006",
+    "description": "Ouran High School Host Club follows Haruhi Fujioka, a scholarship student at an elite academy, who accidentally breaks a vase and becomes indebted to a group of eccentric boys running a host club, leading to humorous and romantic adventures."
+  },  
+  {
+    "name": "Great Teacher Onizuka",
+    "genre": "Comedy, Drama, Slice of Life",
+    "image-url": "https://m.media-amazon.com/images/M/MV5BNzYwN2UyNDAtZTQ3My00ZjQ4LWE2ZmYtZDZiMTlhZGM3ZTc4XkEyXkFqcGc@._V1_.jpg",
+    "total-seasons": "1",
+    "released-year": "1999",
+    "description": "Great Teacher Onizuka follows Eikichi Onizuka, a former biker gang leader turned unconventional teacher, as he takes on a class of troubled students, using his unorthodox methods to teach them life lessons and inspire change."
+  },
+  {
+    "name": "Spy x Family",
+    "genre": "Comedy, Action, Slice of Life",
+    "image-url": "https://rukminim2.flixcart.com/image/850/1000/l5bd5zk0/poster/u/g/m/medium-ppointnew14961-spy-x-family-matte-finish-poster-original-imaggytysczrqecv.jpeg?q=20&crop=false",
+    "total-seasons": "2",
+    "released-year": "2022",
+    "description": "Spy x Family follows Twilight, a top spy who must create a fake family to complete a mission. He adopts a telepathic girl and marries an assassin, leading to a series of humorous and heartfelt adventures."
+  },
+  {
+    "name": "Toradora!",
+    "genre": "Romance, Comedy, Slice of Life",
+    "image-url": "https://i.pinimg.com/736x/18/c8/6b/18c86b07240c9f2db9da12601e2aaa78.jpg",
+    "total-seasons": "1",
+    "released-year": "2008",
+    "description": "Toradora! is a heartwarming romantic comedy about Ryuuji Takasu and Taiga Aisaka, two high school students who team up to help each other confess their feelings to their respective crushes but end up growing closer themselves."
+  },
+  {
+    "name" : "Hunter X Hunter",
+    "genre" : "Comedy",
+    "image-url" : "https://m.media-amazon.com/images/I/71aoeOhdNnL._AC_UF1000,1000_QL80_.jpg",
+    "total-seasons" : "6",
+    "released-year" : "2011"
+  },
+  {
+    "name": "Kaguya-sama: Love is War",
+    "genre": "Romance, Comedy, Psychological",
+    "image-url": "https://i.pinimg.com/736x/e8/c8/6a/e8c86abe883da7c386aba528b1bc84d8.jpg",
+    "total-seasons": "3",
+    "released-year": "2019",
+    "description": "Kaguya-sama: Love is War is a hilarious romantic comedy about two elite student council members, Kaguya Shinomiya and Miyuki Shirogane, who engage in a battle of wits to make the other confess their love first."
+  },  
+  {
+    "name": "KonoSuba: God's Blessing on This Wonderful World!",
+    "genre": "Comedy, Fantasy, Adventure",
+    "image-url": "https://m.media-amazon.com/images/M/MV5BNDliMDE4MDAtNjQwMC00NmZmLThhZWMtOGYwMTlhOGZkYzBjXkEyXkFqcGc@._V1_.jpg",
+    "total-seasons": "2",
+    "released-year": "2016",
+    "description": "KonoSuba follows Kazuma Satou, a boy who dies in an embarrassing accident and is reincarnated into a fantasy world, where he teams up with a dysfunctional party of adventurers, leading to chaotic and hilarious misadventures."
+  },
+  {
+    "name": "The Devil is a Part-Timer!",
+    "genre": "Comedy, Fantasy, Slice of Life",
+    "image-url": "https://m.media-amazon.com/images/M/MV5BODdjMWIyYjQtNzI4ZC00ZjA1LWJmYzMtYTA1ZjFiNTMxZWI5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "total-seasons": "2",
+    "released-year": "2013",
+    "description": "The Devil is a Part-Timer! follows Satan, the Demon Lord, who escapes to modern Tokyo after a defeat and starts working at a fast-food restaurant to survive, blending humorous daily life struggles with fantasy elements."
+  },
+  {
+    "name": "Asobi Asobase",
+    "genre": "Comedy, Slice of Life",
+    "image-url": "https://m.media-amazon.com/images/M/MV5BMzMyNTdiNDItNmRjYS00MmQ4LWIyOTUtMmZhNWFmYWM2NDFmXkEyXkFqcGc@._V1_.jpg",
+    "total-seasons": "1",
+    "released-year": "2018",
+    "description": "Asobi Asobase is a surreal comedy that revolves around three schoolgirls—Hanako, Olivia, and Kasumi—whose bizarre antics and exaggerated reactions create a mix of absurd humor and chaotic fun."
+  }  
+ ],
+ "Drama" : [
+  {
+    "name": "Clannad: After Story",
+    "genre": "Drama, Romance, Slice of Life",
+    "image-url": "https://i.pinimg.com/474x/81/7b/3a/817b3a08d8e4c7282e3c1f567836059d.jpg",
+    "total-seasons": "1",
+    "released-year": "2008",
+    "description": "Clannad: After Story continues the emotional journey of Tomoya and Nagisa as they navigate adulthood, relationships, and hardships, showcasing themes of love, loss, and family bonds."
+  },
+  {
+    "name": "Your Lie in April",
+    "genre": "Drama, Romance, Music",
+    "image-url": "https://rukminim2.flixcart.com/image/850/1000/jxf05u80/poster/v/g/2/medium-and-anime-your-lie-in-april-kaori-miyazono-kousei-arima-original-imaf9kyhys3rthus.jpeg?q=90&crop=false",
+    "total-seasons": "1",
+    "released-year": "2014",
+    "description": "Your Lie in April follows Kousei Arima, a piano prodigy who loses his ability to play after his mother's death, and Kaori Miyazono, a spirited violinist who helps him rediscover his passion for music."
+  },
+  {
+    "name": "Violet Evergarden",
+    "genre": "Drama, Fantasy, Slice of Life",
+    "image-url": "https://image.tmdb.org/t/p/original/keDKycCcn3VgYvZhLnGiyYYtb2H.jpg",
+    "total-seasons": "1",
+    "released-year": "2018",
+    "description": "Violet Evergarden follows a young woman who, after serving in a brutal war, learns to understand human emotions as she becomes an Auto Memory Doll, writing letters that convey people's feelings."
+  },
+  {
+    "name": "Anohana: The Flower We Saw That Day",
+    "genre": "Drama, Supernatural, Slice of Life",
+    "image-url": "https://image.tmdb.org/t/p/original/iriHlZ7FrKrXCnNRvnoMM5suNQG.jpg",
+    "total-seasons": "1",
+    "released-year": "2011",
+    "description": "Anohana tells the story of a group of childhood friends who reunite to fulfill the last wish of their deceased friend Menma, uncovering unresolved emotions and healing their broken bonds."
+  },
+  {
+    "name": "March Comes in Like a Lion",
+    "genre": "Drama, Slice of Life",
+    "image-url": "https://m.media-amazon.com/images/M/MV5BMDJmZGZmNjQtMzE4NS00ZGRmLWFiMTQtM2EzZDhhZGNkY2FmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "total-seasons": "2",
+    "released-year": "2016",
+    "description": "March Comes in Like a Lion follows Rei Kiriyama, a professional shogi player battling loneliness and depression, as he finds support and warmth in the Kawamoto family and rediscovers himself."
+  },
+  {
+    "name": "A Silent Voice",
+    "genre": "Drama, Romance, Slice of Life",
+    "image-url": "https://i.pinimg.com/736x/62/11/b0/6211b0f0c508baf4d527cc6eb9832aa4.jpg",
+    "total-seasons": "Movie",
+    "released-year": "2016",
+    "description": "A Silent Voice explores the story of Shoya Ishida, a former bully, and Shoko Nishimiya, a deaf girl, as they navigate forgiveness and redemption in a deeply emotional tale of growth and understanding."
+  },
+  {
+    "name": "Erased",
+    "genre": "Drama, Mystery, Supernatural",
+    "image-url": "https://m.media-amazon.com/images/M/MV5BZWQ2YmI5NWMtZTY2Mi00MGUxLWFhMmEtYjVjZjMwOTNkOThjXkEyXkFqcGc@._V1_.jpg",
+    "total-seasons": "1",
+    "released-year": "2016",
+    "description": "Erased follows Satoru Fujinuma, a man with the ability to travel back in time, as he attempts to prevent a series of tragic events, including the murder of his childhood friend, by unraveling a dark mystery."
+  }
+ ],
+ "Fantasy" : [
+  {
+    "name": "Fullmetal Alchemist: Brotherhood",
+    "genre": "Fantasy, Action, Adventure",
+    "image-url" : "https://qph.cf2.quoracdn.net/main-qimg-952ee45d770ba6a22c281c05088bfbe2-lq",
+    "total-seasons": "1",
+    "released-year": "2009",
+    "description": "Fullmetal Alchemist: Brotherhood follows Edward and Alphonse Elric, two brothers who use alchemy to search for the Philosopher's Stone to restore their bodies after a failed alchemical experiment."
+  },
+  {
+    "name": "Re:Zero - Starting Life in Another World",
+    "genre": "Fantasy, Drama, Isekai",
+    "image-url": "https://images-cdn.ubuy.co.in/635708614a7dba706e6f9b32-poster-stop-online-re-zero-starting.jpg",
+    "total-seasons": "2",
+    "released-year": "2016",
+    "description": "Re:Zero follows Subaru Natsuki, an ordinary boy who finds himself transported to a fantasy world and discovers he can reverse time by dying, using his ability to solve deadly mysteries."
+  },
+  {
+    "name": "Sword Art Online",
+    "genre": "Fantasy, Sci-Fi, Adventure",
+    "image-url": "https://external-preview.redd.it/ZQlN80PXjnFOQL_eYqySSZxhdnrajNCLI5Ku1Zd7q1k.jpg?auto=webp&s=2a1dff53ff859aa058972bb45a6393a8abda1cb3",
+    "total-seasons": "4",
+    "released-year": "2012",
+    "description": "Sword Art Online follows Kirito, a gamer trapped in a virtual MMORPG where dying in the game means dying in real life, as he fights to clear the game and escape."
+  },
+  {
+    "name": "Made in Abyss",
+    "genre": "Fantasy, Adventure, Drama",
+    "image-url": "https://image.tmdb.org/t/p/original/sohrzVIVvIvwmJP0DzgQu2pnXnu.jpg",
+    "total-seasons": "2",
+    "released-year": "2017",
+    "description": "Made in Abyss follows Riko, a young girl, and Reg, a humanoid robot, as they descend into the mysterious Abyss, an unexplored chasm filled with wonders and dangers, searching for Riko's mother."
+  },
+  {
+    "name": "The Rising of the Shield Hero",
+    "genre": "Fantasy, Adventure, Isekai",
+    "image-url": "https://m.media-amazon.com/images/I/81nSkZPstQL.jpg",
+    "total-seasons": "3",
+    "released-year": "2019",
+    "description": "The Rising of the Shield Hero follows Naofumi Iwatani, a man summoned to a parallel world as the Shield Hero, as he overcomes betrayal and becomes a legendary defender against waves of monsters."
+  },
+  {
+    "name": "Black Clover",
+    "genre": "Fantasy, Action, Adventure",
+    "image-url": "https://images-cdn.ubuy.co.in/635c89f122de1b17d32a59c6-black-clover-group-wall-art-anime-stuff.jpg",
+    "total-seasons": "4",
+    "released-year": "2017",
+    "description": "Black Clover follows Asta, a boy born without magic in a world where magic is everything, as he aims to become the Wizard King with the help of his anti-magic abilities and his friends."
+  },
+  {
+    "name": "No Game No Life",
+    "genre": "Fantasy, Comedy, Isekai",
+    "image-url": "https://rukminim2.flixcart.com/image/850/1000/l5jxt3k0/book/g/x/u/no-game-no-life-vol-1-original-imagg7pvcbtrmryq.jpeg?q=20&crop=false",
+    "total-seasons": "1",
+    "released-year": "2014",
+    "description": "No Game No Life follows siblings Sora and Shiro, genius gamers transported to a fantasy world where everything is decided through games, as they challenge the world's god to claim ultimate power."
+  }  
+ ],
+ "Mystery" : [
+  {
+    "name": "Death Note",
+    "genre": "Mystery, Thriller, Supernatural",
+    "image-url" : "https://m.media-amazon.com/images/M/MV5BYTgyZDhmMTEtZDFhNi00MTc4LTg3NjUtYWJlNGE5Mzk2NzMxXkEyXkFqcGc@._V1_.jpg",
+    "total-seasons": "1",
+    "released-year": "2006",
+    "description": "Death Note follows Light Yagami, a high school student who discovers a notebook that allows him to kill anyone whose name he writes in it, as he is pursued by the genius detective L."
+  },
+  {
+    "name": "Psycho-Pass",
+    "genre": "Mystery, Psychological, Sci-Fi",
+    "image-url": "https://upload.wikimedia.org/wikipedia/en/8/88/Psycho-Pass_key_visual.png",
+    "total-seasons": "3",
+    "released-year": "2012",
+    "description": "Psycho-Pass is set in a dystopian future where a system known as the Sibyl System can measure the threat level of a person’s mental state, and it follows the detectives who enforce the law and uncover dark secrets."
+  },
+  {
+    "name": "Steins;Gate",
+    "genre": "Mystery, Sci-Fi, Thriller",
+    "image-url": "https://m.media-amazon.com/images/M/MV5BZjI1YjZiMDUtZTI3MC00YTA5LWIzMmMtZmQ0NTZiYWM4NTYwXkEyXkFqcGc@._V1_.jpg",
+    "total-seasons": "1",
+    "released-year": "2011",
+    "description": "Steins;Gate follows Rintarou Okabe, a self-proclaimed mad scientist, who accidentally discovers a method of time travel and gets entangled in a web of conspiracies that threaten reality itself."
+  },
+  {
+    "name": "The Promised Neverland",
+    "genre": "Mystery, Horror, Thriller",
+    "image-url": "https://rukminim2.flixcart.com/image/750/900/kyxb9u80/poster/r/b/f/medium-the-promised-neverland-a-japanese-manga-series-matte-original-imagbfmqdazjtuyd.jpeg?q=20&crop=false",
+    "total-seasons": "2",
+    "released-year": "2019",
+    "description": "The Promised Neverland follows a group of orphaned children who discover the horrifying truth about their seemingly idyllic orphanage and must escape before they become prey to sinister forces."
+  },
+  {
+    "name": "Erased",
+    "genre": "Mystery, Drama, Supernatural",
+    "image-url": "https://m.media-amazon.com/images/M/MV5BZWQ2YmI5NWMtZTY2Mi00MGUxLWFhMmEtYjVjZjMwOTNkOThjXkEyXkFqcGc@._V1_.jpg",
+    "total-seasons": "1",
+    "released-year": "2016",
+    "description": "Erased follows Satoru Fujinuma, a man with the ability to travel back in time, as he tries to solve the mystery of a series of disappearances and prevent a tragic event from repeating in his past."
+  },
+  {
+    "name": "Monster",
+    "genre": "Mystery, Thriller, Psychological",
+    "image-url": "https://m.media-amazon.com/images/M/MV5BOWY4NDkyNzktNjViNy00NmMxLTliYmMtZWJkNDM4YzEzNzA4XkEyXkFqcGc@._V1_.jpg",
+    "total-seasons": "1",
+    "released-year": "2004",
+    "description": "Monster follows Dr. Kenzo Tenma, a neurosurgeon who becomes entangled in a web of murder, mystery, and psychological intrigue after saving the life of a young boy who grows up to be a dangerous killer."
+  },
+  {
+    "name": "Higurashi When They Cry",
+    "genre": "Mystery, Horror, Psychological",
+    "image-url": "https://image.tmdb.org/t/p/original/9y4GFpIDoiKAYNIMVEvt8RUPMGo.jpg",
+    "total-seasons": "2",
+    "released-year": "2006",
+    "description": "Higurashi When They Cry follows a group of children in a small rural village, where strange and violent events occur every year during the festival, as they uncover the mystery behind the recurring murders."
+  }
+ ],
+ "Super-Natural" : [
+  {
+    "name": "Natsume's Book of Friends",
+    "genre": "Supernatural, Drama, Slice of Life",
+    "image-url": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781974743254/natsumes-book-of-friends-vol-29-9781974743254_hr.jpg",
+    "total-seasons": "6",
+    "released-year": "2008",
+    "description": "Natsume's Book of Friends follows Takashi Natsume, a teenager who can see spirits and inherits a book from his grandmother that contains the names of spirits she had bound to her service, leading him to develop connections with both humans and supernatural beings."
+  },
+  {
+    "name": "Blue Exorcist",
+    "genre": "Supernatural, Action, Fantasy",
+    "image-url": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p10513936_b_v8_aa.jpg",
+    "total-seasons": "2",
+    "released-year": "2011",
+    "description": "Blue Exorcist follows Rin Okumura, a teenager who discovers he is the son of Satan, and decides to fight against his demonic heritage by becoming an exorcist and protecting humanity from dark forces."
+  },
+  {
+    "name": "Mob Psycho 100",
+    "genre": "Supernatural, Comedy, Action",
+    "image-url": "https://images-cdn.ubuy.co.in/63522b0d82066114bd62cac3-mob-psycho-100-poster-anime-series-1-key.jpg",
+    "total-seasons": "3",
+    "released-year": "2016",
+    "description": "Mob Psycho 100 follows Shigeo 'Mob' Kageyama, a young psychic with immense power, as he navigates life, relationships, and attempts to suppress his psychic abilities while dealing with powerful supernatural beings."
+  },
+  {
+    "name": "The Ancient Magus' Bride",
+    "genre": "Supernatural, Fantasy, Romance",
+    "image-url": "https://m.media-amazon.com/images/M/MV5BODU3M2Y1NzktYTM2OS00ZDU0LTg4OWUtYTgyNzJkMDdmZGZiXkEyXkFqcGc@._V1_.jpg",
+    "total-seasons": "1",
+    "released-year": "2017",
+    "description": "The Ancient Magus' Bride follows Chise Hatori, a girl who is bought by a mysterious sorcerer, Elias Ainsworth, to be his apprentice and bride, exploring themes of magic, myth, and personal growth in a mystical world."
+  },
+  {
+    "name": "The Seven Deadly Sins",
+    "genre": "Supernatural, Action, Fantasy",
+    "image-url": "https://preview.redd.it/w2nystli8ir71.jpg?width=1080&crop=smart&auto=webp&s=ac93ce8f1c44bd851f29d403dfe3a7f1e4de95d0",
+    "total-seasons": "5",
+    "released-year": "2014",
+    "description": "The Seven Deadly Sins follows the adventures of Meliodas and his group of knights who embody the seven deadly sins as they fight against dark forces, uncover hidden secrets, and restore peace to the kingdom."
+  },
+  {
+    "name": "Noragami",
+    "genre": "Supernatural, Action, Comedy",
+    "image-url": "https://m.media-amazon.com/images/I/71-E0wQ8LEL.jpg",
+    "total-seasons": "2",
+    "released-year": "2014",
+    "description": "Noragami follows Yato, a minor god with few followers, as he teams up with a girl named Hiyori and a former weapon, Yukine, to help people in need while facing supernatural challenges and uncovering his hidden past."
+  },
+  {
+    "name": "Demon Slayer: Kimetsu no Yaiba",
+    "genre": "Supernatural, Action, Fantasy",
+    "image-url" : "https://m.media-amazon.com/images/M/MV5BMWU1OGEwNmQtNGM3MS00YTYyLThmYmMtN2FjYzQzNzNmNTE0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "total-seasons": "3",
+    "released-year": "2019",
+    "description": "Demon Slayer follows Tanjiro Kamado, a young boy who becomes a demon slayer after his family is killed by demons, and his sister Nezuko is turned into a demon. Together, they battle demons while searching for a cure for Nezuko."
+  }
+ ],
+ "Slice of Like" : [
+  {
+    "name": "March Comes in Like a Lion",
+    "genre": "Slice of Life, Drama",
+    "image-url": "https://m.media-amazon.com/images/M/MV5BMDJmZGZmNjQtMzE4NS00ZGRmLWFiMTQtM2EzZDhhZGNkY2FmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "total-seasons": "2",
+    "released-year": "2016",
+    "description": "March Comes in Like a Lion follows Rei Kiriyama, a professional shogi player struggling with depression and loneliness, as he finds solace and healing through his relationship with the Kawamoto family."
+  },
+  {
+    "name": "Anohana: The Flower We Saw That Day",
+    "genre": "Slice of Life, Drama, Supernatural",
+    "image-url": "https://image.tmdb.org/t/p/original/iriHlZ7FrKrXCnNRvnoMM5suNQG.jpg",
+    "total-seasons": "1",
+    "released-year": "2011",
+    "description": "Anohana follows a group of childhood friends who reunite after the death of their friend Menma, who appears as a ghost, and together they confront unresolved emotions and find healing."
+  },
+  {
+    "name": "Toradora!",
+    "genre": "Slice of Life, Romance, Comedy",
+    "image-url": "https://i.pinimg.com/736x/18/c8/6b/18c86b07240c9f2db9da12601e2aaa78.jpg",
+    "total-seasons": "1",
+    "released-year": "2008",
+    "description": "Toradora! follows Ryuuji and Taiga, two high school students who develop an unlikely bond despite their contrasting personalities, as they navigate school life, friendship, and love."
+  },
+  {
+    "name": "Barakamon",
+    "genre": "Slice of Life, Comedy, Drama",
+    "image-url": "https://m.media-amazon.com/images/M/MV5BMzdkYTgzZDctMGQ3OS00NWJlLTk1Y2ItYzZhNzIwOGM0YTU3XkEyXkFqcGc@._V1_.jpg",
+    "total-seasons": "1",
+    "released-year": "2014",
+    "description": "Barakamon follows Seishuu Handa, a calligrapher who moves to a rural village to find inspiration after a public outburst, where he learns life lessons and forms meaningful connections with the quirky villagers."
+  },
+  {
+    "name": "Nichijou",
+    "genre": "Slice of Life, Comedy",
+    "image-url": "https://i.pinimg.com/originals/68/c7/ce/68c7ce97c5fa5c9083ca5ae8c25b0d55.jpg",
+    "total-seasons": "1",
+    "released-year": "2011",
+    "description": "Nichijou is a surreal comedy that follows the daily lives of three high school girls and the absurd, often exaggerated events they experience in their everyday lives, from robotic adventures to unusual encounters."
+  },
+  {
+    "name": "Honey and Clover",
+    "genre": "Slice of Life, Romance, Drama",
+    "image-url": "https://m.media-amazon.com/images/M/MV5BZTc3OTVlZDgtNmVlNS00OGQwLTk1ZDktMjYzZGI3MGVkMzVlXkEyXkFqcGc@._V1_.jpg",
+    "total-seasons": "2",
+    "released-year": "2005",
+    "description": "Honey and Clover follows a group of art college students as they navigate their relationships, personal struggles, and the ups and downs of adulthood, with a focus on love, friendship, and self-discovery."
+  },
+  {
+    "name": "Little Busters!",
+    "genre": "Slice of Life, Drama, Supernatural",
+    "image-url": "https://image.tmdb.org/t/p/original/iyt2vTDIfpfBXKt7uTQn67YZK8z.jpg",
+    "total-seasons": "1",
+    "released-year": "2012",
+    "description": "Little Busters! follows Riki Naoe, a boy who forms a group called Little Busters with his childhood friends and faces the challenges of high school life while unraveling a mysterious secret."
+  }  
+ ]
 }
