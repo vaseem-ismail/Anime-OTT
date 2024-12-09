@@ -172,12 +172,117 @@ function displayVideos(videos) {
     });
 }
 
-// Play video function
-function playVideo(data) {
-    alert("Playing video with data: " + data);
-    // Alternatively, use the data to set the source of a video player
-    // Example:
-    // document.getElementById('videoPlayer').src = 'data:video/mp4;base64,' + data;
-}
+// // Play video function
+// function playVideo(data) {
+//     alert("Playing video with data: " + data);
+//     // Alternatively, use the data to set the source of a video player
+//     // Example:
+//     // document.getElementById('videoPlayer').src = 'data:video/mp4;base64,' + data;
+// }
   
+})
+// document.addEventListener("DOMContentLoaded", function() {
+//     fetch('../images.json')
+//         .then(response => response.json())
+//         .then(data => {
+//             const categories = {
+//                 cat1: document.getElementById('cat1'),
+//                 cat2: document.getElementById('cat2'),
+//                 cat3: document.getElementById('cat3'),
+//                 cat4: document.getElementById('cat4'),
+//                 cat5: document.getElementById('cat5'),
+//                 cat6: document.getElementById('cat6')
+//             };
+
+//             for (const category in data) {
+//                 data[category].forEach(image => {
+//                     const imgElement = document.createElement('img');
+//                     imgElement.src = image['image-url'];
+//                     imgElement.alt = image.name;
+//                     imgElement.title = image.name;
+//                     imgElement.style.margin = "10px";
+//                     imgElement.style.width = "200px";
+
+//                     categories[category].appendChild(imgElement);
+//                 });
+//             }
+//         })
+//         .catch(error => console.error('Error loading images:', error));
+// });
+
+// document.addEventListener('DOMContentLoaded', () => {
+//     const cat1Container = document.getElementById('cat1');
+
+//     // Fetch the "greatest_ever" movie data from the JSON file
+//     fetch('image.json?timestamp=' + Date.now()) // Cache busting
+//         .then(response => {
+//             if (!response.ok) {
+//                 throw new Error('Failed to fetch movie data: ' + response.statusText);
+//             }
+//             return response.json();
+//         })
+//         .then(data => {
+//             console.log('Fetched data:', data); // Debugging
+
+//             const greatestMovies = data.Greatest;
+
+//             // Loop through the "greatest_ever" category and append each movie
+//             greatestMovies.forEach(movie => {
+//                 const movieCard = document.createElement('div');
+//                 movieCard.classList.add('movie-card');
+                
+//                 movieCard.innerHTML = `
+//                     <img class="movie-image" 
+//                          src="${movie['image-url']}" 
+//                          alt="${movie.name}" 
+//                          loading="lazy">
+//                     <p class="movie-title">${movie.name}</p>
+//                     <p class="movie-genre">${movie.genre}</p>
+//                     <p class="movie-released-year">Released Year: ${movie.released-year}</p>
+//                     <p class="movie-description">${movie.description}</p>
+//                 `;
+
+//                 cat1Container.appendChild(movieCard);
+//             });
+//         })
+//         .catch(error => {
+//             console.error('Error fetching categories:', error);
+//             cat1Container.innerHTML = '<p>Failed to load categories. Please try again later.</p>';
+//         });
+// });
+window.addEventListener("load",()=>{
+
+// Fetch JSON data and append images to corresponding categories
+fetch('../images.json') // Correct relative path to the JSON file
+    .then(response => response.json())
+    .then(data => {
+        // Function to append images to a category
+        const appendImages = (categoryId, items) => {
+            const container = document.getElementById(categoryId);
+            items.forEach(item => {
+                const img = document.createElement('img');
+                img.src = item['image-url'];
+                img.alt = item.name;
+                img.classList.add('video-btn'); // Add a class for styling
+
+                img.addEventListener('click', () => {
+                    localStorage.setItem('selectedImageName', item.name); // Store name in localStorage
+                    window.location.href = 'details.html'; // Navigate to details page
+                });
+
+                
+                container.appendChild(img);
+            });
+        };
+
+        // Append images for each category based on JSON data
+        appendImages('cat1', data['Greatest']);
+        appendImages('cat2', data['Action']);
+        appendImages('cat3', data['Love-Story']);
+        appendImages('cat4', data['Sci-Fi']);
+        appendImages('cat5', data['Horror']);
+        appendImages('cat6', data['Sports']);
+    })
+    .catch(error => console.error('Error fetching or processing JSON data:', error));
+    
 })
