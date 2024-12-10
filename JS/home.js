@@ -171,14 +171,6 @@ function displayVideos(videos) {
         videoListContainer.appendChild(videoItem);
     });
 }
-
-// // Play video function
-// function playVideo(data) {
-//     alert("Playing video with data: " + data);
-//     // Alternatively, use the data to set the source of a video player
-//     // Example:
-//     // document.getElementById('videoPlayer').src = 'data:video/mp4;base64,' + data;
-// }
   
 })
 window.addEventListener("load",()=>{
@@ -217,9 +209,72 @@ fetch('../images.json') // Correct relative path to the JSON file
     .catch(error => console.error('Error fetching or processing JSON data:', error));
     
 })
+document.addEventListener("DOMContentLoaded", () => {
+    const searchBar = document.getElementById("search-bar");
+    const resultsContainer = document.getElementById("search-results");
 
-const slideImg = document.querySelectorAll(".carousel-image");
-slideImg.addEventListener('click', () => {
-    localStorage.setItem('selectedImageName', item.name); // Store name in localStorage
-    window.location.href = 'details.html'; // Navigate to details page
+    // Fetch data from JSON
+    fetch('./images.json') // Update the path if necessary
+        .then(response => response.json())
+        .then(data => {
+            const allAnime = [];
+
+            // Collect all anime into a flat array
+            for (const category in data) {
+                allAnime.push(...data[category]);
+            }
+
+            // Function to display search results dynamically
+            const displayResults = (query) => {
+                resultsContainer.innerHTML = ""; // Clear previous results
+                const seenNames = new Set(); // Track seen anime names
+
+                const matches = allAnime.filter(anime =>
+                    anime.name.toLowerCase().includes(query.toLowerCase())
+                );
+
+                if (matches.length > 0) {
+                    matches.forEach(match => {
+                        // Skip if this anime name is already displayed
+                        if (seenNames.has(match.name)) return;
+                        seenNames.add(match.name); // Mark this name as seen
+
+                        const resultItem = document.createElement("div");
+                        resultItem.classList.add("result-item");
+
+                        const animeImg = document.createElement("img");
+                        animeImg.src = match["image-url"];
+                        animeImg.alt = match.name;
+                        animeImg.addEventListener('click', () => {
+                            localStorage.setItem('selectedImageName', match.name); // Store name in localStorage
+                            window.location.href = 'details.html'; // Navigate to details page
+                        }); 
+                        const animeName = document.createElement("p");
+                        animeName.textContent = match.name;
+
+                        resultItem.appendChild(animeImg);
+                        resultItem.appendChild(animeName);
+                        resultsContainer.appendChild(resultItem);
+                    });
+                } else {
+                    // Show a message if no results found
+                    const noResults = document.createElement("p");
+                    noResults.textContent = "No anime found. Try a different search.";
+                    noResults.style.textAlign = "center";
+                    noResults.style.color = "red";
+                    resultsContainer.appendChild(noResults);
+                }
+            };
+
+            // Add event listener for live search
+            searchBar.addEventListener("input", () => {
+                const query = searchBar.value.trim();
+                if (query) {
+                    displayResults(query);
+                } else {
+                    resultsContainer.innerHTML = ""; // Clear results if the query is empty
+                }
+            });
+        })
+        .catch(error => console.error('Error fetching anime data:', error));
 });
