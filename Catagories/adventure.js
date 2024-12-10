@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
             return response.json();
         })
         .then(data => {
-            const actionMovies = data['Action']; // Get only "Action" category
+            const actionMovies = data['Adventure']; // Get only "Action" category
 
             if (!actionMovies || actionMovies.length === 0) {
                 console.warn('No action movies found in the JSON data.');

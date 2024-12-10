@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
             return response.json();
         })
         .then(data => {
-            const actionMovies = data['Action']; // Get only "Action" category
+            const actionMovies = data['Super-Natural']; // Get only "Action" category
 
             if (!actionMovies || actionMovies.length === 0) {
                 console.warn('No action movies found in the JSON data.');
@@ -32,6 +32,8 @@ document.addEventListener("DOMContentLoaded", () => {
                     localStorage.setItem('selectedImageName', movie.name); // Store name in localStorage
                     window.location.href = '../details.html'; // Navigate to details page
                 });
+
+                
                 // Append the image to the container
                 actionContainer.appendChild(img);
             });
