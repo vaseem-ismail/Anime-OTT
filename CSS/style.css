@@ -6,24 +6,12 @@
     overflow-y: auto;
     scrollbar-width: none;
     background: fixed;
+    background-image: url("../assets/home_page_pics/bg.jpg");
     background-color: black;
     background-size: 100% 100%;
-    /* animation: slider 10s linear infinite; */
+   
   }
-  /* @keyframes slider {
-    0% {
-      background-image: url("../assets/pc_size_pics/2.jpg");
-    }
-    30% {
-      background-image: url("../assets/pc_size_pics/4.jpg");
-    }
-    60% {
-      background-image: url("../assets/pc_size_pics/6.jpg");
-    }
-    100% {
-      background-image: url("../assets/pc_size_pics/8.jpg");
-    }
-  } */
+ 
   #search{
     background-color: transparent;
     width: 30%;
@@ -33,17 +21,24 @@
     left: 34% ;
   }
   #search-bar {
-    width: 70%;
-    height: 2em;
-    font-size: x-large;
-    opacity: 0.7;
-    border-radius: 30px;
+    height: 50px;
+    left: 15%;
     position: absolute;
     top: 20%;
-   background-color: black;
-   border: 5px white solid;
-   color: white;
+   border: 1px white solid;
+   flex: 1;
+    border: none;
+    outline: none;
+    font-size: 40px;
+    padding-left: 20px;
+    color: #333;
+    background: transparent;
+    padding: 8px 10px;
   }
+  #search-bar::placeholder {
+    color: #aaa;
+    font-style: italic;
+}
   #search-btn {
     width: 10%;
     height: 4.3em;
@@ -51,13 +46,24 @@
     position: absolute;
     top: 17%;
     left: 75%;
-    z-index: -1;
-    background-color: aquamarine;
+    background: #007bff;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    padding: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
   }
+  #search-btn:hover {
+    color: #0056b3;
+    transform: scale(1.1);
+}
   #btn_img {
     position: absolute;
     top: -5%;
     left: 71%;
+    filter: invert(1); /* Makes the icon white for dark backgrounds */
+
   }
   #header {
     width: 100%;
@@ -70,16 +76,150 @@
     padding-top: 30px;
     top: 0%;
   }
-  #logo {
-    position: absolute;
-    top: 15px;
-    left: 2%;
-    border-radius: 50px;
+
+  .logo-container {
+    position:absolute;
+    left: 50px;
+    width: 50px;
+    height: 50px;
   }
-  #title {
+
+  .circle {
     position: absolute;
-    left: 8%;
+    width: 200%;
+    height: 200%;
+    border-radius: 50%;
+    position: absolute;
+    top: -20px;
+    left: -30px ;
+    background: radial-gradient(circle, #ff007f, transparent 70%);
+    animation: rotate 6s infinite linear;
+    z-index: 1;
+    border: 2px solid grey;
   }
+
+  .logo-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4rem;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: -8px; /* To join "A" and "G" */
+    text-shadow: 0 0 10px #ff007f, 0 0 20px #ff007f, 0 0 40px #ff4500;
+    z-index: 2;
+  }
+
+  .logo-text span {
+    display: inline-block;
+    animation: pulse 2s infinite;
+    margin-right: 20px;
+    margin-top: 10px;
+  }
+
+  @keyframes rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  @keyframes pulse {
+    0%, 100% { transform: scale(1); opacity: 1; }
+    50% { transform: scale(1.1); opacity: 0.8; }
+  }
+
+  .sparkles {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    overflow: hidden;
+  }
+
+  .sparkles div {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background: #fff;
+    border-radius: 50%;
+    animation: sparkle 3s infinite;
+  }
+
+  @keyframes sparkle {
+    0% { transform: scale(0); opacity: 0.5; }
+    50% { transform: scale(1); opacity: 1; }
+    100% { transform: scale(0); opacity: 0.5; }
+  }
+  .galaxy-text {
+    position: absolute;
+    left: 7%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    color: transparent;
+    text-transform: uppercase;
+    font-weight: bold;
+    animation: galaxy-effect 5s infinite linear;
+    user-select: none;
+}
+
+/* Individual Letter Styling */
+.galaxy-text span {
+    position: relative;
+    display: inline-block;
+    animation: text-appear 4s ease-in-out forwards;
+    background: linear-gradient(90deg, #ff4e50, #f9d423, #42e695, #3b8d99, #663399);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    opacity: 0;
+}
+
+.galaxy-text span:nth-child(odd) {
+    animation-delay: 0.2s;
+}
+
+.galaxy-text span:nth-child(even) {
+    animation-delay: 0.4s;
+}
+
+/* Glowing Effect */
+.galaxy-text span::before,
+.galaxy-text span::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(255,255,255,0.6), rgba(0,0,0,0));
+    top: 0;
+    left: 0;
+    filter: blur(6px);
+    z-index: -1;
+    opacity: 0.5;
+    animation: pulse 2s infinite alternate;
+}
+@keyframes text-appear {
+  0% {
+      opacity: 0;
+      transform: translateY(50px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+@keyframes galaxy-effect {
+  0% {
+      background-position: 0% 50%;
+  }
+  100% {
+      background-position: 100% 50%;
+  }
+}
   #id-name {
     position: absolute;
     right: 6%;
@@ -145,7 +285,7 @@
     transition: transform 0.5s, opacity 0.5s;
   }
   .carousel-image:hover{
-    transform: scale(1.1);
+    transform:scale(1.1);
 
   }
   
@@ -446,57 +586,150 @@
     padding: 0px;
   }
   body {
-    background-color: black;
-    animation: slimob 10s linear infinite;
+    background: grey;
     width: 100%;
-    overflow-x: hidden;
     background: fixed;
+    overflow-x: hidden;
     background-size: 100% 100%;
-  }
-  @keyframes slimob {
-    0% {
-      background-image: url("../assets/home_page_pics/Ace_bg.jpg");
-    }
-    30% {
-      background-image: url("../assets/home_page_pics/Another.jpg");
-    }
-    60% {
-      background-image: url("../assets/home_page_pics/Fullmetal_Alchemist.jpg");
-    }
-    100% {
-      background-image: url("../assets/home_page_pics/Psycho_pass.jpg");
-    }
   }
   #header {
     width: 120%;
     background-color: black;
     height: 7em;
-    /* border-radius: 30px; */
     border-bottom: 2px solid white;
     position: absolute;
-    /* left: 2%; */
   }
-  #logo {
+  .logo-container {
+    position:absolute;
+    left: 50px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .circle {
     position: absolute;
-    border-radius: 50px;
-    width: 15%;
-    top: 13px;
-    left: 7px;
-  }
-  #title {
-    width: 60%;
+    width: 120%;
+    height: 120%;
+    border-radius: 50%;
     position: absolute;
-    top: 25px;
-    left: 18%;
+    top: 20px;
+    left: -40px ;
+    background: radial-gradient(circle, #ff007f, transparent 70%);
+    animation: rotate 6s infinite linear;
+    z-index: 1;
+    border: 2px solid grey;
   }
+
+  .logo-text {
+    position: absolute;
+    top: 90%;
+    left: 2%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: -8px; /* To join "A" and "G" */
+    text-shadow: 0 0 10px #ff007f, 0 0 20px #ff007f, 0 0 40px #ff4500;
+    z-index: 2;
+  }
+
+  .logo-text span {
+    display: inline-block;
+    animation: pulse 2s infinite;
+    margin-right: 20px;
+    margin-top: 10px;
+  }
+
+  @keyframes rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  @keyframes pulse {
+    0%, 100% { transform: scale(1); opacity: 1; }
+    50% { transform: scale(1.1); opacity: 0.8; }
+  }
+  .galaxy-text {
+    position: absolute;
+    left: 7%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    color: transparent;
+    text-transform: uppercase;
+    font-weight: bold;
+    animation: galaxy-effect 5s infinite linear;
+    user-select: none;
+}
+
+/* Individual Letter Styling */
+.galaxy-text span {
+    position: relative;
+    display: inline-block;
+    animation: text-appear 4s ease-in-out forwards;
+    background: linear-gradient(90deg, #ff4e50, #f9d423, #42e695, #3b8d99, #663399);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    opacity: 0;
+    font-size: 40px;
+    margin-top: 10%;
+    left: 15%;
+}
+
+.galaxy-text span:nth-child(odd) {
+    animation-delay: 0.2s;
+}
+
+.galaxy-text span:nth-child(even) {
+    animation-delay: 0.4s;
+}
+
+/* Glowing Effect */
+.galaxy-text span::before,
+.galaxy-text span::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(255,255,255,0.6), rgba(0,0,0,0));
+    top: 0;
+    left: 0;
+    filter: blur(6px);
+    z-index: -1;
+    opacity: 0.5;
+    animation: pulse 2s infinite alternate;
+}
+@keyframes text-appear {
+  0% {
+      opacity: 0;
+      transform: translateY(50px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+@keyframes galaxy-effect {
+  0% {
+      background-position: 0% 50%;
+  }
+  100% {
+      background-position: 100% 50%;
+  }
+}
   #id-name {
     display: none;
   }
   #id-img {
     position: absolute;
-    top: 2  0px;
+    top: 20px;
     left: 85%;
-    border-radius: 30px;
+    border-radius: 40px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     background-color: red;

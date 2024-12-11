@@ -48,8 +48,8 @@
     width: 90%;
     height: 8em;
     background-color: black;
-    border: 2px white solid;
-    border-radius: 30px;
+    border-left: 2px red solid;
+    border-right: 2px red solid;
     margin-top: 100px;
     margin-left: 80px;
   }
@@ -78,10 +78,12 @@
     font-size: 50px;
     color: white;
     position: fixed;
-    background-color: black;
+    background-color: transparent;
+    border: none;
     border-radius: 20px;
     top: 15px;
     left: 20px;
+
   }
 }
 @media screen and (max-width: 720px) {

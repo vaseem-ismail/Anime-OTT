@@ -2,7 +2,7 @@
     
 body {
 
-    background-image: url("../assets/home_page_pics/IWTEYP.jpg");
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/677/542/407/anime-naruto-naruto-uzumaki-sasuke-uchiha-wallpaper-preview.jpg");
     background-size: 103%;
     background-repeat: no-repeat;
     color: white;
@@ -17,7 +17,7 @@ body {
     border-radius: 30px;
     width: 45%;
     height: 500px;
-    background-color: transparent;
+    background-color: black;
 }
 
 #email {
@@ -120,9 +120,10 @@ p{
 @media screen and (max-width:720px) {
     body {
         background-color: black;
-        background-image: url("../assets/small_size_pics/bg-mobile/YN_LogP.png");
-        background-size: 105%;
+        background-image: url("https://sm.mashable.com/t/mashable_me/photo/default/1_d4u5.720.jpg");
+        background-size: 125%;
         background-repeat: no-repeat;
+        color: white;
     }
 
     #form {
@@ -134,7 +135,7 @@ p{
         height: 60%;
         border-radius: 10px;
         backdrop-filter: blur(10px);
-        
+        background-color: black;
     }
 
     #email {

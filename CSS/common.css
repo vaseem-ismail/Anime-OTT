@@ -51,6 +51,7 @@
     border-radius: 20px;
     top: 15px;
     left: 20px;
+    border: none;
   }
   .image-container {
     display: flex;
