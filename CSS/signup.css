@@ -6,10 +6,9 @@
     body{
         margin: 0;
         padding: 0;
-        background-image: url("../assets/home_page_pics/4.jpg");
+        background-image: url("https://m.media-amazon.com/images/I/71PKdEcPNaL.jpg");
         background-repeat: no-repeat;
         background-size: 103%;
-        
     }
     #form{
         border: 1px solid black;
@@ -20,6 +19,7 @@
         position: absolute;
         top: 18em;
         left: 35em;
+        background-color: black;
     }
     h1{
         color: white;

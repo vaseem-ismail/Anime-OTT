@@ -19,38 +19,84 @@ const beforeAt = localUser.split('@')[0]; // Part before '@'
 //Footer
 const TandC = document.getElementById("link-one");
 const PP = document.getElementById("link-two");
+document.addEventListener("DOMContentLoaded", () => {
+    const imageContainer = document.querySelector(".image-container");
+    let currentIndex = 0;
 
-const images = document.querySelectorAll(".carousel-image");
-let currentIndex = 0;
+    // Fetch data from JSON
+    fetch('./images.json') // Update path if necessary
+        .then(response => response.json())
+        .then(data => {
+            const allImages = [];
 
-function updateCarousel() {
-  images.forEach((img, index) => {
-    img.classList.remove("center", "left", "right");
+            // Collect all images into a single array
+            for (const category in data) {
+                allImages.push(...data[category]);
+            }
 
-    if (index === currentIndex) {
-      img.classList.add("center");
-    } else if (index === (currentIndex - 1 + images.length) % images.length) {
-      img.classList.add("left");
-    } else if (index === (currentIndex + 1) % images.length) {
-      img.classList.add("right");
+            // Function to shuffle and fetch random images
+            const getRandomImages = (images, count) => {
+                const shuffled = images.sort(() => 0.5 - Math.random());
+                return shuffled.slice(0, count); // Return `count` random images
+            };
+
+            // Get 10 random images
+            const randomImages = getRandomImages(allImages, 10);
+
+            // Append random images to the carousel
+            randomImages.forEach(image => {
+                const imgElement = document.createElement("img");
+                imgElement.src = image["image-url"];
+                imgElement.alt = image.name;
+                imgElement.classList.add("carousel-image");
+                imgElement.addEventListener('click', () => {
+                    localStorage.setItem('selectedImageName', image.name); // Store name in localStorage
+                    window.location.href = 'details.html'; // Navigate to details page
+                }); 
+                imageContainer.appendChild(imgElement);
+            });
+
+            // Initialize the carousel once images are loaded
+            initializeCarousel();
+        })
+        .catch(error => console.error('Error fetching JSON data:', error));
+
+    function initializeCarousel() {
+        const images = document.querySelectorAll(".carousel-image");
+
+        // Function to update the carousel
+        function updateCarousel() {
+            images.forEach((img, index) => {
+                img.classList.remove("center", "left", "right");
+
+                if (index === currentIndex) {
+                    img.classList.add("center");
+                } else if (index === (currentIndex - 1 + images.length) % images.length) {
+                    img.classList.add("left");
+                } else if (index === (currentIndex + 1) % images.length) {
+                    img.classList.add("right");
+                }
+            });
+
+            // Scroll the carousel
+            const offset = -currentIndex * (images[0].offsetWidth + 20); // Adjust for image width + margin
+            imageContainer.style.transform = `translateX(${offset}px)`;
+        }
+
+        // Function to rotate the carousel
+        function rotateCarousel() {
+            currentIndex = (currentIndex + 1) % images.length;
+            updateCarousel();
+        }
+
+        // Set an interval for auto-rotation
+        setInterval(rotateCarousel, 3000);
+
+        // Initial setup
+        updateCarousel();
     }
-  });
+});
 
-  // Automatically scroll the carousel
-  const container = document.querySelector(".image-container");
-  const offset = -currentIndex * (images[0].offsetWidth + 20); // width + margin
-  container.style.transform = `translateX(${offset}px)`;
-}
-
-function rotateCarousel() {
-  currentIndex = (currentIndex + 1) % images.length;
-  updateCarousel();
-}
-
-setInterval(rotateCarousel, 3000); // Rotate every 3 seconds
-
-// Initial setup
-updateCarousel();
 
 window.addEventListener("load",()=>{
     idUser.textContent = beforeAt;
@@ -278,3 +324,13 @@ document.addEventListener("DOMContentLoaded", () => {
         })
         .catch(error => console.error('Error fetching anime data:', error));
 });
+
+// Generate sparkles dynamically
+const sparklesContainer = document.querySelector(".sparkles");
+for (let i = 0; i < 25; i++) {
+  const sparkle = document.createElement("div");
+  sparkle.style.top = Math.random() * 100 + "%";
+  sparkle.style.left = Math.random() * 100 + "%";
+  sparkle.style.animationDelay = Math.random() * 5 + "s";
+  sparklesContainer.appendChild(sparkle);
+}
