@@ -129,10 +129,12 @@ a:hover {
     }
     #details-container{
         width: 80%;
-        height: 850px;
+        height: 900px;
         background-color: white;
         margin-left: 10%;
         margin-top: 10%;
+        border: none;
+        
     }
     h1{
         color: black;
@@ -141,51 +143,51 @@ a:hover {
     }
     #val1{
         position: absolute;
-        top: 500px;
+        top: 550px;
         color: black;
         left: 60px;
         z-index: 5;
     }
     #val2{
         position: absolute;
-        top: 550px;
+        top: 600px;
         color: black;
         left: 60px;
         z-index: 5;
     }
     #val3{
         position: absolute;
-        top: 600px;
+        top: 650px;
         color: black;
         left: 60px;
         z-index: 5;
     }
     #val4{
         position: absolute;
-        top: 650px;
+        top: 700px;
         color: black;
         left: 60px;
         z-index: 5;
     }
     #genre{
        position: absolute;
-       top: 54.4%;
+       top: 59.6%;
        left: 30%;
     }
     #description{
         position: absolute;
-        top: 73%;
+        top: 78%;
         width: 70%;
         left: 70px;
     }
     #year{
         position: absolute;
-        top: 65%;
+        top: 70.4%;
         left: 40%;
     }
     #season{
         position: absolute;
-        top: 59.5%;
+        top: 65%;
         left: 40%;
     }
 }

@@ -11,60 +11,70 @@
     background-size: 100% 100%;
    
   }
- 
-  #search{
-    background-color: transparent;
-    width: 30%;
-    height: 80px;
-    position: absolute;
-    top: 25px;
-    left: 34% ;
-  }
-  #search-bar {
-    height: 50px;
-    left: 15%;
-    position: absolute;
-    top: 20%;
-   border: 1px white solid;
-   flex: 1;
-    border: none;
-    outline: none;
-    font-size: 40px;
-    padding-left: 20px;
-    color: #333;
-    background: transparent;
-    padding: 8px 10px;
-  }
-  #search-bar::placeholder {
-    color: #aaa;
-    font-style: italic;
+  #search {
+    background-color: transparent; /* Keeps background clear */
+    width: 30%; /* Width of the search container */
+    height: 80px; /* Height of the search container */
+    position: absolute; /* Positioned within its parent */
+    top: 25px; /* Vertical position */
+    left: 34%; /* Horizontal position */
 }
-  #search-btn {
-    width: 10%;
-    height: 4.3em;
-    border-radius: 50px;
-    position: absolute;
-    top: 17%;
-    left: 75%;
-    background: #007bff;
-    border: none;
-    outline: none;
-    border-radius: 50%;
-    padding: 8px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-  }
-  #search-btn:hover {
-    color: #0056b3;
-    transform: scale(1.1);
-}
-  #btn_img {
-    position: absolute;
-    top: -5%;
-    left: 71%;
-    filter: invert(1); /* Makes the icon white for dark backgrounds */
 
-  }
+#search-bar {
+    height: 50px; /* Height of the input field */
+    width: 65%; /* Adjusted to fit better within the container */
+    position: absolute; /* Absolute positioning within #search */
+    top: 20%; /* Vertical alignment */
+    left: 5%; /* Slight margin from the left edge */
+    border: 1px solid white; /* White border for contrast */
+    outline: none; /* Removes default focus outline */
+    font-size: 20px; /* Adjusted font size */
+    padding-left: 15px; /* Padding for text inside */
+    color: white; /* Text color */
+    background: transparent; /* Transparent background */
+    border-radius: 10px; /* Rounded corners */
+    transition: border-color 0.3s ease; /* Smooth effect for focus */
+}
+
+#search-bar::placeholder {
+    color: #ccc; /* Subtle placeholder text */
+    font-style: italic; /* Italicized placeholder */
+}
+
+#search-btn {
+    width: 60px; /* Fixed size for consistency */
+    height: 60px; /* Matches width for a perfect circle */
+    position: absolute; /* Positioned relative to #search */
+    top: 10px; /* Vertical alignment with the input field */
+    left: 75%; /* Positioned next to the input field */
+    background: #007bff; /* Blue background */
+    border: none; /* Removes default border */
+    outline: none; /* Removes focus outline */
+    border-radius: 50%; /* Makes the button circular */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: all 0.3s ease; /* Smooth transitions */
+}
+
+#search-btn:hover {
+    background: #0056b3; /* Darker blue on hover */
+    transform: scale(1.1); /* Slight enlargement on hover */
+}
+
+#btn_img {
+    position: absolute; /* Positioned within #search */
+    top: 55%; /* Centered vertically */
+    left: 70%; /* Small offset to the left of the button */
+    transform: translateY(-50%); /* Centers the image exactly */
+    filter: invert(1); /* Makes the icon white for dark themes */
+    width: 20%; /* Adjusted to fit button perfectly */
+    height: auto; /* Maintains aspect ratio */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: transform 0.3s ease; /* Smooth scaling effect */
+}
+
+#btn_img:hover {
+    transform: scale(1.1) translateY(-50%); /* Enlarges the icon slightly */
+}
   #header {
     width: 100%;
     height: 6em;
@@ -219,6 +229,58 @@
   100% {
       background-position: 100% 50%;
   }
+}
+.galaxy-text1 {
+  position: absolute;
+  left: 14%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  color: transparent;
+  text-transform: uppercase;
+  font-weight: bold;  
+  animation: galaxy-effect 5s infinite linear;
+  user-select: none;
+  margin-top: 55px;
+}
+
+/* Individual Letter Styling */
+.galaxy-text1 span {
+  position: relative;
+  display: inline-block;
+  animation: text-appear 4s ease-in-out forwards;
+  background: linear-gradient(90deg, #ff4e50, #f9d423, #42e695, #3b8d99, #663399);
+  background-size: 200%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  opacity: 0;
+}
+
+.galaxy-text1 span:nth-child(odd) {
+  animation-delay: 1.2s;
+}
+
+.galaxy-text1 span:nth-child(even) {
+  animation-delay: 1.4s;
+}
+
+/* Glowing Effect */
+.galaxy-text1 span::before,
+.galaxy-text1 span::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, rgba(255,255,255,0.6), rgba(0,0,0,0));
+  top: 0;
+  left: 0;
+  filter: blur(6px);
+  z-index: -1;
+  opacity: 0.5;
+  animation: pulse 2s infinite alternate;
 }
   #id-name {
     position: absolute;
@@ -586,9 +648,9 @@
     padding: 0px;
   }
   body {
-    background: grey;
+    background-color: black;
+    background-image: url("https://i.pinimg.com/736x/2b/60/5d/2b605d87c662f7da82c769b215c59992.jpg");
     width: 100%;
-    background: fixed;
     overflow-x: hidden;
     background-size: 100% 100%;
   }
@@ -663,8 +725,6 @@
     animation: galaxy-effect 5s infinite linear;
     user-select: none;
 }
-
-/* Individual Letter Styling */
 .galaxy-text span {
     position: relative;
     display: inline-block;
@@ -721,6 +781,44 @@
   100% {
       background-position: 100% 50%;
   }
+}
+.galaxy-text1 span {
+  position: relative;
+  display: inline-block;
+  animation: text-appear 4s ease-in-out forwards;
+  background: linear-gradient(90deg, #ff4e50, #f9d423, #42e695, #3b8d99, #663399);
+  background-size: 200%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  opacity: 0;
+  font-size: 20px;
+  margin-top: 15%;
+  left: 25%;
+}
+
+.galaxy-text1 span:nth-child(odd) {
+  animation-delay: 1.2s;
+}
+
+.galaxy-text1 span:nth-child(even) {
+  animation-delay: 1.4s;
+}
+
+/* Glowing Effect */
+.galaxy-text1 span::before,
+.galaxy-text1 span::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, rgba(255,255,255,0.6), rgba(0,0,0,0));
+  top: 0;
+  left: 0;
+  filter: blur(6px);
+  z-index: -1;
+  opacity: 0.5;
+  animation: pulse 2s infinite alternate;
 }
   #id-name {
     display: none;
@@ -790,35 +888,70 @@
     opacity: 0.5;
   }
 
-  #search-bar {
-    position: absolute;
-    background-color: black;
-    color: white;
-    top: 113%;
-    width: 80%;
-    border: 2px red solid;
-    height: 2.5em;
-    left: 10%;
-    border-radius: 30px;
-    font-size: 25px;
-    opacity: 0.7;
-    /* display: none; */
-  }
+  #search {
+    background-color: transparent; /* Keeps background clear */
+    width: 90%; /* Width of the search container */
+    height: 80px; /* Height of the search container */
+    position: absolute; /* Positioned within its parent */
+    top: 135px; /* Vertical position */
+    left: 10%; /* Horizontal position */
+}
 
-  #search-btn {
-    position: absolute;
-    top: 113%;
-    width: 13%;
-    height: 65px;
-    left: 77.6%;
-    border-radius: 50px;
-    background-color: green;
-  }
-  #btn_img {
-    position: absolute;
-    top: 100%;
-    left: 74%;
-  }
+#search-bar {
+    height: 50px; /* Height of the input field */
+    width: 65%; /* Adjusted to fit better within the container */
+    position: absolute; /* Absolute positioning within #search */
+    top: 20%; /* Vertical alignment */
+    left: 1%; /* Slight margin from the left edge */
+    border: 1px solid white; /* White border for contrast */
+    outline: none; /* Removes default focus outline */
+    font-size: 20px; /* Adjusted font size */
+    padding-left: 15px; /* Padding for text inside */
+    color: white; /* Text color */
+    background: transparent; /* Transparent background */
+    border-radius: 10px; /* Rounded corners */
+    transition: border-color 0.3s ease; /* Smooth effect for focus */
+}
+
+#search-bar::placeholder {
+    color: #ccc; /* Subtle placeholder text */
+    font-style: italic; /* Italicized placeholder */
+}
+
+#search-btn {
+    width: 60px; /* Fixed size for consistency */
+    height: 60px; /* Matches width for a perfect circle */
+    position: absolute; /* Positioned relative to #search */
+    top: 10px; /* Vertical alignment with the input field */
+    left: 75%; /* Positioned next to the input field */
+    background: #007bff; /* Blue background */
+    border: none; /* Removes default border */
+    outline: none; /* Removes focus outline */
+    border-radius: 50%; /* Makes the button circular */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: all 0.3s ease; /* Smooth transitions */
+}
+
+#search-btn:hover {
+    background: #0056b3; /* Darker blue on hover */
+    transform: scale(1.1); /* Slight enlargement on hover */
+}
+
+#btn_img {
+    position: absolute; /* Positioned within #search */
+    top: 55%; /* Centered vertically */
+    left: 70%; /* Small offset to the left of the button */
+    transform: translateY(-50%); /* Centers the image exactly */
+    filter: invert(1); /* Makes the icon white for dark themes */
+    width: 20%; /* Adjusted to fit button perfectly */
+    height: auto; /* Maintains aspect ratio */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: transform 0.3s ease; /* Smooth scaling effect */
+}
+
+#btn_img:hover {
+    transform: scale(1.1) translateY(-50%); /* Enlarges the icon slightly */
+}
   #title1 {
     position: absolute;
     top: 70%;
@@ -941,13 +1074,6 @@
     scrollbar-width: none;
     gap: 4%;
   }
-  /* .action {
-    width: 100%;
-    height: 300px;
-    border-radius: 30px;
-    display: flex;
-     border: 2px white solid ;
-  } */
   #cat3{
     position: absolute;
     top: 220%;
@@ -958,13 +1084,6 @@
     scrollbar-width: none;
     gap: 4%;
   }
-  /* .ls {
-    width: 100%;
-    height: 300px;
-    border-radius: 30px;
-    display: flex;
-    border: 2px white solid ; 
-  } */
   #cat4{
     position: absolute;
     top: 285%;
@@ -975,13 +1094,6 @@
     scrollbar-width: none;
     gap: 4%;
   }
- /* .sf {
-    width: 100%;
-    height: 300px;
-    border-radius: 30px;
-    display: flex;
-     border: 2px white solid ;
-  } */
   #cat5{
     position: absolute;
     top: 350%;
@@ -992,13 +1104,6 @@
     scrollbar-width: none;
     gap: 4%;
   }
-  /* .hrr {
-    width: 100%;
-    height: 300px;
-    border-radius: 30px;
-    display: flex;
-    border: 2px white solid ;
-  } */
   #cat6{
     position: absolute;
     top: 415%;
@@ -1009,13 +1114,6 @@
     scrollbar-width: none;
     gap: 4%;
   }
-  /* .sport {
-    width: 100%;
-    height: 300px;
-   
-    display: none;
-  } */
-
   #see_more {
     position: absolute;
     top: 460%;
@@ -1037,9 +1135,9 @@
   }
   #footer {
     position: absolute;
-    top: 483%;
-    left: -0.5%;
-    width: 120%;
+    top: 513%;
+    left: 0%;
+    width: 119%;
     background-color: black;
     height: 100px;
     border: 2px solid white;
@@ -1079,29 +1177,6 @@
     padding: 5px;
     text-decoration: none;
   }
-  /* .greatest-img,
-  .action-img,
-  .ls-img,
-  .sf-img,
-  .horror-img,
-  .sport-img {
-    width: 200px;
-    margin-left: 10px;
-    border: 2px solid gray;
-    border-radius: 10px;
-    transition: transform 0.3s ease;
-    height: 300px;
-    margin-right: 15px;
-  } */
-  /* .greatest-img:hover,
-  .action-img:hover,
-  .ls-img:hover,
-  .sf-img:hover,
-  .horror-img:hover,
-  .sport-img:hover{
-    transform: scale(1.1);
-  } */
-
   .video-btn{
     width: 200px;
     margin-left: 10px;
@@ -1116,6 +1191,8 @@
     left: 1%;
     top: 170%;
     overflow-y: scroll;
+    max-width: 50%;
+    align-items: center;
     scrollbar-width: none;
     max-height: 550px;
     display: flex;
