@@ -89,11 +89,11 @@ function generateEpisodeDivs(selectedImageName) {
         episodeDiv.dataset.url = `${urlValue}${i}`; // Store URL dynamically
         episodeDiv.id = `episode-${i}`; // Unique ID
 
-        // // Add click event to open backend server URL
-        // episodeDiv.onclick = () => {
-        //     const videoUrl = `http://10.20.135.3:5000/stream-video?filename=${episodeDiv.dataset.url}`;
-        //     window.location.href = videoUrl; // Redirect to backend video
-        // };
+        // Add click event to open backend server URL
+        episodeDiv.onclick = () => {
+            const videoUrl = `http://10.20.135.3:5000/stream-video?filename=${episodeDiv.dataset.url}`;
+            window.location.href = videoUrl; // Redirect to backend video
+        };
 
         // Append the div to the container
         container.appendChild(episodeDiv);
@@ -104,13 +104,13 @@ function generateEpisodeDivs(selectedImageName) {
 const value = localStorage.getItem("selectedImageName");
 generateEpisodeDivs(value);
 
-const buttons = document.querySelectorAll(".episode");
-buttons.forEach(button => {
-    button.addEventListener("click", (e) => {
-        const filename = e.target.getAttribute("data-url");
-        if (filename) {
-            const baseURL = window.location.origin;
-            window.location.href = `${baseURL}/player.html?video=${encodeURIComponent(filename)}`;
-        }
-    });
-});
+// const buttons = document.querySelectorAll(".episode");
+// buttons.forEach(button => {
+//     button.addEventListener("click", (e) => {
+//         const filename = e.target.getAttribute("data-url");
+//         if (filename) {
+//             const baseURL = window.location.origin;
+//             window.location.href = `${baseURL}/player.html?video=${encodeURIComponent(filename)}`;
+//         }
+//     });
+// });
