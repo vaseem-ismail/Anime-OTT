@@ -29,6 +29,7 @@
         font-size: 70px;
         font-family: Arial, Helvetica, sans-serif;
         font-weight: 800;
+        user-select: none;
     }
     #lab1{
         color: white;
@@ -37,6 +38,7 @@
         top: 25%;
         left: 20%;
         font-family: Arial, Helvetica, sans-serif;
+        user-select: none;
     }
     #lab2{
         color: white;
@@ -45,6 +47,7 @@
         top: 50%;
         left: 20%;
         font-family: Arial, Helvetica, sans-serif;
+        user-select: none;
     }
     #email{
         width: 60%;
@@ -56,7 +59,9 @@
         opacity: 0.5;
         border: fixed;
         font-size: large;
-        border: 5px green solid;
+        border: none;
+        outline: none;
+        padding-left: 20px;
     }
     #password{
         width: 60%;
@@ -67,7 +72,9 @@
         border-radius: 20px;
         opacity: 0.5;
         font-size: large;
-        border: 5px green solid;
+        border: none;
+        outline: none;
+        padding-left: 20px;
     }
     #submit{
         width: 25%;
@@ -101,11 +108,19 @@
         padding: 5px;
         cursor:pointer;
     }
+    #login{
+        position: absolute;
+        left: 42%;
+        top: 87%;
+        text-decoration: none;
+        font-size: 30px;
+        color: white;
+    }
 }
    @media screen and (max-width:720px){
     body{
         background-color: black;
-        background-image: url("../assets/small_size_pics/bg-mobile/DN_New.jpg");
+        background-image: url("https://i.pinimg.com/736x/98/c6/7b/98c67b1fd11a00e02c90b0fbb4b86a36.jpg");
         background-size: 100%;
         background-repeat: no-repeat;
         color: white;
@@ -113,7 +128,7 @@
     h1{
         position: absolute;
         left: 20%;
-        top: 5%;
+        top: 1%;
         font-family: Arial, Helvetica, sans-serif;
     }
     #form{
@@ -121,31 +136,34 @@
         left: 15%;
         top: 28%;
         width: 70%;
-        height: 40vh;
+        height: 50vh;
         border-radius: 30px;
-        backdrop-filter: blur(10px);
+        /* backdrop-filter: blur(10px); */
+        background-color: black;
     }
     #email{
         position: absolute;
         top: 34%;
         left: 10%;
         width: 80%;
-        height: 7%;
+        height: 8%;
         opacity: 0.5;
         border-radius: 30px;
         font-size: 15px;
-        border: 5px green solid;
+        border: none;
+        outline: none;
     }
     #password{
         position: absolute;
         top: 57%;
         left: 10%;
         width: 80%;
-        height: 7%;
+        height: 8%;
         opacity: 0.5;
         border-radius: 30px;
         font-size: 15px;
-        border: 5px green solid;
+        border: none;
+        outline: none;
     }
     #lab1{
        position:absolute;
@@ -184,11 +202,19 @@
     }
     #togglePassword{
         position: absolute;
-        top: 57.5%;
-        left: 82%;
-        background-color: black;
-        border-radius: 30px;
+        top: 56%;
+        left: 79%;
+        background-color: transparent;
+        /* border-radius: 30px; */
         padding: 5px;
         cursor: pointer;
+        border: 0.5px black solid;
+    }
+    #login{
+        position: absolute;
+        left: 37%;
+        top: 90%;
+        color: aliceblue;
+        text-decoration: none;
     }
    }

@@ -6,6 +6,9 @@
   body {
     background-color: black;
     overflow-x: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     background: fixed;
     background-size: 100% 100%;
     animation: slider 10s linear infinite;
@@ -32,7 +35,7 @@
     background-repeat: no-repeat;
 
   } */
-  #border0,
+  /* #border0,
   #border1,
   #border2,
   #border3,
@@ -52,7 +55,124 @@
     border-right: 2px red solid;
     margin-top: 100px;
     margin-left: 80px;
-  }
+  } */
+   #border0{
+    background-image: url("https://static1.thegamerimages.com/wordpress/wp-content/uploads/2021/09/Best-Anime-Feature-1.jpg");
+    width: 40%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: 750px;
+    margin-top: 5%;
+    margin-left:5%  
+   }
+   #border1{
+    background-image: url("https://static1.srcdn.com/wordpress/wp-content/uploads/2023/10/tanjiro-itadori-and-midoriya.jpg");
+    width: 40%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: 750px;
+    margin-top: 5%;
+    margin-left:5%  
+   }
+   #border2{
+    background-image: url("https://static1.cbrimages.com/wordpress/wp-content/uploads/2021/11/Action-Adventure-Anime-on-Funimation.jpg");
+    width: 40%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: 750px;
+    margin-top: 5%;
+    margin-left:5%  
+   }
+   #border3{
+    background-image: url("https://static0.gamerantimages.com/wordpress/wp-content/uploads/2021/11/Daily-Lives-Of-High-School-Boys-anime.jpg");
+    width: 40%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: 750px;
+    margin-top: 5%;
+    margin-left:5%  
+   }
+   #border4{
+    background-image: url("https://static1.srcdn.com/wordpress/wp-content/uploads/2024/12/anime-for-k-drama-lovers.png");
+    width: 40%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: 750px;
+    margin-top: 5%;
+    margin-left:5%  
+   }
+   #border5{
+    background-image: url("https://static1.moviewebimages.com/wordpress/wp-content/uploads/2024/05/20-underrated-dark-fantasy-anime-you-should-watch.jpg");
+    width: 40%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: 750px;
+    margin-top: 5%;
+    margin-left:5%  
+   }
+   #border6{
+    background-image: url("https://static1.moviewebimages.com/wordpress/wp-content/uploads/2023/08/the-10-best-horror-anime-of-all-time.jpg");
+    width: 40%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: 750px;
+    margin-top: 5%;
+    margin-left:5%  
+   }
+   #border7{
+    background-image: url("https://cdn.myanimelist.net/s/common/uploaded_files/1463851224-e95e48a20964a202993f3b2f273afae7.jpeg");
+    width: 40%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: 750px;
+    margin-top: 5%;
+    margin-left:5%  
+   }
+   #border8{
+    background-image: url("https://static1.cbrimages.com/wordpress/wp-content/uploads/2022/08/kimi-no-na-wa-your-lie-in-april-i-want-to-eat-your-pancreas.jpg");
+    width: 40%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: 750px;
+    margin-top: 5%;
+    margin-left:5%  
+   }
+   #border9{
+    background-image: url("https://static1.cbrimages.com/wordpress/wp-content/uploads/2024/06/split-images-pluto-cyberpunk-edgerunner-and-kaiju-no-8.jpg");
+    width: 40%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: 750px;
+    margin-top: 5%;
+    margin-left:5%  
+   }
+   #border10{
+    background-image: url("https://static1.cbrimages.com/wordpress/wp-content/uploads/2023/04/the-20-best-slice-of-life-anime-ranked-april.jpg");
+    width: 40%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: 750px;
+    margin-top: 5%;
+    margin-left:5%  
+   }
+   #border11{
+    background-image: url("https://static1.colliderimages.com/wordpress/wp-content/uploads/2024/07/best-sports-anime-on-crunchyroll.jpg");
+    width: 40%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: 750px;
+    margin-top: 5%;
+    margin-left:5%  
+   }
+   #border12{
+    background-image: url("https://static1.colliderimages.com/wordpress/wp-content/uploads/2023/09/supernatural-anime-sam-and-dean.jpg");
+    width: 40%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: 750px;
+    margin-top: 5%;
+    margin-left:5%  
+   }
   #text0,
   #text1,
   #text2,
@@ -71,6 +191,7 @@
     font-size: 70px;
     display: flex;
     justify-content: center;
+    align-self: center; 
     margin-top: 30px;
     font-family: Arial, Helvetica, sans-serif;
   }
@@ -83,7 +204,6 @@
     border-radius: 20px;
     top: 15px;
     left: 20px;
-
   }
 }
 @media screen and (max-width: 720px) {
@@ -93,47 +213,129 @@
   }
   body {
     background-color: black;
-    animation: slimob 10s linear infinite;
+    background-image: url("https://i.pinimg.com/736x/2b/60/5d/2b605d87c662f7da82c769b215c59992.jpg");
     width: 100%;
     overflow-x: hidden;
-    background: fixed;
-    background-size: 100% 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
   }
-  @keyframes slimob {
-    0% {
-      background-image: url("../assets/small_size_pics/bg-mobile/Another.jpg");
-    }
-    30% {
-      background-image: url("../assets/small_size_pics/bg-mobile/Ace_of_diamond.jpg");
-    }
-    60% {
-      background-image: url("../assets/small_size_pics/bg-mobile/Fullmetal_Alchemist.jpg");
-    }
-    100% {
-      background-image: url("../assets/small_size_pics/bg-mobile/Psycho_pass.jpg");
-    }
-  }
-  #border0,
-  #border1,
-  #border2,
-  #border3,
-  #border4,
-  #border5,
-  #border6,
-  #border7,
-  #border8,
-  #border9,
-  #border10,
-  #border11,
-  #border12{
-    width: 70%;
-    height: 5em;
-    background-color: black;
-    border: 2px white solid;
-    border-radius: 30px;
-    margin-left: 60px;
-    margin-top: 40px;
-  }
+  #border0{
+    background-image: url("https://static1.thegamerimages.com/wordpress/wp-content/uploads/2021/09/Best-Anime-Feature-1.jpg");
+    width: 90%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: 350px;
+    margin-top: 5%;
+    margin-left:5%  
+   }
+   #border1{
+    background-image: url("https://static1.srcdn.com/wordpress/wp-content/uploads/2023/10/tanjiro-itadori-and-midoriya.jpg");
+    width: 90%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: 350px;
+    margin-top: 5%;
+    margin-left:5%  
+   }
+   #border2{
+    background-image: url("https://static1.cbrimages.com/wordpress/wp-content/uploads/2021/11/Action-Adventure-Anime-on-Funimation.jpg");
+    width: 90%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: 350px;
+    margin-top: 5%;
+    margin-left:5%  
+   }
+   #border3{
+    background-image: url("https://static0.gamerantimages.com/wordpress/wp-content/uploads/2021/11/Daily-Lives-Of-High-School-Boys-anime.jpg");
+    width: 90%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: 350px;
+    margin-top: 5%;
+    margin-left:5%  
+   }
+   #border4{
+    background-image: url("https://static1.srcdn.com/wordpress/wp-content/uploads/2024/12/anime-for-k-drama-lovers.png");
+    width: 90%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: 350px;
+    margin-top: 5%;
+    margin-left:5%  
+   }
+   #border5{
+    background-image: url("https://static1.moviewebimages.com/wordpress/wp-content/uploads/2024/05/20-underrated-dark-fantasy-anime-you-should-watch.jpg");
+    width: 90%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: 350px;
+    margin-top: 5%;
+    margin-left:5%  
+   }
+   #border6{
+    background-image: url("https://static1.moviewebimages.com/wordpress/wp-content/uploads/2023/08/the-10-best-horror-anime-of-all-time.jpg");
+    width: 90%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: 350px;
+    margin-top: 5%;
+    margin-left:5%  
+   }
+   #border7{
+    background-image: url("https://cdn.myanimelist.net/s/common/uploaded_files/1463851224-e95e48a20964a202993f3b2f273afae7.jpeg");
+    width: 90%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: 350px;
+    margin-top: 5%;
+    margin-left:5%  
+   }
+   #border8{
+    background-image: url("https://static1.cbrimages.com/wordpress/wp-content/uploads/2022/08/kimi-no-na-wa-your-lie-in-april-i-want-to-eat-your-pancreas.jpg");
+    width: 90%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: 350px;
+    margin-top: 5%;
+    margin-left:5%  
+   }
+   #border9{
+    background-image: url("https://static1.cbrimages.com/wordpress/wp-content/uploads/2024/06/split-images-pluto-cyberpunk-edgerunner-and-kaiju-no-8.jpg");
+    width: 90%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: 350px;
+    margin-top: 5%;
+    margin-left:5%  
+   }
+   #border10{
+    background-image: url("https://static1.cbrimages.com/wordpress/wp-content/uploads/2023/04/the-20-best-slice-of-life-anime-ranked-april.jpg");
+    width: 90%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: 350px;
+    margin-top: 5%;
+    margin-left:5%  
+   }
+   #border11{
+    background-image: url("https://static1.colliderimages.com/wordpress/wp-content/uploads/2024/07/best-sports-anime-on-crunchyroll.jpg");
+    width: 90%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: 350px;
+    margin-top: 5%;
+    margin-left:5%  
+   }
+   #border12{
+    background-image: url("https://static1.colliderimages.com/wordpress/wp-content/uploads/2023/09/supernatural-anime-sam-and-dean.jpg");
+    width: 90%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: 350px;
+    margin-top: 5%;
+    margin-left:5%  
+   }
   #text0,
   #text1,
   #text2,
@@ -149,15 +351,15 @@
   #text12{
     font-size: 30px;
     text-decoration: none;
-    color: white;
+    color: black;
     display: flex;
     justify-content: center;
     margin-top: 8%;
   }
   #back{
     font-size: 30px;
-    position: absolute;
-    background-color: black;
+    position: fixed;
+    background-color: transparent;
     color: white;
     top: 10px;
     left: 20px;
