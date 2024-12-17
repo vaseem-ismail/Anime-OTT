@@ -106,3 +106,14 @@ async function setupVideoPlayer() {
 
 // Execute setup on window load
 window.addEventListener('load', setupVideoPlayer);
+
+
+const video = document.getElementById('videoPlayer');
+
+function seekForward() {
+  video.currentTime += 10; // Add 10 seconds to the current time
+}
+
+function seekBackward() {
+  video.currentTime -= 10; // Subtract 10 seconds from the current time
+}
