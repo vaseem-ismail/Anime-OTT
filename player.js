@@ -82,7 +82,7 @@ async function setupVideoPlayer() {
         }
 
         // Construct the video URL
-        const videoURL = `${backendURL}/stream-video?filename=${encodeURIComponent(filename)}`;
+        const videoURL = `http://10.20.135.3:5000/stream-video?filename=${encodeURIComponent(filename)}`;
 
         // Update video source and play
         const videoSource = document.getElementById('videoSource');
