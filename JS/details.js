@@ -39,14 +39,14 @@ document.addEventListener('DOMContentLoaded', async () => {
 });
 
 const episodeCount = [
-    {"Naruto Shippuden" : 500, "url-value" : "Naruto-Ship-", "name" : "Episode-"},
+    {"Naruto Shippuden" : 500, "url-value" : "Naruto_Ship_", "name" : "Episode-"},
     {"Naruto Classic" : 220, "url-value" : "Naruto-Classic-", "name" : "Episode-"},
     {"Attack on Titan" : 59, "url-value" : "Attack-on-Titan-", "name" : "Episode-"},
     {"Jujutsu Kaisen" : 47, "url-value" : "Jujutsu-Kaisen-", "name" : "Episode-"},
     {"Demon Slayer" : 63, "url-value" : "Demon-Slayer-", "name" : "Episode-"},
     {"5 Centimeter per Second" : 1, "url-value" : "5-centimeter-per-second", "name" : "Episode-"},
-    {"Your Name" : 1, "url-value" : "Your-Name", "name" : "Episode-"},
-    {"Tunnel to Summer" : 1, "url-value" : "Tunnel_to_Summer", "name" : "Episode-"},
+    {"Your Name" : 1, "url-value" : "Your-Name", "name" : "Your Name"},
+    {"Tunnel to Summer" : 1, "url-value" : "Tunnel_to_Summer", "name" : "Tunnel to the Summer"},
     {"Suzume" : 1, "url-value" : "Suzume_NT", "name" : "Episode-"},
     {"Death Note" : 37, "url-value" : "DN", "name" : "Episode-"},
     {"Solo Leveling" : 12, "url-value" : "Solo-Leveling-", "name" : "Episode-"},
