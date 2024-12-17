@@ -122,16 +122,16 @@ logOut.addEventListener("click",()=>{
 })
 
 
-const buttons = document.querySelectorAll(".video-btn");
-buttons.forEach(button => {
-    button.addEventListener("click", (e) => {
-        const filename = e.target.getAttribute("value");
-        if (filename) {
-            const baseURL = window.location.origin;
-            window.location.href = `${baseURL}/player.html?video=${encodeURIComponent(filename)}`;
-        }
-    });
-});
+// const buttons = document.querySelectorAll(".video-btn");
+// buttons.forEach(button => {
+//     button.addEventListener("click", (e) => {
+//         const filename = e.target.getAttribute("value");
+//         if (filename) {
+//             const baseURL = window.location.origin;
+//             window.location.href = `${baseURL}/player.html?video=${encodeURIComponent(filename)}`;
+//         }
+//     });
+// });
 
 
  // Fetch and display grouped images by genre

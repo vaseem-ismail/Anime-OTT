@@ -89,79 +89,23 @@
 
   .logo-container {
     position:absolute;
-    left: 50px;
+    top: 12px;
+    left: 12px;
     width: 50px;
     height: 50px;
+    user-select: none;
   }
-
-  .circle {
-    position: absolute;
-    width: 200%;
-    height: 200%;
-    border-radius: 50%;
-    position: absolute;
-    top: -20px;
-    left: -30px ;
-    background: radial-gradient(circle, #ff007f, transparent 70%);
-    animation: rotate 6s infinite linear;
-    z-index: 1;
-    border: 2px solid grey;
-  }
-
-  .logo-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 4rem;
-    font-weight: bold;
-    color: #fff;
-    letter-spacing: -8px; /* To join "A" and "G" */
-    text-shadow: 0 0 10px #ff007f, 0 0 20px #ff007f, 0 0 40px #ff4500;
-    z-index: 2;
-  }
-
-  .logo-text span {
-    display: inline-block;
-    animation: pulse 2s infinite;
-    margin-right: 20px;
-    margin-top: 10px;
-  }
-
-  @keyframes rotate {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-  }
-
-  @keyframes pulse {
-    0%, 100% { transform: scale(1); opacity: 1; }
-    50% { transform: scale(1.1); opacity: 0.8; }
-  }
-
-  .sparkles {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    pointer-events: none;
-    overflow: hidden;
-  }
-
-  .sparkles div {
-    position: absolute;
-    width: 6px;
-    height: 6px;
-    background: #fff;
-    border-radius: 50%;
-    animation: sparkle 3s infinite;
-  }
-
-  @keyframes sparkle {
-    0% { transform: scale(0); opacity: 0.5; }
-    50% { transform: scale(1); opacity: 1; }
-    100% { transform: scale(0); opacity: 0.5; }
+  #logo{
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border: 0.5px white solid;
+    border-radius: 50px;
+    user-select: none;
   }
   .galaxy-text {
     position: absolute;
+    top: 25px;
     left: 7%;
     display: flex;
     flex-wrap: wrap;
@@ -614,17 +558,18 @@
   }
   .results-container {
     position: absolute;
-    left: 20%;
+    left: 30%;
     top: 70%;
     overflow-y: scroll;
     scrollbar-width: none;
+    max-width: 40%;
     max-height: 550px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 20px;
     background-color: black;
- 
+    text-align: center;
 }
 .result-item {
     text-align: center;
@@ -649,21 +594,20 @@
   }
   body {
     background-color: black;
-    background-image: url("https://i.pinimg.com/736x/2b/60/5d/2b605d87c662f7da82c769b215c59992.jpg");
     width: 100%;
     overflow-x: hidden;
-    background-size: 100% 100%;
   }
   #header {
     width: 120%;
     background-color: black;
     height: 7em;
     border-bottom: 2px solid white;
-    position: absolute;
+    
+    margin-top: 0%;
   }
   .logo-container {
     position:absolute;
-    left: 50px;
+    left: 40px;
     width: 50px;
     height: 50px;
   }
@@ -713,7 +657,7 @@
   }
   .galaxy-text {
     position: absolute;
-    left: 7%;
+    left: 5%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -735,9 +679,9 @@
     background-clip: text;
     color: transparent;
     opacity: 0;
-    font-size: 40px;
+    font-size: 35px;
     margin-top: 10%;
-    left: 15%;
+    left: 17%;
 }
 
 .galaxy-text span:nth-child(odd) {
@@ -792,8 +736,8 @@
   background-clip: text;
   color: transparent;
   opacity: 0;
-  font-size: 20px;
-  margin-top: 15%;
+  font-size: 15px;
+  margin-top: 17%;
   left: 25%;
 }
 
@@ -826,13 +770,13 @@
   #id-img {
     position: absolute;
     top: 20px;
-    left: 85%;
+    left: 98%;
     border-radius: 40px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     background-color: red;
     border: 2px white solid;
-    width: 12%;
+    width: 17%;
     text-align: center;
     padding-bottom: 2px;
     font-size: 50px;
@@ -853,7 +797,7 @@
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 25%;
+    top: 35%;
     left: 1%;
     width: 115%;
     height: 320px;
@@ -893,8 +837,8 @@
     width: 90%; /* Width of the search container */
     height: 80px; /* Height of the search container */
     position: absolute; /* Positioned within its parent */
-    top: 135px; /* Vertical position */
-    left: 10%; /* Horizontal position */
+    top: 145px; /* Vertical position */
+    left: 15%; /* Horizontal position */
 }
 
 #search-bar {
@@ -919,11 +863,11 @@
 }
 
 #search-btn {
-    width: 60px; /* Fixed size for consistency */
-    height: 60px; /* Matches width for a perfect circle */
+    width: 50px; /* Fixed size for consistency */
+    height: 50px; /* Matches width for a perfect circle */
     position: absolute; /* Positioned relative to #search */
-    top: 10px; /* Vertical alignment with the input field */
-    left: 75%; /* Positioned next to the input field */
+    top: 15px; /* Vertical alignment with the input field */
+    left: 80%; /* Positioned next to the input field */
     background: #007bff; /* Blue background */
     border: none; /* Removes default border */
     outline: none; /* Removes focus outline */
@@ -940,7 +884,7 @@
 #btn_img {
     position: absolute; /* Positioned within #search */
     top: 55%; /* Centered vertically */
-    left: 70%; /* Small offset to the left of the button */
+    left: 77%; /* Small offset to the left of the button */
     transform: translateY(-50%); /* Centers the image exactly */
     filter: invert(1); /* Makes the icon white for dark themes */
     width: 20%; /* Adjusted to fit button perfectly */
@@ -954,7 +898,7 @@
 }
   #title1 {
     position: absolute;
-    top: 70%;
+    top: 90%;
     left: 3%;
     width: 115%;
     background-color: black;
@@ -971,7 +915,7 @@
   }
   #cat1{
     position: absolute;
-    top: 90%;
+    top: 107%;
     width: 120%;
     height: 100%;
     display: flex;
@@ -981,7 +925,7 @@
   }
   #title2 {
     position: absolute;
-    top: 134%;
+    top: 154%;
     left: 3%;
     width: 115%;
     background-color: black;
@@ -991,7 +935,7 @@
   }
   #title3 {
     position: absolute;
-    top: 200%;
+    top: 220%;
     left: 3%;
     width: 115%;
     background-color: black;
@@ -1001,7 +945,7 @@
   }
   #title4 {
     position: absolute;
-    top: 265%;
+    top: 285%;
     left: 3%;
     width: 115%;
     background-color: black;
@@ -1011,7 +955,7 @@
   }
   #title5 {
     position: absolute;
-    top: 330%;
+    top: 350%;
     left: 3%;
     width: 115%;
     background-color: black;
@@ -1021,7 +965,7 @@
   }
   #title6 {
     position: absolute;
-    top: 395%;
+    top: 415%;
     left: 3%;
     width: 115%;
     background-color: black;
@@ -1066,7 +1010,7 @@
   }
   #cat2{
     position: absolute;
-    top: 155%;
+    top: 172%;
     width: 120%;
     height: 100%;
     display: flex;
@@ -1076,7 +1020,7 @@
   }
   #cat3{
     position: absolute;
-    top: 220%;
+    top: 237%;
     width: 120%;
     height: 100%;
     display: flex;
@@ -1086,7 +1030,7 @@
   }
   #cat4{
     position: absolute;
-    top: 285%;
+    top: 302%;
     width: 120%;
     height: 100%;
     display: flex;
@@ -1096,7 +1040,7 @@
   }
   #cat5{
     position: absolute;
-    top: 350%;
+    top: 367%;
     width: 120%;
     height: 100%;
     display: flex;
@@ -1106,7 +1050,7 @@
   }
   #cat6{
     position: absolute;
-    top: 415%;
+    top: 432%;
     width: 120%;
     height: 100%;
     display: flex;
@@ -1116,26 +1060,27 @@
   }
   #see_more {
     position: absolute;
-    top: 460%;
+    top: 480%;
     left: 6%;
     width: 107%;
     background-color: black;
     height: 80px;
     border-radius: 30px;
     border: 2px solid green;
+    
   }
   #w-more {
     position: absolute;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    top: 30px;
-    left: 20%;
     text-decoration: none;
     font-size: 20px;
+    top: 30px;
+    left: 16%;
   }
   #footer {
     position: absolute;
-    top: 513%;
+    top: 523%;
     left: 0%;
     width: 119%;
     background-color: black;
@@ -1170,7 +1115,7 @@
     position: absolute;
     top: 22px;
     color: white;
-    left: 80%;
+    left: 75%;
     background-color: gray;
     border-radius: 10px;
     border: 2px solid blue;
