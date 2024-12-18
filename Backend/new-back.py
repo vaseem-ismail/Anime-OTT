@@ -21,24 +21,6 @@ db = client[DB_NAME]
 fs_files = db[COLLECTION_FILES]
 fs_chunks = db[COLLECTION_CHUNKS]
 
-
-# # Function to get the local IP address of the server
-# def get_local_ip():
-#     """
-#     Returns the local IP address of the server.
-#     """
-#     try:
-#         s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-#         s.settimeout(0)
-#         s.connect(("8.8.8.8", 80))  # Connect to external server to determine local IP
-#         local_ip = s.getsockname()[0]
-#         s.close()
-#         return local_ip
-#     except Exception as e:
-#         logging.error(f"Failed to get local IP: {e}")
-#         return "127.0.0.1"
-
-
 @app.route('/')
 def home():
     """
@@ -52,53 +34,6 @@ def home():
             "/stream-video": "Stream video endpoint (GET: requires 'filename' query parameter)"
         }
     })
-
-
-# @app.route('/discover-backend', methods=['GET'])
-# def discover_backend():
-#     """
-#     Endpoint to provide the backend's current IP and port.
-#     """
-#     try:
-#         local_ip = get_local_ip()
-#         port = 5000  # Default port used by the application
-#         return jsonify({"ip": local_ip, "port": port}), 200
-#     except Exception as e:
-#         logging.error(f"Error discovering backend: {e}")
-#         return jsonify({"error": str(e)}), 500
-
-
-# @app.route('/stream-video', methods=['GET'])
-# def stream_video():
-#     """
-#     Endpoint to stream video chunks from MongoDB using GridFS.
-#     """
-#     try:
-#         filename = request.args.get('filename')
-#         if not filename:
-#             return jsonify({"error": "Filename not provided"}), 400
-
-#         # Find file metadata
-#         file_metadata = fs_files.find_one({"filename": filename})
-#         if not file_metadata:
-#             return jsonify({"error": "File not found"}), 404
-
-#         file_id = file_metadata["_id"]
-#         logging.info(f"Streaming file: {filename} (ID: {file_id})")
-
-#         # Find and stream chunks
-#         chunks = fs_chunks.find({"files_id": file_id}).sort("n", 1)
-
-#         def generate():
-#             for chunk in chunks:
-#                 yield chunk["data"]
-
-#         return Response(generate(), content_type="video/mp4")
-#     except Exception as e:
-#         logging.error(f"Error streaming video: {e}")
-#         return jsonify({"error": str(e)}), 500
-
-
 @app.route('/video-stream', methods=['GET'])
 def video_stream():
     """
@@ -229,13 +164,5 @@ def stream_video():
         logging.error(f"Error rendering video page: {e}")
         return jsonify({"error": str(e)}), 500
 
-
-
 if __name__ == '__main__':
-    """
-    Start the Flask application and display the accessible IP.
-    """
-    # local_ip = get_local_ip()
-    # logging.info(f"Server running on http://{local_ip}:5000")
-    # print(f"Server running on http://{local_ip}:5000")
     app.run(host='0.0.0.0', port=5000, debug=True)
