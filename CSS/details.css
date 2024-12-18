@@ -238,7 +238,7 @@ p {
     }  
     #append>div{
         border: 2px black solid;
-        width: 120px;
+        max-width: 500px;
         margin-left: 15px;
         margin-right: 15px;
         margin-top: 7px;
