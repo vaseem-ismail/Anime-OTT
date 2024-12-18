@@ -10,7 +10,7 @@
     background-color: white;
     overflow-y: scroll;
     width: 40%;
-    height: 700px;
+    height: 800px;
     position: absolute;
     top: 15%;
     border-radius: 10px;
@@ -22,9 +22,12 @@
   #head1 {
     position: fixed;
     left: 35%;
-    top: 155px;
+    top: 165px;
     font-size: 50px;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    padding-top: 25px;
+
   }
   .content {
     margin-left: 100px;
