@@ -46,7 +46,7 @@ const episodeCount = [
     {"Demon Slayer" : 63, "url-value" : "Demon-Slayer-", "name" : "Episode-"},
     {"5 Centimeter per Second" : 1, "url-value" : "5-centimeter-per-second", "name" : "Episode-"},
     {"Your Name" : 1, "url-value" : "Your-Name", "name" : "Your Name"},
-    {"Tunnel to Summer" : 1, "url-value" : "Tunnel_to_Summer", "name" : "Tunnel to the Summer"},
+    {"Tunnel to Summer" : "", "url-value" : "Tunnel_to_Summer", "name" : "Tunnel to the Summer"},
     {"Suzume" : 1, "url-value" : "Suzume_NT", "name" : "Episode-"},
     {"Death Note" : 37, "url-value" : "DN", "name" : "Episode-"},
     {"Solo Leveling" : 12, "url-value" : "Solo-Leveling-", "name" : "Episode-"},
@@ -91,7 +91,7 @@ function generateEpisodeDivs(selectedImageName) {
 
         // Add click event to open backend server URL
         episodeDiv.onclick = () => {
-            const videoUrl = `http://10.20.135.3:5000/stream-video?filename=${episodeDiv.dataset.url}`;
+            const videoUrl = `http://10.20.135.6:5000/stream-video?filename=${episodeDiv.dataset.url}`;
             window.location.href = videoUrl; // Redirect to backend video
         };
 
