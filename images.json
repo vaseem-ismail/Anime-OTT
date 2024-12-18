@@ -67,6 +67,14 @@
     "description": "Kaiju No. 8 follows Kafka Hibino, a man who dreams of joining the Defense Force to fight giant monsters (kaiju) that threaten humanity. After an unexpected encounter with a kaiju, Kafka finds himself turning into a kaiju himself, and must balance his newfound powers with his desire to protect people, all while concealing his secret from the world. The series blends action, mystery, and the challenge of reconciling one's identity."
   },
   {
+    "name" : "Jujutsu Kaisen 0 Movie",
+    "genre" : "Action/Love Story",
+    "image-url" : "https://preview.redd.it/jujutsu-kaisen-0-movie-new-visual-v0-flvfkon37l981.png?auto=webp&s=87ef3ddbbe6709e27c977fddb79c897dac0b25b2",
+    "total-seasons" : "1",
+    "released-year" : "2021",
+    "description": "Jujutsu Kaisen 0 follows Yuta Okkotsu, a young man cursed by the vengeful spirit of his childhood friend, Rika Orimoto, who died in a tragic accident. Unable to control Rika's immense and destructive power, Yuta seeks help from the Tokyo Prefectural Jujutsu High School, where he trains under the mentorship of the powerful sorcerer Satoru Gojo. As Yuta learns to harness his abilities and form bonds with his classmates, he confronts the sinister sorcerer Suguru Geto, who aims to eradicate non-sorcerers and unleash chaos. The film weaves themes of love, loss, and self-discovery, set against a backdrop of thrilling action and supernatural battles."
+  },
+  {
     "name" : "Naruto Shippuden",
     "genre" : "Action",
     "image-url" : "https://upload.wikimedia.org/wikipedia/en/4/49/Shippudenkeyvisual.png",
@@ -173,7 +181,7 @@
     "description": "5 Centimeters Per Second tells the poignant story of Takaki Tono and Akari Shinohara, childhood friends separated by distance, as they struggle with unspoken feelings and the passage of time. The film captures the bittersweet nature of love, loss, and longing through a series of beautifully animated vignettes."
   },
   {
-    "name" : "Suzume No Tojimari",
+    "name" : "Suzume",
     "genre" : "Love Story",
     "image-url" : "https://stewarthotston.com/wp-content/uploads/2024/10/images.jpeg?w=452",
     "total-seasons" : "1",
@@ -187,6 +195,14 @@
     "total-seasons" : "1",
     "released-year" : "2022",
     "description": "The Tunnel to Summer, the Exit of Goodbyes explores the story of Kaoru Touno, who discovers a mysterious tunnel that grants wishes in exchange for time. As he forms an unexpected connection with Anzu Hanashiro, the two confront their personal struggles and make life-changing decisions in the face of the tunnel's allure."
+  },
+  {
+    "name" : "Your Name",
+    "genre" : "Love Story",
+    "image-url" : "https://cdn.movieguide.org/wp-content/uploads/2017/04/kimi-no-na-wa_poster_goldposter_com_27.jpg@0o_0l_800w_80q.jpg",
+    "total-seasons" : "1",
+    "released-year" : "2016",
+    "description": "Your Name (Japanese: 君の名は, Kimi no Na wa) is a 2016 Japanese animated romantic fantasy drama film directed by Makoto Shinkai. The story revolves around two teenagers, Mitsuha Miyamizu, a girl living in the rural town of Itomori, and Taki Tachibana, a boy from Tokyo. They mysteriously begin to swap bodies intermittently and must navigate their new lives while attempting to uncover the connection between them. As their bond deepens, they try to prevent a catastrophic event that threatens their lives and the town of Itomori."
   },
   {
     "name" : "A Silent Voice",
