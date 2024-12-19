@@ -19,6 +19,12 @@ const beforeAt = localUser.split('@')[0]; // Part before '@'
 //Footer
 const TandC = document.getElementById("link-one");
 const PP = document.getElementById("link-two");
+
+
+document.body.style.zoom = "80%";
+
+
+
 document.addEventListener("DOMContentLoaded", () => {
     const imageContainer = document.querySelector(".image-container");
     let currentIndex = 0;
@@ -102,24 +108,27 @@ window.addEventListener("load",()=>{
     idUser.textContent = beforeAt;
     idImg.textContent = firstLetter;
 })
-const logOut = document.getElementById("logout");
-let isTextVisible = false;
-
-idImg.addEventListener('click', () => {
-  if (isTextVisible) {
-    // Hide the text
-    logOut.style.display = 'none';
-    isTextVisible = false;
-  } else {
-    // Show the text
-    logOut.style.display = 'block';
-    isTextVisible = true;
-  }
-});
-logOut.addEventListener("click",()=>{
-    localStorage.removeItem('isLoggedIn');
-    window.location.href = 'index.html';
+idImg.addEventListener("click",()=>{
+    window.location.href = "profile.html";
 })
+// const logOut = document.getElementById("logout");
+// let isTextVisible = false;
+
+// idImg.addEventListener('click', () => {
+//   if (isTextVisible) {
+//     // Hide the text
+//     logOut.style.display = 'none';
+//     isTextVisible = false;
+//   } else {
+//     // Show the text
+//     logOut.style.display = 'block';
+//     isTextVisible = true;
+//   }
+// });
+// logOut.addEventListener("click",()=>{
+//     localStorage.removeItem('isLoggedIn');
+//     window.location.href = 'index.html';
+// })
 
 
 // const buttons = document.querySelectorAll(".video-btn");
