@@ -1,21 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>User Profile Page</title>
+    <link rel="stylesheet" href="./CSS/profile.css">
+    <script type="module" src="./JS/profile.js" defer></script>
 </head>
+
 <body>
-    <div id="main">
-        <div id="img">
-            <img src="" alt="" id="img-bg">
-            <div id="profile">
-                <img src="" alt="" id="pro-img">
-            </div>
+    <div class="profile-container">
+        <div class="profile-header">
+            <img src="avatar.png" alt="User Avatar" class="profile-avatar">
+            <h1 class="profile-name" id="username">Unknown_12345</h1>
+            <p class="profile-bio">Web Developer | Tech Enthusiast | Coffee Lover</p>
         </div>
-        <div id="details">
-        
+
+        <div class="profile-container">
+            <h2>Profile</h2>
+            <label>Email:</label>
+            <input type="email" id="email" readonly />
+            <label>Username:</label>
+            <input type="text" id="username" placeholder="Enter username" />
+            <button id="saveProfileBtn">Save Profile</button>
+            
+            <h2>Watch Later</h2>
+            <button id="addWatchLaterBtn">Add to Watch Later</button>
+          </div>
+          
+
+        <div class="profile-footer">
+            <button class="edit-profile-btn" id="edit-profile-btn">Edit Profile</button>
         </div>
     </div>
 </body>
+
 </html>
