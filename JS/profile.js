@@ -1,3 +1,5 @@
+document.body.style.zoom = "100%";
+
 // Firebase initialization
 import { initializeApp } from "firebase/app";
 import {
