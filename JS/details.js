@@ -1,4 +1,4 @@
-document.body.style.zoom = "90%";
+document.body.style.zoom = "80%";
 
 document.addEventListener('DOMContentLoaded', async () => {
     const selectedImageName = localStorage.getItem('selectedImageName');
@@ -150,7 +150,7 @@ function generateEpisodeDivs(selectedImageName) {
             episodeDiv.id = `episode-${i}`; // Unique ID
 
             episodeDiv.onclick = () => {
-                const videoUrl = `http://10.20.135.9:5000/stream-video?filename=${episodeDiv.dataset.url}`;
+                const videoUrl = `http://192.168.203.120:5000/stream-video?filename=${episodeDiv.dataset.url}`;
                 window.location.href = videoUrl; // Redirect to backend video
             };
 
@@ -167,7 +167,7 @@ function generateEpisodeDivs(selectedImageName) {
         movieDiv.id = `movie-${selectedImageName}`; // Unique ID for the movie
 
         movieDiv.onclick = () => {
-            const videoUrl = `http://10.20.135.9:5000/stream-video?filename=${movieDiv.dataset.url}`;
+            const videoUrl = `http://192.168.203.120:5000/stream-video?filename=${movieDiv.dataset.url}`;
             window.location.href = videoUrl; // Redirect to backend video
         };
 
