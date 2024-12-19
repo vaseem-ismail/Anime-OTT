@@ -1,3 +1,5 @@
+document.body.style.zoom = "100%";
+
 document.addEventListener('DOMContentLoaded', async () => {
     const selectedImageName = localStorage.getItem('selectedImageName');
     if (!selectedImageName) {
