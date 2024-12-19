@@ -148,7 +148,7 @@ function generateEpisodeDivs(selectedImageName) {
             episodeDiv.id = `episode-${i}`; // Unique ID
 
             episodeDiv.onclick = () => {
-                const videoUrl = `http://10.20.135.6:5000/stream-video?filename=${episodeDiv.dataset.url}`;
+                const videoUrl = `http://10.20.135.9:5000/stream-video?filename=${episodeDiv.dataset.url}`;
                 window.location.href = videoUrl; // Redirect to backend video
             };
 
@@ -165,7 +165,7 @@ function generateEpisodeDivs(selectedImageName) {
         movieDiv.id = `movie-${selectedImageName}`; // Unique ID for the movie
 
         movieDiv.onclick = () => {
-            const videoUrl = `http://10.20.135.6:5000/stream-video?filename=${movieDiv.dataset.url}`;
+            const videoUrl = `http://10.20.135.9:5000/stream-video?filename=${movieDiv.dataset.url}`;
             window.location.href = videoUrl; // Redirect to backend video
         };
 
