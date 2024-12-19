@@ -232,14 +232,13 @@ fetch('../images.json') // Correct relative path to the JSON file
                 const img = document.createElement('img');
                 img.src = item['image-url'];
                 img.alt = item.name;
+                img.draggable = "false";
                 img.classList.add('video-btn'); // Add a class for styling
 
                 img.addEventListener('click', () => {
                     localStorage.setItem('selectedImageName', item.name); // Store name in localStorage
                     window.location.href = 'details.html'; // Navigate to details page
                 });
-
-
                 container.appendChild(img);
             });
         };
