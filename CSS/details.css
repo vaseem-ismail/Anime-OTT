@@ -34,7 +34,7 @@ body {
 h1 {
     position: absolute;
     top: 12%;
-    left: 30%;
+    left: 33%;
     margin: 10px 0;
     color: #333;
     font-size: 50px;
@@ -42,24 +42,29 @@ h1 {
 #genre{
     position: absolute;
     top: 25.5%;
-    left: 35%;
+    left:38.5%;
 }
 #description{
     position: absolute;
     top: 54%;
-    left: 40%;
-    width: 55%;
+    left: 43%;
+    width: 53%;
     text-align: left;
 }
 #season{
      position: absolute;
-     top: 34.5%;
-     left: 41.5%;
+     top: 35%;
+     left: 45%;
 }
+/* #content{
+    background-color: blue;
+    position: absolute;
+    z-index: 6;
+} */
 #year{
     position: absolute;
      top: 43.8%;
-     left: 41.5%;
+     left: 45%;
 }
 p {
     font-size: 25px;
@@ -68,8 +73,8 @@ p {
 }
 #val1{
     position: absolute;
-    top: 23%;
-    left: 30%;
+    top: 24%;
+    left: 33%;
     color: black;
     z-index: 4;
     display:block;
@@ -77,8 +82,8 @@ p {
 }
 #val2{
     position: absolute;
-    top: 30%;
-    left: 30%;
+    top: 32%;
+    left: 33%;
     color: black;
     z-index: 4;
     display:block;
@@ -86,8 +91,8 @@ p {
 }
 #val3{
     position: absolute;
-    top: 37%;
-    left: 30%;
+    top: 39.2%;
+    left: 33%;
     color: black;
     z-index: 4;
     display:block;
@@ -95,8 +100,8 @@ p {
 }
 #val4{
     position: absolute;
-    top: 45%;
-    left: 30%;
+    top: 47.5%;
+    left: 33%;
     color: black;
     z-index: 4;
     display:block;
@@ -128,7 +133,7 @@ p {
     border: 2px black solid;
     width: 120px;
     margin-left: 15px;
-    margin-right: 15px;
+    margin-right: 10px;
     margin-top: 7px;
     margin-bottom: 7px;
     max-height: auto;
