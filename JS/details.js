@@ -113,7 +113,8 @@ const episodeCount = [
     {"Mob Psycho 100" : 37   , "url-value" : "Not Available", "name" : "Episode-"},
     {"The Ancient Magus' Bride" : 39   , "url-value" : "Not Available", "name" : "Episode-"},
     {"The Seven Deadly Sins" : 124   , "url-value" : "Not Available", "name" : "Episode-"},
-    {"Noragami" : 29   , "url-value" : "Not Available", "name" : "Episode-"}
+    {"Noragami" : 29   , "url-value" : "Not Available", "name" : "Episode-"},
+    {"My Dressup Darling" : 12   , "url-value" : "My-Dressup-Darling-", "name" : "Episode-"}
 ];
 
 const movies = [
