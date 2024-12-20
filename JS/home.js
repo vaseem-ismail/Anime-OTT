@@ -21,7 +21,7 @@ const TandC = document.getElementById("link-one");
 const PP = document.getElementById("link-two");
 
 
-document.body.style.zoom = "80%";
+document.body.style.zoom = "95%";
 
 
 

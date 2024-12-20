@@ -1,4 +1,4 @@
-document.body.style.zoom = "80%";
+document.body.style.zoom = "95%";
 
 
 // Import the functions you need from the SDKs you need

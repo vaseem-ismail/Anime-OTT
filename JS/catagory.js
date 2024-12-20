@@ -1,1 +1,1 @@
-document.body.style.zoom = "90%";
+document.body.style.zoom = "95%";
