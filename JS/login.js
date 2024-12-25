@@ -1,5 +1,5 @@
 document.body.style.zoom = "95%";
-const API_URL = "https://sample-anime-ott-1.onrender.com";
+const API_URL = "https://anime-ott.onrender.com";
 
 async function login() {
   const username = document.getElementById('username').value;

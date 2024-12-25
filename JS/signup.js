@@ -1,7 +1,7 @@
 document.body.style.zoom = "95%";
 // // 
 // const pattern = /^(?=.*[!@#$%^&*(),.?":{}|<>])[a-zA-Z0-9!@#$%^&*(),.?":{}|<>]{8,}$/;
-
+const API_URL = "https://anime-ott.onrender.com";
 async function register() {
   const username = document.getElementById('email').value;
   const password = document.getElementById('password').value;
