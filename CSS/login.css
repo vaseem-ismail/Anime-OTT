@@ -1,5 +1,5 @@
-@media screen and (min-width: 720px) {
-  body {
+/* @media screen and (min-width: 720px) {
+   body {
     background-image: url("https://c4.wallpaperflare.com/wallpaper/677/542/407/anime-naruto-naruto-uzumaki-sasuke-uchiha-wallpaper-preview.jpg");
     background-size: 103%;
     background-repeat: no-repeat;
@@ -236,4 +236,72 @@
     padding: 5px;
     cursor: grab;
   }
+} */
+
+
+/* body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+} */
+body {
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/677/542/407/anime-naruto-naruto-uzumaki-sasuke-uchiha-wallpaper-preview.jpg");
+  background-size: 103%;
+  background-repeat: no-repeat;
+}
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.form-container {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+h1 {
+  font-size: 24px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+p {
+  text-align: center;
+  font-size: 14px;
+  color: red;
+  margin: 0;
 }

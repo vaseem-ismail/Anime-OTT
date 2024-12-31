@@ -1,4 +1,4 @@
-@media screen and (min-width:720px) {
+/* @media screen and (min-width:720px) {
     *{
         margin: 0%;
         padding: 0%;
@@ -131,14 +131,13 @@
         top: 1%;
         font-family: Arial, Helvetica, sans-serif;
     }
-    #form{
+    .form-container{
         position: absolute;
         left: 15%;
         top: 28%;
         width: 70%;
         height: 50vh;
         border-radius: 30px;
-        /* backdrop-filter: blur(10px); */
         background-color: black;
     }
     #email{
@@ -205,7 +204,6 @@
         top: 56%;
         left: 79%;
         background-color: transparent;
-        /* border-radius: 30px; */
         padding: 5px;
         cursor: pointer;
         border: 0.5px black solid;
@@ -217,4 +215,81 @@
         color: aliceblue;
         text-decoration: none;
     }
-   }
+   } */
+
+body {
+  background-image: url("https://m.media-amazon.com/images/I/71PKdEcPNaL.jpg");
+  background-size: 103%;
+  background-repeat: no-repeat;
+}
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.form-container {
+  background: gray;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 600px;
+  position: absolute;
+  top: 35%;
+  left: 35%;
+}
+
+h1 {
+  font-size: 24px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+p {
+  text-align: center;
+  font-size: 14px;
+  color: red;
+  margin: 0;
+}
+#togglePassword {
+  /* position: absolute;
+    top: 60%;
+    left: 75%; */
+  /* background-color: black; */
+  /* border-radius: 30px; */
+  padding: 7px;
+  cursor: pointer;
+  position: absolute;
+  left: 88%;
+  top: 54.7%;
+  font-size: larger;
+}
+#togglePassword:hover {
+  border: 1px black solid;
+}

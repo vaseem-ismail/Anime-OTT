@@ -1,14 +1,14 @@
 @media screen and (min-width: 720px) {
   body {
     background-color: rgb(33, 33, 33);
-    width: 100%;
+    /* width: 100%; */
     overflow-x: hidden;
     overflow-y: auto;
     scrollbar-width: none;
     background: fixed;
     background-image: url("../assets/home_page_pics/bg.jpg");
     background-color: black;
-    background-size: 100% 100%;
+    background-size: cover;
    
   }
   #search {

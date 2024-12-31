@@ -1,11 +1,21 @@
 { 
   "Greatest" : [
     {
+      "name" : "Boruto : Naruto Next Generations",
+      "genre" : "Action/Adventure",
+      "image-url" : "https://m.media-amazon.com/images/I/81HAnnghfgL._AC_UF1000,1000_QL80_.jpg",
+      "total-seasons" : "1",
+      "released-year" : "2017",
+      "availability" : "Not-Available",
+      "description": "The series is set in a world where ninjas still play an essential role, but the society has modernized. Boruto, while living in the shadow of his famous father, Naruto, struggles with the expectations placed upon him. Unlike his father, who was once an outcast, Boruto feels overwhelmed by his father's role as Hokage and strives to carve his own path."
+    },
+    {
       "name" : "Jujutsu Kaisen",
       "genre" : "Action/Adventure",
       "image-url" : "https://m.media-amazon.com/images/I/81XO20bHFjL.jpg",
       "total-seasons" : "3",
       "released-year" : "2021",
+      "availability" : "Available",
       "description": "Jujutsu Kaisen follows Yuji Itadori, a high school student who possesses immense physical strength. After swallowing a cursed object, a finger from the legendary cursed spirit Ryomen Sukuna, Yuji becomes the host of Sukuna. To prevent disaster, he joins Jujutsu High, where he trains to fight curses and protect humanity from malevolent spirits."
     },
     {
@@ -14,6 +24,7 @@
       "image-url" : "https://upload.wikimedia.org/wikipedia/en/4/49/Shippudenkeyvisual.png",
       "total-seasons" : "22",
       "released-year" : "2007",
+      "availability" : "Available",
       "description": "Naruto Shippuden follows Naruto Uzumaki, a young ninja with a dream of becoming the Hokage, the leader of his village. As he grows stronger and faces numerous challenges, Naruto deals with the burden of being the host of the Nine-Tails Fox, a powerful and dangerous creature. Alongside his friends, Naruto confronts dark forces, including the Akatsuki organization, and learns the true meaning of friendship, sacrifice, and responsibility."
     },
     {
@@ -22,6 +33,7 @@
       "image-url" : "https://upload.wikimedia.org/wikipedia/en/thumb/7/74/Dragon_Ball_Super_Key_visual.jpg/200px-Dragon_Ball_Super_Key_visual.jpg",
       "total-seasons" : "1",
       "released-year" : "1986",
+      "availability" : "Not-Available",
       "description": "Dragon Ball follows Goku, a martial artist with a pure heart, as he embarks on adventures to find the Dragon Balls, seven mystical orbs that grant wishes when gathered. Along the way, Goku makes friends and faces powerful enemies, including foes from other planets, while constantly striving to become the strongest warrior in the universe."
     },
     {
@@ -30,6 +42,7 @@
       "image-url" : "https://m.media-amazon.com/images/M/MV5BMWU1OGEwNmQtNGM3MS00YTYyLThmYmMtN2FjYzQzNzNmNTE0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
       "total-seasons" : "5",
       "released-year" : "2019",
+      "availability" : "Available",
       "description": "Demon Slayer follows Tanjiro Kamado, a kind-hearted boy who becomes a demon slayer to save his sister Nezuko, who has been turned into a demon, and to avenge his family against the demon who killed them."
     },
     {
@@ -38,6 +51,7 @@
       "image-url" : "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p10701949_b_v8_ah.jpg",
       "total-seasons" : "3",
       "released-year" : "2013",
+      "availability" : "Available",
       "description": "Attack on Titan follows Eren Yeager and his friends as they join the military to fight gigantic humanoid creatures known as Titans, uncovering dark secrets about their world along the way."
     },
     {
@@ -46,6 +60,7 @@
       "image-url" : "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=480,height=720/catalog/crunchyroll/70975a1227b453c1caf24fa05a93617d.jpg",
       "total-seasons" : "3",
       "released-year" : "2021",
+      "availability" : "Not-Available",
       "description": "Tokyo Revengers follows Takemichi Hanagaki, a man who learns that his childhood girlfriend and her brother have been killed by a notorious gang. When he is sent back in time to his middle school years, Takemichi decides to change the course of the future by rising through the ranks of the gang, making new friends, and trying to prevent the tragic events that will unfold."
     },
     {
@@ -54,6 +69,7 @@
       "image-url" : "https://upload.wikimedia.org/wikipedia/en/7/72/Bleachanime.png",
       "total-seasons" : "26",
       "released-year" : "2004",
+      "availability" : "Not-Available",
       "description": "Bleach follows Ichigo Kurosaki, a teenager with the ability to see ghosts. After accidentally obtaining the powers of a Soul Reaper, a being tasked with protecting the living from evil spirits, Ichigo must defend the human world from the threat of malevolent spirits known as Hollows. As he grows stronger, Ichigo uncovers the mysteries of the Soul Society and its powerful protectors."
     }
    ],
@@ -64,6 +80,7 @@
     "image-url" : "https://external-preview.redd.it/kaiju-no-8-new-key-visual-v0-riZoN9c_q3T3E5WOQ7WhQt94LwRtXvi-kcUc3S31HJY.jpg?width=640&crop=smart&auto=webp&s=f9896f9ed97f8b763f98892e2e9b117e28746967",
     "total-seasons" : "1",
     "released-year" : "2024",
+    "availability" : "Available",
     "description": "Kaiju No. 8 follows Kafka Hibino, a man who dreams of joining the Defense Force to fight giant monsters (kaiju) that threaten humanity. After an unexpected encounter with a kaiju, Kafka finds himself turning into a kaiju himself, and must balance his newfound powers with his desire to protect people, all while concealing his secret from the world. The series blends action, mystery, and the challenge of reconciling one's identity."
   },
   {
@@ -72,6 +89,7 @@
     "image-url" : "https://preview.redd.it/jujutsu-kaisen-0-movie-new-visual-v0-flvfkon37l981.png?auto=webp&s=87ef3ddbbe6709e27c977fddb79c897dac0b25b2",
     "total-seasons" : "1",
     "released-year" : "2021",
+    "availability" : "Available",
     "description": "Jujutsu Kaisen 0 follows Yuta Okkotsu, a young man cursed by the vengeful spirit of his childhood friend, Rika Orimoto, who died in a tragic accident. Unable to control Rika's immense and destructive power, Yuta seeks help from the Tokyo Prefectural Jujutsu High School, where he trains under the mentorship of the powerful sorcerer Satoru Gojo. As Yuta learns to harness his abilities and form bonds with his classmates, he confronts the sinister sorcerer Suguru Geto, who aims to eradicate non-sorcerers and unleash chaos. The film weaves themes of love, loss, and self-discovery, set against a backdrop of thrilling action and supernatural battles."
   },
   {
@@ -80,6 +98,7 @@
     "image-url" : "https://upload.wikimedia.org/wikipedia/en/4/49/Shippudenkeyvisual.png",
     "total-seasons" : "22",
     "released-year" : "2007",
+    "availability" : "Available",
     "description": "Naruto Shippuden follows Naruto Uzumaki, a young ninja with a dream of becoming the Hokage, the leader of his village. As he grows stronger and faces numerous challenges, Naruto deals with the burden of being the host of the Nine-Tails Fox, a powerful and dangerous creature. Alongside his friends, Naruto confronts dark forces, including the Akatsuki organization, and learns the true meaning of friendship, sacrifice, and responsibility." 
   },
   {
@@ -88,6 +107,7 @@
     "image-url" : "https://qph.cf2.quoracdn.net/main-qimg-4f5f54fe8d440e70c41bd6d57c9ee6ed-lq",
     "total-seasons" : "5",
     "released-year" : "2002",
+    "availability" : "Available",
     "description": "Naruto follows the journey of Naruto Uzumaki, a young and spirited ninja who dreams of becoming the Hokage, the strongest ninja and leader of his village. Despite being ostracized for being the host of the Nine-Tails Fox, Naruto forms close bonds with his friends and fellow ninjas, working tirelessly to prove his worth and grow stronger in the face of many challenges."
   },
   {
@@ -96,6 +116,7 @@
     "image-url" : "https://rukminim2.flixcart.com/image/850/1000/xif0q/book/g/d/c/solo-leveling-vol-8-comic-original-imahy5kgrhcc2tq8.jpeg?q=90&crop=false",
     "total-seasons" : "1",
     "released-year" : "2024",
+    "availability" : "Available",
     "description": "Solo Leveling follows Sung Jin-Woo, an E-rank hunter in a world where hunters battle monsters in dangerous dungeons. After surviving a near-death encounter in a dungeon, he is granted the unique ability to level up and grow stronger with no limit. As he embarks on a journey to become the strongest hunter, he faces increasingly powerful monsters and uncovers dark secrets about the world of hunters."
   },
   {
@@ -104,6 +125,7 @@
     "image-url" : "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p10701949_b_v8_ah.jpg",
     "total-seasons" : "3",
     "released-year" : "2013",
+    "availability" : "Available",
     "description": "Attack on Titan follows Eren Yeager and his friends as they join the military to fight gigantic humanoid creatures known as Titans, uncovering dark secrets about their world along the way."
   },
   {
@@ -112,7 +134,8 @@
     "image-url" : "https://m.media-amazon.com/images/M/MV5BMWU1OGEwNmQtNGM3MS00YTYyLThmYmMtN2FjYzQzNzNmNTE0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
     "total-seasons" : "5",
     "released-year" : "2013",
-     "description": "Demon Slayer follows Tanjiro Kamado, a kind-hearted boy who becomes a demon slayer to save his sister Nezuko, who has been turned into a demon, and to avenge his family against the demon who killed them."
+    "availability" : "Available",
+    "description": "Demon Slayer follows Tanjiro Kamado, a kind-hearted boy who becomes a demon slayer to save his sister Nezuko, who has been turned into a demon, and to avenge his family against the demon who killed them."
   },
   {
     "name" : "Death Note",
@@ -120,6 +143,7 @@
     "image-url" : "https://m.media-amazon.com/images/M/MV5BYTgyZDhmMTEtZDFhNi00MTc4LTg3NjUtYWJlNGE5Mzk2NzMxXkEyXkFqcGc@._V1_.jpg",
     "total-seasons" : "1",
     "released-year" : "2006",
+    "availability" : "Available",
     "description": "Death Note follows Light Yagami, a highly intelligent high school student who discovers a mysterious notebook that grants the ability to kill anyone whose name is written in it. As he attempts to use the Death Note to create a utopian world free of crime, he is pursued by L, a genius detective who seeks to stop him. The battle of wits between Light and L forms the core of this psychological thriller."
   },
   {
@@ -128,6 +152,7 @@
     "image-url" : "https://upload.wikimedia.org/wikipedia/en/thumb/7/74/Dragon_Ball_Super_Key_visual.jpg/200px-Dragon_Ball_Super_Key_visual.jpg",
     "total-seasons" : "1",
     "released-year" : "1986",
+    "availability" : "Not-Available",
     "description": "Dragon Ball follows Goku, a martial artist with a pure heart, as he embarks on adventures to find the Dragon Balls, seven mystical orbs that grant wishes when gathered. Along the way, Goku makes friends and faces powerful enemies, including foes from other planets, while constantly striving to become the strongest warrior in the universe."
   },
   {
@@ -136,6 +161,7 @@
     "image-url" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiABNbvCkNfI6RAfliCdOq9Zqz0xzcRj4HhA&s",
     "total-seasons" : "2",
     "released-year" : "2016",
+    "availability" : "Not-Available",
     "description": "One Punch Man follows Saitama, a hero who can defeat any opponent with a single punch. Bored by his overwhelming strength and the lack of a true challenge, he joins the Hero Association to fight evil and protect the world. The series combines humor, action, and satire of superhero tropes as Saitama struggles to find meaning in his life while facing increasingly bizarre villains."
   },
   {
@@ -144,6 +170,7 @@
     "image-url" : "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=480,height=720/catalog/crunchyroll/70975a1227b453c1caf24fa05a93617d.jpg",
     "total-seasons" : "3",
     "released-year" : "2021",
+    "availability" : "Not-Available",
     "description": "Tokyo Revengers follows Takemichi Hanagaki, a man who learns that his childhood girlfriend and her brother have been killed by a notorious gang. When he is sent back in time to his middle school years, Takemichi decides to change the course of the future by rising through the ranks of the gang, making new friends, and trying to prevent the tragic events that will unfold."
   }
 ],
@@ -154,6 +181,7 @@
     "image-url" : "https://m.media-amazon.com/images/M/MV5BMTQ1ODIzOGQtOGFkZC00MWViLTgyYmUtNWJkNmIxZjYxMTdmXkEyXkFqcGc@._V1_.jpg",
     "total-seasons" : "1",
     "released-year" : "2019",
+    "availability" : "Not-Available",
     "description": "I Want to Eat Your Pancreas follows an introverted high school boy who discovers the secret diary of Sakura Yamauchi, a cheerful classmate suffering from a terminal pancreatic illness. As they spend time together, they form a deep bond, experiencing joy, heartbreak, and the fleeting nature of life."
   },
   {
@@ -162,6 +190,7 @@
     "image-url" : "https://m.media-amazon.com/images/M/MV5BNjQ2ZjkxNTctZjI3Yi00MDM1LWI3MWEtMTcxMTU4MzQ5MzhhXkEyXkFqcGc@._V1_.jpg",
     "total-seasons" : "1",
     "released-year" : "2014",
+    "availability" : "Not-Available",
     "description": "Tamako Love Story is a romantic tale about Tamako Kitashirakawa, a cheerful girl working in her family's mochi shop, and her childhood friend Mochizou Ooji, who secretly harbors feelings for her. The story beautifully portrays their evolving relationship as they navigate their dreams and unspoken emotions."
   },
   {
@@ -170,6 +199,7 @@
     "image-url" : "https://upload.wikimedia.org/wikipedia/en/6/66/Weathering_with_You_Poster.jpg",
     "total-seasons" : "1",
     "released-year" : "2019",
+    "availability" : "Not-Available",
     "description": "Weathering With You follows Hodaka Morishima, a runaway teenager who meets Hina Amano, a girl with the mysterious ability to control the weather. Together, they embark on a journey of love and sacrifice as they navigate a world where their choices have far-reaching consequences."
   },
   {
@@ -178,6 +208,7 @@
     "image-url" : "https://musicart.xboxlive.com/7/55825e00-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080",
     "total-seasons" : "1",
     "released-year" : "2007",
+    "availability" : "Available",
     "description": "5 Centimeters Per Second tells the poignant story of Takaki Tono and Akari Shinohara, childhood friends separated by distance, as they struggle with unspoken feelings and the passage of time. The film captures the bittersweet nature of love, loss, and longing through a series of beautifully animated vignettes."
   },
   {
@@ -186,6 +217,7 @@
     "image-url" : "https://stewarthotston.com/wp-content/uploads/2024/10/images.jpeg?w=452",
     "total-seasons" : "1",
     "released-year" : "2022",
+    "availability" : "Available",
     "description": "Suzume No Tojimari follows Suzume, a young girl who encounters a mysterious traveler searching for doors linked to catastrophic disasters. Together, they journey across Japan, closing these magical portals while uncovering the secrets of Suzume's past and the bond they share."
   },
   {
@@ -194,6 +226,7 @@
     "image-url" : "https://m.media-amazon.com/images/I/81qr1OTWnCL._AC_UF1000,1000_QL80_.jpg",
     "total-seasons" : "1",
     "released-year" : "2022",
+    "availability" : "Available",
     "description": "The Tunnel to Summer, the Exit of Goodbyes explores the story of Kaoru Touno, who discovers a mysterious tunnel that grants wishes in exchange for time. As he forms an unexpected connection with Anzu Hanashiro, the two confront their personal struggles and make life-changing decisions in the face of the tunnel's allure."
   },
   {
@@ -202,6 +235,7 @@
     "image-url" : "https://cdn.movieguide.org/wp-content/uploads/2017/04/kimi-no-na-wa_poster_goldposter_com_27.jpg@0o_0l_800w_80q.jpg",
     "total-seasons" : "1",
     "released-year" : "2016",
+    "availability" : "Available",
     "description": "Your Name (Japanese: 君の名は, Kimi no Na wa) is a 2016 Japanese animated romantic fantasy drama film directed by Makoto Shinkai. The story revolves around two teenagers, Mitsuha Miyamizu, a girl living in the rural town of Itomori, and Taki Tachibana, a boy from Tokyo. They mysteriously begin to swap bodies intermittently and must navigate their new lives while attempting to uncover the connection between them. As their bond deepens, they try to prevent a catastrophic event that threatens their lives and the town of Itomori."
   },
   {
@@ -218,6 +252,7 @@
     "image-url" : "https://m.media-amazon.com/images/I/81bQskpAvlL.jpg",
     "total-seasons" : "1",
     "released-year" : "2022",
+    "availability" : "Available",
     "description": "Wakana Gojo, a shy high school boy, dreams of becoming a master dollmaker, specializing in traditional Japanese hina dolls. However, his quiet life takes an unexpected turn when Marin Kitagawa, his outgoing and confident classmate, discovers his secret hobby. Unlike others who might mock him, Marin admires his craftsmanship and asks for his help with her own passion—cosplay!"
   }
  ],
@@ -228,6 +263,7 @@
     "image-url" : "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p22812509_b_v13_ab.jpg",
     "total-seasons" : "1",
     "released-year" : "2022",
+    "availability" : "Not-Available",
     "description": "Cyberpunk: Edgerunners follows David Martinez, a street kid trying to survive in a futuristic, tech-driven dystopian city. After a tragedy, he becomes an Edgerunner, an outlaw mercenary, and delves into the dangerous world of cyber-enhanced criminals while grappling with his humanity."
   },
   {
@@ -236,6 +272,7 @@
     "image-url" : "https://m.media-amazon.com/images/M/MV5BMzE0ZDU1MzQtNTNlYS00YjNlLWE2ODktZmFmNDYzMTBlZTBmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
     "total-seasons" : "27",
     "released-year" : "1997",
+    "availability" : "Not-Available",
     "description": "Pokémon follows Ash Ketchum, a young trainer on his journey to become a Pokémon Master. Alongside his loyal Pikachu and friends, Ash explores new regions, captures Pokémon, competes in battles, and forms lasting bonds with his team while facing rivals and villains like Team Rocket."
   },
   {
@@ -244,6 +281,7 @@
     "image-url" : "https://m.media-amazon.com/images/M/MV5BYWFhOWMxNTYtZThiMi00ZmQ5LTlmODktN2QwNzUyZjMyZGQzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
     "total-seasons" : "1",
     "released-year" : "2024",
+    "availability" : "Available",
     "description": "Dandadan is a supernatural adventure that follows Ken Takakura and Momo Ayase as they encounter bizarre phenomena, from aliens to ghosts. Together, they navigate a series of chaotic and comedic battles while unraveling mysteries in a world where the paranormal and extraterrestrial collide."
   },
   {
@@ -252,6 +290,7 @@
     "image-url" : "https://qph.cf2.quoracdn.net/main-qimg-952ee45d770ba6a22c281c05088bfbe2-lq",
     "total-seasons" : "1",
     "released-year" : "2003",
+    "availability" : "Not-Available",
     "description": "Fullmetal Alchemist follows brothers Edward and Alphonse Elric, who use alchemy to search for the Philosopher's Stone to restore their bodies after a failed alchemical experiment. Their journey explores themes of sacrifice, morality, and the consequences of human ambition in a richly woven narrative."
   },
   {
@@ -260,6 +299,7 @@
     "image-url" : "https://m.media-amazon.com/images/M/MV5BNTMzNjE0N2ItNjFiYi00NmIzLTk1MzMtZWFjNThjMzI5MTJlXkEyXkFqcGc@._V1_.jpg",
     "total-seasons" : "10",
     "released-year" : "2006",
+    "availability" : "Not-Available",
     "description": "Gintama is a comedic adventure set in an alternate Edo-period Japan overrun by alien invaders. It follows Gintoki Sakata, a silver-haired samurai, and his eccentric friends as they take on odd jobs, fight against oppression, and hilariously parody anime and pop culture along the way."
   },
   {
@@ -268,6 +308,7 @@
     "image-url" : "https://m.media-amazon.com/images/M/MV5BM2VhZjk2MWMtZjc2OC00YzA4LWI0NzAtZGQ1YjVkOTk5YzVlXkEyXkFqcGc@._V1_.jpg",
     "total-seasons" : "1",
     "released-year" : "1998",
+    "availability" : "Not-Available",
     "description": "Cowboy Bebop follows a group of bounty hunters led by Spike Spiegel as they travel across the galaxy in their spaceship, the Bebop. Combining action, jazz-infused style, and existential themes, the series explores the crew's personal struggles and their pursuit of redemption."
   },
   {
@@ -276,6 +317,7 @@
     "image-url" : "https://upload.wikimedia.org/wikipedia/en/8/88/Psycho-Pass_key_visual.png",
     "total-seasons" : "3",
     "released-year" : "2013",
+    "availability" : "Not-Available",
     "description": "Psycho-Pass is set in a dystopian future where people's mental states are monitored to predict and prevent crimes. Akane Tsunemori, a young Inspector, navigates the moral complexities of this system as she works alongside enforcers, uncovering dark truths about society and herself."
   }
  ],
@@ -286,6 +328,7 @@
     "image-url" : "https://www.justwatch.com/images/poster/175569366/s718/elfen-lied.jpg",
     "total-seasons" : "1",
     "released-year" : "2004",
+    "availability" : "Available",
     "description": "Elfen Lied follows Lucy, a genetically modified human with deadly telekinetic abilities, as she escapes from a research facility. After suffering memory loss, she is taken in by two kindhearted college students, but her violent past and the government's pursuit threaten their safety and unravel dark secrets."
   },
   {
@@ -294,6 +337,7 @@
     "image-url" : "https://m.media-amazon.com/images/M/MV5BMjRjOGI4M2YtMGQ4NC00OTk3LTg4MWItYjBjYzNiOGI0Y2ZkXkEyXkFqcGc@._V1_.jpg  ",
     "total-seasons" : "1",
     "released-year" : "2018",
+    "availability" : "Available",
     "description": "Devilman Crybaby tells the story of Akira Fudo, a kind-hearted teenager who gains the powers of a demon while retaining his human soul. As he battles against demonic forces threatening humanity, Akira faces moral dilemmas, personal loss, and the true nature of love and humanity."
   },
   {
@@ -302,6 +346,7 @@
     "image-url" : "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=480,height=720/catalog/crunchyroll/20ede03b53db10bf98e7bbef3c47afe3.jpe",
     "total-seasons" : "1",
     "released-year" : "2010",
+    "availability" : "Not-Available",
     "description": "Shiki is set in a remote village where mysterious deaths occur following the arrival of a strange family. As the town's residents confront the truth about vampires among them, the series delves into moral ambiguity, human nature, and the thin line between victim and predator."
   },
   {
@@ -310,6 +355,7 @@
     "image-url" : "https://upload.wikimedia.org/wikipedia/en/4/4c/Another_series_cover.jpg",
     "total-seasons" : "1",
     "released-year" : "2009",
+    "availability" : "Not-Available",
     "description": "Another follows Koichi Sakakibara, a transfer student who discovers a dark secret surrounding his new class. As mysterious and gruesome deaths occur, he teams up with the enigmatic Mei Misaki to uncover the truth behind a deadly curse haunting their school."
   },
   {
@@ -318,6 +364,7 @@
     "image-url" : "https://m.media-amazon.com/images/M/MV5BYWFmMWE4YTMtMWViNS00NzI5LTljZGUtMGM1YTFkNmMzZjE3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
     "total-seasons" : "1",
     "released-year" : "2001",
+    "availability" : "Not-Available",
     "description": "Hellsing follows the Hellsing Organization, led by Sir Integra Hellsing, as they combat supernatural threats to humanity. With the help of Alucard, a powerful vampire bound to the organization, they face deadly ghouls, rival factions, and a dark conspiracy threatening the world."
   },
   {
@@ -326,6 +373,7 @@
     "image-url" : "https://upload.wikimedia.org/wikipedia/en/8/8e/Paranoia_Agent.png",
     "total-seasons" : "1",
     "released-year" : "2004",
+    "availability" : "Not-Available",
     "description": "Paranoia Agent explores a series of mysterious attacks in Tokyo by a figure known as 'Lil' Slugger.' As detectives investigate the case, the psychological series unravels the lives of the victims, revealing how fear, anxiety, and societal pressures intertwine in unexpected ways."
   },
   {
@@ -334,6 +382,7 @@
     "image-url" : "https://a.storyblok.com/f/178900/960x1377/5fa26f43de/tokyo-ghoul.jpg/m/filters:quality(95)format(webp)",
     "total-seasons" : "3",
     "released-year" : "2014",
+    "availability" : "Not-Available",
     "description": "Tokyo Ghoul follows Ken Kaneki, a college student who becomes a half-ghoul after a chance encounter with a deadly creature. Struggling with his dual identity, Kaneki navigates a brutal world of human and ghoul conflicts while seeking to protect those he loves."
   }
  ],
@@ -344,6 +393,7 @@
     "image-url" : "https://a.storyblok.com/f/178900/240x360/1e21acb8f4/blue-lock-2nd-season-kv-2-240.png/m/filters:quality(95)format(webp)",
     "total-seasons" : "2",
     "released-year" : "2022",
+    "availability" : "Available",
     "description": "Blue Lock follows Yoichi Isagi, a talented soccer player who joins a rigorous and controversial training program designed to create the ultimate striker for Japan's national team. The series explores themes of ambition, competition, and individuality in the high-stakes world of soccer."
   },
   {
@@ -352,6 +402,7 @@
     "image-url" : "https://m.media-amazon.com/images/M/MV5BYjYxMWFlYTAtYTk0YS00NTMxLWJjNTQtM2E0NjdhYTRhNzE4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
     "total-seasons" : "4",
     "released-year" : "2014",
+    "availability" : "Available",
     "description": "Haikyuu!! follows Shoyo Hinata, a passionate volleyball player who dreams of becoming a top player despite his short stature. Teaming up with the talented but arrogant Kageyama, they strive to lead their high school team to national victory while overcoming personal and team challenges."
   },
   {
@@ -360,6 +411,7 @@
     "image-url" : "https://m.media-amazon.com/images/M/MV5BMDkwNmU2NzYtYzA4ZS00NTRhLWIzN2ItNWI5M2Q4OGYwNTQ5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
     "total-seasons" : "2",
     "released-year" : "2013",
+    "availability" : "Not-Available",
     "description": "Ace of Diamond follows Eijun Sawamura, a gifted pitcher with an unorthodox throwing style, as he joins a prestigious high school baseball team. The series highlights Eijun's growth as a player and leader, along with the team's journey toward becoming national champions."
   },
   {
@@ -368,6 +420,7 @@
     "image-url" : "https://m.media-amazon.com/images/M/MV5BMjVjZTZjMjktYzAyYS00YTgyLTlhZjItYjVkZjU0MmU3OTY3XkEyXkFqcGc@._V1_.jpg",
     "total-seasons" : "3",
     "released-year" : "2012",
+    "availability" : "Not-Available",
     "description": "Kuroko's Basketball follows Tetsuya Kuroko, a seemingly invisible player with exceptional passing skills, as he joins Seirin High's basketball team. Alongside the passionate Taiga Kagami, Kuroko faces off against his former teammates from the 'Generation of Miracles' in thrilling matches."
   },
   {
@@ -376,6 +429,7 @@
     "image-url" : "https://www.animenewsnetwork.com/images/encyc/A20204-2351498559.1516422090.jpg",
     "total-seasons" : "6",
     "released-year" : "2004",
+    "availability" : "Not-Available",
     "description": "Major chronicles the life of Goro Honda, from his childhood dreams of following in his father's footsteps as a baseball player to his journey as a professional athlete. The series explores themes of perseverance, family, and the love for the game across generations."
   },
   {
@@ -384,6 +438,7 @@
     "image-url" : "https://upload.wikimedia.org/wikipedia/en/1/11/The_Prince_of_Tennis_DVD_box_set_1.jpg",
     "total-seasons" : "1",
     "released-year" : "2005",
+    "availability" : "Not-Available",
     "description": "The Prince of Tennis follows Ryoma Echizen, a tennis prodigy who joins the prestigious Seigaku tennis team. As he competes in challenging matches, Ryoma hones his skills, builds friendships, and aims to prove himself as the best player in Japan."
   },
   {
@@ -392,6 +447,7 @@
     "image-url" : "https://m.media-amazon.com/images/M/MV5BODc4NjczYjAtMjAwMi00YWQ3LWI1NTQtZWNlZDk4YmIzYWM4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
     "total-seasons" : "1",
     "released-year" : "2018",
+    "availability" : "Not-Available",
     "description": "Run with the Wind follows Kakeru Kurahara, a former elite runner who is persuaded by Haiji Kiyose to join a university's long-distance running team. Together with an eclectic group of teammates, they train for the grueling Hakone Ekiden marathon, facing physical and emotional hurdles along the way."
   }
  ],
@@ -402,6 +458,7 @@
     "image-url" : "https://upload.wikimedia.org/wikipedia/en/9/90/One_Piece%2C_Volume_61_Cover_%28Japanese%29.jpg",
     "total-seasons" : "21",
     "released-year" : "1999",
+    "availability" : "Not-Available",
     "description": "One Piece follows Monkey D. Luffy, a spirited young pirate with the ability to stretch his body like rubber after eating a Devil Fruit. Along with his diverse and loyal crew, the Straw Hat Pirates, Luffy embarks on an epic journey to find the legendary One Piece treasure and become the Pirate King."
   },
   {
@@ -410,6 +467,7 @@
     "image-url" : "https://upload.wikimedia.org/wikipedia/en/4/49/Shippudenkeyvisual.png",
     "total-seasons" : "22",
     "released-year" : "2007",
+    "availability" : "Available",
     "description": "Naruto Shippuden follows Naruto Uzumaki, a young ninja with a dream of becoming the Hokage, the leader of his village. As he grows stronger and faces numerous challenges, Naruto deals with the burden of being the host of the Nine-Tails Fox, a powerful and dangerous creature. Alongside his friends, Naruto confronts dark forces, including the Akatsuki organization, and learns the true meaning of friendship, sacrifice, and responsibility." 
   },
   {
@@ -418,6 +476,7 @@
     "image-url" : "https://qph.cf2.quoracdn.net/main-qimg-4f5f54fe8d440e70c41bd6d57c9ee6ed-lq",
     "total-seasons" : "5",
     "released-year" : "2002",
+    "availability" : "Available",
     "description": "Naruto follows the journey of Naruto Uzumaki, a young and spirited ninja who dreams of becoming the Hokage, the strongest ninja and leader of his village. Despite being ostracized for being the host of the Nine-Tails Fox, Naruto forms close bonds with his friends and fellow ninjas, working tirelessly to prove his worth and grow stronger in the face of many challenges."
   },
   {
@@ -426,6 +485,7 @@
     "image-url" : "https://upload.wikimedia.org/wikipedia/en/thumb/7/74/Dragon_Ball_Super_Key_visual.jpg/200px-Dragon_Ball_Super_Key_visual.jpg",
     "total-seasons" : "1",
     "released-year" : "1986",
+    "availability" : "Not-Available",
     "description": "Dragon Ball follows Goku, a martial artist with a pure heart, as he embarks on adventures to find the Dragon Balls, seven mystical orbs that grant wishes when gathered. Along the way, Goku makes friends and faces powerful enemies, including foes from other planets, while constantly striving to become the strongest warrior in the universe."
   },
   {
@@ -434,6 +494,7 @@
     "image-url" : "https://m.media-amazon.com/images/I/71aoeOhdNnL._AC_UF1000,1000_QL80_.jpg",
     "total-seasons" : "6",
     "released-year" : "2011",
+    "availability" : "Not-Available",
     "description": "Hunter x Hunter follows Gon Freecss, a cheerful and determined boy who dreams of becoming a Hunter like his father. Along his journey, Gon befriends Killua, Kurapika, and Leorio as they face dangerous challenges, uncover dark secrets, and strive to achieve their personal goals in a world filled with powerful adversaries."
   },
   {
@@ -442,6 +503,7 @@
     "image-url" : "https://qph.cf2.quoracdn.net/main-qimg-952ee45d770ba6a22c281c05088bfbe2-lq",
     "total-seasons" : "1",
     "released-year" : "2003",
+    "availability" : "Not-Available",
     "description": "Fullmetal Alchemist follows brothers Edward and Alphonse Elric, who use alchemy to search for the Philosopher's Stone to restore their bodies after a failed alchemical experiment. Their journey explores themes of sacrifice, morality, and the consequences of human ambition in a richly woven narrative."
   },
   {
@@ -450,6 +512,7 @@
     "image-url" : "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p10701949_b_v8_ah.jpg",
     "total-seasons" : "3",
     "released-year" : "2013",
+    "availability" : "Available",
     "description": "Attack on Titan follows Eren Yeager and his friends as they join the military to fight gigantic humanoid creatures known as Titans, uncovering dark secrets about their world along the way."
   },
   {
@@ -458,6 +521,7 @@
     "image-url" : "https://m.media-amazon.com/images/M/MV5BMWU1OGEwNmQtNGM3MS00YTYyLThmYmMtN2FjYzQzNzNmNTE0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
     "total-seasons" : "5",
     "released-year" : "2013",
+    "availability" : "Available",
     "description": "Demon Slayer follows Tanjiro Kamado, a kind-hearted boy who becomes a demon slayer to save his sister Nezuko, who has been turned into a demon, and to avenge his family against the demon who killed them."
 
   },
@@ -467,6 +531,7 @@
     "image-url" : "https://upload.wikimedia.org/wikipedia/en/8/8c/Vinland_Saga_key_visual.png",
     "total-seasons" : "2",
     "released-year" : "2019",
+    "availability" : "Not-Available",
     "description": "Vinland Saga follows the journey of Thorfinn, a young Viking warrior, as he seeks revenge against Askeladd, the man who killed his father, while being drawn into the larger conflicts of Viking-era Europe."
   }
  ],
@@ -477,6 +542,7 @@
     "image-url": "https://m.media-amazon.com/images/I/71a6uJY-SLL._AC_UF894,1000_QL80_.jpg",
     "total-seasons": "1",
     "released-year": "2006",
+    "availability" : "Not-Available",
     "description": "Ouran High School Host Club follows Haruhi Fujioka, a scholarship student at an elite academy, who accidentally breaks a vase and becomes indebted to a group of eccentric boys running a host club, leading to humorous and romantic adventures."
   },  
   {
@@ -485,6 +551,7 @@
     "image-url": "https://m.media-amazon.com/images/M/MV5BNzYwN2UyNDAtZTQ3My00ZjQ4LWE2ZmYtZDZiMTlhZGM3ZTc4XkEyXkFqcGc@._V1_.jpg",
     "total-seasons": "1",
     "released-year": "1999",
+    "availability" : "Not-Available",
     "description": "Great Teacher Onizuka follows Eikichi Onizuka, a former biker gang leader turned unconventional teacher, as he takes on a class of troubled students, using his unorthodox methods to teach them life lessons and inspire change."
   },
   {
@@ -493,6 +560,7 @@
     "image-url": "https://rukminim2.flixcart.com/image/850/1000/l5bd5zk0/poster/u/g/m/medium-ppointnew14961-spy-x-family-matte-finish-poster-original-imaggytysczrqecv.jpeg?q=20&crop=false",
     "total-seasons": "2",
     "released-year": "2022",
+    "availability" : "Not-Available",
     "description": "Spy x Family follows Twilight, a top spy who must create a fake family to complete a mission. He adopts a telepathic girl and marries an assassin, leading to a series of humorous and heartfelt adventures."
   },
   {
@@ -501,6 +569,7 @@
     "image-url": "https://i.pinimg.com/736x/18/c8/6b/18c86b07240c9f2db9da12601e2aaa78.jpg",
     "total-seasons": "1",
     "released-year": "2008",
+    "availability" : "Not-Available",
     "description": "Toradora! is a heartwarming romantic comedy about Ryuuji Takasu and Taiga Aisaka, two high school students who team up to help each other confess their feelings to their respective crushes but end up growing closer themselves."
   },
   {
@@ -508,7 +577,9 @@
     "genre" : "Comedy",
     "image-url" : "https://m.media-amazon.com/images/I/71aoeOhdNnL._AC_UF1000,1000_QL80_.jpg",
     "total-seasons" : "6",
-    "released-year" : "2011"
+    "released-year" : "2011",
+    "availability" : "Not-Available",
+    "description": "Hunter x Hunter is a Japanese anime and manga series created by Yoshihiro Togashi. It follows the adventures of Gon Freecss, a young boy who aspires to become a Hunter to find his missing father, Ging Freecss, a legendary Hunter. Along his journey, Gon befriends Killua Zoldyck, Kurapika, and Leorio, and they face various challenges, including dangerous missions, formidable foes, and intricate moral dilemmas."
   },
   {
     "name": "Kaguya-sama: Love is War",
@@ -648,6 +719,7 @@
     "image-url": "https://images-cdn.ubuy.co.in/635c89f122de1b17d32a59c6-black-clover-group-wall-art-anime-stuff.jpg",
     "total-seasons": "4",
     "released-year": "2017",
+    "availability" : "Available",
     "description": "Black Clover follows Asta, a boy born without magic in a world where magic is everything, as he aims to become the Wizard King with the help of his anti-magic abilities and his friends."
   },
   {
@@ -666,6 +738,7 @@
     "image-url" : "https://m.media-amazon.com/images/M/MV5BYTgyZDhmMTEtZDFhNi00MTc4LTg3NjUtYWJlNGE5Mzk2NzMxXkEyXkFqcGc@._V1_.jpg",
     "total-seasons": "1",
     "released-year": "2006",
+    "availability" : "Available",
     "description": "Death Note follows Light Yagami, a high school student who discovers a notebook that allows him to kill anyone whose name he writes in it, as he is pursued by the genius detective L."
   },
   {
@@ -674,11 +747,13 @@
     "image-url": "https://upload.wikimedia.org/wikipedia/en/8/88/Psycho-Pass_key_visual.png",
     "total-seasons": "3",
     "released-year": "2012",
+    "availability" : "Not-Available",
     "description": "Psycho-Pass is set in a dystopian future where a system known as the Sibyl System can measure the threat level of a person’s mental state, and it follows the detectives who enforce the law and uncover dark secrets."
   },
   {
     "name": "Steins;Gate",
     "genre": "Mystery, Sci-Fi, Thriller",
+    "availability" : "Not-Available",
     "image-url": "https://m.media-amazon.com/images/M/MV5BZjI1YjZiMDUtZTI3MC00YTA5LWIzMmMtZmQ0NTZiYWM4NTYwXkEyXkFqcGc@._V1_.jpg",
     "total-seasons": "1",
     "released-year": "2011",
@@ -772,6 +847,7 @@
     "image-url" : "https://m.media-amazon.com/images/M/MV5BMWU1OGEwNmQtNGM3MS00YTYyLThmYmMtN2FjYzQzNzNmNTE0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
     "total-seasons": "3",
     "released-year": "2019",
+    "availability" : "Available",
     "description": "Demon Slayer follows Tanjiro Kamado, a young boy who becomes a demon slayer after his family is killed by demons, and his sister Nezuko is turned into a demon. Together, they battle demons while searching for a cure for Nezuko."
   }
  ],
