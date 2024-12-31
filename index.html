@@ -1,30 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="icon" type="image/x-icon" href="./assets/home_page_pics/def-user.png">
-    <!-- <script src="https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/9.15.0/firebase-auth.js"></script> -->
     <script type="module" src="./JS/login.js" defer></script>
     <link rel="stylesheet" href="./CSS/login.css">
 </head>
 
 <body>
-    <form id="form">
-        <h1>LOGIN</h1>
-        <label id="lab1" >EMAIL</label>
-        <input id="email" type="text">
-        <span id="sp1"></span>
-        <label id="lab2" for="password">PASSWORD</label>
-        <input id="password" type="password">
-        <span class="toggle-password" id="togglePassword">👁️</span>
-        <span id="sp2"></span>
-        <p>NEW USER?</p>
-        <a id="signup">SIGN UP</a>
-        <button id="submit">LOG IN</button>
-    </form>
+    <div class="form-container">
+        <h1>Login</h1>
+        <form id="loginForm">
+            <input type="text" id="loginUsername" placeholder="Username" required>
+            <input type="password" id="loginPassword" placeholder="Password" required>
+            <span id="togglePassword">👁️</span>
+            <button type="submit">Login</button>
+        </form>
+        <p id="loginMessage"></p>
+    </div>
 </body>
 
 </html>

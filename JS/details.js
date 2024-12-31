@@ -54,7 +54,7 @@ const episodeCount = [
     {"Dandadan" : 8, "url-value" : "Dandadan-", "name" : "Episode-"},
     {"Black Clover" : 52, "url-value" : "Black-Clover-", "name" : "Episode-"},
     {"Elfed Lied" : 13, "url-value" : "Elfed-Lied-", "name" : "Episode-"},
-    {"Devilman CryB aby" : 10, "url-value" : "Devilman-Crybaby-", "name" : "Episode-"},
+    {"Devilman CryBaby" : 10, "url-value" : "Devilman-Crybaby-", "name" : "Episode-"},
     {"Dragon Ball" : 153, "url-value" : "Devilman-Crybaby-", "name" : "Episode-"},
     {"CyberPunk" : 10, "url-value" : "Not Available", "name" : "Episode-"},
     {"Tokyo Revengers" : 36, "url-value" : "Not Available", "name" : "Episode-"},
@@ -71,7 +71,7 @@ const episodeCount = [
     {"Hell Sing" : 13, "url-value" : "Not Available", "name" : "Episode-"},
     {"Paranoic Agent" : 13, "url-value" : "Not Available", "name" : "Episode-"},
     {"Tokyo Ghoul" : 12, "url-value" : "Not Available", "name" : "Episode-"},
-    {"Haikyuu" : 85, "url-value" : "Not Available", "name" : "Episode-"},
+    {"Haikyuu" : 85, "url-value" : "Haikyuu-", "name" : "Episode-"},
     {"Ace of the Diamond" : 178, "url-value" : "Not Available", "name" : "Episode-"},
     {"Kuroko's Basket" : 75, "url-value" : "Not Available", "name" : "Episode-"},
     {"Major" : 204, "url-value" : "Not Available", "name" : "Episode-"},
@@ -114,6 +114,7 @@ const episodeCount = [
     {"The Ancient Magus' Bride" : 39   , "url-value" : "Not Available", "name" : "Episode-"},
     {"The Seven Deadly Sins" : 124   , "url-value" : "Not Available", "name" : "Episode-"},
     {"Noragami" : 29   , "url-value" : "Not Available", "name" : "Episode-"},
+    {"Boruto : Naruto Next Generations" : 293   , "url-value" : "Not Available", "name" : "Episode-"},
     {"My Dressup Darling" : 12   , "url-value" : "My-Dressup-Darling-", "name" : "Episode-"}
 ];
 
@@ -151,7 +152,7 @@ function generateEpisodeDivs(selectedImageName) {
             episodeDiv.id = `episode-${i}`; // Unique ID
 
             episodeDiv.onclick = () => {
-                const videoUrl = `http://192.168.174.120:5000/stream-video?filename=${episodeDiv.dataset.url}`;
+                const videoUrl = `http://192.168.207.120:5000/stream-video?filename=${episodeDiv.dataset.url}`;
                 window.location.href = videoUrl; // Redirect to backend video
             };
 
@@ -168,7 +169,7 @@ function generateEpisodeDivs(selectedImageName) {
         movieDiv.id = `movie-${selectedImageName}`; // Unique ID for the movie
 
         movieDiv.onclick = () => {
-            const videoUrl = `http://192.168.174.120:5000/stream-video?filename=${movieDiv.dataset.url}`;
+            const videoUrl = `http://192.168.207.120:5000/stream-video?filename=${movieDiv.dataset.url}`;
             window.location.href = videoUrl; // Redirect to backend video
         };
 
