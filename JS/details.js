@@ -169,7 +169,7 @@ function generateEpisodeDivs(selectedImageName) {
         movieDiv.id = `movie-${selectedImageName}`; // Unique ID for the movie
 
         movieDiv.onclick = () => {
-            const videoUrl = `http://192.168.207.120:5000/stream-video?filename=${movieDiv.dataset.url}`;
+            const videoUrl = `http://10.20.135.5:5000/stream-video?filename=${movieDiv.dataset.url}`;
             window.location.href = videoUrl; // Redirect to backend video
         };
 
