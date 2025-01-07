@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
   // Load user information (example data)
-  const username = 'Mohamed Ismail';
+  const username = "Mohamed Vaseem";  
   const email = localStorage.getItem('Username');
   const joinedDate = 'January 1, 2024';
 
@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const storeWatchLaterList = async () => {
       try {
         const email = localStorage.getItem('Username'); // Fetch email from localStorage
-        const response = await fetch('http://127.0.0.1:5000/storeWatchLater', {
+        const response = await fetch('https://anime-ott.onrender.com/storeWatchLater', {
 
           method: 'POST',
           headers: {
