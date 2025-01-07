@@ -4,7 +4,8 @@ const loginMessage = document.getElementById("loginMessage");
 // const signupMessage = document.getElementById("signupMessage");
 
 // Backend API URL
-const API_URL = "https://anime-ott.onrender.com";
+// const API_URL = "https://anime-ott.onrender.com";
+const API_URL = "http://127.0.0.1:5000";
 
 // Login functionality
 loginForm.addEventListener("submit", async (e) => {
@@ -37,6 +38,7 @@ loginForm.addEventListener("submit", async (e) => {
       localStorage.setItem("isLoggedIn", "true");
       localStorage.setItem("Username", email);
       localStorage.setItem("Password", password);
+      localStorage.setItem("name", result.name);
     } else {
       errorMessage.textContent = result.error || 'Login failed. Please try again.';
       errorMessage.style.display = 'block';

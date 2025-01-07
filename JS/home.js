@@ -13,8 +13,9 @@ const show_more = document.getElementsByClassName("show_more");
 const idImg = document.getElementById("id-img")
 const idUser = document.getElementById("id-name");
 const localUser = localStorage.getItem("Username");
+const localName = localStorage.getItem("name");
 const firstLetter = localUser.charAt(0); // First letter
-const beforeAt = localUser.split('@')[0]; // Part before '@'
+const beforeAt = localName.split(' ')[0]; // Part before '@'
 
 //Footer
 const TandC = document.getElementById("link-one");
