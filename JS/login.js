@@ -4,8 +4,7 @@ const loginMessage = document.getElementById("loginMessage");
 // const signupMessage = document.getElementById("signupMessage");
 
 // Backend API URL
-// const API_URL = "https://anime-ott.onrender.com";
-const API_URL = "http://localhost:5000";
+const API_URL = "https://anime-ott.onrender.com";
 
 // Login functionality
 loginForm.addEventListener("submit", async (e) => {
@@ -14,7 +13,7 @@ loginForm.addEventListener("submit", async (e) => {
   const password = document.getElementById("loginPassword").value;
 
   try {
-    const response = await fetch('http://127.0.0.1:5000/login', {
+    const response = await fetch(`${API_URL}/login`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

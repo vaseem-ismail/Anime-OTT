@@ -5,25 +5,10 @@
   }
   body {
     background-color: black;
-    overflow-x: hidden;
     background: fixed;
-    background-size: 100% 100%;
-    animation: slider 10s linear infinite;
-    overflow-y: scroll;
-  }
-  @keyframes slider {
-    0% {
-      background-image: url("../assets/pc_size_pics/2.jpg");
-    }
-    30% {
-      background-image: url("../assets/pc_size_pics/4.jpg");
-    }
-    60% {
-      background-image: url("../assets/pc_size_pics/6.jpg");
-    }
-    100% {
-      background-image: url("../assets/pc_size_pics/8.jpg");
-    }
+    background-image: url("../assets/home_page_pics/bg.jpg");
+   
+    max-height: 100%; 
   }
   #border {
     width: 90%;
@@ -82,7 +67,7 @@
   }
   body {
     background-color: black;
-    overflow-x: hidden;
+    
   }
   #border {
     width: 95%;
