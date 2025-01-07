@@ -72,7 +72,8 @@ def login():
     return jsonify({
         'message': 'Login successful',
         'token': token,
-        'watchLaterList': watch_later_list
+        'watchLaterList': watch_later_list,
+        "name": user['username']
     }), 200
 
 
