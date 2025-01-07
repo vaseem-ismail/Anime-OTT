@@ -1,102 +1,95 @@
-document.body.style.zoom = "95%";
+document.addEventListener('DOMContentLoaded', () => {
+  // Load user information (example data)
+  const username = 'Mohamed Ismail';
+  const email = localStorage.getItem('Username');
+  const joinedDate = 'January 1, 2024';
 
-// Firebase initialization
-import { initializeApp } from "firebase/app";
-import {
-  getFirestore,
-  collection,
-  query,
-  where,
-  getDocs,
-  updateDoc,
-  doc,
-  arrayUnion
-} from "firebase/firestore";
+  document.getElementById('user-username').textContent = username;
+  document.getElementById('user-email').textContent = email;
+  document.getElementById('user-joined').textContent = joinedDate;
 
-const firebaseConfig = {
-  apiKey: "AIzaSyC8UXjRVjJYFHGa5qQcXxjeGIG-GaxygQk",
-  authDomain: "login-cee79.firebaseapp.com",
-  projectId: "login-cee79",
-  storageBucket: "login-cee79.appspot.com",
-  messagingSenderId: "631395607545",
-  appId: "1:631395607545:web:45fd2f3293108e30555328"
-};
+  // Load Watch Later list from localStorage
+  const watchLaterList = JSON.parse(localStorage.getItem('watchLaterList')) || [];
+  const watchLaterListContainer = document.getElementById('watch-later-list');
+  const noWatchLaterMessage = document.getElementById('no-watch-later');
 
+  if (watchLaterList.length === 0) {
+    noWatchLaterMessage.style.display = 'block';
+  } else {
+    noWatchLaterMessage.style.display = 'none';
 
-window.addEventListener("click",()=>{
+    watchLaterList.forEach(item => {
+      const listItem = document.createElement('li');
+      listItem.textContent = item;
 
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const db = getFirestore(app);
+      // Add a "Remove" button
+      const removeButton = document.createElement('button');
+      removeButton.textContent = 'Remove';
+      removeButton.onclick = () => {
+        const index = watchLaterList.indexOf(item);
+        if (index > -1) {
+          watchLaterList.splice(index, 1);
+          localStorage.setItem('watchLaterList', JSON.stringify(watchLaterList));
+          listItem.remove();
+          if (watchLaterList.length === 0) {
+            noWatchLaterMessage.style.display = 'block';
+          }
+        }
+      };
 
-// Retrieve email from localStorage
-const userEmail = localStorage.getItem("Username");
+      // Add a "Watch Now" button
+      const watchNowButton = document.createElement('button');
+      watchNowButton.textContent = 'Watch Now';
+      watchNowButton.classList.add('watch-now-btn');
+      watchNowButton.onclick = () => {
+        localStorage.setItem('selectedImageName', item);
+        window.location.href = 'details.html';
+      };
 
-if (userEmail) {
-  // Query Firestore for user data
-  const usersCollection = collection(db, "users");
-  const q = query(usersCollection, where("email", "==", userEmail));
-
-  getDocs(q)
-    .then((querySnapshot) => {
-      if (!querySnapshot.empty) {
-        querySnapshot.forEach((docSnapshot) => {
-          const userData = docSnapshot.data();
-          const userId = docSnapshot.id;
-
-          // Populate fields dynamically
-          document.getElementById("email").value = userData.email || "";
-          document.getElementById("username").value =
-            userData.username || `Unknown_${Date.now()}`;
-
-          // Save Profile Changes
-          document
-            .getElementById("saveProfileBtn")
-            .addEventListener("click", () => saveProfile(userId));
-
-          // Add Watch Later
-          document
-            .getElementById("addWatchLaterBtn")
-            .addEventListener("click", () => addToWatchLater(userId));
-        });
-      } else {
-        alert("User not found!");
-      }
-    })
-    .catch((error) => console.error("Error fetching user data:", error));
-}
-
-// Save Profile Changes
-async function saveProfile(userId) {
-  const username = document.getElementById("username").value;
-  const email = document.getElementById("email").value;
-
-  try {
-    const userDocRef = doc(db, "users", userId);
-    await updateDoc(userDocRef, {
-      username: username,
-      email: email
+      listItem.appendChild(removeButton);
+      listItem.appendChild(watchNowButton); // Add "Watch Now" button
+      watchLaterListContainer.appendChild(listItem);
     });
-    alert("Profile updated successfully!");
-  } catch (error) {
-    console.error("Error updating profile:", error);
-  }
-}
 
-// Add to Watch Later
-async function addToWatchLater(userId) {
-  const item = prompt("Enter item to add to Watch Later:");
-  if (item) {
-    try {
-      const userDocRef = doc(db, "users", userId);
-      await updateDoc(userDocRef, {
-        watchLater: arrayUnion(item)
-      });
-      alert("Added to Watch Later!");
-    } catch (error) {
-      console.error("Error adding to Watch Later:", error);
-    }
   }
-}
-    
-})
+
+  document.getElementById('logout-button').addEventListener('click', () => {
+    alert('Logging out...');
+    // Ensure email is fetched from localStorage
+    alert('Email: ' + email);
+
+    const watchLaterList = JSON.parse(localStorage.getItem('watchLaterList')) || []; // Ensure watchLaterList exists
+
+    const storeWatchLaterList = async () => {
+      try {
+        const email = localStorage.getItem('Username'); // Fetch email from localStorage
+        const response = await fetch('http://127.0.0.1:5000/storeWatchLater', {
+
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            email: email,
+            watchLaterList: watchLaterList,
+          }),
+        });
+
+        if (response.ok) {
+          console.log('Watch Later list stored successfully.');
+        } else {
+          console.error('Failed to store Watch Later list.');
+        }
+      } catch (error) {
+        console.error('Error storing Watch Later list:', error);
+      }
+    };
+
+    // Call the function to store the watchLaterList
+    storeWatchLaterList().then(() => {
+      localStorage.clear(); // Clear localStorage
+      window.location.href = 'index.html'; // Redirect to login page
+    });
+  });
+
+});

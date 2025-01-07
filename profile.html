@@ -4,36 +4,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>User Profile Page</title>
+    <title>Profile Page</title>
     <link rel="stylesheet" href="./CSS/profile.css">
-    <script type="module" src="./JS/profile.js" defer></script>
 </head>
 
 <body>
-    <div class="profile-container">
-        <div class="profile-header">
-            <img src="avatar.png" alt="User Avatar" class="profile-avatar">
-            <h1 class="profile-name" id="username">Unknown_12345</h1>
-            <p class="profile-bio">Web Developer | Tech Enthusiast | Coffee Lover</p>
+    <header>
+        <div id="profile-header">
+            <h1>Welcome, <span id="username">User</span>!</h1>
+            <button id="logout-button">Logout</button>
         </div>
+    </header>
 
-        <div class="profile-container">
-            <h2>Profile</h2>
-            <label>Email:</label>
-            <input type="email" id="email" readonly />
-            <label>Username:</label>
-            <input type="text" id="username" placeholder="Enter username" />
-            <button id="saveProfileBtn">Save Profile</button>
-            
-            <h2>Watch Later</h2>
-            <button id="addWatchLaterBtn">Add to Watch Later</button>
-          </div>
-          
+    <main>
+        <section id="user-info">
+            <h2>User Information</h2>
+            <div class="info">
+                <p><strong>Username:</strong> <span id="user-username">Loading...</span></p>
+                <p><strong>Email:</strong> <span id="user-email">Loading...</span></p>
+                <p><strong>Joined:</strong> <span id="user-joined">Loading...</span></p>
+            </div>
+        </section>
 
-        <div class="profile-footer">
-            <button class="edit-profile-btn" id="edit-profile-btn">Edit Profile</button>
-        </div>
-    </div>
+        <section id="watch-later-section">
+            <h2>Your Watch Later List</h2>
+            <ul id="watch-later-list">
+                <!-- Watch later items will be dynamically added here -->
+            </ul>
+            <p id="no-watch-later" style="display: none;">No items in your Watch Later list.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 AnimeWorld. All rights reserved.</p>
+    </footer>
+
+    <script src="./JS/profile.js"></script>
 </body>
 
 </html>

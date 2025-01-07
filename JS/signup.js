@@ -5,7 +5,8 @@ window.addEventListener("load", () => {
   }
 })
 // Password toggle
-const API_URL = "https://anime-ott.onrender.com";
+// const API_URL = "https://anime-ott.onrender.com";
+const API_URL = "http://localhost:5000";
 const passwordInput = document.getElementById("signupPassword");
 const togglePassword = document.getElementById("togglePassword");
 togglePassword.addEventListener("click", () => {
@@ -19,13 +20,14 @@ const signupForm = document.getElementById("signupForm");
 // Signup functionality
 signupForm.addEventListener("submit", async (e) => {
   e.preventDefault();
-  const username = document.getElementById("signupUsername").value;
+  const email = document.getElementById("signupUsername").value;
   const password = document.getElementById("signupPassword").value;
+  const username = document.getElementById("name").value;
 
   const response = await fetch(`${API_URL}/register`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ username, password }),
+    body: JSON.stringify({ username, password , email}),
   });
 
   const data = await response.json();
