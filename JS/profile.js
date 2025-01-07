@@ -57,7 +57,6 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   document.getElementById('logout-button').addEventListener('click', () => {
-    alert('Logging out...');
     // Ensure email is fetched from localStorage
 
     const watchLaterList = JSON.parse(localStorage.getItem('watchLaterList')) || []; // Ensure watchLaterList exists
@@ -85,13 +84,16 @@ document.addEventListener('DOMContentLoaded', () => {
       } catch (error) {
         console.error('Error storing Watch Later list:', error);
       }
+      localStorage.clear(); // Clear localStorage
+      window.location.href = 'index.html'; // Redirect to
     };
 
     // Call the function to store the watchLaterList
-    storeWatchLaterList().then(() => {
-      localStorage.clear(); // Clear localStorage
-      window.location.href = 'index.html'; // Redirect to login page
-    });
+    // storeWatchLaterList().then(() => {
+    //   localStorage.remove("isLoggedIn"); // Clear localStorage
+    //   window.location.href = '../index.html'; // Redirect to login page
+    // });
+    storeWatchLaterList();
   });
 
 });
