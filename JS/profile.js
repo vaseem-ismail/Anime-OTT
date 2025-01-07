@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
   // Load user information (example data)
-  const username = localStorage.getItem('name');  
+  const username = localStorage.getItem('name') || "Mohamed Vaseem";  
   const email = localStorage.getItem('Username');
   const joinedDate = 'January 1, 2024';
 
@@ -59,7 +59,6 @@ document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('logout-button').addEventListener('click', () => {
     alert('Logging out...');
     // Ensure email is fetched from localStorage
-    alert('Email: ' + email);
 
     const watchLaterList = JSON.parse(localStorage.getItem('watchLaterList')) || []; // Ensure watchLaterList exists
 
