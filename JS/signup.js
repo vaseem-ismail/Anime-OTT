@@ -33,6 +33,9 @@ signupForm.addEventListener("submit", async (e) => {
   if (response.ok) {
     signupMessage.style.color = "green";
     signupMessage.textContent = "Signup successful! Redirecting to Home page...";
+    window.location.href = "home.html";
+    localStorage.setItem("Username", email);
+    localStorage.setItem("name", username);
   } else {
     signupMessage.style.color = "red";
     signupMessage.textContent = data.error || "Signup failed!";
