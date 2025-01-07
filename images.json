@@ -71,6 +71,33 @@
       "released-year" : "2004",
       "availability" : "Not-Available",
       "description": "Bleach follows Ichigo Kurosaki, a teenager with the ability to see ghosts. After accidentally obtaining the powers of a Soul Reaper, a being tasked with protecting the living from evil spirits, Ichigo must defend the human world from the threat of malevolent spirits known as Hollows. As he grows stronger, Ichigo uncovers the mysteries of the Soul Society and its powerful protectors."
+    },
+    {
+      "name" : "Hunter X Hunter",
+      "genre" : "Adventure",
+      "image-url" : "https://m.media-amazon.com/images/I/71aoeOhdNnL._AC_UF1000,1000_QL80_.jpg",
+      "total-seasons" : "6",
+      "released-year" : "2011",
+      "availability" : "Not-Available",
+      "description": "Hunter x Hunter follows Gon Freecss, a cheerful and determined boy who dreams of becoming a Hunter like his father. Along his journey, Gon befriends Killua, Kurapika, and Leorio as they face dangerous challenges, uncover dark secrets, and strive to achieve their personal goals in a world filled with powerful adversaries."
+    },
+    {
+      "name": "Made in Abyss",
+      "genre": "Fantasy, Adventure, Drama",
+      "image-url": "https://image.tmdb.org/t/p/original/sohrzVIVvIvwmJP0DzgQu2pnXnu.jpg",
+      "total-seasons": "2",
+      "released-year": "2017",
+      "availability" : "Not-Available",
+      "description": "Made in Abyss follows Riko, a young girl, and Reg, a humanoid robot, as they descend into the mysterious Abyss, an unexplored chasm filled with wonders and dangers, searching for Riko's mother."
+    },
+    {
+      "name" : "One Piece",
+      "genre" : "Adventure",
+      "image-url" : "https://upload.wikimedia.org/wikipedia/en/9/90/One_Piece%2C_Volume_61_Cover_%28Japanese%29.jpg",
+      "total-seasons" : "21",
+      "released-year" : "1999",
+      "availability" : "Not-Available",
+      "description": "One Piece follows Monkey D. Luffy, a spirited young pirate with the ability to stretch his body like rubber after eating a Devil Fruit. Along with his diverse and loyal crew, the Straw Hat Pirates, Luffy embarks on an epic journey to find the legendary One Piece treasure and become the Pirate King."
     }
    ],
   "Action":[
@@ -587,6 +614,7 @@
     "image-url": "https://i.pinimg.com/736x/e8/c8/6a/e8c86abe883da7c386aba528b1bc84d8.jpg",
     "total-seasons": "3",
     "released-year": "2019",
+    "availability" : "Not-Available",
     "description": "Kaguya-sama: Love is War is a hilarious romantic comedy about two elite student council members, Kaguya Shinomiya and Miyuki Shirogane, who engage in a battle of wits to make the other confess their love first."
   },  
   {
@@ -595,6 +623,7 @@
     "image-url": "https://m.media-amazon.com/images/M/MV5BNDliMDE4MDAtNjQwMC00NmZmLThhZWMtOGYwMTlhOGZkYzBjXkEyXkFqcGc@._V1_.jpg",
     "total-seasons": "2",
     "released-year": "2016",
+    "availability" : "Not-Available",
     "description": "KonoSuba follows Kazuma Satou, a boy who dies in an embarrassing accident and is reincarnated into a fantasy world, where he teams up with a dysfunctional party of adventurers, leading to chaotic and hilarious misadventures."
   },
   {
@@ -603,6 +632,7 @@
     "image-url": "https://m.media-amazon.com/images/M/MV5BODdjMWIyYjQtNzI4ZC00ZjA1LWJmYzMtYTA1ZjFiNTMxZWI5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
     "total-seasons": "2",
     "released-year": "2013",
+    "availability" : "Not-Available",
     "description": "The Devil is a Part-Timer! follows Satan, the Demon Lord, who escapes to modern Tokyo after a defeat and starts working at a fast-food restaurant to survive, blending humorous daily life struggles with fantasy elements."
   },
   {
@@ -621,6 +651,7 @@
     "image-url": "https://i.pinimg.com/474x/81/7b/3a/817b3a08d8e4c7282e3c1f567836059d.jpg",
     "total-seasons": "1",
     "released-year": "2008",
+    "availability" : "Not-Available",
     "description": "Clannad: After Story continues the emotional journey of Tomoya and Nagisa as they navigate adulthood, relationships, and hardships, showcasing themes of love, loss, and family bonds."
   },
   {
@@ -629,6 +660,7 @@
     "image-url": "https://rukminim2.flixcart.com/image/850/1000/jxf05u80/poster/v/g/2/medium-and-anime-your-lie-in-april-kaori-miyazono-kousei-arima-original-imaf9kyhys3rthus.jpeg?q=90&crop=false",
     "total-seasons": "1",
     "released-year": "2014",
+    "availability" : "Not-Available",
     "description": "Your Lie in April follows Kousei Arima, a piano prodigy who loses his ability to play after his mother's death, and Kaori Miyazono, a spirited violinist who helps him rediscover his passion for music."
   },
   {
@@ -637,6 +669,7 @@
     "image-url": "https://image.tmdb.org/t/p/original/keDKycCcn3VgYvZhLnGiyYYtb2H.jpg",
     "total-seasons": "1",
     "released-year": "2018",
+    "availability" : "Not-Available",
     "description": "Violet Evergarden follows a young woman who, after serving in a brutal war, learns to understand human emotions as she becomes an Auto Memory Doll, writing letters that convey people's feelings."
   },
   {
@@ -645,6 +678,7 @@
     "image-url": "https://image.tmdb.org/t/p/original/iriHlZ7FrKrXCnNRvnoMM5suNQG.jpg",
     "total-seasons": "1",
     "released-year": "2011",
+    "availability" : "Not-Available",
     "description": "Anohana tells the story of a group of childhood friends who reunite to fulfill the last wish of their deceased friend Menma, uncovering unresolved emotions and healing their broken bonds."
   },
   {
@@ -653,6 +687,7 @@
     "image-url": "https://m.media-amazon.com/images/M/MV5BMDJmZGZmNjQtMzE4NS00ZGRmLWFiMTQtM2EzZDhhZGNkY2FmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
     "total-seasons": "2",
     "released-year": "2016",
+    "availability" : "Not-Available",
     "description": "March Comes in Like a Lion follows Rei Kiriyama, a professional shogi player battling loneliness and depression, as he finds support and warmth in the Kawamoto family and rediscovers himself."
   },
   {
@@ -669,6 +704,7 @@
     "image-url": "https://m.media-amazon.com/images/M/MV5BZWQ2YmI5NWMtZTY2Mi00MGUxLWFhMmEtYjVjZjMwOTNkOThjXkEyXkFqcGc@._V1_.jpg",
     "total-seasons": "1",
     "released-year": "2016",
+    "availability" : "Not-Available",
     "description": "Erased follows Satoru Fujinuma, a man with the ability to travel back in time, as he attempts to prevent a series of tragic events, including the murder of his childhood friend, by unraveling a dark mystery."
   }
  ],
@@ -679,6 +715,7 @@
     "image-url" : "https://qph.cf2.quoracdn.net/main-qimg-952ee45d770ba6a22c281c05088bfbe2-lq",
     "total-seasons": "1",
     "released-year": "2009",
+    "availability" : "Not-Available",
     "description": "Fullmetal Alchemist: Brotherhood follows Edward and Alphonse Elric, two brothers who use alchemy to search for the Philosopher's Stone to restore their bodies after a failed alchemical experiment."
   },
   {
@@ -687,6 +724,7 @@
     "image-url": "https://images-cdn.ubuy.co.in/635708614a7dba706e6f9b32-poster-stop-online-re-zero-starting.jpg",
     "total-seasons": "2",
     "released-year": "2016",
+    "availability" : "Not-Available",
     "description": "Re:Zero follows Subaru Natsuki, an ordinary boy who finds himself transported to a fantasy world and discovers he can reverse time by dying, using his ability to solve deadly mysteries."
   },
   {
@@ -695,6 +733,7 @@
     "image-url": "https://external-preview.redd.it/ZQlN80PXjnFOQL_eYqySSZxhdnrajNCLI5Ku1Zd7q1k.jpg?auto=webp&s=2a1dff53ff859aa058972bb45a6393a8abda1cb3",
     "total-seasons": "4",
     "released-year": "2012",
+    "availability" : "Not-Available",
     "description": "Sword Art Online follows Kirito, a gamer trapped in a virtual MMORPG where dying in the game means dying in real life, as he fights to clear the game and escape."
   },
   {
@@ -703,6 +742,7 @@
     "image-url": "https://image.tmdb.org/t/p/original/sohrzVIVvIvwmJP0DzgQu2pnXnu.jpg",
     "total-seasons": "2",
     "released-year": "2017",
+    "availability" : "Not-Available",
     "description": "Made in Abyss follows Riko, a young girl, and Reg, a humanoid robot, as they descend into the mysterious Abyss, an unexplored chasm filled with wonders and dangers, searching for Riko's mother."
   },
   {
@@ -711,6 +751,7 @@
     "image-url": "https://m.media-amazon.com/images/I/81nSkZPstQL.jpg",
     "total-seasons": "3",
     "released-year": "2019",
+    "availability" : "Not-Available",
     "description": "The Rising of the Shield Hero follows Naofumi Iwatani, a man summoned to a parallel world as the Shield Hero, as he overcomes betrayal and becomes a legendary defender against waves of monsters."
   },
   {
@@ -728,6 +769,7 @@
     "image-url": "https://rukminim2.flixcart.com/image/850/1000/l5jxt3k0/book/g/x/u/no-game-no-life-vol-1-original-imagg7pvcbtrmryq.jpeg?q=20&crop=false",
     "total-seasons": "1",
     "released-year": "2014",
+    "availability" : "Not-Available",
     "description": "No Game No Life follows siblings Sora and Shiro, genius gamers transported to a fantasy world where everything is decided through games, as they challenge the world's god to claim ultimate power."
   }  
  ],
@@ -765,6 +807,7 @@
     "image-url": "https://rukminim2.flixcart.com/image/750/900/kyxb9u80/poster/r/b/f/medium-the-promised-neverland-a-japanese-manga-series-matte-original-imagbfmqdazjtuyd.jpeg?q=20&crop=false",
     "total-seasons": "2",
     "released-year": "2019",
+    "availability" : "Not-Available",
     "description": "The Promised Neverland follows a group of orphaned children who discover the horrifying truth about their seemingly idyllic orphanage and must escape before they become prey to sinister forces."
   },
   {
@@ -773,6 +816,7 @@
     "image-url": "https://m.media-amazon.com/images/M/MV5BZWQ2YmI5NWMtZTY2Mi00MGUxLWFhMmEtYjVjZjMwOTNkOThjXkEyXkFqcGc@._V1_.jpg",
     "total-seasons": "1",
     "released-year": "2016",
+    "availability" : "Not-Available",
     "description": "Erased follows Satoru Fujinuma, a man with the ability to travel back in time, as he tries to solve the mystery of a series of disappearances and prevent a tragic event from repeating in his past."
   },
   {
@@ -789,6 +833,7 @@
     "image-url": "https://image.tmdb.org/t/p/original/9y4GFpIDoiKAYNIMVEvt8RUPMGo.jpg",
     "total-seasons": "2",
     "released-year": "2006",
+    "availability" : "Not-Available",
     "description": "Higurashi When They Cry follows a group of children in a small rural village, where strange and violent events occur every year during the festival, as they uncover the mystery behind the recurring murders."
   }
  ],
@@ -799,6 +844,7 @@
     "image-url": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781974743254/natsumes-book-of-friends-vol-29-9781974743254_hr.jpg",
     "total-seasons": "6",
     "released-year": "2008",
+    "availability" : "Not-Available",
     "description": "Natsume's Book of Friends follows Takashi Natsume, a teenager who can see spirits and inherits a book from his grandmother that contains the names of spirits she had bound to her service, leading him to develop connections with both humans and supernatural beings."
   },
   {
@@ -807,6 +853,7 @@
     "image-url": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p10513936_b_v8_aa.jpg",
     "total-seasons": "2",
     "released-year": "2011",
+    "availability" : "Not-Available",
     "description": "Blue Exorcist follows Rin Okumura, a teenager who discovers he is the son of Satan, and decides to fight against his demonic heritage by becoming an exorcist and protecting humanity from dark forces."
   },
   {
@@ -815,6 +862,7 @@
     "image-url": "https://images-cdn.ubuy.co.in/63522b0d82066114bd62cac3-mob-psycho-100-poster-anime-series-1-key.jpg",
     "total-seasons": "3",
     "released-year": "2016",
+    "availability" : "Not-Available",
     "description": "Mob Psycho 100 follows Shigeo 'Mob' Kageyama, a young psychic with immense power, as he navigates life, relationships, and attempts to suppress his psychic abilities while dealing with powerful supernatural beings."
   },
   {
@@ -823,6 +871,7 @@
     "image-url": "https://m.media-amazon.com/images/M/MV5BODU3M2Y1NzktYTM2OS00ZDU0LTg4OWUtYTgyNzJkMDdmZGZiXkEyXkFqcGc@._V1_.jpg",
     "total-seasons": "1",
     "released-year": "2017",
+    "availability" : "Not-Available",
     "description": "The Ancient Magus' Bride follows Chise Hatori, a girl who is bought by a mysterious sorcerer, Elias Ainsworth, to be his apprentice and bride, exploring themes of magic, myth, and personal growth in a mystical world."
   },
   {
@@ -831,6 +880,7 @@
     "image-url": "https://preview.redd.it/w2nystli8ir71.jpg?width=1080&crop=smart&auto=webp&s=ac93ce8f1c44bd851f29d403dfe3a7f1e4de95d0",
     "total-seasons": "5",
     "released-year": "2014",
+    "availability" : "Not-Available",
     "description": "The Seven Deadly Sins follows the adventures of Meliodas and his group of knights who embody the seven deadly sins as they fight against dark forces, uncover hidden secrets, and restore peace to the kingdom."
   },
   {
@@ -839,6 +889,7 @@
     "image-url": "https://m.media-amazon.com/images/I/71-E0wQ8LEL.jpg",
     "total-seasons": "2",
     "released-year": "2014",
+    "availability" : "Not-Available",
     "description": "Noragami follows Yato, a minor god with few followers, as he teams up with a girl named Hiyori and a former weapon, Yukine, to help people in need while facing supernatural challenges and uncovering his hidden past."
   },
   {
@@ -858,6 +909,7 @@
     "image-url": "https://m.media-amazon.com/images/M/MV5BMDJmZGZmNjQtMzE4NS00ZGRmLWFiMTQtM2EzZDhhZGNkY2FmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
     "total-seasons": "2",
     "released-year": "2016",
+    "availability" : "Not-Available",
     "description": "March Comes in Like a Lion follows Rei Kiriyama, a professional shogi player struggling with depression and loneliness, as he finds solace and healing through his relationship with the Kawamoto family."
   },
   {
@@ -866,6 +918,7 @@
     "image-url": "https://image.tmdb.org/t/p/original/iriHlZ7FrKrXCnNRvnoMM5suNQG.jpg",
     "total-seasons": "1",
     "released-year": "2011",
+    "availability" : "Not-Available",
     "description": "Anohana follows a group of childhood friends who reunite after the death of their friend Menma, who appears as a ghost, and together they confront unresolved emotions and find healing."
   },
   {
@@ -874,6 +927,7 @@
     "image-url": "https://i.pinimg.com/736x/18/c8/6b/18c86b07240c9f2db9da12601e2aaa78.jpg",
     "total-seasons": "1",
     "released-year": "2008",
+    "availability" : "Not-Available",
     "description": "Toradora! follows Ryuuji and Taiga, two high school students who develop an unlikely bond despite their contrasting personalities, as they navigate school life, friendship, and love."
   },
   {
@@ -882,6 +936,7 @@
     "image-url": "https://m.media-amazon.com/images/M/MV5BMzdkYTgzZDctMGQ3OS00NWJlLTk1Y2ItYzZhNzIwOGM0YTU3XkEyXkFqcGc@._V1_.jpg",
     "total-seasons": "1",
     "released-year": "2014",
+    "availability" : "Not-Available",
     "description": "Barakamon follows Seishuu Handa, a calligrapher who moves to a rural village to find inspiration after a public outburst, where he learns life lessons and forms meaningful connections with the quirky villagers."
   },
   {
@@ -890,6 +945,7 @@
     "image-url": "https://i.pinimg.com/originals/68/c7/ce/68c7ce97c5fa5c9083ca5ae8c25b0d55.jpg",
     "total-seasons": "1",
     "released-year": "2011",
+    "availability" : "Not-Available",
     "description": "Nichijou is a surreal comedy that follows the daily lives of three high school girls and the absurd, often exaggerated events they experience in their everyday lives, from robotic adventures to unusual encounters."
   },
   {
@@ -898,6 +954,7 @@
     "image-url": "https://m.media-amazon.com/images/M/MV5BZTc3OTVlZDgtNmVlNS00OGQwLTk1ZDktMjYzZGI3MGVkMzVlXkEyXkFqcGc@._V1_.jpg",
     "total-seasons": "2",
     "released-year": "2005",
+    "availability" : "Not-Available",
     "description": "Honey and Clover follows a group of art college students as they navigate their relationships, personal struggles, and the ups and downs of adulthood, with a focus on love, friendship, and self-discovery."
   },
   {
@@ -906,6 +963,7 @@
     "image-url": "https://image.tmdb.org/t/p/original/iyt2vTDIfpfBXKt7uTQn67YZK8z.jpg",
     "total-seasons": "1",
     "released-year": "2012",
+    "availability" : "Not-Available",
     "description": "Little Busters! follows Riki Naoe, a boy who forms a group called Little Busters with his childhood friends and faces the challenges of high school life while unraveling a mysterious secret."
   }  
  ]

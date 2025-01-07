@@ -4,7 +4,7 @@ const userId = document.getElementById("id-img");
 
 //search input
 const searchInput = document.getElementById("search-bar");
-const searchBtn =document.getElementById("search-btn");
+const searchBtn = document.getElementById("search-btn");
 
 //show-Catagories
 const show_more = document.getElementsByClassName("show_more");
@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 imgElement.addEventListener('click', () => {
                     localStorage.setItem('selectedImageName', image.name); // Store name in localStorage
                     window.location.href = 'details.html'; // Navigate to details page
-                }); 
+                });
                 imageContainer.appendChild(imgElement);
             });
 
@@ -104,11 +104,11 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
-window.addEventListener("load",()=>{
+window.addEventListener("load", () => {
     idUser.textContent = beforeAt;
     idImg.textContent = firstLetter;
 })
-idImg.addEventListener("click",()=>{
+idImg.addEventListener("click", () => {
     window.location.href = "profile.html";
 })
 // const logOut = document.getElementById("logout");
@@ -143,125 +143,125 @@ idImg.addEventListener("click",()=>{
 // });
 
 
- // Fetch and display grouped images by genre
- fetch("images_by_genre.json")
- .then(response => response.json())
- .then(data => {
-     const genresContainer = document.getElementById("genres");
+// // Fetch and display grouped images by genre
+// fetch("images_by_genre.json")
+//     .then(response => response.json())
+//     .then(data => {
+//         const genresContainer = document.getElementById("genres");
 
-     Object.keys(data).forEach(genre => {
-         // Create a section for each genre
-         const genreSection = document.createElement("div");
-         genreSection.classList.add("genre");
+//         Object.keys(data).forEach(genre => {
+//             // Create a section for each genre
+//             const genreSection = document.createElement("div");
+//             genreSection.classList.add("genre");
 
-         // Add the genre title
-         const genreTitle = document.createElement("div");
-         genreTitle.classList.add("genre-title");
-         genreTitle.textContent = genre;
-         genreSection.appendChild(genreTitle);
+//             // Add the genre title
+//             const genreTitle = document.createElement("div");
+//             genreTitle.classList.add("genre-title");
+//             genreTitle.textContent = genre;
+//             genreSection.appendChild(genreTitle);
 
-         // Add the images
-         const imageContainer = document.createElement("div");
-         imageContainer.classList.add("image-container");
+//             // Add the images
+//             const imageContainer = document.createElement("div");
+//             imageContainer.classList.add("image-container");
 
-         data[genre].forEach(image => {
-             const imgElement = document.createElement("img");
-             imgElement.src = image.imageUrl; // Replace with your image field key
-             imgElement.alt = image.name || "Image";
-             imageContainer.appendChild(imgElement);
-         });
+//             data[genre].forEach(image => {
+//                 const imgElement = document.createElement("img");
+//                 imgElement.src = image.imageUrl; // Replace with your image field key
+//                 imgElement.alt = image.name || "Image";
+//                 imageContainer.appendChild(imgElement);
+//             });
 
-         genreSection.appendChild(imageContainer);
-         genresContainer.appendChild(genreSection);
-     });
- })
- .catch(err => console.error("Error loading genres:", err));
+//             genreSection.appendChild(imageContainer);
+//             genresContainer.appendChild(genreSection);
+//         });
+//     })
+//     .catch(err => console.error("Error loading genres:", err));
 
- window.addEventListener("load",()=>{
+window.addEventListener("load", () => {
 
- // Target container
-const videoListContainer = document.getElementById("");
+    // Target container
+    const videoListContainer = document.getElementById("");
 
-// Fetch and display the videos
-fetch('../images.json') // Path to your JSON file
-    .then(response => {
-        if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
+    // Fetch and display the videos
+    fetch('../images.json') // Path to your JSON file
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            return response.json();
+        })
+        .then(videos => {
+            // Filter and sort videos by genre
+            const actionVideos = videos
+                .filter(video => video.Genre.toLowerCase() === "action")
+                .sort((a, b) => a.filename.localeCompare(b.filename)); // Sort alphabetically by filename
+
+            displayVideos(actionVideos);
+        })
+        .catch(error => {
+            console.error("Error fetching video data:", error);
+            videoListContainer.innerHTML = "<p>Error loading videos. Please try again later.</p>";
+        });
+
+    // Function to append videos
+    function displayVideos(videos) {
+        if (videos.length === 0) {
+            videoListContainer.innerHTML = "<p>No videos found in the Action genre.</p>";
+            return;
         }
-        return response.json();
-    })
-    .then(videos => {
-        // Filter and sort videos by genre
-        const actionVideos = videos
-            .filter(video => video.Genre.toLowerCase() === "action")
-            .sort((a, b) => a.filename.localeCompare(b.filename)); // Sort alphabetically by filename
 
-        displayVideos(actionVideos);
-    })
-    .catch(error => {
-        console.error("Error fetching video data:", error);
-        videoListContainer.innerHTML = "<p>Error loading videos. Please try again later.</p>";
-    });
+        videos.forEach(video => {
+            // Create a container for each video
+            const videoItem = document.createElement("div");
+            videoItem.classList.add("video-item");
 
-// Function to append videos
-function displayVideos(videos) {
-    if (videos.length === 0) {
-        videoListContainer.innerHTML = "<p>No videos found in the Action genre.</p>";
-        return;
-    }
-
-    videos.forEach(video => {
-        // Create a container for each video
-        const videoItem = document.createElement("div");
-        videoItem.classList.add("video-item");
-
-        // Add video title and genre
-        videoItem.innerHTML = `
+            // Add video title and genre
+            videoItem.innerHTML = `
             <h3>${video.filename}</h3>
             <p>Genre: ${video.Genre}</p>
             <button onclick="playVideo('${video.data}')">Play</button>
         `;
 
-        // Append to the main container
-        videoListContainer.appendChild(videoItem);
-    });
-}
-  
+            // Append to the main container
+            videoListContainer.appendChild(videoItem);
+        });
+    }
+
 })
-window.addEventListener("load",()=>{
+window.addEventListener("load", () => {
 
-// Fetch JSON data and append images to corresponding categories
-fetch('../images.json') // Correct relative path to the JSON file
-    .then(response => response.json())
-    .then(data => {
-        // Function to append images to a category
-        const appendImages = (categoryId, items) => {
-            const container = document.getElementById(categoryId);
-            items.forEach(item => {
-                const img = document.createElement('img');
-                img.src = item['image-url'];
-                img.alt = item.name;
-                img.draggable = "false";
-                img.classList.add('video-btn'); // Add a class for styling
+    // Fetch JSON data and append images to corresponding categories
+    fetch('../images.json') // Correct relative path to the JSON file
+        .then(response => response.json())
+        .then(data => {
+            // Function to append images to a category
+            const appendImages = (categoryId, items) => {
+                const container = document.getElementById(categoryId);
+                items.forEach(item => {
+                    const img = document.createElement('img');
+                    img.src = item['image-url'];
+                    img.alt = item.name;
+                    img.draggable = "false";
+                    img.classList.add('video-btn'); // Add a class for styling
 
-                img.addEventListener('click', () => {
-                    localStorage.setItem('selectedImageName', item.name); // Store name in localStorage
-                    window.location.href = 'details.html'; // Navigate to details page
+                    img.addEventListener('click', () => {
+                        localStorage.setItem('selectedImageName', item.name); // Store name in localStorage
+                        window.location.href = 'details.html'; // Navigate to details page
+                    });
+                    container.appendChild(img);
                 });
-                container.appendChild(img);
-            });
-        };
+            };
 
-        // Append images for each category based on JSON data
-        appendImages('cat1', data['Greatest']);
-        appendImages('cat2', data['Action']);
-        appendImages('cat3', data['Love-Story']);
-        appendImages('cat4', data['Sci-Fi']);
-        appendImages('cat5', data['Horror']);
-        appendImages('cat6', data['Sports']);
-    })
-    .catch(error => console.error('Error fetching or processing JSON data:', error));
-    
+            // Append images for each category based on JSON data
+            appendImages('cat1', data['Greatest']);
+            appendImages('cat2', data['Action']);
+            appendImages('cat3', data['Love-Story']);
+            appendImages('cat4', data['Sci-Fi']);
+            appendImages('cat5', data['Horror']);
+            appendImages('cat6', data['Sports']);
+        })
+        .catch(error => console.error('Error fetching or processing JSON data:', error));
+
 })
 document.addEventListener("DOMContentLoaded", () => {
     const searchBar = document.getElementById("search-bar");
@@ -302,7 +302,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         animeImg.addEventListener('click', () => {
                             localStorage.setItem('selectedImageName', match.name); // Store name in localStorage
                             window.location.href = 'details.html'; // Navigate to details page
-                        }); 
+                        });
                         const animeName = document.createElement("p");
                         animeName.textContent = match.name;
 
@@ -336,9 +336,9 @@ document.addEventListener("DOMContentLoaded", () => {
 // Generate sparkles dynamically
 const sparklesContainer = document.querySelector(".sparkles");
 for (let i = 0; i < 25; i++) {
-  const sparkle = document.createElement("div");
-  sparkle.style.top = Math.random() * 100 + "%";
-  sparkle.style.left = Math.random() * 100 + "%";
-  sparkle.style.animationDelay = Math.random() * 5 + "s";
-  sparklesContainer.appendChild(sparkle);
+    const sparkle = document.createElement("div");
+    sparkle.style.top = Math.random() * 100 + "%";
+    sparkle.style.left = Math.random() * 100 + "%";
+    sparkle.style.animationDelay = Math.random() * 5 + "s";
+    sparklesContainer.appendChild(sparkle);
 }

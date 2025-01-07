@@ -17,7 +17,7 @@
     height: 80px; /* Height of the search container */
     position: absolute; /* Positioned within its parent */
     top: 25px; /* Vertical position */
-    left: 34%; /* Horizontal position */
+    left: 44%; /* Horizontal position */
 }
 
 #search-bar {
@@ -63,7 +63,7 @@
 #btn_img {
     position: absolute; /* Positioned within #search */
     top: 55%; /* Centered vertically */
-    left: 70%; /* Small offset to the left of the button */
+    left: 71%; /* Small offset to the left of the button */
     transform: translateY(-50%); /* Centers the image exactly */
     filter: invert(1); /* Makes the icon white for dark themes */
     width: 20%; /* Adjusted to fit button perfectly */
@@ -310,7 +310,7 @@
     height: 5em;
     width: 100%;
     position: absolute;
-    top: 70%;
+    top: 80%;
     left: -2px;
     /* border-radius: 30px; */
     border: 2px red solid;
@@ -328,7 +328,7 @@
     height: 5em;
     width: 100%;
     position: absolute;
-    top: 120%;
+    top: 140%;
     left: -2px;
     /* border-radius: 30px; */
     border: 2px red solid;
@@ -346,7 +346,7 @@
     height: 5em;
     width: 100%;
     position: absolute;
-    top: 170%;
+    top: 200%;
     left: -2px;
     /* border-radius: 30px; */
     border: 2px red solid;
@@ -364,7 +364,7 @@
     height: 5em;
     width: 100%;
     position: absolute;
-    top: 220%;
+    top: 260%;
     left: -2px;
     /* border-radius: 30px; */
     border: 2px red solid;
@@ -382,7 +382,7 @@
     height: 5em;
     width: 100%;
     position: absolute;
-    top: 270%;
+    top: 320%;
     left: -2px;
     /* border-radius: 30px; */
     border: 2px red solid;
@@ -400,7 +400,7 @@
     height: 5em;
     width: 100%;
     position: absolute;
-    top: 320%;
+    top: 380%;
     left: -2px;
     /* border-radius: 30px; */
     border: 2px red solid;
@@ -418,7 +418,7 @@
     height: 5em;
     width: 90%;
     position: absolute;
-    top: 380%;
+    top: 440%;
     left: 80px;
     border-radius: 30px;
     border: 2px green solid;
@@ -438,7 +438,7 @@
     height: 8em;
     width: 100%;
     position: absolute;
-    top: 420%;
+    top: 480%;
     left: -2px;
     border: 2px white solid;
   }
@@ -498,7 +498,7 @@
   }
   #cat1{
     position: absolute;
-    top: 82%;
+    top: 95%;
     width: 100%;
     height: 100%;
     display: flex;
@@ -508,7 +508,7 @@
   }
   #cat2{
     position: absolute;
-    top: 132%;
+    top: 155%;
     width: 100%;
     height: 100%;
     display: flex;
@@ -518,7 +518,7 @@
   }
   #cat3{
     position: absolute;
-    top: 182%;
+    top: 215%;
     width: 100%;
     height: 100%;
     display: flex;
@@ -528,7 +528,7 @@
   }
   #cat4{
     position: absolute;
-    top: 232%;
+    top: 275%;
     width: 100%;
     height: 100%;
     display: flex;
@@ -538,7 +538,7 @@
   }
   #cat5{
     position: absolute;
-    top: 282%;
+    top: 335%;
     width: 100%;
     height: 100%;
     display: flex;
@@ -548,7 +548,7 @@
   }
   #cat6{
     position: absolute;
-    top: 332%;
+    top: 395%;
     width: 100%;
     height: 100%;
     display: flex;
@@ -558,7 +558,7 @@
   }
   .results-container {
     position: absolute;
-    left: 30%;
+    left: 40%;
     top: 70%;
     overflow-y: scroll;
     scrollbar-width: none;

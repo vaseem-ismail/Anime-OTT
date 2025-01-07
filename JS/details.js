@@ -23,14 +23,21 @@ document.addEventListener('DOMContentLoaded', async () => {
         if (imageDetails) {
             // Populate the page with details
             const container = document.getElementById('details-container');
-            container.innerHTML = `
+            container.innerHTML += `
                 <img src="${imageDetails['image-url']}" alt="${imageDetails.name}" class="img">
                 <h1>${imageDetails.name}</h1>
                 <p id="genre"> ${imageDetails.genre}</p>
                 <p id="description"> ${imageDetails.description}</p>
                 <p id="season"> ${imageDetails['total-seasons']}</p>
                 <p id="year"> ${imageDetails['released-year']}</p>
+                <p id="available"> ${imageDetails['availability']}</p>
             `;
+            const available = document.getElementById("available");
+            if(available.innerText === "Available"){
+                available.style.color = "green";
+            } else {
+                available.style.color = "red";
+            }
         } else {
             document.body.innerHTML = '<p>Details not found for the selected image.</p>';
         }
@@ -51,7 +58,7 @@ const episodeCount = [
     {"Kaiju No-8" : 12, "url-value" : "Kaiju-no8-", "name" : "Episode-"},
     {"Blue Lock" : 29, "url-value" : "Blue-Lock-", "name" : "Episode-"},
     {"My Dressup Darling" : 12, "url-value" : "My-Dressup-Darling-", "name" : "Episode-"},
-    {"Dandadan" : 8, "url-value" : "Dandadan-", "name" : "Episode-"},
+    {"Dandadan" : 12, "url-value" : "Dandadan-", "name" : "Episode-"},
     {"Black Clover" : 52, "url-value" : "Black-Clover-", "name" : "Episode-"},
     {"Elfed Lied" : 13, "url-value" : "Elfed-Lied-", "name" : "Episode-"},
     {"Devilman CryBaby" : 10, "url-value" : "Devilman-Crybaby-", "name" : "Episode-"},
@@ -124,11 +131,9 @@ const movies = [
     {"5 Centimeter Per Second" : 1, "url-value" : "5-centimeter-per-second", "name" : "5 Centimeter per Second"},
     {"Your Name" : 1, "url-value" : "Your_Name", "name" : "Your Name"},
     {"Jujutsu Kaisen 0 Movie" : 1, "url-value" : "JJK_0_MOVIE", "name" : "Jujutsu Kaisen 0 Movie"},
-    {"Jujutsu Kaisen 0 Movie" : 1, "url-value" : "JJK_0_MOVIE", "name" : "Jujutsu Kaisen 0 Movie"},
-    {"I Want to Eat Your Pancreas" :1, "url-value" : "Not Available", "name" : "I Want to Eat your Pancreas"},
+    {"I Want to Eat Your Pancreas" :1, "url-value" : "I-Want-To-Eat-Your-Pancreas", "name" : "I Want to Eat your Pancreas"},
     {"Tamako Love Story" :1, "url-value" : "Not Available", "name" : "Tamako Love Story"},
-    {"A Silent Voice" :1, "url-value" : "Not Available", "name" : "A Silent Voice"},
-    {"I Want to Eat Your Pancreas" :1, "url-value" : "Not Available", "name" : ""},
+    {"A Silent Voice" :1, "url-value" : "A-Silent-Voice", "name" : "A Silent Voice"},
 ]
 // Function to generate divs for episodes or movies
 function generateEpisodeDivs(selectedImageName) {
@@ -152,7 +157,7 @@ function generateEpisodeDivs(selectedImageName) {
             episodeDiv.id = `episode-${i}`; // Unique ID
 
             episodeDiv.onclick = () => {
-                const videoUrl = `http://10.20.135.0:5000/stream-video?filename=${episodeDiv.dataset.url}`;
+                const videoUrl = `http://10.20.135.5:5000/stream-video?filename=${episodeDiv.dataset.url}`;
                 window.location.href = videoUrl; // Redirect to backend video
             };
 
@@ -169,7 +174,7 @@ function generateEpisodeDivs(selectedImageName) {
         movieDiv.id = `movie-${selectedImageName}`; // Unique ID for the movie
 
         movieDiv.onclick = () => {
-            const videoUrl = `http://10.20.135.0:5000/stream-video?filename=${movieDiv.dataset.url}`;
+            const videoUrl = `http://10.20.135.5:5000/stream-video?filename=${movieDiv.dataset.url}`;
             window.location.href = videoUrl; // Redirect to backend video
         };
 
@@ -182,4 +187,53 @@ function generateEpisodeDivs(selectedImageName) {
 // Example call: Pass the anime or movie name from the selected image
 const value = localStorage.getItem("selectedImageName");
 generateEpisodeDivs(value);
+
+ 
+document.addEventListener('DOMContentLoaded', () => {
+    const watchLaterButton = document.getElementById("watch-later");
+
+    if (watchLaterButton) {
+        watchLaterButton.addEventListener('click', () => {
+            const selectedImageName = localStorage.getItem('selectedImageName');
+            if (!selectedImageName) {
+                alert('No anime or movie selected!');
+                return;
+            }
+
+            let watchLaterList = JSON.parse(localStorage.getItem('watchLaterList')) || [];
+
+            if (watchLaterList.includes(selectedImageName)) {
+                alert('This anime/movie is already in your Watch Later list!');
+                return;
+            }
+
+            watchLaterList.push(selectedImageName);
+            localStorage.setItem('watchLaterList', JSON.stringify(watchLaterList));
+
+            // Replace alert with better UI feedback
+            showMessage(`${selectedImageName} has been added to your Watch Later list!`);
+        });
+    } else {
+        console.error("Watch Later button not found in the DOM.");
+    }
+});
+
+// Notification function
+const showMessage = (message, type = 'success') => {
+    const messageContainer = document.createElement('div');
+    messageContainer.textContent = message;
+    messageContainer.style.background = type === 'success' ? 'green' : 'red';
+    messageContainer.style.color = 'white';
+    messageContainer.style.padding = '10px';
+    messageContainer.style.position = 'fixed';
+    messageContainer.style.bottom = '10px';
+    messageContainer.style.right = '10px';
+    messageContainer.style.zIndex = '1000';
+    document.body.appendChild(messageContainer);
+
+    setTimeout(() => {
+        messageContainer.remove();
+    }, 3000);
+};
+
 
