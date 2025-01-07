@@ -208,7 +208,7 @@
     "image-url" : "https://m.media-amazon.com/images/M/MV5BMTQ1ODIzOGQtOGFkZC00MWViLTgyYmUtNWJkNmIxZjYxMTdmXkEyXkFqcGc@._V1_.jpg",
     "total-seasons" : "1",
     "released-year" : "2019",
-    "availability" : "Not-Available",
+    "availability" : "Available",
     "description": "I Want to Eat Your Pancreas follows an introverted high school boy who discovers the secret diary of Sakura Yamauchi, a cheerful classmate suffering from a terminal pancreatic illness. As they spend time together, they form a deep bond, experiencing joy, heartbreak, and the fleeting nature of life."
   },
   {
@@ -226,7 +226,7 @@
     "image-url" : "https://upload.wikimedia.org/wikipedia/en/6/66/Weathering_with_You_Poster.jpg",
     "total-seasons" : "1",
     "released-year" : "2019",
-    "availability" : "Not-Available",
+    "availability" : "Available",
     "description": "Weathering With You follows Hodaka Morishima, a runaway teenager who meets Hina Amano, a girl with the mysterious ability to control the weather. Together, they embark on a journey of love and sacrifice as they navigate a world where their choices have far-reaching consequences."
   },
   {
@@ -271,6 +271,7 @@
     "image-url" : "https://m.media-amazon.com/images/M/MV5BOTFiNzRiOWEtYTQwNy00NmRiLWE0ZWYtNTE0YjExZjFmZjkwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
     "total-seasons" : "1",
     "released-year" : "2017",
+    "availability" : "Available",
     "description": "A Silent Voice follows Shoya Ishida, a former bully seeking redemption by reconnecting with Shoko Nishimiya, a deaf girl he tormented in the past. The film delves into themes of guilt, forgiveness, and the power of empathy as they navigate their shared pain and strive for healing."
   },
   {

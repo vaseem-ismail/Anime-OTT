@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
   // Load user information (example data)
-  const username = "Mohamed Vaseem";  
+  const username = localStorage.getItem('name');  
   const email = localStorage.getItem('Username');
   const joinedDate = 'January 1, 2024';
 
@@ -8,6 +8,9 @@ document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('user-email').textContent = email;
   document.getElementById('user-joined').textContent = joinedDate;
 
+
+  const user = document.getElementById('username');
+  user.textContent = username;
   // Load Watch Later list from localStorage
   const watchLaterList = JSON.parse(localStorage.getItem('watchLaterList')) || [];
   const watchLaterListContainer = document.getElementById('watch-later-list');

@@ -159,26 +159,26 @@
     z-index: 10;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     position: absolute;
-    bottom: 100px;
-    left: 50%;
+    top: 200px;
+    left: 87%;
     transform: translateX(-50%);
-}
+  }
 
-#watch-later:hover {
+  #watch-later:hover {
     background-color: #0056b3;
     transform: scale(1.05) translateX(-50%);
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
-}
+  }
 
-#watch-later:focus {
+  #watch-later:focus {
     outline: none;
     box-shadow: 0 0 5px #1e90ff;
-}
+  }
 
-  #available{
+  #available {
     position: absolute;
-    right: 0px;
-  
+    top: 80px;
+    right: 20px;
   }
 }
 @media screen and (max-width: 720px) {
@@ -294,46 +294,46 @@
     cursor: pointer;
     font-family: Arial, Helvetica, sans-serif;
   }
-    /* Watch Later button */
-    #watch-later {
-        background-color: #1e90ff;
-        color: #fff;
-        border: none;
-        padding: 10px 20px;
-        font-size: 1em;
-        font-weight: bold;
-        border-radius: 5px;
-        cursor: pointer;
-        transition: all 0.3s ease;
-        z-index: 10; /* Ensure the button is above the overlay */
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        position: absolute; /* Position the button absolutely within the container */
-        bottom: 100px; /* Adjust as needed, this places it at the bottom */
-        left: 50%;
-        transform: translateX(-50%); /* Center the button horizontally */
-      }
-    
-      #watch-later-btn:hover {
-        background-color: #0056b3;
-        transform: scale(1.05) translateX(-50%);
-        box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
-      }
-    
-      #watch-later-btn:active {
-        background-color: #003f7f;
-        transform: scale(1) translateX(-50%);
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-      }
-    
-      #watch-later-btn:disabled {
-        background-color: #d3d3d3;
-        color: #888;
-        cursor: not-allowed;
-        box-shadow: none;
-        transform: none;
-      }
-      #available{
-        position: absolute;
-        right: 0px;
-      }
+  /* Watch Later button */
+  #watch-later {
+    background-color: #1e90ff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    z-index: 10; /* Ensure the button is above the overlay */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: absolute; /* Position the button absolutely within the container */
+    bottom: 100px; /* Adjust as needed, this places it at the bottom */
+    left: 50%;
+    transform: translateX(-50%); /* Center the button horizontally */
+  }
+
+  #watch-later-btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05) translateX(-50%);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+  }
+
+  #watch-later-btn:active {
+    background-color: #003f7f;
+    transform: scale(1) translateX(-50%);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  #watch-later-btn:disabled {
+    background-color: #d3d3d3;
+    color: #888;
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+  }
+  #available {
+    position: absolute;
+    right: 0px;
+  }
 }

@@ -7,8 +7,10 @@
     background-color: black;
     background: fixed;
     background-image: url("../assets/home_page_pics/bg.jpg");
-   
-    max-height: 100%; 
+    height: 100vh;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    padding-bottom: 50px;
   }
   #border {
     width: 90%;
@@ -18,7 +20,6 @@
     border-radius: 30px;
     margin-top: 50px;
     margin-left: 80px;
-    position: fixed;
   }
   #title {
     color: white;
@@ -28,7 +29,7 @@
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
       sans-serif;
   }
-  #back{
+  #back {
     font-size: 50px;
     color: white;
     position: absolute;
@@ -42,9 +43,9 @@
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
-}
+  }
 
-.movie-image {
+  .movie-image {
     width: 250px;
     height: 350px;
     object-fit: cover;
@@ -53,12 +54,11 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s;
     margin-top: 5%;
-}
+  }
 
-.movie-image:hover {
+  .movie-image:hover {
     transform: scale(1.1);
-}
-
+  }
 }
 @media screen and (max-width: 720px) {
   * {
@@ -67,7 +67,6 @@
   }
   body {
     background-color: black;
-    
   }
   #border {
     width: 95%;
@@ -78,7 +77,7 @@
     margin-left: 10px;
     margin-top: 10px;
   }
-  #title{
+  #title {
     font-size: 30px;
     text-decoration: none;
     color: white;
@@ -86,19 +85,19 @@
     justify-content: center;
     margin-top: 6%;
   }
-  #back{
-   font-size: 30px;
-   position: absolute;
-   background: transparent;
-   color: white;
-   top: 33px;
-   left: 16px;
-   border: transparent;
+  #back {
+    font-size: 30px;
+    position: absolute;
+    background: transparent;
+    color: white;
+    top: 33px;
+    left: 16px;
+    border: transparent;
   }
-  #animes1{
-   width: 100px;
-   height: 300px;
-   background-color: black;
+  #animes1 {
+    width: 100px;
+    height: 300px;
+    background-color: black;
   }
   .image-container {
     display: flex;
