@@ -9,8 +9,10 @@ const API_URL = "https://anime-ott.onrender.com";
 const passwordInput = document.getElementById("signupPassword");
 const togglePassword = document.getElementById("togglePassword");
 togglePassword.addEventListener("click", () => {
+  const text = togglePassword.textContent === "SHOW" ? "HIDE" : "SHOW";
   const type = passwordInput.getAttribute("type") === "password" ? "text" : "password";
   passwordInput.setAttribute("type", type);
+  togglePassword.textContent = text;
 });
 
 

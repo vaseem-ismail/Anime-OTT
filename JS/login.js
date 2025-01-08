@@ -37,6 +37,7 @@ loginForm.addEventListener("submit", async (e) => {
       localStorage.setItem("isLoggedIn", "true");
       localStorage.setItem("Username", email);
       localStorage.setItem("Password", password);
+      localStorage.setItem("name", result.name);
     } else {
       errorMessage.textContent = result.error || 'Login failed. Please try again.';
       errorMessage.style.display = 'block';
