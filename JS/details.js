@@ -130,6 +130,7 @@ const movies = [
     {"The Tunnel to Summer" : 1, "url-value" : "Tunnel_to_Summer", "name" : "Tunnel to the Summer"},
     {"5 Centimeter Per Second" : 1, "url-value" : "5-centimeter-per-second", "name" : "5 Centimeter per Second"},
     {"Your Name" : 1, "url-value" : "Your_Name", "name" : "Your Name"},
+    {"Weathering with You" : 1, "url-value" : "Weathering-with-You", "name" : "Weathering with You"},
     {"Jujutsu Kaisen 0 Movie" : 1, "url-value" : "JJK_0_MOVIE", "name" : "Jujutsu Kaisen 0 Movie"},
     {"I Want to Eat Your Pancreas" :1, "url-value" : "I-Want-To-Eat-Your-Pancreas", "name" : "I Want to Eat your Pancreas"},
     {"Tamako Love Story" :1, "url-value" : "Not Available", "name" : "Tamako Love Story"},
