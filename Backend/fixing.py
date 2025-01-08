@@ -5,6 +5,7 @@ import logging
 import os
 import socket
 import json
+import re
 
 app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
@@ -68,15 +69,12 @@ def anime_description():
 
 @app.route('/video-stream', methods=['GET'])
 def video_stream():
-    """
-    Stream raw video chunks from MongoDB GridFS.
-    """
     try:
         filename = request.args.get('filename')
         if not filename:
             return jsonify({"error": "Filename not provided"}), 400
 
-        # Check if the file exists
+        # Find the file in GridFS
         file_metadata = fs_files.find_one({"filename": filename})
         if not file_metadata:
             return jsonify({"error": "File not found"}), 404
@@ -84,47 +82,44 @@ def video_stream():
         file_id = file_metadata["_id"]
         file_length = file_metadata["length"]
 
-        # Get the range header
         range_header = request.headers.get("Range", None)
+        logging.info(f"Range Header: {range_header}")
+
         if not range_header:
-            # If no Range header, serve the entire file
+            # Serve the full content if Range is not provided
             chunks = fs_chunks.find({"files_id": file_id}).sort("n", 1)
-            return Response(
-                (chunk["data"] for chunk in chunks),
-                content_type="video/mp4",
-                headers={"Content-Length": str(file_length)}
-            )
+            data = b"".join(chunk["data"] for chunk in chunks)
+            return Response(data, content_type="video/mp4", headers={"Content-Length": str(file_length)})
 
         # Parse Range header
-        range_match = range_header.split("=")[-1].split("-")
-        start = int(range_match[0])
-        end = int(range_match[1]) if range_match[1] else file_length - 1
-
-        # Validate range
-        if start < 0 or end >= file_length or start > end:
+        match = re.match(r"bytes=(\d+)-(\d*)", range_header)
+        if not match:
             return Response(status=416, headers={"Content-Range": f"bytes */{file_length}"})
 
-        # Calculate the chunks to serve
+        start = int(match.group(1))
+        end = int(match.group(2)) if match.group(2) else file_length - 1
+
+        # Validate range
+        if start >= file_length or start > end:
+            return Response(status=416, headers={"Content-Range": f"bytes */{file_length}"})
+
+        # Collect partial content
         response_data = b""
         current_offset = 0
-        chunks = fs_chunks.find({"files_id": file_id}).sort("n", 1)
-
-        for chunk in chunks:
+        for chunk in fs_chunks.find({"files_id": file_id}).sort("n", 1):
             chunk_data = chunk["data"]
             chunk_length = len(chunk_data)
 
-            # If the current chunk overlaps with the requested range
-            if current_offset + chunk_length > start and current_offset < end + 1:
-                # Calculate the portion of the chunk to include
+            # Overlapping chunks
+            if current_offset + chunk_length > start and current_offset <= end:
                 chunk_start = max(0, start - current_offset)
-                chunk_end = min(chunk_length, end + 1 - current_offset)
+                chunk_end = min(chunk_length, end - current_offset + 1)
                 response_data += chunk_data[chunk_start:chunk_end]
 
             current_offset += chunk_length
             if current_offset > end:
                 break
 
-        # Serve partial content
         return Response(
             response_data,
             status=206,
@@ -138,6 +133,8 @@ def video_stream():
     except Exception as e:
         logging.error(f"Error streaming video: {e}")
         return jsonify({"error": str(e)}), 500
+
+
 
 
 @app.route('/stream-video', methods=['GET'])
