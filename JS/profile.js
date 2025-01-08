@@ -84,16 +84,16 @@ document.addEventListener('DOMContentLoaded', () => {
       } catch (error) {
         console.error('Error storing Watch Later list:', error);
       }
-      localStorage.clear(); // Clear localStorage
-      window.location.href = 'index.html'; // Redirect to
+      // localStorage.clear(); // Clear localStorage
+      // window.location.href = 'index.html'; // Redirect to
     };
 
     // Call the function to store the watchLaterList
-    // storeWatchLaterList().then(() => {
-    //   localStorage.remove("isLoggedIn"); // Clear localStorage
-    //   window.location.href = '../index.html'; // Redirect to login page
-    // });
-    storeWatchLaterList();
+    storeWatchLaterList().then(() => {
+      localStorage.remove("isLoggedIn"); // Clear localStorage
+      window.location.href = 'index.html'; // Redirect to login page
+    });
+    // storeWatchLaterList();
   });
 
 });

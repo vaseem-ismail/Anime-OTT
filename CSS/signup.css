@@ -234,13 +234,16 @@ body {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   width: 600px;
   position: absolute;
-  top: 35%;
-  left: 35%;
+  top: 30%;
+  left: 30%;
 }
 
 h1 {
   font-size: 24px;
   text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  letter-spacing: 5px;
+  padding-bottom: 7%;
 }
 
 form {
@@ -278,18 +281,23 @@ p {
   margin: 0;
 }
 #togglePassword {
-  /* position: absolute;
-    top: 60%;
-    left: 75%; */
-  /* background-color: black; */
-  /* border-radius: 30px; */
   padding: 7px;
   cursor: pointer;
   position: absolute;
-  left: 88%;
-  top: 54.7%;
+  left: 86%;
+  top: 56%;
   font-size: larger;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #togglePassword:hover {
-  border: 1px black solid;
+  border-left: 3px black solid;
+}
+#new-user{
+  margin-left: 32%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a {
+  color: blue;
+  text-decoration: none;
+  margin-left: 3%;
 }

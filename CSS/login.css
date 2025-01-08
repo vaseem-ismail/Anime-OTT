@@ -76,6 +76,16 @@
     border: 0.5px solid black;
     border-radius: 5px;
   }
+  #new-user{
+    margin-left: 37%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  a {
+    color: #007bff;
+    text-decoration: none;
+    margin-left: 3%;
+
+  }
 }
 @media screen and (max-width: 720px) {
   body {
