@@ -46,15 +46,15 @@
   }
   #description {
     position: absolute;
-    top: 54%;
-    left: 43%;
+    top: 48.5%;
+    left: 41.5%;
     width: 53%;
     text-align: left;
   }
   #season {
     position: absolute;
-    top: 31.8%;
-    left: 52%;
+    top: 34.5%;
+    left: 45%;
   }
   /* #content{
     background-color: blue;
@@ -63,8 +63,8 @@
 } */
   #year {
     position: absolute;
-    top: 39.5%;
-    left: 52%;
+    top: 42%;
+    left:44%;
   }
   p {
     font-size: 25px;
