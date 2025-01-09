@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
   // Load user information (example data)
-  const username = localStorage.getItem('name') || "Mohamed Vaseem";  
+  const username = localStorage.getItem('name') || "Mohamed Vaseem";
   const email = localStorage.getItem('Username');
   const joinedDate = 'January 1, 2024';
 
@@ -89,10 +89,10 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     // Call the function to store the watchLaterList
-    storeWatchLaterList().then(() => {
-      localStorage.removeItem("isLoggedIn"); // Clear localStorage
-      window.location.href = 'index.html'; // Redirect to login page
-    });
+    storeWatchLaterList()
+    localStorage.removeItem("isLoggedIn"); // Clear localStorage
+    window.location.href = 'index.html'; // Redirect to login page
+
     // storeWatchLaterList();
   });
 
