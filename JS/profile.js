@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Call the function to store the watchLaterList
     storeWatchLaterList().then(() => {
-      localStorage.remove("isLoggedIn"); // Clear localStorage
+      localStorage.removeItem("isLoggedIn"); // Clear localStorage
       window.location.href = 'index.html'; // Redirect to login page
     });
     // storeWatchLaterList();

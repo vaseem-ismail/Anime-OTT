@@ -34,15 +34,15 @@
   h1 {
     position: absolute;
     top: 12%;
-    left: 38%;
+    left: 32%;
     margin: 10px 0;
     color: #333;
     font-size: 50px;
   }
   #genre {
     position: absolute;
-    top: 23%;
-    left: 44%;
+    top: 27.5%;
+    left: 38%;
   }
   #description {
     position: absolute;
@@ -73,8 +73,8 @@
   }
   #val1 {
     position: absolute;
-    top: 27.3%;
-    left: 38%;
+    top: 25%;
+    left: 32%;
     color: black;
     z-index: 4;
     display: block;
@@ -83,7 +83,7 @@
   #val2 {
     position: absolute;
     top: 32%;
-    left: 38%;
+    left: 32%;
     color: black;
     z-index: 4;
     display: block;
@@ -91,8 +91,8 @@
   }
   #val3 {
     position: absolute;
-    top: 39.2%;
-    left: 38%;
+    top: 39%;
+    left: 32%;
     color: black;
     z-index: 4;
     display: block;
@@ -100,8 +100,8 @@
   }
   #val4 {
     position: absolute;
-    top: 47.5%;
-    left: 38%;
+    top: 46%;
+    left: 32%;
     color: black;
     z-index: 4;
     display: block;

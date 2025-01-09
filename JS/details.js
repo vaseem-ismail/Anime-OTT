@@ -1,5 +1,3 @@
-document.body.style.zoom = "95%";
-
 document.addEventListener('DOMContentLoaded', async () => {
     const selectedImageName = localStorage.getItem('selectedImageName');
     if (!selectedImageName) {
@@ -26,10 +24,10 @@ document.addEventListener('DOMContentLoaded', async () => {
             container.innerHTML += `
                 <img src="${imageDetails['image-url']}" alt="${imageDetails.name}" class="img">
                 <h1>${imageDetails.name}</h1>
-                <p id="genre"> ${imageDetails.genre}</p>
-                <p id="description"> ${imageDetails.description}</p>
-                <p id="season"> ${imageDetails['total-seasons']}</p>
-                <p id="year"> ${imageDetails['released-year']}</p>
+                <h4 id="val1"><strong>Genre :</strong></h4><p id="genre"> ${imageDetails.genre}</p></strong></h4>
+                <h4 id="val2"><strong>Total Seasons :</strong></h4><p id="description"> ${imageDetails.description}</p>
+                <h4 id="val3"><strong>Released Year :</strong></h4><p id="season"> ${imageDetails['total-seasons']}</p>
+                <h4 id="val4"><strong>Description :</strong></h4><p id="year"> ${imageDetails['released-year']}</p>
                 <p id="available"> ${imageDetails['availability']}</p>
             `;
             const available = document.getElementById("available");
@@ -158,7 +156,7 @@ function generateEpisodeDivs(selectedImageName) {
             episodeDiv.id = `episode-${i}`; // Unique ID
 
             episodeDiv.onclick = () => {
-                const videoUrl = `http://10.20.135.8:5000/stream-video?filename=${episodeDiv.dataset.url}`;
+                const videoUrl = `http://10.20.134.255:5000/stream-video?filename=${episodeDiv.dataset.url}`;
                 window.location.href = videoUrl; // Redirect to backend video
             };
 
@@ -175,7 +173,7 @@ function generateEpisodeDivs(selectedImageName) {
         movieDiv.id = `movie-${selectedImageName}`; // Unique ID for the movie
 
         movieDiv.onclick = () => {
-            const videoUrl = `http://10.20.135.8:5000/stream-video?filename=${movieDiv.dataset.url}`;
+            const videoUrl = `http://10.20.134.255:5000/stream-video?filename=${movieDiv.dataset.url}`;
             window.location.href = videoUrl; // Redirect to backend video
         };
 
