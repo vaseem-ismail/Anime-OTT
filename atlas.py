@@ -47,7 +47,36 @@ def register():
     return jsonify({'message': 'User registered successfully', 'user_id': str(user_id)}), 201
 
 
-# User login
+# # User login
+# @app.route('/login', methods=['POST'])
+# def login():
+#     data = request.get_json()
+#     email = data.get('email')
+#     password = data.get('password')
+
+#     if not email or not password:
+#         return jsonify({'error': 'Email and password are required'}), 400
+
+#     # Find the user by email
+#     user = users_collection.find_one({'email': email})
+#     if not user or user['password'] != password:
+#         return jsonify({'error': 'Invalid email or password'}), 401
+
+#     # Fetch the watch-later list
+#     watch_later_data = watch_later_collection.find_one({'email': email})
+#     watch_later_list = watch_later_data['watchLaterList'] if watch_later_data else []
+
+#     # Generate a JWT token
+#     token = create_access_token(identity=str(user['_id']))
+
+#     return jsonify({
+#         'message': 'Login successful',
+#         'token': token,
+#         'watchLaterList': watch_later_list,
+#         "name": user['username']
+#     }), 200
+
+
 @app.route('/login', methods=['POST'])
 def login():
     data = request.get_json()
@@ -57,13 +86,21 @@ def login():
     if not email or not password:
         return jsonify({'error': 'Email and password are required'}), 400
 
-    # Find the user by email
-    user = users_collection.find_one({'email': email})
+    # Find the user by email, fetching only necessary fields
+    user = users_collection.find_one(
+        {'email': email},
+        {'_id': 1, 'username': 1, 'password': 1}
+    )
+    
+    # Validate user and password
     if not user or user['password'] != password:
         return jsonify({'error': 'Invalid email or password'}), 401
 
     # Fetch the watch-later list
-    watch_later_data = watch_later_collection.find_one({'email': email})
+    watch_later_data = watch_later_collection.find_one(
+        {'email': email},
+        {'_id': 0, 'watchLaterList': 1}
+    )
     watch_later_list = watch_later_data['watchLaterList'] if watch_later_data else []
 
     # Generate a JWT token
@@ -73,9 +110,8 @@ def login():
         'message': 'Login successful',
         'token': token,
         'watchLaterList': watch_later_list,
-        "name": user['username']
+        'name': user['username']
     }), 200
-
 
 # Change password
 @app.route('/change-password', methods=['POST'])
