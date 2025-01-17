@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             // Display trailer if available
             if (imageDetails['trailer']) {
                 container.innerHTML += `
-                    <button id="trailer-btn"><strong>Watch the Trailer</strong></button>
+                    <button id="trailer-btn"><strong>Watch Trailer</strong></button>
                     <video class="video-trailer" controls>
                         <source src="${imageDetails['trailer']}" type="video/mp4">
                         Your browser does not support the video tag.
@@ -42,8 +42,10 @@ document.addEventListener('DOMContentLoaded', async () => {
                 `;
                 const trailerBtn = document.getElementById("trailer-btn");
                 trailerBtn.addEventListener("click",()=>{
+                    const trailerText = trailerBtn.textContent === "Watch Trailer" ? "Pass Trailer" : "Watch Trailer";
                     const videoTrailer = document.querySelector(".video-trailer")
                     const trailer = videoTrailer.style.display === 'none' ? 'block' : 'none';
+                    trailerBtn.textContent = trailerText;
                     videoTrailer.style.display = trailer;
                 })
             }
