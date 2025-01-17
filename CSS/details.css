@@ -22,6 +22,53 @@
     border-radius: 10px;
     text-align: center;
   }
+  /* Styling for the video player */
+  .video-trailer {
+    width: 100%; /* Makes the video responsive */
+    max-width: 800px; /* Limits the video width */
+    border: 3px solid #ccc; /* Adds a border around the video */
+    border-radius: 10px; /* Rounds the corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow around the video */
+    margin-top: 20px; /* Adds space above the video */
+    transition: transform 0.3s ease-in-out;
+    display: none;
+  }
+
+  /* Hover effect for the video */
+  .video-trailer:hover {
+    transform: scale(1.05); /* Slightly enlarges the video on hover */
+  }
+
+  /* Container for the image and details */
+  #details-container {
+    text-align: center;
+    padding: 20px;
+  }
+
+  /* Styling for text elements */
+  h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+
+  h4 {
+    font-size: 1.2em;
+    margin: 5px 0;
+  }
+
+  p {
+    font-size: 1em;
+    color: #555;
+  }
+
+  /* Styling for the availability text */
+  #available {
+    font-size: 1.1em;
+    font-weight: bold;
+  }
+
+  /* Additional responsive design for smaller screens */
+
   .img {
     position: absolute;
     top: 2%;
@@ -41,7 +88,7 @@
   }
   #genre {
     position: absolute;
-    top: 27.5%;
+    top: 23%;
     left: 38%;
   }
   #description {
@@ -64,7 +111,7 @@
   #year {
     position: absolute;
     top: 42%;
-    left:44%;
+    left: 44%;
   }
   p {
     font-size: 25px;
@@ -115,8 +162,7 @@
     position: absolute;
     top: 900px;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+    justify-content: space-between;
   }
   #back {
     position: absolute;
@@ -335,5 +381,10 @@
   #available {
     position: absolute;
     right: 0px;
+  }
+}
+@media (max-width: 768px) {
+  .video-trailer {
+    max-width: 100%; /* Full width on smaller screens */
   }
 }
