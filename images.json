@@ -107,7 +107,7 @@
         },
         "Mai Zenin": {
           "name": "Marina Inoue",
-          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD40D-Mvt2yHiZfJxEYH8BXZvQcqiqFrbo7Q&s"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBiF2NAT9p00CafE-OnfUY5UTgh_COiZJeOg&smages?q=tbn:ANd9GcTD40D-Mvt2yHiZfJxEYH8BXZvQcqiqFrbo7Q&s"
         },
         "Kasumi Miwa": {
           "name": "Chinatsu Akasaki",
@@ -139,15 +139,15 @@
         },
         "Dagon": {
           "name": "Takashi Kondo",
-          "img": "https://example.com/takashi-kondo.jpg"
+          "img": "https://static.wikia.nocookie.net/dancewithdevils/images/0/00/Takashi_Kond%C5%8D.jpg/revision/latest?cb=20160319203708"
         },
         "Kento Nanami": {
           "name": "Kenjiro Tsuda",
-          "img": "https://example.com/kazuya-nakai.jpg"
+          "img": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Tsuda_Kenjiro_from_%22The_Concierge%22_at_Red_Carpet_of_the_Tokyo_International_Film_Festival_2023_%2853348306038%29.jpg"
         },
         "Tatsuya Fushiguro": {
           "name": "Yoshimasa Hosoya",
-          "img": "https://example.com/yoshimasa-hosoya.jpg"
+          "img": "https://static.wikia.nocookie.net/kamenrider/images/7/75/Hosoya_Yoshimasa.jpg/revision/latest?cb=20220226004458"
         },
         "Ogi Zenin": {
           "name": "Takahiro Sakurai",
@@ -155,7 +155,7 @@
         },
         "Yusuke Ogi": {
           "name": "Rikiya Koyama",
-          "img": "https://example.com/rikiya-koyama.jpg"
+          "img": "https://m.media-amazon.com/images/M/MV5BZTFlZTZmZTEtODljNy00ZjllLWE2MDctZjg3M2NkYjVkODAwXkEyXkFqcGc@._V1_.jpg"
         },
         "Geto Suguru": {
           "name": "Takahiro Sakurai",
@@ -163,7 +163,7 @@
         },
         "Nijimura": {
           "name": "Kazuya Nakai",
-          "img": "https://example.com/kazuya-nakai.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk2Ilsc_Q2-81WTzYwlIg-Pg2tvF79DEtChg&s"
         },
         "Riko Amanai": {
           "name": "Mikako Komatsu",
@@ -171,7 +171,7 @@
         },
         "Nanami Kento": {
           "name": "Kazuya Nakai",
-          "img": "https://example.com/kazuya-nakai.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk2Ilsc_Q2-81WTzYwlIg-Pg2tvF79DEtChg&s"
         },
         "Suguru Geto": {
           "name": "Takahiro Sakurai",
@@ -179,11 +179,11 @@
         },
         "Shoko Ieiri": {
           "name": "Aya Endō",
-          "img": "https://example.com/aya-endo.jpg"
+          "img": "https://media.themoviedb.org/t/p/w500/s59Lip4dPC7rI3cz1pHs9vSmuvf.jpg"
         },
         "Shun Hashimoto": {
           "name": "Tomoya Kurosawa",
-          "img": "https://example.com/tomoya-kurosawa.jpg"
+          "img": "https://www.animenewsnetwork.com/images/encyc/P86495-3167837209.1676529252.jpg"
         },
         "Ryoumen Sukuna": {
           "name": "Junichi Suwabe",
@@ -191,15 +191,15 @@
         },
         "Yoshinobu Gakuganji": {
           "name": "Satoshi Hino",
-          "img": "https://example.com/satoshi-hino.jpg"
+          "img": "https://image.tmdb.org/t/p/original/8ZJIiwIVF2zDyyFr7oXewj0eEuu.jpg"
         },
         "Gakuganji Yoshinobu": {
           "name": "Satoshi Hino",
-          "img": "https://example.com/satoshi-hino.jpg"
+          "img": "https://image.tmdb.org/t/p/original/8ZJIiwIVF2zDyyFr7oXewj0eEuu.jpg"
         },
         "Rei Furuhashi": {
           "name": "Miku Itou",
-          "img": "https://example.com/miku-itou.jpg"
+          "img": "https://static.wikia.nocookie.net/5toubun-no-hanayome/images/d/dc/Miku_Itou.png/revision/latest?cb=20190428172206"
         },
         "Iori Utahime": {
           "name": "Yoko Hikasa",
@@ -211,7 +211,7 @@
     {
       "name": "Naruto Shippuden",
       "genre": "Action/Adventure",
-      "image-url": "https://upload.wikimedia.org/wikipedia/en/4/49/Shippudenkeyvisual.png",
+      "image-url": "https://m.media-amazon.com/images/M/MV5BNTk3MDA1ZjAtNTRhYS00YzNiLTgwOGEtYWRmYTQ3NjA0NTAwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
       "total-seasons": "22",
       "released-year": "2007",
       "availability": "Not-Available",
@@ -235,11 +235,11 @@
         },
         "Minato Namikaze": {
           "name": "Kazuya Nakai",
-          "img": "https://example.com/kazuya-nakai.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk2Ilsc_Q2-81WTzYwlIg-Pg2tvF79DEtChg&s"
         },
         "Kakashi Hatake": {
           "name": "Kazuhiko Inoue",
-          "img": "https://example.com/kazuhiko-inoue.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWcAvSjt9R3rcRcSjAf8g1KsOPztyk8wln3A&s"
         },
         "Iruka Umino": {
           "name": "Noriaki Sugiyama",
@@ -247,47 +247,47 @@
         },
         "Jiraiya": {
           "name": "Hiroshi Kamiya",
-          "img": "https://example.com/hiroshi-kamiya.jpg"
+          "img": "https://media.themoviedb.org/t/p/w500/u2r0u8tOa0cyh7nawcEOPpcEZr1.jpg"
         },
         "Tsunade Senju": {
-          "name": "Toru Ohkawa",
-          "img": "https://example.com/toru-ohkawa.jpg"
+          "name": "Masako Katsuki",
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjxQE88xlfCLrYnTKt4n1LHdjA2Cm4g4mDRQ&s"
         },
         "Shikamaru Nara": {
-          "name": "Asuma Sato",
-          "img": "https://example.com/asuma-sato.jpg"
+          "name": "Shotaru Morikubo",
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjxQE88xlfCLrYnTKt4n1LHdjA2Cm4g4mDRQ&s"
         },
         "Temari": {
           "name": "Rie Tanaka",
-          "img": "https://example.com/rie-tanaka.jpg"
+          "img": "https://static.wikia.nocookie.net/dubbing9585/images/1/15/Rie_Tanaka.jpg/revision/latest?cb=20191106213710"
         },
         "Choji Akimichi": {
           "name": "Kazuya Nakai",
-          "img": "https://example.com/kazuya-nakai.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk2Ilsc_Q2-81WTzYwlIg-Pg2tvF79DEtChg&s"
         },
         "Neji Hyuga": {
           "name": "Nobuo Tobita",
-          "img": "https://example.com/nobuo-tobita.jpg"
+          "img": "https://static.wikia.nocookie.net/doraemon/images/a/a4/Nobuo_Tobita.jpg/revision/latest?cb=20200604100248&path-prefix=en"
         },
         "Rock Lee": {
           "name": "Yoichi Masukawa",
-          "img": "https://example.com/yoichi-masukawa.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6cpLxsyJuuwMFitYeXCtiwDuHH-QlB9d9pbcWW2LM3Iz2_rn_b8JFUP3mDtkvGYh-ZaU&usqp=CAU"
         },
         "Sai": {
           "name": "Kazuya Nakai",
-          "img": "https://example.com/kazuya-nakai.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk2Ilsc_Q2-81WTzYwlIg-Pg2tvF79DEtChg&s"
         },
         "Karin Uzumaki": {
           "name": "Takahiro Mizushima",
-          "img": "https://example.com/takahiro-mizushima.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh0wDoKtRsF0QHiIRwn4BZnnrM8l-ERkYmSQ&s"
         },
         "Tayuya": {
           "name": "Romi Park",
-          "img": "https://example.com/romi-park.jpg"
+          "img": "https://static.wikia.nocookie.net/voices/images/c/c7/%EB%B0%95%EB%A1%9C%EB%AF%B8.jpg/revision/latest?cb=20140318165325"
         },
         "Orochimaru": {
           "name": "Minoru Inaba",
-          "img": "https://example.com/minoru-inaba.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTKf-22JnOQc3xq4jVFCqbUZjyT02mJi_qEg&s"
         },
         "Kabuto Yakushi": {
           "name": "Noriaki Sugiyama",
@@ -295,15 +295,15 @@
         },
         "Deidara": {
           "name": "Kazuya Nakai",
-          "img": "https://example.com/kazuya-nakai.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk2Ilsc_Q2-81WTzYwlIg-Pg2tvF79DEtChg&s"
         },
         "Sasori": {
           "name": "Hiroshi Kamiya",
-          "img": "https://example.com/hiroshi-kamiya.jpg"
+          "img": "https://media.themoviedb.org/t/p/w500/u2r0u8tOa0cyh7nawcEOPpcEZr1.jpg"
         },
         "Hidan": {
           "name": "Shinichiro Miki",
-          "img": "https://example.com/shinichiro-miki.jpg"
+          "img": "https://m.media-amazon.com/images/M/MV5BNGUwYjIzZDgtZjQ3NC00ZGQ1LTg2MjYtY2I0MGU4NjkxOGUzXkEyXkFqcGc@._V1_.jpg"
         },
         "Kakuya": {
           "name": "Tomokazu Seki",
@@ -311,7 +311,7 @@
         },
         "Zetsu": {
           "name": "Kazuya Nakai",
-          "img": "https://example.com/kazuya-nakai.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk2Ilsc_Q2-81WTzYwlIg-Pg2tvF79DEtChg&s"
         },
         "Pain": {
           "name": "Noriaki Sugiyama",
@@ -319,7 +319,7 @@
         },
         "Konan": {
           "name": "Miyuki Sawashiro",
-          "img": "https://example.com/miyuki-sawashiro.jpg"
+          "img": "https://static.wikia.nocookie.net/japanese-voiceover/images/b/bb/Miyuki_Sawashiro.PNG/revision/latest?cb=20160908183707"
         },
         "Tobi": {
           "name": "Takahiro Sakurai",
@@ -334,36 +334,36 @@
           "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMkOr7R1s2q2Yhw_ibO4GOiC4kN9aPQMD0Jg&s"
         },
         "Anko Mitarashi": {
-          "name": "Maki Takada",
-          "img": "https://example.com/maki-takada.jpg"
+          "name": "Takako Honda",
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaxCbo7JmBYGRb23n96bAM52vR8VI1Kenhaw&s"
         },
         "Asuma Sarutobi": {
           "name": "Hiroki Yasumoto",
-          "img": "https://example.com/hiroki-yasumoto.jpg"
+          "img": "https://static.wikia.nocookie.net/bakugan/images/e/e9/Yasumoto_Hiroki_%28ani-planet%29.jpg/revision/latest?cb=20241213104417"
         },
         "Jugo": {
           "name": "Takayuki Sugo",
-          "img": "https://example.com/takayuki-sugo.jpg"
+          "img": "https://static.wikia.nocookie.net/japanese-voiceover/images/f/fa/Takayuki_Sugo.PNG/revision/latest?cb=20160909171846"
         },
         "Tobirama Senju": {
           "name": "Masashi Ebara",
-          "img": "https://example.com/masashi-ebara.jpg"
+          "img": "https://www.animenewsnetwork.com/images/encyc/P510-2680492044.1503063184.jpg"
         },
         "Hashirama Senju": {
           "name": "Takayuki Sugo",
-          "img": "https://example.com/takayuki-sugo.jpg"
+          "img": "https://static.wikia.nocookie.net/japanese-voiceover/images/f/fa/Takayuki_Sugo.PNG/revision/latest?cb=20160909171846"
         },
         "Might Guy": {
-          "name": "Maki Takada",
-          "img": "https://example.com/maki-takada.jpg"
+          "name": "Masashi Ebara",
+          "img": "https://www.animenewsnetwork.com/images/encyc/P510-2680492044.1503063184.jpg"
         },
         "Zabuza Momochi": {
           "name": "Mitsuaki Madono",
-          "img": "https://example.com/mitsuaki-madono.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhs_du3bbKx9IradHsSch99f9U2HO8g9zNBw&s"
         },
         "Killer Bee": {
           "name": "Kenyu Horiuchi",
-          "img": "https://example.com/kenyu-horiuchi.jpg"
+          "img": "https://image.tmdb.org/t/p/w400/qIsrjSbtdhmmUdd3xvpDHNWRuJp.jpg"
         }
       },
       "description": "Naruto Shippuden follows Naruto Uzumaki, a young ninja with a dream of becoming the Hokage, the leader of his village. As he grows stronger and faces numerous challenges, Naruto deals with the burden of being the host of the Nine-Tails Fox, a powerful and dangerous creature. Alongside his friends, Naruto confronts dark forces, including the Akatsuki organization, and learns the true meaning of friendship, sacrifice, and responsibility."
@@ -379,83 +379,83 @@
       "voice-actors": {
         "Son Goku": {
           "name": "Masako Nozawa",
-          "img": "https://example.com/masako_nozawa.jpg"
+          "img": "https://www.famousbirthdays.com/faces/nozawa-masako-image.jpg"
         },
         "Vegeta": {
           "name": "Ryō Horikawa",
-          "img": "https://example.com/ryo_horikawa.jpg"
+          "img": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/238462_v9_aa.jpg"
         },
         "Bulma": {
           "name": "Hiromi Tsuru",
-          "img": "https://example.com/hiromi_tsuru.jpg"
+          "img": "https://upload.wikimedia.org/wikipedia/en/e/e5/Hiromi_Tsuru.jpg"
         },
         "Piccolo": {
           "name": "Toshio Furukawa",
-          "img": "https://example.com/toshio_furukawa.jpg"
+          "img": "https://m.media-amazon.com/images/M/MV5BMDg5YzE2M2MtYjI3MS00ZWUxLTg0ZjMtMThkZWVjM2Y3NDkzXkEyXkFqcGc@._V1_.jpg"
         },
         "Krillin": {
           "name": "Mayumi Tanaka",
-          "img": "https://example.com/mayumi_tanaka.jpg"
+          "img": "https://preview.redd.it/ljqbdxj4mla21.jpg?auto=webp&s=8779fc700e38f0ace91cb046eeedda487b6ad2cd"  
         },
         "Frieza": {
           "name": "Ryūsei Nakao",
-          "img": "https://example.com/ryusei_nakao.jpg"
+          "img": "https://m.media-amazon.com/images/M/MV5BZGJiNWJjNWEtZDMyZS00NWFjLTk2Y2UtYWQ4ZDM2NjI1MGMzXkEyXkFqcGc@._V1_.jpg"
         },
         "Trunks": {
           "name": "Takeshi Kusao",
-          "img": "https://example.com/takeshi_kusao.jpg"
+          "img": "https://m.media-amazon.com/images/M/MV5BMGQ0MDJkOWUtZjQ0My00ZTNlLTkzNmMtYjc1NzNlYjdiNDU5XkEyXkFqcGc@._V1_.jpg"
         },
         "Gohan": {
           "name": "Masako Nozawa",
-          "img": "https://example.com/masako_nozawa.jpg"
+          "img": "https://www.famousbirthdays.com/faces/nozawa-masako-image.jpg"
         },
         "Chi-Chi": {
           "name": "Naoko Watanabe",
-          "img": "https://example.com/naoko_watanabe.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDOx0nk1SS8pGuJqglffnKJogXeQOnzo8bOA&s"
         },
         "Android 18": {
           "name": "Miki Itō",
-          "img": "https://example.com/miki_ito.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1Gt18F0d8ObniTv1OYV_jfemtPXQqUqMw_w&s"
         },
         "Majin Buu": {
           "name": "Kōzō Shioya",
-          "img": "https://example.com/kozo_shioya.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1Gt18F0d8ObniTv1OYV_jfemtPXQqUqMw_w&s"
         },
         "Master Roshi": {
           "name": "Masaharu Satō",
-          "img": "https://example.com/masaharu_sato.jpg"
+          "img": "https://static.wikia.nocookie.net/valis/images/5/51/Actor_1164.jpg/revision/latest/scale-to-width-down/240?cb=20160209014830"
         },
         "Tien Shinhan": {
           "name": "Hikaru Midorikawa",
-          "img": "https://example.com/hikaru_midorikawa.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaZy9-wyYAZsuZZ3vJifgdX1Y7y1a_zIZuyg&s"
         },
         "Yamcha": {
           "name": "Tōru Furuya",
-          "img": "https://example.com/toru_furuya.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaZy9-wyYAZsuZZ3vJifgdX1Y7y1a_zIZuyg&s"
         },
         "Beerus": {
           "name": "Kōichi Yamadera",
-          "img": "https://example.com/koichi_yamadera.jpg"
+          "img": "https://m.media-amazon.com/images/M/MV5BMTRkMWI4ZDAtYmZjYS00ODg4LWI0MWQtMDk1MDAzMDYwYTg4XkEyXkFqcGc@._V1_.jpg"
         },
         "Whis": {
           "name": "Masakazu Morita",
-          "img": "https://example.com/masakazu_morita.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPcsKCQ76oxfBdDCZU9JqmiOJ3t3Yh_ZoYXQ&s"
         },
         "Videl": {
           "name": "Yūko Minaguchi",
-          "img": "https://example.com/yuko_minaguchi.jpg"
+          "img": "https://m.media-amazon.com/images/M/MV5BNmE4ZjEyMWMtMjA2NC00YWU4LWJhMTYtOGM4NWJhYTM5NWUxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
         },
         "Dende": {
           "name": "Aya Hirano",
-          "img": "https://example.com/aya_hirano.jpg"
+          "img": "https://media.themoviedb.org/t/p/w500/zaSJKfuKhw7e4VTnTKnlHBRzjQU.jpg"
         },
         "Mr. Satan": {
           "name": "Unshō Ishizuka",
-          "img": "https://example.com/unsho_ishizuka.jpg"
+          "img": "https://upload.wikimedia.org/wikipedia/en/thumb/1/15/Unsho-ishizuka.jpg/220px-Unsho-ishizuka.jpg"
         },
         "Shenron": {
           "name": "Kenji Utsumi",
-          "img": "https://example.com/kenji_utsumi.jpg"
+          "img": "https://m.media-amazon.com/images/M/MV5BYzc3MGIxMmMtMDg5ZS00NDFiLTllYzktOGRiMmFkNDZjNjI0XkEyXkFqcGc@._V1_.jpg"
         },
         "Android 17": {
           "name": "Shigeru Nakahara",
@@ -467,11 +467,11 @@
         },
         "Goten": {
           "name": "Masako Nozawa",
-          "img": "https://example.com/masako_nozawa.jpg"
+          "img": "https://www.famousbirthdays.com/faces/nozawa-masako-image.jpg"
         },
         "Pan": {
           "name": "Yūko Minaguchi",
-          "img": "https://example.com/yuko_minaguchi.jpg"
+          "img": "https://m.media-amazon.com/images/M/MV5BNmE4ZjEyMWMtMjA2NC00YWU4LWJhMTYtOGM4NWJhYTM5NWUxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
         },
         "Broly": {
           "name": "Bin Shimada",
@@ -499,7 +499,7 @@
         },
         "Recoome": {
           "name": "Kenji Utsumi",
-          "img": "https://example.com/kenji_utsumi.jpg"
+          "img": "https://m.media-amazon.com/images/M/MV5BYzc3MGIxMmMtMDg5ZS00NDFiLTllYzktOGRiMmFkNDZjNjI0XkEyXkFqcGc@._V1_.jpg"
         },
         "Jeice": {
           "name": "Kazumi Tanaka",
@@ -511,7 +511,7 @@
         },
         "Guldo": {
           "name": "Kōzō Shioya",
-          "img": "https://example.com/kozo_shioya.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1Gt18F0d8ObniTv1OYV_jfemtPXQqUqMw_w&s"
         },
         "Dr. Gero": {
           "name": "Kōji Yada",
@@ -583,7 +583,7 @@
         },
         "Kyojuro Rengoku": {
           "name": "Satoshi Hino",
-          "img": "https://example.com/satoshi_hino.jpg"
+          "img": "https://image.tmdb.org/t/p/original/8ZJIiwIVF2zDyyFr7oXewj0eEuu.jpg"
         },
         "Tengen Uzui": {
           "name": "Katsuyuki Konishi",
@@ -647,7 +647,7 @@
         },
         "Daki": {
           "name": "Miyuki Sawashiro",
-          "img": "https://example.com/miyuki_sawashiro.jpg"
+          "img": "https://static.wikia.nocookie.net/japanese-voiceover/images/b/bb/Miyuki_Sawashiro.PNG/revision/latest?cb=20160908183707"
         },
         "Gyutaro": {
           "name": "Ryota Osaka",
@@ -655,15 +655,15 @@
         },
         "Kaigaku": {
           "name": "Yoshimasa Hosoya",
-          "img": "https://example.com/yoshimasa_hosoya.jpg"
+          "img": "https://static.wikia.nocookie.net/kamenrider/images/7/75/Hosoya_Yoshimasa.jpg/revision/latest?cb=20220226004458"
         },
         "Nakime": {
           "name": "Marina Inoue",
-          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD40D-Mvt2yHiZfJxEYH8BXZvQcqiqFrbo7Q&s"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBiF2NAT9p00CafE-OnfUY5UTgh_COiZJeOg&smages?q=tbn:ANd9GcTD40D-Mvt2yHiZfJxEYH8BXZvQcqiqFrbo7Q&s"
         },
         "Hantengu": {
           "name": "Toshio Furukawa",
-          "img": "https://example.com/toshio_furukawa.jpg"
+          "img": "https://m.media-amazon.com/images/M/MV5BMDg5YzE2M2MtYjI3MS00ZWUxLTg0ZjMtMThkZWVjM2Y3NDkzXkEyXkFqcGc@._V1_.jpg"
         },
         "Gyokko": {
           "name": "Kohsuke Toriumi",
@@ -731,15 +731,15 @@
         },
         "Armin Arlert": {
           "name": "Marina Inoue",
-          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD40D-Mvt2yHiZfJxEYH8BXZvQcqiqFrbo7Q&s"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBiF2NAT9p00CafE-OnfUY5UTgh_COiZJeOg&smages?q=tbn:ANd9GcTD40D-Mvt2yHiZfJxEYH8BXZvQcqiqFrbo7Q&s"
         },
         "Levi Ackerman": {
           "name": "Hiroshi Kamiya",
-          "img": "https://example.com/hiroshi_kamiya.jpg"
+          "img": "https://media.themoviedb.org/t/p/w500/u2r0u8tOa0cyh7nawcEOPpcEZr1.jpg"
         },
         "Reiner Braun": {
           "name": "Yoshimasa Hosoya",
-          "img": "https://example.com/yoshimasa_hosoya.jpg"
+          "img": "https://static.wikia.nocookie.net/kamenrider/images/7/75/Hosoya_Yoshimasa.jpg/revision/latest?cb=20220226004458"
         },
         "Zeke Jaeger": {
           "name": "Takehito Koyasu",
@@ -771,7 +771,7 @@
         },
         "Hange Zoë": {
           "name": "Romi Park",
-          "img": "https://example.com/romi_park.jpg"
+          "img": "https://static.wikia.nocookie.net/voices/images/c/c7/%EB%B0%95%EB%A1%9C%EB%AF%B8.jpg/revision/latest?cb=20140318165325"
         },
         "Annie Leonhart": {
           "name": "Yū Shimamura",
@@ -847,7 +847,7 @@
         },
         "Willy Tybur": {
           "name": "Kazuhiko Inoue",
-          "img": "https://example.com/kazuhiko_inoue.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWcAvSjt9R3rcRcSjAf8g1KsOPztyk8wln3A&s"
         },
         "Lara Tybur": {
           "name": "Akeno Watanabe",
@@ -955,7 +955,7 @@
         },
         "Masataka 'Kiyomasa' Kiyomizu": {
           "name": "Satoshi Hino",
-          "img": "https://example.com/satoshi_hino.jpg"
+          "img": "https://image.tmdb.org/t/p/original/8ZJIiwIVF2zDyyFr7oXewj0eEuu.jpg"
         }
       },
       "description": "Tokyo Revengers follows Takemichi Hanagaki, a man who learns that his childhood girlfriend and her brother have been killed by a notorious gang. When he is sent back in time to his middle school years, Takemichi decides to change the course of the future by rising through the ranks of the gang, making new friends, and trying to prevent the tragic events that will unfold."
@@ -971,7 +971,7 @@
       "voice_actors": {
         "Ichigo Kurosaki": {
           "name": "Masakazu Morita",
-          "img": "https://example.com/masakazu_morita.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPcsKCQ76oxfBdDCZU9JqmiOJ3t3Yh_ZoYXQ&s"
         },
         "Rukia Kuchiki": {
           "name": "Fumiko Orikasa",
@@ -987,7 +987,7 @@
         },
         "Yasutora 'Chad' Sado": {
           "name": "Hiroki Yasumoto",
-          "img": "https://example.com/hiroki_yasumoto.jpg"
+          "img": "https://static.wikia.nocookie.net/bakugan/images/e/e9/Yasumoto_Hiroki_%28ani-planet%29.jpg/revision/latest?cb=20241213104417"
         },
         "Renji Abarai": {
           "name": "Kentarō Itō",
@@ -995,7 +995,7 @@
         },
         "Kisuke Urahara": {
           "name": "Shinichiro Miki",
-          "img": "https://example.com/shinichiro_miki.jpg"
+          "img": "https://m.media-amazon.com/images/M/MV5BNGUwYjIzZDgtZjQ3NC00ZGQ1LTg2MjYtY2I0MGU4NjkxOGUzXkEyXkFqcGc@._V1_.jpg"
         },
         "Yoruichi Shihōin": {
           "name": "Satsuki Yukino",
@@ -1007,7 +1007,7 @@
         },
         "Tōshirō Hitsugaya": {
           "name": "Romi Park",
-          "img": "https://example.com/romi_park.jpg"
+          "img": "https://static.wikia.nocookie.net/voices/images/c/c7/%EB%B0%95%EB%A1%9C%EB%AF%B8.jpg/revision/latest?cb=20140318165325"
         },
         "Kenpachi Zaraki": {
           "name": "Fumihiko Tachiki",
@@ -1071,7 +1071,7 @@
         },
         "Kurapika": {
           "name": "Miyuki Sawashiro",
-          "img": "https://example.com/miyuki_sawashiro.jpg"
+          "img": "https://static.wikia.nocookie.net/japanese-voiceover/images/b/bb/Miyuki_Sawashiro.PNG/revision/latest?cb=20160908183707"
         },
         "Leorio Paladiknight": {
           "name": "Keiji Fujiwara",
@@ -1099,7 +1099,7 @@
         },
         "Silva Zoldyck": {
           "name": "Kōichi Yamadera",
-          "img": "https://example.com/koichi_yamadera.jpg"
+          "img": "https://m.media-amazon.com/images/M/MV5BMTRkMWI4ZDAtYmZjYS00ODg4LWI0MWQtMDk1MDAzMDYwYTg4XkEyXkFqcGc@._V1_.jpg"
         },
         "Zeno Zoldyck": {
           "name": "Takeshi Aono",
@@ -1223,11 +1223,11 @@
       "voice_actors": {
         "Monkey D. Luffy": {
           "name": "Mayumi Tanaka",
-          "img": "https://example.com/mayumi_tanaka.jpg"
+          "img": "https://preview.redd.it/ljqbdxj4mla21.jpg?auto=webp&s=8779fc700e38f0ace91cb046eeedda487b6ad2cd"
         },
         "Roronoa Zoro": {
           "name": "Kazuya Nakai",
-          "img": "https://example.com/kazuya_nakai.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk2Ilsc_Q2-81WTzYwlIg-Pg2tvF79DEtChg&s"
         },
         "Nami": {
           "name": "Akemi Okamura",
@@ -1267,7 +1267,7 @@
         },
         "Portgas D. Ace": {
           "name": "Kazuya Nakai",
-          "img": "https://example.com/kazuya_nakai_ace.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk2Ilsc_Q2-81WTzYwlIg-Pg2tvF79DEtChg&s.jpg"
         },
         "Gol D. Roger": {
           "name": "Chikao Ōtsuka",
@@ -1279,23 +1279,23 @@
         },
         "Bartholomew Kuma": {
           "name": "Kōzō Shioya",
-          "img": "https://example.com/kozo_shioya.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1Gt18F0d8ObniTv1OYV_jfemtPXQqUqMw_w&s"
         },
         "Boa Hancock": {
           "name": "Miyuki Sawashiro",
-          "img": "https://example.com/miyuki_sawashiro.jpg"
+          "img": "https://static.wikia.nocookie.net/japanese-voiceover/images/b/bb/Miyuki_Sawashiro.PNG/revision/latest?cb=20160908183707"
         },
         "Trafalgar D. Water Law": {
           "name": "Kazuya Nakai",
-          "img": "https://example.com/kazuya_nakai_law.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk2Ilsc_Q2-81WTzYwlIg-Pg2tvF79DEtChg&s.jpg"
         },
         "Eustass Kid": {
           "name": "Rikiya Koyama",
-          "img": "https://example.com/rikiya_koyama.jpg"
+          "img": "https://m.media-amazon.com/images/M/MV5BZTFlZTZmZTEtODljNy00ZjllLWE2MDctZjg3M2NkYjVkODAwXkEyXkFqcGc@._V1_.jpg"
         },
         "Charlotte Katakuri": {
           "name": "Kazuya Nakai",
-          "img": "https://example.com/kazuya_nakai_katakuri.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk2Ilsc_Q2-81WTzYwlIg-Pg2tvF79DEtChg&sakuri.jpg"
         },
         "Donquixote Doflamingo": {
           "name": "Takahiro Sakurai",
@@ -1307,7 +1307,7 @@
         },
         "Nefertari Vivi": {
           "name": "Mayumi Tanaka",
-          "img": "https://example.com/mayumi_tanaka_vivi.jpg"
+          "img": "https://preview.redd.it/ljqbdxj4mla21.jpg?auto=webp&s=8779fc700e38f0ace91cb046eeedda487b6ad2cdi.jpg"
         },
         "Smoker": {
           "name": "Takahiro Sakurai",
@@ -1315,7 +1315,7 @@
         },
         "Kizaru": {
           "name": "Unshō Ishizuka",
-          "img": "https://example.com/unsho_ishizuka.jpg"
+          "img": "https://upload.wikimedia.org/wikipedia/en/thumb/1/15/Unsho-ishizuka.jpg/220px-Unsho-ishizuka.jpg"
         },
         "Akainu": {
           "name": "Takahiro Sakurai",
@@ -1339,7 +1339,7 @@
         },
         "Rob Lucci": {
           "name": "Kazuya Nakai",
-          "img": "https://example.com/kazuya_nakai_rob_lucci.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk2Ilsc_Q2-81WTzYwlIg-Pg2tvF79DEtChg&s_lucci.jpg"
         },
         "Franky (Cutty Flam)": {
           "name": "Kazuki Yao",
@@ -1367,15 +1367,15 @@
         },
         "Bartholomew Kuma (Tyrant Kuma)": {
           "name": "Kōzō Shioya",
-          "img": "https://example.com/kozo_shioya_kuma.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1Gt18F0d8ObniTv1OYV_jfemtPXQqUqMw_w&sa.jpg"
         },
         "Portgas D. Ace (Fire Fist Ace)": {
           "name": "Kazuya Nakai",
-          "img": "https://example.com/kazuya_nakai_ace2.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk2Ilsc_Q2-81WTzYwlIg-Pg2tvF79DEtChg&s2.jpg"
         },
         "Zoro (Roronoa Zoro)": {
           "name": "Kazuya Nakai",
-          "img": "https://example.com/kazuya_nakai_zoro.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk2Ilsc_Q2-81WTzYwlIg-Pg2tvF79DEtChg&so.jpg"
         },
         "Aokiji (Kuzan)": {
           "name": "Takehito Koyasu",
@@ -1383,7 +1383,7 @@
         },
         "Kizaru (Borsalino)": {
           "name": "Unshō Ishizuka",
-          "img": "https://example.com/unsho_ishizuka_kizaru.jpg"
+          "img": "https://upload.wikimedia.org/wikipedia/en/thumb/1/15/Unsho-ishizuka.jpg/220px-Unsho-ishizuka.jpgaru.jpg"
         },
         "Akainu (Sakazuki)": {
           "name": "Takahiro Sakurai",
@@ -1493,7 +1493,7 @@
         },
         "Moka Akashiya (Rosario + Vampire)": {
           "name": "Aya Hirano",
-          "img": "https://example.com/aya_hirano.jpg"
+          "img": "https://media.themoviedb.org/t/p/w500/zaSJKfuKhw7e4VTnTKnlHBRzjQU.jpg"
         },
         "Akame (Akame ga Kill)": {
           "name": "Sora Amamiya",
@@ -1509,7 +1509,7 @@
         },
         "Haruhi Suzumiya (The Melancholy of Haruhi Suzumiya)": {
           "name": "Aya Hirano",
-          "img": "https://example.com/aya_hirano_haruhi.jpg"
+          "img": "https://media.themoviedb.org/t/p/w500/zaSJKfuKhw7e4VTnTKnlHBRzjQU.jpguhi.jpg"
         },
         "Ino Yamanaka (Naruto)": {
           "name": "Ryoko Shiraishi",
@@ -1641,7 +1641,7 @@
         },
         "Noritoshi Kamo": {
           "name": "Kazuya Nakai",
-          "img": "https://example.com/kazuya_nakai.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk2Ilsc_Q2-81WTzYwlIg-Pg2tvF79DEtChg&s"
         },
         "Hana Kurusu": {
           "name": "Azusa Tadokoro",
@@ -1657,11 +1657,11 @@
         },
         "Mai Zenin": {
           "name": "Miku Itou",
-          "img": "https://example.com/miku_itou.jpg"
+          "img": "https://static.wikia.nocookie.net/5toubun-no-hanayome/images/d/dc/Miku_Itou.png/revision/latest?cb=20190428172206"
         },
         "Kento Nanami": {
-          "name": "Kazuya Nakai",
-          "img": "https://example.com/kazuya_nakai_nanami.jpg"
+          "name": "Kenjiro Tsuda",
+          "img": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Tsuda_Kenjiro_from_%22The_Concierge%22_at_Red_Carpet_of_the_Tokyo_International_Film_Festival_2023_%2853348306038%29.jpg"
         },
         "Aoi Todo": {
           "name": "Koki Uchiyama",
@@ -1689,7 +1689,7 @@
         },
         "Tatsuya Fushiguro": {
           "name": "Kenjiro Tsuda",
-          "img": "https://example.com/kenjiro_tsuda.jpg"
+          "img": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Tsuda_Kenjiro_from_%22The_Concierge%22_at_Red_Carpet_of_the_Tokyo_International_Film_Festival_2023_%2853348306038%29.jpg"
         },
         "Choso": {
           "name": "Jun Fukuyama",
@@ -1697,7 +1697,7 @@
         },
         "Kei Ishigori": {
           "name": "Hiroshi Kamiya",
-          "img": "https://example.com/hiroshi_kamiya.jpg"
+          "img": "https://media.themoviedb.org/t/p/w500/u2r0u8tOa0cyh7nawcEOPpcEZr1.jpg"
         },
         "Dagon": {
           "name": "Norio Wakamoto",
@@ -1765,7 +1765,7 @@
     {
       "name": "Naruto Shippuden",
       "genre": "Action",
-      "image-url": "https://upload.wikimedia.org/wikipedia/en/4/49/Shippudenkeyvisual.png",
+      "image-url": "https://m.media-amazon.com/images/M/MV5BNTk3MDA1ZjAtNTRhYS00YzNiLTgwOGEtYWRmYTQ3NjA0NTAwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
       "total-seasons": "22",
       "released-year": "2007",
       "availability": "Not-Available",
@@ -1789,11 +1789,11 @@
         },
         "Minato Namikaze": {
           "name": "Kazuya Nakai",
-          "img": "https://example.com/kazuya-nakai.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk2Ilsc_Q2-81WTzYwlIg-Pg2tvF79DEtChg&s"
         },
         "Kakashi Hatake": {
           "name": "Kazuhiko Inoue",
-          "img": "https://example.com/kazuhiko-inoue.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWcAvSjt9R3rcRcSjAf8g1KsOPztyk8wln3A&s"
         },
         "Iruka Umino": {
           "name": "Noriaki Sugiyama",
@@ -1801,47 +1801,47 @@
         },
         "Jiraiya": {
           "name": "Hiroshi Kamiya",
-          "img": "https://example.com/hiroshi-kamiya.jpg"
+          "img": "https://media.themoviedb.org/t/p/w500/u2r0u8tOa0cyh7nawcEOPpcEZr1.jpg"
         },
         "Tsunade Senju": {
-          "name": "Toru Ohkawa",
-          "img": "https://example.com/toru-ohkawa.jpg"
+          "name": "Masako Katsuki",
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjxQE88xlfCLrYnTKt4n1LHdjA2Cm4g4mDRQ&s"
         },
         "Shikamaru Nara": {
-          "name": "Asuma Sato",
-          "img": "https://example.com/asuma-sato.jpg"
+          "name": "Shotaru Morikubo",
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjxQE88xlfCLrYnTKt4n1LHdjA2Cm4g4mDRQ&s"
         },
         "Temari": {
           "name": "Rie Tanaka",
-          "img": "https://example.com/rie-tanaka.jpg"
+          "img": "https://static.wikia.nocookie.net/dubbing9585/images/1/15/Rie_Tanaka.jpg/revision/latest?cb=20191106213710"
         },
         "Choji Akimichi": {
           "name": "Kazuya Nakai",
-          "img": "https://example.com/kazuya-nakai.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk2Ilsc_Q2-81WTzYwlIg-Pg2tvF79DEtChg&s"
         },
         "Neji Hyuga": {
           "name": "Nobuo Tobita",
-          "img": "https://example.com/nobuo-tobita.jpg"
+          "img": "https://static.wikia.nocookie.net/doraemon/images/a/a4/Nobuo_Tobita.jpg/revision/latest?cb=20200604100248&path-prefix=en"
         },
         "Rock Lee": {
           "name": "Yoichi Masukawa",
-          "img": "https://example.com/yoichi-masukawa.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6cpLxsyJuuwMFitYeXCtiwDuHH-QlB9d9pbcWW2LM3Iz2_rn_b8JFUP3mDtkvGYh-ZaU&usqp=CAU"
         },
         "Sai": {
           "name": "Kazuya Nakai",
-          "img": "https://example.com/kazuya-nakai.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk2Ilsc_Q2-81WTzYwlIg-Pg2tvF79DEtChg&s"
         },
         "Karin Uzumaki": {
           "name": "Takahiro Mizushima",
-          "img": "https://example.com/takahiro-mizushima.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh0wDoKtRsF0QHiIRwn4BZnnrM8l-ERkYmSQ&s"
         },
         "Tayuya": {
           "name": "Romi Park",
-          "img": "https://example.com/romi-park.jpg"
+          "img": "https://static.wikia.nocookie.net/voices/images/c/c7/%EB%B0%95%EB%A1%9C%EB%AF%B8.jpg/revision/latest?cb=20140318165325"
         },
         "Orochimaru": {
           "name": "Minoru Inaba",
-          "img": "https://example.com/minoru-inaba.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTKf-22JnOQc3xq4jVFCqbUZjyT02mJi_qEg&s"
         },
         "Kabuto Yakushi": {
           "name": "Noriaki Sugiyama",
@@ -1849,15 +1849,15 @@
         },
         "Deidara": {
           "name": "Kazuya Nakai",
-          "img": "https://example.com/kazuya-nakai.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk2Ilsc_Q2-81WTzYwlIg-Pg2tvF79DEtChg&s"
         },
         "Sasori": {
           "name": "Hiroshi Kamiya",
-          "img": "https://example.com/hiroshi-kamiya.jpg"
+          "img": "https://media.themoviedb.org/t/p/w500/u2r0u8tOa0cyh7nawcEOPpcEZr1.jpg"
         },
         "Hidan": {
           "name": "Shinichiro Miki",
-          "img": "https://example.com/shinichiro-miki.jpg"
+          "img": "https://m.media-amazon.com/images/M/MV5BNGUwYjIzZDgtZjQ3NC00ZGQ1LTg2MjYtY2I0MGU4NjkxOGUzXkEyXkFqcGc@._V1_.jpg"
         },
         "Kakuya": {
           "name": "Tomokazu Seki",
@@ -1865,7 +1865,7 @@
         },
         "Zetsu": {
           "name": "Kazuya Nakai",
-          "img": "https://example.com/kazuya-nakai.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk2Ilsc_Q2-81WTzYwlIg-Pg2tvF79DEtChg&s"
         },
         "Pain": {
           "name": "Noriaki Sugiyama",
@@ -1873,7 +1873,7 @@
         },
         "Konan": {
           "name": "Miyuki Sawashiro",
-          "img": "https://example.com/miyuki-sawashiro.jpg"
+          "img": "https://static.wikia.nocookie.net/japanese-voiceover/images/b/bb/Miyuki_Sawashiro.PNG/revision/latest?cb=20160908183707"
         },
         "Tobi": {
           "name": "Takahiro Sakurai",
@@ -1888,36 +1888,36 @@
           "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMkOr7R1s2q2Yhw_ibO4GOiC4kN9aPQMD0Jg&s"
         },
         "Anko Mitarashi": {
-          "name": "Maki Takada",
-          "img": "https://example.com/maki-takada.jpg"
+          "name": "Takako Honda",
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaxCbo7JmBYGRb23n96bAM52vR8VI1Kenhaw&s"
         },
         "Asuma Sarutobi": {
           "name": "Hiroki Yasumoto",
-          "img": "https://example.com/hiroki-yasumoto.jpg"
+          "img": "https://static.wikia.nocookie.net/bakugan/images/e/e9/Yasumoto_Hiroki_%28ani-planet%29.jpg/revision/latest?cb=20241213104417"
         },
         "Jugo": {
           "name": "Takayuki Sugo",
-          "img": "https://example.com/takayuki-sugo.jpg"
+          "img": "https://static.wikia.nocookie.net/japanese-voiceover/images/f/fa/Takayuki_Sugo.PNG/revision/latest?cb=20160909171846"
         },
         "Tobirama Senju": {
           "name": "Masashi Ebara",
-          "img": "https://example.com/masashi-ebara.jpg"
+          "img": "https://www.animenewsnetwork.com/images/encyc/P510-2680492044.1503063184.jpg"
         },
         "Hashirama Senju": {
           "name": "Takayuki Sugo",
-          "img": "https://example.com/takayuki-sugo.jpg"
+          "img": "https://static.wikia.nocookie.net/japanese-voiceover/images/f/fa/Takayuki_Sugo.PNG/revision/latest?cb=20160909171846"
         },
         "Might Guy": {
-          "name": "Maki Takada",
-          "img": "https://example.com/maki-takada.jpg"
+                    "img": "https://www.animenewsnetwork.com/images/encyc/P510-2680492044.1503063184.jpg"
+
         },
         "Zabuza Momochi": {
           "name": "Mitsuaki Madono",
-          "img": "https://example.com/mitsuaki-madono.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhs_du3bbKx9IradHsSch99f9U2HO8g9zNBw&s"
         },
         "Killer Bee": {
           "name": "Kenyu Horiuchi",
-          "img": "https://example.com/kenyu-horiuchi.jpg"
+          "img": "https://image.tmdb.org/t/p/w400/qIsrjSbtdhmmUdd3xvpDHNWRuJp.jpg"
         }
       },
       "description": "Naruto Shippuden follows Naruto Uzumaki, a young ninja with a dream of becoming the Hokage, the leader of his village. As he grows stronger and faces numerous challenges, Naruto deals with the burden of being the host of the Nine-Tails Fox, a powerful and dangerous creature. Alongside his friends, Naruto confronts dark forces, including the Akatsuki organization, and learns the true meaning of friendship, sacrifice, and responsibility."
@@ -1945,19 +1945,19 @@
         },
         "Kakashi Hatake": {
           "name": "Kazuhiko Inoue",
-          "img": "https://example.com/kazuhiko_inoue.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWcAvSjt9R3rcRcSjAf8g1KsOPztyk8wln3A&s"
         },
         "Iruka Umino": {
           "name": "Hiroshi Kamiya",
-          "img": "https://example.com/hiroshi_kamiya.jpg"
+          "img": "https://media.themoviedb.org/t/p/w500/u2r0u8tOa0cyh7nawcEOPpcEZr1.jpg"
         },
         "Hinata Hyuga": {
           "name": "Nana Mizuki",
           "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIup5jSmRC2lC1f1yRd8THQtQE2Ux-Qq1exQ&s"
         },
         "Shikamaru Nara": {
-          "name": "Showtaro Morikubo",
-          "img": "https://example.com/showtaro_morikubo.jpg"
+          "name": "Shotaru Morikubo",
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjxQE88xlfCLrYnTKt4n1LHdjA2Cm4g4mDRQ&subo.jpg"
         },
         "Neji Hyuga": {
           "name": "Yōichi Masukawa",
@@ -1969,7 +1969,7 @@
         },
         "Rock Lee": {
           "name": "Yoichi Masukawa",
-          "img": "https://example.com/yoichi_masukawa_lee.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6cpLxsyJuuwMFitYeXCtiwDuHH-QlB9d9pbcWW2LM3Iz2_rn_b8JFUP3mDtkvGYh-ZaU&usqp=CAU.jpg"
         },
         "Gaara": {
           "name": "Akira Ishida",
@@ -1977,7 +1977,7 @@
         },
         "Jiraiya": {
           "name": "Hiroshi Kamiya",
-          "img": "https://example.com/hiroshi_kamiya_jiraiya.jpg"
+          "img": "https://media.themoviedb.org/t/p/w500/u2r0u8tOa0cyh7nawcEOPpcEZr1.jpgaiya.jpg"
         },
         "Orochimaru": {
           "name": "Oda Yuji",
@@ -1993,7 +1993,7 @@
         },
         "Killer Bee": {
           "name": "Takeshi Kusao",
-          "img": "https://example.com/takeshi_kusao.jpg"
+          "img": "https://m.media-amazon.com/images/M/MV5BMGQ0MDJkOWUtZjQ0My00ZTNlLTkzNmMtYjc1NzNlYjdiNDU5XkEyXkFqcGc@._V1_.jpg"
         }
       },
       "description": "Naruto follows the journey of Naruto Uzumaki, a young and spirited ninja who dreams of becoming the Hokage, the strongest ninja and leader of his village. Despite being ostracized for being the host of the Nine-Tails Fox, Naruto forms close bonds with his friends and fellow ninjas, working tirelessly to prove his worth and grow stronger in the face of many challenges."
@@ -2053,7 +2053,7 @@
         },
         "Liu Zhigang": {
           "name": "Kenjiro Tsuda",
-          "img": "https://example.com/kenjiro_tsuda.jpg"
+          "img": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Tsuda_Kenjiro_from_%22The_Concierge%22_at_Red_Carpet_of_the_Tokyo_International_Film_Festival_2023_%2853348306038%29.jpg"
         },
         "Christopher Reed": {
           "name": "Takahiro Sakurai",
@@ -2073,7 +2073,7 @@
         },
         "Igris": {
           "name": "Kazuya Nakai",
-          "img": "https://example.com/kazuya_nakai.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk2Ilsc_Q2-81WTzYwlIg-Pg2tvF79DEtChg&s"
         },
         "Beru": {
           "name": "Nobuhiko Okamoto",
@@ -2081,7 +2081,7 @@
         },
         "Bellion": {
           "name": "Rikiya Koyama",
-          "img": "https://example.com/rikiya_koyama.jpg"
+          "img": "https://m.media-amazon.com/images/M/MV5BZTFlZTZmZTEtODljNy00ZjllLWE2MDctZjg3M2NkYjVkODAwXkEyXkFqcGc@._V1_.jpg"
         },
         "Kamish": {
           "name": "Tomokazu Sugita",
@@ -2089,7 +2089,7 @@
         },
         "Lennart Niermann": {
           "name": "Hikaru Midorikawa",
-          "img": "https://example.com/hikaru_midorikawa.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaZy9-wyYAZsuZZ3vJifgdX1Y7y1a_zIZuyg&s"
         },
         "Hwang Dong-Su": {
           "name": "Takahiro Fujiwara",
@@ -2121,11 +2121,11 @@
         },
         "Armin Arlert": {
           "name": "Marina Inoue",
-          "img": "https://example.com/marina_inoue.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBiF2NAT9p00CafE-OnfUY5UTgh_COiZJeOg&s"
         },
         "Levi Ackerman": {
           "name": "Hiroshi Kamiya",
-          "img": "https://example.com/hiroshi_kamiya.jpg"
+          "img": "https://media.themoviedb.org/t/p/w500/u2r0u8tOa0cyh7nawcEOPpcEZr1.jpg"
         },
         "Erwin Smith": {
           "name": "Daisuke Ono",
@@ -2133,7 +2133,7 @@
         },
         "Hange Zoë": {
           "name": "Romi Park",
-          "img": "https://example.com/romi_park.jpg"
+          "img": "https://static.wikia.nocookie.net/voices/images/c/c7/%EB%B0%95%EB%A1%9C%EB%AF%B8.jpg/revision/latest?cb=20140318165325"
         },
         "Jean Kirstein": {
           "name": "Kisho Taniyama",
@@ -2149,7 +2149,7 @@
         },
         "Reiner Braun": {
           "name": "Yoshimasa Hosoya",
-          "img": "https://example.com/yoshimasa_hosoya.jpg"
+          "img": "https://static.wikia.nocookie.net/kamenrider/images/7/75/Hosoya_Yoshimasa.jpg/revision/latest?cb=20220226004458"
         },
         "Bertolt Hoover": {
           "name": "Tomohisa Hashizume",
@@ -2257,7 +2257,7 @@
         },
         "Kyojuro Rengoku": {
           "name": "Satoshi Hino",
-          "img": "https://example.com/satoshi_hino.jpg"
+          "img": "https://image.tmdb.org/t/p/original/8ZJIiwIVF2zDyyFr7oXewj0eEuu.jpg"
         },
         "Tengen Uzui": {
           "name": "Katsuyuki Konishi",
@@ -2321,7 +2321,7 @@
         },
         "Daki": {
           "name": "Miyuki Sawashiro",
-          "img": "https://example.com/miyuki_sawashiro.jpg"
+          "img": "https://static.wikia.nocookie.net/japanese-voiceover/images/b/bb/Miyuki_Sawashiro.PNG/revision/latest?cb=20160908183707"
         },
         "Gyutaro": {
           "name": "Ryota Osaka",
@@ -2329,15 +2329,15 @@
         },
         "Kaigaku": {
           "name": "Yoshimasa Hosoya",
-          "img": "https://example.com/yoshimasa_hosoya.jpg"
+          "img": "https://static.wikia.nocookie.net/kamenrider/images/7/75/Hosoya_Yoshimasa.jpg/revision/latest?cb=20220226004458"
         },
         "Nakime": {
           "name": "Marina Inoue",
-          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD40D-Mvt2yHiZfJxEYH8BXZvQcqiqFrbo7Q&s"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBiF2NAT9p00CafE-OnfUY5UTgh_COiZJeOg&smages?q=tbn:ANd9GcTD40D-Mvt2yHiZfJxEYH8BXZvQcqiqFrbo7Q&s"
         },
         "Hantengu": {
           "name": "Toshio Furukawa",
-          "img": "https://example.com/toshio_furukawa.jpg"
+          "img": "https://m.media-amazon.com/images/M/MV5BMDg5YzE2M2MtYjI3MS00ZWUxLTg0ZjMtMThkZWVjM2Y3NDkzXkEyXkFqcGc@._V1_.jpg"
         },
         "Gyokko": {
           "name": "Kohsuke Toriumi",
@@ -2405,7 +2405,7 @@
         },
         "Misa Amane": {
           "name": "Aya Hirano",
-          "img": "https://example.com/aya_hirano.jpg"
+          "img": "https://media.themoviedb.org/t/p/w500/zaSJKfuKhw7e4VTnTKnlHBRzjQU.jpg"
         },
         "Ryuk": {
           "name": "Shidou Nakamura",
@@ -2433,7 +2433,7 @@
         },
         "Kanzo Mogi": {
           "name": "Kazuya Nakai",
-          "img": "https://example.com/kazuya_nakai.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk2Ilsc_Q2-81WTzYwlIg-Pg2tvF79DEtChg&s"
         },
         "Hideki Ide": {
           "name": "Hideo Ishikawa",
@@ -2485,7 +2485,7 @@
         },
         "Stephen Gevanni": {
           "name": "Kazuhiko Inoue",
-          "img": "https://example.com/kazuhiko_inoue.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWcAvSjt9R3rcRcSjAf8g1KsOPztyk8wln3A&s"
         },
         "Sachiko Yagami": {
           "name": "Ai Satou",
@@ -2505,83 +2505,83 @@
       "voice-actors": {
         "Son Goku": {
           "name": "Masako Nozawa",
-          "img": "https://example.com/masako_nozawa.jpg"
+          "img": "https://www.famousbirthdays.com/faces/nozawa-masako-image.jpg"
         },
         "Vegeta": {
           "name": "Ryō Horikawa",
-          "img": "https://example.com/ryo_horikawa.jpg"
+          "img": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/238462_v9_aa.jpg"
         },
         "Bulma": {
           "name": "Hiromi Tsuru",
-          "img": "https://example.com/hiromi_tsuru.jpg"
+          "img": "https://upload.wikimedia.org/wikipedia/en/e/e5/Hiromi_Tsuru.jpg"
         },
         "Piccolo": {
           "name": "Toshio Furukawa",
-          "img": "https://example.com/toshio_furukawa.jpg"
+          "img": "https://m.media-amazon.com/images/M/MV5BMDg5YzE2M2MtYjI3MS00ZWUxLTg0ZjMtMThkZWVjM2Y3NDkzXkEyXkFqcGc@._V1_.jpg"
         },
         "Krillin": {
           "name": "Mayumi Tanaka",
-          "img": "https://example.com/mayumi_tanaka.jpg"
+          "img": "https://preview.redd.it/ljqbdxj4mla21.jpg?auto=webp&s=8779fc700e38f0ace91cb046eeedda487b6ad2cd"
         },
         "Frieza": {
           "name": "Ryūsei Nakao",
-          "img": "https://example.com/ryusei_nakao.jpg"
+          "img": "https://m.media-amazon.com/images/M/MV5BZGJiNWJjNWEtZDMyZS00NWFjLTk2Y2UtYWQ4ZDM2NjI1MGMzXkEyXkFqcGc@._V1_.jpg"
         },
         "Trunks": {
           "name": "Takeshi Kusao",
-          "img": "https://example.com/takeshi_kusao.jpg"
+          "img": "https://m.media-amazon.com/images/M/MV5BMGQ0MDJkOWUtZjQ0My00ZTNlLTkzNmMtYjc1NzNlYjdiNDU5XkEyXkFqcGc@._V1_.jpg"
         },
         "Gohan": {
           "name": "Masako Nozawa",
-          "img": "https://example.com/masako_nozawa.jpg"
+          "img": "https://www.famousbirthdays.com/faces/nozawa-masako-image.jpg"
         },
         "Chi-Chi": {
           "name": "Naoko Watanabe",
-          "img": "https://example.com/naoko_watanabe.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDOx0nk1SS8pGuJqglffnKJogXeQOnzo8bOA&s"
         },
         "Android 18": {
           "name": "Miki Itō",
-          "img": "https://example.com/miki_ito.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1Gt18F0d8ObniTv1OYV_jfemtPXQqUqMw_w&s"
         },
         "Majin Buu": {
           "name": "Kōzō Shioya",
-          "img": "https://example.com/kozo_shioya.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1Gt18F0d8ObniTv1OYV_jfemtPXQqUqMw_w&s"
         },
         "Master Roshi": {
           "name": "Masaharu Satō",
-          "img": "https://example.com/masaharu_sato.jpg"
+          "img": "https://static.wikia.nocookie.net/valis/images/5/51/Actor_1164.jpg/revision/latest/scale-to-width-down/240?cb=20160209014830"
         },
         "Tien Shinhan": {
           "name": "Hikaru Midorikawa",
-          "img": "https://example.com/hikaru_midorikawa.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaZy9-wyYAZsuZZ3vJifgdX1Y7y1a_zIZuyg&s"
         },
         "Yamcha": {
           "name": "Tōru Furuya",
-          "img": "https://example.com/toru_furuya.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaZy9-wyYAZsuZZ3vJifgdX1Y7y1a_zIZuyg&s"
         },
         "Beerus": {
           "name": "Kōichi Yamadera",
-          "img": "https://example.com/koichi_yamadera.jpg"
+          "img": "https://m.media-amazon.com/images/M/MV5BMTRkMWI4ZDAtYmZjYS00ODg4LWI0MWQtMDk1MDAzMDYwYTg4XkEyXkFqcGc@._V1_.jpg"
         },
         "Whis": {
           "name": "Masakazu Morita",
-          "img": "https://example.com/masakazu_morita.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPcsKCQ76oxfBdDCZU9JqmiOJ3t3Yh_ZoYXQ&s"
         },
         "Videl": {
           "name": "Yūko Minaguchi",
-          "img": "https://example.com/yuko_minaguchi.jpg"
+          "img": "https://m.media-amazon.com/images/M/MV5BNmE4ZjEyMWMtMjA2NC00YWU4LWJhMTYtOGM4NWJhYTM5NWUxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
         },
         "Dende": {
           "name": "Aya Hirano",
-          "img": "https://example.com/aya_hirano.jpg"
+          "img": "https://media.themoviedb.org/t/p/w500/zaSJKfuKhw7e4VTnTKnlHBRzjQU.jpg"
         },
         "Mr. Satan": {
           "name": "Unshō Ishizuka",
-          "img": "https://example.com/unsho_ishizuka.jpg"
+          "img": "https://upload.wikimedia.org/wikipedia/en/thumb/1/15/Unsho-ishizuka.jpg/220px-Unsho-ishizuka.jpg"
         },
         "Shenron": {
           "name": "Kenji Utsumi",
-          "img": "https://example.com/kenji_utsumi.jpg"
+          "img": "https://m.media-amazon.com/images/M/MV5BYzc3MGIxMmMtMDg5ZS00NDFiLTllYzktOGRiMmFkNDZjNjI0XkEyXkFqcGc@._V1_.jpg"
         },
         "Android 17": {
           "name": "Shigeru Nakahara",
@@ -2593,11 +2593,11 @@
         },
         "Goten": {
           "name": "Masako Nozawa",
-          "img": "https://example.com/masako_nozawa.jpg"
+          "img": "https://www.famousbirthdays.com/faces/nozawa-masako-image.jpg"
         },
         "Pan": {
           "name": "Yūko Minaguchi",
-          "img": "https://example.com/yuko_minaguchi.jpg"
+          "img": "https://m.media-amazon.com/images/M/MV5BNmE4ZjEyMWMtMjA2NC00YWU4LWJhMTYtOGM4NWJhYTM5NWUxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
         },
         "Broly": {
           "name": "Bin Shimada",
@@ -2625,7 +2625,7 @@
         },
         "Recoome": {
           "name": "Kenji Utsumi",
-          "img": "https://example.com/kenji_utsumi.jpg"
+          "img": "https://m.media-amazon.com/images/M/MV5BYzc3MGIxMmMtMDg5ZS00NDFiLTllYzktOGRiMmFkNDZjNjI0XkEyXkFqcGc@._V1_.jpg"
         },
         "Jeice": {
           "name": "Kazumi Tanaka",
@@ -2637,7 +2637,7 @@
         },
         "Guldo": {
           "name": "Kōzō Shioya",
-          "img": "https://example.com/kozo_shioya.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1Gt18F0d8ObniTv1OYV_jfemtPXQqUqMw_w&s"
         },
         "Dr. Gero": {
           "name": "Kōji Yada",
@@ -2709,11 +2709,11 @@
         },
         "King": {
           "name": "Hiroki Yasumoto",
-          "img": "https://example.com/hiroki_yasumoto.jpg"
+          "img": "https://static.wikia.nocookie.net/bakugan/images/e/e9/Yasumoto_Hiroki_%28ani-planet%29.jpg/revision/latest?cb=20241213104417"
         },
         "Atomic Samurai": {
           "name": "Kenjiro Tsuda",
-          "img": "https://example.com/kenjiro_tsuda.jpg"
+          "img": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Tsuda_Kenjiro_from_%22The_Concierge%22_at_Red_Carpet_of_the_Tokyo_International_Film_Festival_2023_%2853348306038%29.jpg"
         },
         "Child Emperor": {
           "name": "Minami Takayama",
@@ -2733,7 +2733,7 @@
         },
         "Garou": {
           "name": "Hikaru Midorikawa",
-          "img": "https://example.com/hikaru_midorikawa.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaZy9-wyYAZsuZZ3vJifgdX1Y7y1a_zIZuyg&s"
         },
         "Dr. Kuseno": {
           "name": "Kenichi Ogata",
@@ -2753,7 +2753,7 @@
         },
         "Superalloy Darkshine": {
           "name": "Satoshi Hino",
-          "img": "https://example.com/satoshi_hino.jpg"
+          "img": "https://image.tmdb.org/t/p/original/8ZJIiwIVF2zDyyFr7oXewj0eEuu.jpg"
         },
         "Drive Knight": {
           "name": "Yoji Ueda",
@@ -2773,7 +2773,7 @@
         },
         "Mosquito Girl": {
           "name": "Miyuki Sawashiro",
-          "img": "https://example.com/miyuki_sawashiro.jpg"
+          "img": "https://static.wikia.nocookie.net/japanese-voiceover/images/b/bb/Miyuki_Sawashiro.PNG/revision/latest?cb=20160908183707"
         },
         "Carnage Kabuto": {
           "name": "Unsho Ishizuka",
@@ -2873,7 +2873,7 @@
         },
         "Masataka 'Kiyomasa' Kiyomizu": {
           "name": "Satoshi Hino",
-          "img": "https://example.com/satoshi_hino.jpg"
+          "img": "https://image.tmdb.org/t/p/original/8ZJIiwIVF2zDyyFr7oXewj0eEuu.jpg"
         }
       },
       "description": "Tokyo Revengers follows Takemichi Hanagaki, a man who learns that his childhood girlfriend and her brother have been killed by a notorious gang. When he is sent back in time to his middle school years, Takemichi decides to change the course of the future by rising through the ranks of the gang, making new friends, and trying to prevent the tragic events that will unfold."
@@ -3219,7 +3219,7 @@
         },
         "Tetsuo Tono": {
           "name": "Kazuya Nakai",
-          "img": "https://example.com/kazuya_nakai.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk2Ilsc_Q2-81WTzYwlIg-Pg2tvF79DEtChg&s"
         },
         "Ryouko Tono": {
           "name": "Rina Satou",
@@ -3255,7 +3255,7 @@
         },
         "Ayane Yano": {
           "name": "Miyuki Sawashiro",
-          "img": "https://example.com/miyuki_sawashiro.jpg"
+          "img": "https://static.wikia.nocookie.net/japanese-voiceover/images/b/bb/Miyuki_Sawashiro.PNG/revision/latest?cb=20160908183707"
         },
         "Chizuru Oizumi": {
           "name": "Sayuri Hara",
@@ -3263,7 +3263,7 @@
         },
         "Ryu Sanada": {
           "name": "Kazuya Nakai",
-          "img": "https://example.com/kazuya_nakai.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk2Ilsc_Q2-81WTzYwlIg-Pg2tvF79DEtChg&s"
         },
         "Pin (Junji Iwakura)": {
           "name": "Takahiro Sakurai",
@@ -3323,7 +3323,7 @@
         },
         "Narumi": {
           "name": "Hiroki Yasumoto",
-          "img": "https://example.com/hiroki_yasumoto.jpg"
+          "img": "https://static.wikia.nocookie.net/bakugan/images/e/e9/Yasumoto_Hiroki_%28ani-planet%29.jpg/revision/latest?cb=20241213104417"
         },
         "Futaba's Mother": {
           "name": "Sayaka Ohara",
@@ -3331,7 +3331,7 @@
         },
         "Futaba's Father": {
           "name": "Kazuya Nakai",
-          "img": "https://example.com/kazuya_nakai.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk2Ilsc_Q2-81WTzYwlIg-Pg2tvF79DEtChg&s"
         },
         "Toma's Mother": {
           "name": "Kaori Nazuka",
@@ -3371,11 +3371,11 @@
         },
         "Remi Ayasaki": {
           "name": "Marina Inoue",
-          "img": "https://example.com/marina_inoue.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBiF2NAT9p00CafE-OnfUY5UTgh_COiZJeOg&s"
         },
         "Kyouko's Father": {
           "name": "Kazuya Nakai",
-          "img": "https://example.com/kazuya_nakai.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk2Ilsc_Q2-81WTzYwlIg-Pg2tvF79DEtChg&s"
         },
         "Izumi's Mother": {
           "name": "Sayaka Ohara",
@@ -3383,7 +3383,7 @@
         },
         "Miyamura's Father": {
           "name": "Takashi Kondo",
-          "img": "https://example.com/takashi_kondo.jpg"
+          "img": "https://static.wikia.nocookie.net/dancewithdevils/images/0/00/Takashi_Kond%C5%8D.jpg/revision/latest?cb=20160319203708"
         },
         "Miyamura's Mother": {
           "name": "Ami Koshimizu",
@@ -3455,27 +3455,27 @@
       "voice_actors": {
         "Otonashi Yuzuru": {
           "name": "Jouji Nakata",
-          "img": "https://example.com/jouji_nakata.jpg"
+          "img": "https://m.media-amazon.com/images/M/MV5BNDBlMDZmMWEtMTcwYS00NDc1LThjYjItODliNGIzZGMyOWE1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
         },
         "Yui": {
           "name": "Marina Inoue",
-          "img": "https://example.com/marina_inoue.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBiF2NAT9p00CafE-OnfUY5UTgh_COiZJeOg&s"
         },
         "Tenshi (Kanade Tachibana)": {
           "name": "Kaori Mizuhashi",
-          "img": "https://example.com/kaori_mizuhashi.jpg"
+          "img": "https://static.wikia.nocookie.net/dubbing9585/images/2/2d/Kaori_Mizuhashi.png/revision/latest?cb=20240723064055"
         },
         "Iwasawa": {
           "name": "Hiroko Taguchi",
-          "img": "https://example.com/hiroko_taguchi.jpg"
+          "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.goldposter.com%2Fphoto%2F11472013%2F&psig=AOvVaw34gpHvsjJPJ9p-LjPlt9CJ&ust=1737203359517000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKjiz_vg_IoDFQAAAAAdAAAAABAE"
         },
         "Takahiro (T.K.)": {
           "name": "David Matranga",
-          "img": "https://example.com/david_matranga.jpg"
+          "img": "https://static1.srcdn.com/wordpress/wp-content/uploads/2024/07/instar40302824.jpg"
         },
         "Yuri Nakamura": {
           "name": "Harumi Sakurai",
-          "img": "https://example.com/harumi_sakurai.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9oxefM91k3Tw6zt7V5O80cSoDd0m6si6YPQ&s"
         },
         "Hideki Hinata": {
           "name": "Takahiro Sakurai",
@@ -3519,7 +3519,7 @@
         },
         "Kija": {
           "name": "Kazuya Nakai",
-          "img": "https://example.com/kazuya_nakai.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk2Ilsc_Q2-81WTzYwlIg-Pg2tvF79DEtChg&s"
         },
         "Shin-Ah": {
           "name": "Tsubasa Yonaga",
@@ -3531,7 +3531,7 @@
         },
         "Zeno": {
           "name": "Yoshimasa Hosoya",
-          "img": "https://example.com/yoshimasa_hosoya.jpg"
+          "img": "https://static.wikia.nocookie.net/kamenrider/images/7/75/Hosoya_Yoshimasa.jpg/revision/latest?cb=20220226004458"
         },
         "Yoon": {
           "name": "Yuka Iguchi",
@@ -3543,7 +3543,7 @@
         },
         "Soo-Won": {
           "name": "Yoshimasa Hosoya",
-          "img": "https://example.com/yoshimasa_hosoya.jpg"
+          "img": "https://static.wikia.nocookie.net/kamenrider/images/7/75/Hosoya_Yoshimasa.jpg/revision/latest?cb=20220226004458"
         },
         "Princess Kouren": {
           "name": "Akeno Watanabe",
@@ -3551,7 +3551,7 @@
         },
         "General Gi-Gan": {
           "name": "Yoshimasa Hosoya",
-          "img": "https://example.com/yoshimasa_hosoya.jpg"
+          "img": "https://static.wikia.nocookie.net/kamenrider/images/7/75/Hosoya_Yoshimasa.jpg/revision/latest?cb=20220226004458"
         }
       },
       "description": "Yona of the Dawn follows the story of Princess Yona, who is forced to flee her kingdom after a coup d'état led by her cousin and first love, Su-won. Along with her loyal bodyguard, Hak, she embarks on a journey to gather the Four Dragon Warriors to reclaim her throne and bring peace to the kingdom."
@@ -3623,7 +3623,7 @@
         },
         "Taki's Father": {
           "name": "Kazuhiko Inoue",
-          "img": "https://example.com/kazuhiko_inoue.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWcAvSjt9R3rcRcSjAf8g1KsOPztyk8wln3A&s"
         },
         "Mitsuha's Grandmother": {
           "name": "Eiko Yamada",
@@ -3841,7 +3841,7 @@
         },
         "Professor Oak": {
           "name": "Unshō Ishizuka",
-          "img": "https://example.com/unsho_ishizuka.jpg"
+          "img": "https://upload.wikimedia.org/wikipedia/en/thumb/1/15/Unsho-ishizuka.jpg/220px-Unsho-ishizuka.jpg"
         },
         "Gary Oak": {
           "name": "Tetsuya Iwanaga",
@@ -3885,7 +3885,7 @@
         },
         "Okarun (Kyouji Ayase)": {
           "name": "Kazuya Nakai",
-          "img": "https://example.com/kazuya_nakai.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk2Ilsc_Q2-81WTzYwlIg-Pg2tvF79DEtChg&s"
         },
         "Tsubomi Aoi": {
           "name": "Sora Amamiya",
@@ -3925,7 +3925,7 @@
         },
         "Gozu": {
           "name": "Hiroshi Kamiya",
-          "img": "https://example.com/hiroshi_kamiya.jpg"
+          "img": "https://media.themoviedb.org/t/p/w500/u2r0u8tOa0cyh7nawcEOPpcEZr1.jpg"
         },
         "Pantsu": {
           "name": "Yuki Ono",
@@ -3949,7 +3949,7 @@
       "voice_actors": {
         "Edward Elric": {
           "name": "Romi Park",
-          "img": "https://example.com/romi_park.jpg"
+          "img": "https://static.wikia.nocookie.net/voices/images/c/c7/%EB%B0%95%EB%A1%9C%EB%AF%B8.jpg/revision/latest?cb=20140318165325"
         },
         "Alphonse Elric": {
           "name": "Rie Kugimiya",
@@ -3973,15 +3973,15 @@
         },
         "Greed": {
           "name": "Kazuya Nakai",
-          "img": "https://example.com/kazuya_nakai.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk2Ilsc_Q2-81WTzYwlIg-Pg2tvF79DEtChg&s"
         },
         "Kimblee": {
           "name": "Shinichiro Miki",
-          "img": "https://example.com/shinichiro_miki.jpg"
+          "img": "https://m.media-amazon.com/images/M/MV5BNGUwYjIzZDgtZjQ3NC00ZGQ1LTg2MjYtY2I0MGU4NjkxOGUzXkEyXkFqcGc@._V1_.jpg"
         },
         "Hughes": {
           "name": "Hiroshi Kamiya",
-          "img": "https://example.com/hiroshi_kamiya.jpg"
+          "img": "https://media.themoviedb.org/t/p/w500/u2r0u8tOa0cyh7nawcEOPpcEZr1.jpg"
         },
         "Lust": {
           "name": "Caitlin Glass",
@@ -4025,7 +4025,7 @@
         },
         "Hohenheim": {
           "name": "Rikiya Koyama",
-          "img": "https://example.com/rikiya_koyama.jpg"
+          "img": "https://m.media-amazon.com/images/M/MV5BZTFlZTZmZTEtODljNy00ZjllLWE2MDctZjg3M2NkYjVkODAwXkEyXkFqcGc@._V1_.jpg"
         }
       },
       "description": "Fullmetal Alchemist follows brothers Edward and Alphonse Elric, who use alchemy to search for the Philosopher's Stone to restore their bodies after a failed alchemical experiment. Their journey explores themes of sacrifice, morality, and the consequences of human ambition in a richly woven narrative."
@@ -4057,7 +4057,7 @@
         },
         "Tosshi": {
           "name": "Kazuya Nakai",
-          "img": "https://example.com/kazuya_nakai.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk2Ilsc_Q2-81WTzYwlIg-Pg2tvF79DEtChg&s"
         },
         "Sogo Okita": {
           "name": "Takahiro Sakurai",
@@ -4065,7 +4065,7 @@
         },
         "Kondo Isao": {
           "name": "Kazuya Nakai",
-          "img": "https://example.com/kazuya_nakai.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk2Ilsc_Q2-81WTzYwlIg-Pg2tvF79DEtChg&s"
         },
         "Hijikata Toshirou": {
           "name": "Daisuke Sakaguchi",
@@ -4085,7 +4085,7 @@
         },
         "Tsukuyo": {
           "name": "Miyuki Sawashiro",
-          "img": "https://example.com/miyuki_sawashiro.jpg"
+          "img": "https://static.wikia.nocookie.net/japanese-voiceover/images/b/bb/Miyuki_Sawashiro.PNG/revision/latest?cb=20160908183707"
         },
         "Gintama": {
           "name": "Norio Wakamoto",
@@ -4097,7 +4097,7 @@
         },
         "Tama": {
           "name": "Kazuya Nakai",
-          "img": "https://example.com/kazuya_nakai.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk2Ilsc_Q2-81WTzYwlIg-Pg2tvF79DEtChg&s"
         },
         "Shinshou": {
           "name": "Ryo Horikawa",
@@ -4121,11 +4121,11 @@
       "voice_actors": {
         "Spike Spiegel": {
           "name": "Kazuya Nakai",
-          "img": "https://example.com/kazuya_nakai.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk2Ilsc_Q2-81WTzYwlIg-Pg2tvF79DEtChg&s"
         },
         "Jet Black": {
           "name": "Toshio Furukawa",
-          "img": "https://example.com/toshio_furukawa.jpg"
+          "img": "https://m.media-amazon.com/images/M/MV5BMDg5YzE2M2MtYjI3MS00ZWUxLTg0ZjMtMThkZWVjM2Y3NDkzXkEyXkFqcGc@._V1_.jpg"
         },
         "Faye Valentine": {
           "name": "Megumi Hayashibara",
@@ -4197,7 +4197,7 @@
         },
         "Ryuuki Kasei": {
           "name": "Kenjiro Tsuda",
-          "img": "https://example.com/kenjiro_tsuda.jpg"
+          "img": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Tsuda_Kenjiro_from_%22The_Concierge%22_at_Red_Carpet_of_the_Tokyo_International_Film_Festival_2023_%2853348306038%29.jpg"
         },
         "Kunizuka": {
           "name": "Megumi Han",
@@ -4231,7 +4231,7 @@
         },
         "Kouta": {
           "name": "Kazuya Nakai",
-          "img": "https://example.com/kazuya_nakai.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk2Ilsc_Q2-81WTzYwlIg-Pg2tvF79DEtChg&s"
         },
         "Nana": {
           "name": "Yuko Goto",
@@ -4247,7 +4247,7 @@
         },
         "Kurama": {
           "name": "Kenyu Horiuchi",
-          "img": "https://example.com/kenyu_horiuchi.jpg"
+          "img": "https://image.tmdb.org/t/p/w400/qIsrjSbtdhmmUdd3xvpDHNWRuJp.jpg"
         },
         "Bando": {
           "name": "Takahiro Sakurai",
@@ -4263,7 +4263,7 @@
         },
         "Arakawa": {
           "name": "Romi Park",
-          "img": "https://example.com/romi_park.jpg"
+          "img": "https://static.wikia.nocookie.net/voices/images/c/c7/%EB%B0%95%EB%A1%9C%EB%AF%B8.jpg/revision/latest?cb=20140318165325"
         }
       },
       "description": "Elfen Lied follows Lucy, a genetically modified human with deadly telekinetic abilities, as she escapes from a research facility. After suffering memory loss, she is taken in by two kindhearted college students, but her violent past and the government's pursuit threaten their safety and unravel dark secrets."
@@ -4279,7 +4279,7 @@
       "voice_actors": {
         "Ryo Asuka (Satan)": {
           "name": "Kazuya Nakai",
-          "img": "https://example.com/kazuya_nakai.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk2Ilsc_Q2-81WTzYwlIg-Pg2tvF79DEtChg&s"
         },
         "Akira Fudo (Devilman)": {
           "name": "Aoi Koga",
@@ -4299,7 +4299,7 @@
         },
         "Miko Kuroda": {
           "name": "Miku Itou",
-          "img": "https://example.com/miku_itou.jpg"
+          "img": "https://static.wikia.nocookie.net/5toubun-no-hanayome/images/d/dc/Miku_Itou.png/revision/latest?cb=20190428172206"
         },
         "Wamu": {
           "name": "Tomokazu Seki",
@@ -4331,7 +4331,7 @@
       "voice_actors": {
         "Toshio Ozaki": {
           "name": "Kazuya Nakai",
-          "img": "https://example.com/kazuya_nakai.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk2Ilsc_Q2-81WTzYwlIg-Pg2tvF79DEtChg&s"
         },
         "Mitsuko Saki": {
           "name": "Keiko Toda",
@@ -4339,7 +4339,7 @@
         },
         "Natsuno Yuuki": {
           "name": "Hiroshi Kamiya",
-          "img": "https://example.com/hiroshi_kamiya.jpg"
+          "img": "https://media.themoviedb.org/t/p/w500/u2r0u8tOa0cyh7nawcEOPpcEZr1.jpg"
         },
         "Megumi Shimizu": {
           "name": "Rie Kugimiya",
@@ -4355,11 +4355,11 @@
         },
         "Sunako Kirishiki": {
           "name": "Miyuki Sawashiro",
-          "img": "https://example.com/miyuki_sawashiro.jpg"
+          "img": "https://static.wikia.nocookie.net/japanese-voiceover/images/b/bb/Miyuki_Sawashiro.PNG/revision/latest?cb=20160908183707"
         },
         "Nana Takahashi": {
           "name": "Aya Hirano",
-          "img": "https://example.com/aya_hirano.jpg"
+          "img": "https://media.themoviedb.org/t/p/w500/zaSJKfuKhw7e4VTnTKnlHBRzjQU.jpg"
         },
         "Tatsumi": {
           "name": "Masumi Asano",
@@ -4371,7 +4371,7 @@
         },
         "Kyouko Kirishiki": {
           "name": "Romi Park",
-          "img": "https://example.com/romi_park.jpg"
+          "img": "https://static.wikia.nocookie.net/voices/images/c/c7/%EB%B0%95%EB%A1%9C%EB%AF%B8.jpg/revision/latest?cb=20140318165325"
         }
       },
       "description": "Shiki is set in a remote village where mysterious deaths occur following the arrival of a strange family. As the town's residents confront the truth about vampires among them, the series delves into moral ambiguity, human nature, and the thin line between victim and predator."
@@ -4391,7 +4391,7 @@
         },
         "Meyumi Saegusa": {
           "name": "Miyuki Sawashiro",
-          "img": "https://example.com/miyuki_sawashiro.jpg"
+          "img": "https://static.wikia.nocookie.net/japanese-voiceover/images/b/bb/Miyuki_Sawashiro.PNG/revision/latest?cb=20160908183707"
         },
         "Reiko Mikami": {
           "name": "Chiwa Saito",
@@ -4415,7 +4415,7 @@
         },
         "Satoshi Sakamoto": {
           "name": "Kazuya Nakai",
-          "img": "https://example.com/kazuya_nakai.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk2Ilsc_Q2-81WTzYwlIg-Pg2tvF79DEtChg&s"
         },
         "Kouichi's Mother": {
           "name": "Mayumi Saegusa",
@@ -4442,7 +4442,7 @@
       "voice_actors": {
         "Alucard": {
           "name": "Jouji Nakata",
-          "img": "https://example.com/jouji_nakata.jpg"
+          "img": "https://m.media-amazon.com/images/M/MV5BNDBlMDZmMWEtMTcwYS00NDc1LThjYjItODliNGIzZGMyOWE1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
         },
         "Seras Victoria": {
           "name": "Fumiko Orikasa",
@@ -4458,7 +4458,7 @@
         },
         "Alexander Anderson": {
           "name": "Nobuo Tobita",
-          "img": "https://example.com/nobuo_tobita.jpg"
+          "img": "https://static.wikia.nocookie.net/doraemon/images/a/a4/Nobuo_Tobita.jpg/revision/latest?cb=20200604100248&path-prefix=en"
         },
         "The Major": {
           "name": "Nachi Nozawa",
@@ -4466,7 +4466,7 @@
         },
         "Rip Van Winkle": {
           "name": "Romi Park",
-          "img": "https://example.com/romi_park.jpg"
+          "img": "https://static.wikia.nocookie.net/voices/images/c/c7/%EB%B0%95%EB%A1%9C%EB%AF%B8.jpg/revision/latest?cb=20140318165325"
         },
         "Pip Bernadotte": {
           "name": "Namikawa Daisuke",
@@ -4590,7 +4590,7 @@
         },
         "Kaya Irimi": {
           "name": "Takako Honda",
-          "img": "https://example.com/takako_honda.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaxCbo7JmBYGRb23n96bAM52vR8VI1Kenhaw&sg"
         },
         "Enji Koma": {
           "name": "Kenji Hamada",
@@ -4677,7 +4677,7 @@
         },
         "Jinpachi Ego": {
           "name": "Hiroshi Kamiya",
-          "img": "https://example.com/hiroshi_kamiya.jpg"
+          "img": "https://media.themoviedb.org/t/p/w500/u2r0u8tOa0cyh7nawcEOPpcEZr1.jpg"
         },
         "Anri Teieri": {
           "name": "Eri Yukimura",
@@ -4741,7 +4741,7 @@
         },
         "Daichi Sawamura": {
           "name": "Satoshi Hino",
-          "img": "https://example.com/satoshi_hino.jpg"
+          "img": "https://image.tmdb.org/t/p/original/8ZJIiwIVF2zDyyFr7oXewj0eEuu.jpg"
         },
         "Koshi Sugawara": {
           "name": "Miyu Irino",
@@ -4749,7 +4749,7 @@
         },
         "Asahi Azumane": {
           "name": "Yoshimasa Hosoya",
-          "img": "https://example.com/yoshimasa_hosoya.jpg"
+          "img": "https://static.wikia.nocookie.net/kamenrider/images/7/75/Hosoya_Yoshimasa.jpg/revision/latest?cb=20220226004458"
         },
         "Yu Nishinoya": {
           "name": "Nobuhiko Okamoto",
@@ -4817,7 +4817,7 @@
         },
         "Takeda Ittetsu": {
           "name": "Hiroshi Kamiya",
-          "img": "https://example.com/hiroshi_kamiya.jpg"
+          "img": "https://media.themoviedb.org/t/p/w500/u2r0u8tOa0cyh7nawcEOPpcEZr1.jpg"
         },
         "Ukai Keishin": {
           "name": "Hisao Egawa",
@@ -4885,7 +4885,7 @@
         },
         "Chris Yuu Takigawa": {
           "name": "Hikaru Midorikawa",
-          "img": "https://example.com/hikaru_midorikawa.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaZy9-wyYAZsuZZ3vJifgdX1Y7y1a_zIZuyg&s"
         },
         "Shoichi Kuramochi": {
           "name": "Shintaro Asanuma",
@@ -4953,7 +4953,7 @@
         },
         "Seijuro Akashi": {
           "name": "Hiroshi Kamiya",
-          "img": "https://example.com/hiroshi_kamiya.jpg"
+          "img": "https://media.themoviedb.org/t/p/w500/u2r0u8tOa0cyh7nawcEOPpcEZr1.jpg"
         },
         "Teppei Kiyoshi": {
           "name": "Tatsuhisa Suzuki",
@@ -4965,7 +4965,7 @@
         },
         "Junpei Hyuga": {
           "name": "Yoshimasa Hosoya",
-          "img": "https://example.com/yoshimasa_hosoya.jpg"
+          "img": "https://static.wikia.nocookie.net/kamenrider/images/7/75/Hosoya_Yoshimasa.jpg/revision/latest?cb=20220226004458"
         },
         "Riko Aida": {
           "name": "Chiwa Saito",
@@ -4973,7 +4973,7 @@
         },
         "Shoichi Imayoshi": {
           "name": "Shinichiro Miki",
-          "img": "https://example.com/shinichiro_miki.jpg"
+          "img": "https://m.media-amazon.com/images/M/MV5BNGUwYjIzZDgtZjQ3NC00ZGQ1LTg2MjYtY2I0MGU4NjkxOGUzXkEyXkFqcGc@._V1_.jpg"
         },
         "Kosuke Wakamatsu": {
           "name": "Takuya Eguchi",
@@ -5041,7 +5041,7 @@
         },
         "Mayumura Ken": {
           "name": "Rikiya Koyama",
-          "img": "https://example.com/rikiya_koyama.jpg"
+          "img": "https://m.media-amazon.com/images/M/MV5BZTFlZTZmZTEtODljNy00ZjllLWE2MDctZjg3M2NkYjVkODAwXkEyXkFqcGc@._V1_.jpg"
         },
         "Joe Gibson": {
           "name": "Akio Otsuka",
@@ -5049,7 +5049,7 @@
         },
         "Joe Gibson Jr.": {
           "name": "Hikaru Midorikawa",
-          "img": "https://example.com/hikaru_midorikawa.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaZy9-wyYAZsuZZ3vJifgdX1Y7y1a_zIZuyg&s"
         },
         "Takuya Mitsuda": {
           "name": "Toshiyuki Morikawa",
@@ -5077,7 +5077,7 @@
         },
         "Kaoru Yuki": {
           "name": "Rie Tanaka",
-          "img": "https://example.com/rie_tanaka.jpg"
+          "img": "https://static.wikia.nocookie.net/dubbing9585/images/1/15/Rie_Tanaka.jpg/revision/latest?cb=20191106213710"
         }
       },
       "description": "Major chronicles the life of Goro Honda, from his childhood dreams of following in his father's footsteps as a baseball player to his journey as a professional athlete. The series explores themes of perseverance, family, and the love for the game across generations."
@@ -5121,7 +5121,7 @@
         },
         "Kaoru Kaidoh": {
           "name": "Kenyu Horiuchi",
-          "img": "https://example.com/kenyu_horiuchi.jpg"
+          "img": "https://image.tmdb.org/t/p/w400/qIsrjSbtdhmmUdd3xvpDHNWRuJp.jpg"
         },
         "Takeshi Momoshiro": {
           "name": "Masaya Onosaka",
@@ -5235,11 +5235,11 @@
       "voice_actors": {
         "Monkey D. Luffy": {
           "name": "Mayumi Tanaka",
-          "img": "https://example.com/mayumi_tanaka.jpg"
+          "img": "https://preview.redd.it/ljqbdxj4mla21.jpg?auto=webp&s=8779fc700e38f0ace91cb046eeedda487b6ad2cd"
         },
         "Roronoa Zoro": {
           "name": "Kazuya Nakai",
-          "img": "https://example.com/kazuya_nakai.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk2Ilsc_Q2-81WTzYwlIg-Pg2tvF79DEtChg&s"
         },
         "Nami": {
           "name": "Akemi Okamura",
@@ -5279,7 +5279,7 @@
         },
         "Portgas D. Ace": {
           "name": "Kazuya Nakai",
-          "img": "https://example.com/kazuya_nakai_ace.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk2Ilsc_Q2-81WTzYwlIg-Pg2tvF79DEtChg&s.jpg"
         },
         "Gol D. Roger": {
           "name": "Chikao Ōtsuka",
@@ -5291,23 +5291,23 @@
         },
         "Bartholomew Kuma": {
           "name": "Kōzō Shioya",
-          "img": "https://example.com/kozo_shioya.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1Gt18F0d8ObniTv1OYV_jfemtPXQqUqMw_w&s"
         },
         "Boa Hancock": {
           "name": "Miyuki Sawashiro",
-          "img": "https://example.com/miyuki_sawashiro.jpg"
+          "img": "https://static.wikia.nocookie.net/japanese-voiceover/images/b/bb/Miyuki_Sawashiro.PNG/revision/latest?cb=20160908183707"
         },
         "Trafalgar D. Water Law": {
           "name": "Kazuya Nakai",
-          "img": "https://example.com/kazuya_nakai_law.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk2Ilsc_Q2-81WTzYwlIg-Pg2tvF79DEtChg&s.jpg"
         },
         "Eustass Kid": {
           "name": "Rikiya Koyama",
-          "img": "https://example.com/rikiya_koyama.jpg"
+          "img": "https://m.media-amazon.com/images/M/MV5BZTFlZTZmZTEtODljNy00ZjllLWE2MDctZjg3M2NkYjVkODAwXkEyXkFqcGc@._V1_.jpg"
         },
         "Charlotte Katakuri": {
           "name": "Kazuya Nakai",
-          "img": "https://example.com/kazuya_nakai_katakuri.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk2Ilsc_Q2-81WTzYwlIg-Pg2tvF79DEtChg&sakuri.jpg"
         },
         "Donquixote Doflamingo": {
           "name": "Takahiro Sakurai",
@@ -5319,7 +5319,7 @@
         },
         "Nefertari Vivi": {
           "name": "Mayumi Tanaka",
-          "img": "https://example.com/mayumi_tanaka_vivi.jpg"
+          "img": "https://preview.redd.it/ljqbdxj4mla21.jpg?auto=webp&s=8779fc700e38f0ace91cb046eeedda487b6ad2cdi.jpg"
         },
         "Smoker": {
           "name": "Takahiro Sakurai",
@@ -5327,7 +5327,7 @@
         },
         "Kizaru": {
           "name": "Unshō Ishizuka",
-          "img": "https://example.com/unsho_ishizuka.jpg"
+          "img": "https://upload.wikimedia.org/wikipedia/en/thumb/1/15/Unsho-ishizuka.jpg/220px-Unsho-ishizuka.jpg"
         },
         "Akainu": {
           "name": "Takahiro Sakurai",
@@ -5351,7 +5351,7 @@
         },
         "Rob Lucci": {
           "name": "Kazuya Nakai",
-          "img": "https://example.com/kazuya_nakai_rob_lucci.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk2Ilsc_Q2-81WTzYwlIg-Pg2tvF79DEtChg&s_lucci.jpg"
         },
         "Franky (Cutty Flam)": {
           "name": "Kazuki Yao",
@@ -5379,15 +5379,15 @@
         },
         "Bartholomew Kuma (Tyrant Kuma)": {
           "name": "Kōzō Shioya",
-          "img": "https://example.com/kozo_shioya_kuma.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1Gt18F0d8ObniTv1OYV_jfemtPXQqUqMw_w&sa.jpg"
         },
         "Portgas D. Ace (Fire Fist Ace)": {
           "name": "Kazuya Nakai",
-          "img": "https://example.com/kazuya_nakai_ace2.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk2Ilsc_Q2-81WTzYwlIg-Pg2tvF79DEtChg&s2.jpg"
         },
         "Zoro (Roronoa Zoro)": {
           "name": "Kazuya Nakai",
-          "img": "https://example.com/kazuya_nakai_zoro.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk2Ilsc_Q2-81WTzYwlIg-Pg2tvF79DEtChg&so.jpg"
         },
         "Aokiji (Kuzan)": {
           "name": "Takehito Koyasu",
@@ -5395,7 +5395,7 @@
         },
         "Kizaru (Borsalino)": {
           "name": "Unshō Ishizuka",
-          "img": "https://example.com/unsho_ishizuka_kizaru.jpg"
+          "img": "https://upload.wikimedia.org/wikipedia/en/thumb/1/15/Unsho-ishizuka.jpg/220px-Unsho-ishizuka.jpgaru.jpg"
         },
         "Akainu (Sakazuki)": {
           "name": "Takahiro Sakurai",
@@ -5407,7 +5407,7 @@
     {
       "name": "Naruto Shippuden",
       "genre": "Adventure",
-      "image-url": "https://upload.wikimedia.org/wikipedia/en/4/49/Shippudenkeyvisual.png",
+      "image-url": "https://m.media-amazon.com/images/M/MV5BNTk3MDA1ZjAtNTRhYS00YzNiLTgwOGEtYWRmYTQ3NjA0NTAwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
       "total-seasons": "22",
       "released-year": "2007",
       "availability": "Not-Available",
@@ -5453,7 +5453,7 @@
         },
         "Kurapika": {
           "name": "Miyuki Sawashiro",
-          "img": "https://example.com/miyuki_sawashiro.jpg"
+          "img": "https://static.wikia.nocookie.net/japanese-voiceover/images/b/bb/Miyuki_Sawashiro.PNG/revision/latest?cb=20160908183707"
         },
         "Leorio Paladiknight": {
           "name": "Keiji Fujiwara",
@@ -5481,7 +5481,7 @@
         },
         "Silva Zoldyck": {
           "name": "Kōichi Yamadera",
-          "img": "https://example.com/koichi_yamadera.jpg"
+          "img": "https://m.media-amazon.com/images/M/MV5BMTRkMWI4ZDAtYmZjYS00ODg4LWI0MWQtMDk1MDAzMDYwYTg4XkEyXkFqcGc@._V1_.jpg"
         },
         "Zeno Zoldyck": {
           "name": "Takeshi Aono",
@@ -5533,7 +5533,7 @@
       "voice_actors": {
         "Edward Elric": {
           "name": "Romi Park",
-          "img": "https://example.com/romi_park.jpg"
+          "img": "https://static.wikia.nocookie.net/voices/images/c/c7/%EB%B0%95%EB%A1%9C%EB%AF%B8.jpg/revision/latest?cb=20140318165325"
         },
         "Alphonse Elric": {
           "name": "Rie Kugimiya",
@@ -5557,15 +5557,15 @@
         },
         "Greed": {
           "name": "Kazuya Nakai",
-          "img": "https://example.com/kazuya_nakai.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk2Ilsc_Q2-81WTzYwlIg-Pg2tvF79DEtChg&s"
         },
         "Kimblee": {
           "name": "Shinichiro Miki",
-          "img": "https://example.com/shinichiro_miki.jpg"
+          "img": "https://m.media-amazon.com/images/M/MV5BNGUwYjIzZDgtZjQ3NC00ZGQ1LTg2MjYtY2I0MGU4NjkxOGUzXkEyXkFqcGc@._V1_.jpg"
         },
         "Hughes": {
           "name": "Hiroshi Kamiya",
-          "img": "https://example.com/hiroshi_kamiya.jpg"
+          "img": "https://media.themoviedb.org/t/p/w500/u2r0u8tOa0cyh7nawcEOPpcEZr1.jpg"
         },
         "Lust": {
           "name": "Caitlin Glass",
@@ -5609,7 +5609,7 @@
         },
         "Hohenheim": {
           "name": "Rikiya Koyama",
-          "img": "https://example.com/rikiya_koyama.jpg"
+          "img": "https://m.media-amazon.com/images/M/MV5BZTFlZTZmZTEtODljNy00ZjllLWE2MDctZjg3M2NkYjVkODAwXkEyXkFqcGc@._V1_.jpg"
         }
       },
       "description": "Fullmetal Alchemist follows brothers Edward and Alphonse Elric, who use alchemy to search for the Philosopher's Stone to restore their bodies after a failed alchemical experiment. Their journey explores themes of sacrifice, morality, and the consequences of human ambition in a richly woven narrative."
@@ -5743,7 +5743,7 @@
         },
         "Kurapika": {
           "name": "Miyuki Sawashiro",
-          "img": "https://example.com/miyuki_sawashiro.jpg"
+          "img": "https://static.wikia.nocookie.net/japanese-voiceover/images/b/bb/Miyuki_Sawashiro.PNG/revision/latest?cb=20160908183707"
         },
         "Leorio Paladiknight": {
           "name": "Keiji Fujiwara",
@@ -5771,7 +5771,7 @@
         },
         "Silva Zoldyck": {
           "name": "Kōichi Yamadera",
-          "img": "https://example.com/koichi_yamadera.jpg"
+          "img": "https://m.media-amazon.com/images/M/MV5BMTRkMWI4ZDAtYmZjYS00ODg4LWI0MWQtMDk1MDAzMDYwYTg4XkEyXkFqcGc@._V1_.jpg"
         },
         "Zeno Zoldyck": {
           "name": "Takeshi Aono",

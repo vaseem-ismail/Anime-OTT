@@ -31,9 +31,8 @@
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow around the video */
     margin-top: 1000px; /* Adds space above the video */
     transition: transform 0.3s ease-in-out;
-    display: none;
-   position: absolute;
-   left: 500px;
+    position: absolute;
+    left: 500px;
   }
 
   /* Hover effect for the video */
@@ -41,7 +40,7 @@
     transform: scale(1.05) translateX(-50%);
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
   }
-  #trailer-btn{
+  #trailer-btn {
     background-color: red;
     color: #fff;
     border: none;
@@ -64,7 +63,6 @@
     text-align: center;
     padding: 20px;
   }
-
   /* Styling for text elements */
   h1 {
     font-size: 2.5em;
