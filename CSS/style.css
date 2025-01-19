@@ -288,8 +288,9 @@
     align-items: center;
     position: absolute;
     top: 180px;
-    left: 2%;
-    width: 95%;
+    left: 5%;
+    width: 90%; /* Fixed width for consistent rendering */
+    max-width: 1800px; /* Prevent excessive stretching on larger screens */
     height: 600px;
     overflow: hidden;
     background: black;
@@ -306,14 +307,18 @@
   .carousel-image {
     width: 390px;
     height: 550px;
-    margin: 0 10px;
+    margin: 0 20px;
     opacity: 0.2;
     transform: scale(0.8);
     transition: transform 0.5s, opacity 0.5s;
+    will-change: transform, opacity; /* Helps the browser handle changes better */
+    width: auto; /* Maintains aspect ratio */
+    max-height: 100%; /* Prevents oversized images */
   }
   .carousel-image:hover {
-    transform: scale(1.1);
+    transform: scale(1.05); /* Reduce scaling for better consistency */
   }
+  
 
   .carousel-image.center {
     transform: scale(1);
