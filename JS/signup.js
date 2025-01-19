@@ -24,22 +24,32 @@ signupForm.addEventListener("submit", async (e) => {
   const email = document.getElementById("signupUsername").value;
   const password = document.getElementById("signupPassword").value;
   const username = document.getElementById("name").value;
+  loadingSpinner.style.display = "flex";
+  try {
+    const response = await fetch(`${API_URL}/register`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ username, password, email }),
+    });
 
-  const response = await fetch(`${API_URL}/register`, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ username, password , email}),
-  });
-
-  const data = await response.json();
-  if (response.ok) {
-    signupMessage.style.color = "green";
-    signupMessage.textContent = "Signup successful! Redirecting to Home page...";
-    window.location.href = "home.html";
-    localStorage.setItem("Username", email);
-    localStorage.setItem("name", username);
-  } else {
+    const data = await response.json();
+    if (response.ok) {
+      signupMessage.style.color = "green";
+      signupMessage.textContent = "Signup successful! Redirecting to Home page...";
+      window.location.href = "home.html";
+      localStorage.setItem("Username", email);
+      localStorage.setItem("name", username);
+    } else {
+      signupMessage.style.color = "red";
+      signupMessage.textContent = data.error || "Signup failed!";
+    }
+  }
+  catch (error) {
+    signupMessage.textContent = "An error occurred. Please try again later.";
     signupMessage.style.color = "red";
-    signupMessage.textContent = data.error || "Signup failed!";
+    console.error("Signup error:", error);
+  } finally {
+    // Hide the loading spinner
+    loadingSpinner.style.display = "none";
   }
 });
