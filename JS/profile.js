@@ -2,11 +2,9 @@ document.addEventListener('DOMContentLoaded', () => {
   // Load user information (example data)
   const username = localStorage.getItem('name') || "Mohamed Vaseem";
   const email = localStorage.getItem('Username');
-  const joinedDate = 'January 1, 2024';
 
   document.getElementById('user-username').textContent = username;
   document.getElementById('user-email').textContent = email;
-  document.getElementById('user-joined').textContent = joinedDate;
 
 
   const user = document.getElementById('username');
@@ -28,6 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
       // Add a "Remove" button
       const removeButton = document.createElement('button');
       removeButton.textContent = 'Remove';
+      removeButton.className = "remove-btn";
       removeButton.onclick = () => {
         const index = watchLaterList.indexOf(item);
         if (index > -1) {

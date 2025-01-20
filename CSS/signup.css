@@ -216,7 +216,18 @@
         text-decoration: none;
     }
    } */
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 16px; /* Adjust as needed for your design */
+  overflow-x: hidden;
+}
 body {
   background-image: url("https://m.media-amazon.com/images/I/71PKdEcPNaL.jpg");
   background-size: 103%;

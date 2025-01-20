@@ -1,7 +1,11 @@
 @media screen and (min-width: 720px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
   body {
     background-color: rgb(33, 33, 33);
-    width: 100%;
     overflow-x: hidden;
     overflow-y: auto;
     scrollbar-width: none;
@@ -9,6 +13,13 @@
     background-image: url("../assets/home_page_pics/bg.jpg");
     background-color: black;
     background-size: cover;
+  }
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    font-size: 16px; /* Adjust as needed for your design */
+    overflow-x: hidden;
   }
   #search {
     background-color: transparent; /* Keeps background clear */
@@ -76,7 +87,7 @@
   }
   #header {
     width: 100%;
-    height: 6em;
+    height: 8em;
     background-color: black;
     border-bottom: 2px white solid;
     position: fixed;
@@ -252,7 +263,6 @@
     right: 6%;
     font-size: 50px;
     color: white;
-    top: 1px;
     font-family: Arial, Helvetica, sans-serif;
   }
   #id-img {
@@ -287,7 +297,7 @@
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 180px;
+    top: 220px;
     left: 5%;
     width: 90%; /* Fixed width for consistent rendering */
     max-width: 1800px; /* Prevent excessive stretching on larger screens */
@@ -318,7 +328,6 @@
   .carousel-image:hover {
     transform: scale(1.05); /* Reduce scaling for better consistency */
   }
-  
 
   .carousel-image.center {
     transform: scale(1);
@@ -341,9 +350,10 @@
     /* border-radius: 30px; */
     border: 2px red solid;
   }
-  #hone {
+  #hone,#htwo,#hthree,#hfour,#hfive,#hsix {
     color: white;
     position: absolute;
+    margin-top: 20px;
     left: 80px;
     letter-spacing: 20px;
     font-family: Arial, Helvetica, sans-serif;
@@ -359,13 +369,6 @@
     /* border-radius: 30px; */
     border: 2px red solid;
   }
-  #htwo {
-    color: white;
-    position: absolute;
-    left: 80px;
-    letter-spacing: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-  }
   #title3 {
     background-color: black;
     color: black;
@@ -376,13 +379,6 @@
     left: -2px;
     /* border-radius: 30px; */
     border: 2px red solid;
-  }
-  #hthree {
-    color: white;
-    position: absolute;
-    left: 80px;
-    letter-spacing: 20px;
-    font-family: Arial, Helvetica, sans-serif;
   }
   #title4 {
     background-color: black;
@@ -395,13 +391,6 @@
     /* border-radius: 30px; */
     border: 2px red solid;
   }
-  #hfour {
-    color: white;
-    position: absolute;
-    left: 80px;
-    letter-spacing: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-  }
   #title5 {
     background-color: black;
     color: black;
@@ -413,13 +402,6 @@
     /* border-radius: 30px; */
     border: 2px red solid;
   }
-  #hfive {
-    color: white;
-    position: absolute;
-    left: 80px;
-    letter-spacing: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-  }
   #title6 {
     background-color: black;
     color: black;
@@ -430,13 +412,6 @@
     left: -2px;
     /* border-radius: 30px; */
     border: 2px red solid;
-  }
-  #hsix {
-    color: white;
-    position: absolute;
-    left: 80px;
-    letter-spacing: 20px;
-    font-family: Arial, Helvetica, sans-serif;
   }
   #see_more {
     background-color: black;
@@ -500,11 +475,11 @@
     left: 80%;
   }
   .video-btn {
-    width: 250px;
+    width: 300px;
     margin-left: 10px;
     border: 2px solid gray;
     transition: transform 0.3s ease;
-    height: 350px;
+    height: 400px;
     margin-right: 15px;
   }
   .video-btn:hover {
