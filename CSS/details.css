@@ -99,9 +99,7 @@
     color: white;
   }
   #exit {
-    background-color: red;
-    border: 2px black solid;
-    border-radius: 10px;
+    background-color: transparent;
     padding: 0px 20px;
     font-size: 40px;
     z-index: 1002;
@@ -109,6 +107,7 @@
     top: -45px;
     left: -10px;
     display: none;
+    color: white;
   }
   /* Hover effect for the video */
   #trailer-btn:hover {
