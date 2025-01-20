@@ -104,8 +104,8 @@ html, body {
   }
   #togglePassword {
     position: absolute;
-    top: 493px;
-    left: 1045px;
+    top: 50.5%;
+    left: 60.5%;
     padding: 7px;
     cursor: pointer;
     font-size: 15px;
