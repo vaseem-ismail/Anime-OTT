@@ -67,7 +67,7 @@
     {
       "name": "Jujutsu Kaisen",
       "genre": "Action/Adventure",
-      "image-url": "https://m.media-amazon.com/images/I/81XO20bHFjL.jpg",
+      "image-url": "https://images-cdn.ubuy.ae/653af32754657c3ab9719bbb-xihoo-jujutsu-kaisen-season-2-poster.jpg",
       "total-seasons": "3",
       "released-year": "2021",
       "availability": "Not-Available",
@@ -127,7 +127,7 @@
         },
         "Yuki Tsukumo": {
           "name": "Saori Hayami",
-          "img": "https://static.wikia.nocookie.net/japanese-voiceover/images/5/5f/Saori_Hayami.PNG/revision/latest?cb=20190119145954"
+          "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Hayami_Saori_from_%22Komada_-A_Whisky_Family-%22_at_Red_Carpet_of_the_Tokyo_International_Film_Festival_2023_%2853348308348%29_%28cropped%29.jpg/1200px-Hayami_Saori_from_%22Komada_-A_Whisky_Family-%22_at_Red_Carpet_of_the_Tokyo_International_Film_Festival_2023_%2853348308348%29_%28cropped%29.jpg"
         },
         "Jogo": {
           "name": "Takahiro Sakurai",
@@ -139,7 +139,7 @@
         },
         "Dagon": {
           "name": "Takashi Kondo",
-          "img": "https://static.wikia.nocookie.net/dancewithdevils/images/0/00/Takashi_Kond%C5%8D.jpg/revision/latest?cb=20160319203708"
+          "img": "https://www.handthatfeedshq.com/wp-content/uploads/2015/05/kondo-takashi-7-1.jpg"
         },
         "Kento Nanami": {
           "name": "Kenjiro Tsuda",
@@ -147,7 +147,7 @@
         },
         "Tatsuya Fushiguro": {
           "name": "Yoshimasa Hosoya",
-          "img": "https://static.wikia.nocookie.net/kamenrider/images/7/75/Hosoya_Yoshimasa.jpg/revision/latest?cb=20220226004458"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBo-47xOcYuaJB2jNdv8mnrG5B3i37C-fSag&s"
         },
         "Ogi Zenin": {
           "name": "Takahiro Sakurai",
@@ -199,7 +199,7 @@
         },
         "Rei Furuhashi": {
           "name": "Miku Itou",
-          "img": "https://static.wikia.nocookie.net/5toubun-no-hanayome/images/d/dc/Miku_Itou.png/revision/latest?cb=20190428172206"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdZNHGYSJujesv2TpqujB6vy0w1iyt4i9fsQ&s"
         },
         "Iori Utahime": {
           "name": "Yoko Hikasa",
@@ -255,11 +255,11 @@
         },
         "Shikamaru Nara": {
           "name": "Shotaru Morikubo",
-          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjxQE88xlfCLrYnTKt4n1LHdjA2Cm4g4mDRQ&s"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3JtsL5469k3iwXHxrUMMOz9gbpr9A9RigyQ&s"
         },
         "Temari": {
           "name": "Rie Tanaka",
-          "img": "https://static.wikia.nocookie.net/dubbing9585/images/1/15/Rie_Tanaka.jpg/revision/latest?cb=20191106213710"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe8SC-NF0ko4ZA8KHrgWyTx3aT9DW-CCmL2A&s"
         },
         "Choji Akimichi": {
           "name": "Kazuya Nakai",
@@ -267,7 +267,7 @@
         },
         "Neji Hyuga": {
           "name": "Nobuo Tobita",
-          "img": "https://static.wikia.nocookie.net/doraemon/images/a/a4/Nobuo_Tobita.jpg/revision/latest?cb=20200604100248&path-prefix=en"
+          "img": "https://m.media-amazon.com/images/M/MV5BNGYyYzI0MzAtMzZjYi00YzgwLTk0NzMtMGUyZmI0ZjkxNjc2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
         },
         "Rock Lee": {
           "name": "Yoichi Masukawa",
@@ -283,7 +283,7 @@
         },
         "Tayuya": {
           "name": "Romi Park",
-          "img": "https://static.wikia.nocookie.net/voices/images/c/c7/%EB%B0%95%EB%A1%9C%EB%AF%B8.jpg/revision/latest?cb=20140318165325"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3H4Xy38S2EY2Ed-KW4im5y7L-CvVvd7uUew&s"
         },
         "Orochimaru": {
           "name": "Minoru Inaba",
@@ -319,7 +319,7 @@
         },
         "Konan": {
           "name": "Miyuki Sawashiro",
-          "img": "https://static.wikia.nocookie.net/japanese-voiceover/images/b/bb/Miyuki_Sawashiro.PNG/revision/latest?cb=20160908183707"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRew3rebl5pxDKYyd9IieignJpvAbstKUmDRg&s"
         },
         "Tobi": {
           "name": "Takahiro Sakurai",
@@ -339,11 +339,11 @@
         },
         "Asuma Sarutobi": {
           "name": "Hiroki Yasumoto",
-          "img": "https://static.wikia.nocookie.net/bakugan/images/e/e9/Yasumoto_Hiroki_%28ani-planet%29.jpg/revision/latest?cb=20241213104417"
+          "img": "https://cdn.myanimelist.net/images/voiceactors/2/42158.jpg"
         },
         "Jugo": {
           "name": "Takayuki Sugo",
-          "img": "https://static.wikia.nocookie.net/japanese-voiceover/images/f/fa/Takayuki_Sugo.PNG/revision/latest?cb=20160909171846"
+          "img": "https://m.media-amazon.com/images/M/MV5BMzAwMDdkMDctNzBiOC00NjUwLWJlMmMtN2IwN2FjZmUxNDQzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
         },
         "Tobirama Senju": {
           "name": "Masashi Ebara",
@@ -351,7 +351,7 @@
         },
         "Hashirama Senju": {
           "name": "Takayuki Sugo",
-          "img": "https://static.wikia.nocookie.net/japanese-voiceover/images/f/fa/Takayuki_Sugo.PNG/revision/latest?cb=20160909171846"
+          "img": "https://m.media-amazon.com/images/M/MV5BMzAwMDdkMDctNzBiOC00NjUwLWJlMmMtN2IwN2FjZmUxNDQzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
         },
         "Might Guy": {
           "name": "Masashi Ebara",
@@ -371,7 +371,7 @@
     {
       "name": "Dragon Ball",
       "genre": "Action/Adventure",
-      "image-url": "https://upload.wikimedia.org/wikipedia/en/thumb/7/74/Dragon_Ball_Super_Key_visual.jpg/200px-Dragon_Ball_Super_Key_visual.jpg",
+      "image-url": "https://m.media-amazon.com/images/S/pv-target-images/334f00b53cf3ef848ea7048b25711bc98e8236ce1685a096990c80d0965835ea.png",
       "total-seasons": "1",
       "released-year": "1986",
       "availability": "Not-Available",
@@ -547,7 +547,7 @@
     {
       "name": "Demon Slayer",
       "genre": "Action",
-      "image-url": "https://m.media-amazon.com/images/M/MV5BMWU1OGEwNmQtNGM3MS00YTYyLThmYmMtN2FjYzQzNzNmNTE0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      "image-url": "https://resizing.flixster.com/H9j5_zrJ7pzivfH1owrTecm3uso=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzJkNGRlYzE0LTkwMTktNDA5NC1hMzlhLTMwYjQ5MTY3ODg0Ny5qcGc=",
       "total-seasons": "5",
       "released-year": "2019",
       "availability": "Not-Available",
@@ -579,7 +579,7 @@
         },
         "Shinobu Kocho": {
           "name": "Saori Hayami",
-          "img": "https://static.wikia.nocookie.net/japanese-voiceover/images/5/5f/Saori_Hayami.PNG/revision/latest?cb=20190119145954"
+          "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Hayami_Saori_from_%22Komada_-A_Whisky_Family-%22_at_Red_Carpet_of_the_Tokyo_International_Film_Festival_2023_%2853348308348%29_%28cropped%29.jpg/1200px-Hayami_Saori_from_%22Komada_-A_Whisky_Family-%22_at_Red_Carpet_of_the_Tokyo_International_Film_Festival_2023_%2853348308348%29_%28cropped%29.jpg"
         },
         "Kyojuro Rengoku": {
           "name": "Satoshi Hino",
@@ -647,7 +647,7 @@
         },
         "Daki": {
           "name": "Miyuki Sawashiro",
-          "img": "https://static.wikia.nocookie.net/japanese-voiceover/images/b/bb/Miyuki_Sawashiro.PNG/revision/latest?cb=20160908183707"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRew3rebl5pxDKYyd9IieignJpvAbstKUmDRg&s"
         },
         "Gyutaro": {
           "name": "Ryota Osaka",
@@ -655,7 +655,7 @@
         },
         "Kaigaku": {
           "name": "Yoshimasa Hosoya",
-          "img": "https://static.wikia.nocookie.net/kamenrider/images/7/75/Hosoya_Yoshimasa.jpg/revision/latest?cb=20220226004458"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBo-47xOcYuaJB2jNdv8mnrG5B3i37C-fSag&s"
         },
         "Nakime": {
           "name": "Marina Inoue",
@@ -715,7 +715,7 @@
     {
       "name": "Attack on Titan",
       "genre": "Action",
-      "image-url": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p10701949_b_v8_ah.jpg",
+      "image-url": "https://images-cdn.ubuy.co.id/63b6146ddecbee137603e92a-attack-on-titan-24-x-36-poster-by-movie.jpg",
       "total-seasons": "3",
       "released-year": "2013",
       "availability": "Not-Available",
@@ -739,7 +739,7 @@
         },
         "Reiner Braun": {
           "name": "Yoshimasa Hosoya",
-          "img": "https://static.wikia.nocookie.net/kamenrider/images/7/75/Hosoya_Yoshimasa.jpg/revision/latest?cb=20220226004458"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBo-47xOcYuaJB2jNdv8mnrG5B3i37C-fSag&s"
         },
         "Zeke Jaeger": {
           "name": "Takehito Koyasu",
@@ -771,7 +771,7 @@
         },
         "Hange Zoë": {
           "name": "Romi Park",
-          "img": "https://static.wikia.nocookie.net/voices/images/c/c7/%EB%B0%95%EB%A1%9C%EB%AF%B8.jpg/revision/latest?cb=20140318165325"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3H4Xy38S2EY2Ed-KW4im5y7L-CvVvd7uUew&s"
         },
         "Annie Leonhart": {
           "name": "Yū Shimamura",
@@ -871,12 +871,12 @@
     {
       "name": "Tokyo Revengers",
       "genre": "Action/Adventure",
-      "image-url": "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=480,height=720/catalog/crunchyroll/70975a1227b453c1caf24fa05a93617d.jpg",
+      "image-url": "https://i.redd.it/47e20o1jj9u81.jpg",
       "total-seasons": "3",
       "released-year": "2021",
       "availability": "Not-Available",
       "trailer": "https://res.cloudinary.com/di9u60isx/video/upload/v1736958375/trailers/attack-on-titan.mp4",
-      "voice_actors": {
+      "voice-actors": {
         "Takemichi Hanagaki": {
           "name": "Yūki Shin",
           "img": "https://example.com/yuuki_shin.jpg"
@@ -968,7 +968,7 @@
       "released-year": "2004",
       "availability": "Not-Available",
       "trailer": "https://res.cloudinary.com/di9u60isx/video/upload/v1736958073/trailers/bleach.mp4",
-      "voice_actors": {
+      "voice-actors": {
         "Ichigo Kurosaki": {
           "name": "Masakazu Morita",
           "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPcsKCQ76oxfBdDCZU9JqmiOJ3t3Yh_ZoYXQ&s"
@@ -987,7 +987,7 @@
         },
         "Yasutora 'Chad' Sado": {
           "name": "Hiroki Yasumoto",
-          "img": "https://static.wikia.nocookie.net/bakugan/images/e/e9/Yasumoto_Hiroki_%28ani-planet%29.jpg/revision/latest?cb=20241213104417"
+          "img": "https://cdn.myanimelist.net/images/voiceactors/2/42158.jpg"
         },
         "Renji Abarai": {
           "name": "Kentarō Itō",
@@ -1007,7 +1007,7 @@
         },
         "Tōshirō Hitsugaya": {
           "name": "Romi Park",
-          "img": "https://static.wikia.nocookie.net/voices/images/c/c7/%EB%B0%95%EB%A1%9C%EB%AF%B8.jpg/revision/latest?cb=20140318165325"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3H4Xy38S2EY2Ed-KW4im5y7L-CvVvd7uUew&s"
         },
         "Kenpachi Zaraki": {
           "name": "Fumihiko Tachiki",
@@ -1060,7 +1060,7 @@
       "released-year": "2011",
       "availability": "Not-Available",
       "trailer": "https://res.cloudinary.com/di9u60isx/video/upload/v1736958383/trailers/hunterxhunter.mp4",
-      "voice_actors": {
+      "voice-actors": {
         "Gon Freecss": {
           "name": "Megumi Han",
           "img": "https://example.com/megumi_han.jpg"
@@ -1071,7 +1071,7 @@
         },
         "Kurapika": {
           "name": "Miyuki Sawashiro",
-          "img": "https://static.wikia.nocookie.net/japanese-voiceover/images/b/bb/Miyuki_Sawashiro.PNG/revision/latest?cb=20160908183707"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRew3rebl5pxDKYyd9IieignJpvAbstKUmDRg&s"
         },
         "Leorio Paladiknight": {
           "name": "Keiji Fujiwara",
@@ -1148,7 +1148,7 @@
       "released-year": "2017",
       "availability": "Not-Available",
       "trailer": "",
-      "voice_actors": {
+      "voice-actors": {
         "Riko": {
           "name": "Miyu Tomita",
           "img": "https://example.com/miyu_tomita.jpg"
@@ -1220,7 +1220,7 @@
       "released-year": "1999",
       "availability": "Not-Available",
       "trailer": "https://res.cloudinary.com/di9u60isx/video/upload/v1736958371/trailers/one-piece.mp4",
-      "voice_actors": {
+      "voice-actors": {
         "Monkey D. Luffy": {
           "name": "Mayumi Tanaka",
           "img": "https://preview.redd.it/ljqbdxj4mla21.jpg?auto=webp&s=8779fc700e38f0ace91cb046eeedda487b6ad2cd"
@@ -1283,7 +1283,7 @@
         },
         "Boa Hancock": {
           "name": "Miyuki Sawashiro",
-          "img": "https://static.wikia.nocookie.net/japanese-voiceover/images/b/bb/Miyuki_Sawashiro.PNG/revision/latest?cb=20160908183707"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRew3rebl5pxDKYyd9IieignJpvAbstKUmDRg&s"
         },
         "Trafalgar D. Water Law": {
           "name": "Kazuya Nakai",
@@ -1402,7 +1402,7 @@
       "released-year": "2024",
       "availability": "Not-Available",
       "trailer": "https://res.cloudinary.com/di9u60isx/video/upload/v1736958241/trailers/kaiju-no8.mp4",
-      "voice_actors": {
+      "voice-actors": {
         "Kikoru Shinomiya": {
           "name": "Ai Fairouz",
           "img": "https://example.com/ai_fairouz.jpg"
@@ -1521,7 +1521,7 @@
         },
         "Yukino Yukinoshita (My Teen Romantic Comedy SNAFU)": {
           "name": "Saori Hayami",
-          "img": "https://static.wikia.nocookie.net/japanese-voiceover/images/5/5f/Saori_Hayami.PNG/revision/latest?cb=20190119145954"
+          "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Hayami_Saori_from_%22Komada_-A_Whisky_Family-%22_at_Red_Carpet_of_the_Tokyo_International_Film_Festival_2023_%2853348308348%29_%28cropped%29.jpg/1200px-Hayami_Saori_from_%22Komada_-A_Whisky_Family-%22_at_Red_Carpet_of_the_Tokyo_International_Film_Festival_2023_%2853348308348%29_%28cropped%29.jpg"
         },
         "Filo (The Rising of the Shield Hero)": {
           "name": "Rina Hidaka",
@@ -1602,7 +1602,7 @@
       "released-year": "2021",
       "availability": "Not-Available",
       "trailer": "https://res.cloudinary.com/di9u60isx/video/upload/v1736958159/trailers/0-movie.mp4",
-      "voice_actors": {
+      "voice-actors": {
         "Yuta Okkotsu": {
           "name": "Megumi Ogata",
           "img": "https://example.com/megumi_ogata.jpg"
@@ -1657,7 +1657,7 @@
         },
         "Mai Zenin": {
           "name": "Miku Itou",
-          "img": "https://static.wikia.nocookie.net/5toubun-no-hanayome/images/d/dc/Miku_Itou.png/revision/latest?cb=20190428172206"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdZNHGYSJujesv2TpqujB6vy0w1iyt4i9fsQ&s"
         },
         "Kento Nanami": {
           "name": "Kenjiro Tsuda",
@@ -1809,11 +1809,11 @@
         },
         "Shikamaru Nara": {
           "name": "Shotaru Morikubo",
-          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjxQE88xlfCLrYnTKt4n1LHdjA2Cm4g4mDRQ&s"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3JtsL5469k3iwXHxrUMMOz9gbpr9A9RigyQ&s"
         },
         "Temari": {
           "name": "Rie Tanaka",
-          "img": "https://static.wikia.nocookie.net/dubbing9585/images/1/15/Rie_Tanaka.jpg/revision/latest?cb=20191106213710"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe8SC-NF0ko4ZA8KHrgWyTx3aT9DW-CCmL2A&s"
         },
         "Choji Akimichi": {
           "name": "Kazuya Nakai",
@@ -1821,7 +1821,7 @@
         },
         "Neji Hyuga": {
           "name": "Nobuo Tobita",
-          "img": "https://static.wikia.nocookie.net/doraemon/images/a/a4/Nobuo_Tobita.jpg/revision/latest?cb=20200604100248&path-prefix=en"
+          "img": "https://m.media-amazon.com/images/M/MV5BNGYyYzI0MzAtMzZjYi00YzgwLTk0NzMtMGUyZmI0ZjkxNjc2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
         },
         "Rock Lee": {
           "name": "Yoichi Masukawa",
@@ -1837,7 +1837,7 @@
         },
         "Tayuya": {
           "name": "Romi Park",
-          "img": "https://static.wikia.nocookie.net/voices/images/c/c7/%EB%B0%95%EB%A1%9C%EB%AF%B8.jpg/revision/latest?cb=20140318165325"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3H4Xy38S2EY2Ed-KW4im5y7L-CvVvd7uUew&s"
         },
         "Orochimaru": {
           "name": "Minoru Inaba",
@@ -1873,7 +1873,7 @@
         },
         "Konan": {
           "name": "Miyuki Sawashiro",
-          "img": "https://static.wikia.nocookie.net/japanese-voiceover/images/b/bb/Miyuki_Sawashiro.PNG/revision/latest?cb=20160908183707"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRew3rebl5pxDKYyd9IieignJpvAbstKUmDRg&s"
         },
         "Tobi": {
           "name": "Takahiro Sakurai",
@@ -1893,11 +1893,11 @@
         },
         "Asuma Sarutobi": {
           "name": "Hiroki Yasumoto",
-          "img": "https://static.wikia.nocookie.net/bakugan/images/e/e9/Yasumoto_Hiroki_%28ani-planet%29.jpg/revision/latest?cb=20241213104417"
+          "img": "https://cdn.myanimelist.net/images/voiceactors/2/42158.jpg"
         },
         "Jugo": {
           "name": "Takayuki Sugo",
-          "img": "https://static.wikia.nocookie.net/japanese-voiceover/images/f/fa/Takayuki_Sugo.PNG/revision/latest?cb=20160909171846"
+          "img": "https://m.media-amazon.com/images/M/MV5BMzAwMDdkMDctNzBiOC00NjUwLWJlMmMtN2IwN2FjZmUxNDQzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
         },
         "Tobirama Senju": {
           "name": "Masashi Ebara",
@@ -1905,7 +1905,7 @@
         },
         "Hashirama Senju": {
           "name": "Takayuki Sugo",
-          "img": "https://static.wikia.nocookie.net/japanese-voiceover/images/f/fa/Takayuki_Sugo.PNG/revision/latest?cb=20160909171846"
+          "img": "https://m.media-amazon.com/images/M/MV5BMzAwMDdkMDctNzBiOC00NjUwLWJlMmMtN2IwN2FjZmUxNDQzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
         },
         "Might Guy": {
                     "img": "https://www.animenewsnetwork.com/images/encyc/P510-2680492044.1503063184.jpg"
@@ -1930,7 +1930,7 @@
       "released-year": "2002",
       "availability": "Not-Available",
       "trailer": "https://res.cloudinary.com/di9u60isx/video/upload/v1736958260/trailers/naruto-classic.mp4",
-      "voice_actors": {
+      "voice-actors": {
         "Naruto Uzumaki": {
           "name": "Junko Takeuchi",
           "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_gnnZGWSs8zT2Jwcm_GHIpC_r_Dt_oXyOYQ&s"
@@ -2006,7 +2006,7 @@
       "released-year": "2024",
       "availability": "Not-Available",
       "trailer": "https://res.cloudinary.com/di9u60isx/video/upload/v1736958387/trailers/solo-leveling.mp4",
-      "voice_actors": {
+      "voice-actors": {
         "Sung Jin-Woo": {
           "name": "Taito Ban",
           "img": "https://example.com/taito_ban.jpg"
@@ -2105,12 +2105,12 @@
     {
       "name": "Attack on Titan",
       "genre": "Action",
-      "image-url": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p10701949_b_v8_ah.jpg",
+      "image-url": "https://images-cdn.ubuy.co.id/63b6146ddecbee137603e92a-attack-on-titan-24-x-36-poster-by-movie.jpg",
       "total-seasons": "3",
       "released-year": "2013",
       "availability": "Not-Available",
       "trailer": "https://res.cloudinary.com/di9u60isx/video/upload/v1736958375/trailers/attack-on-titan.mp4",
-      "voice_actors": {
+      "voice-actors": {
         "Eren Yeager": {
           "name": "Yuki Kaji",
           "img": "https://example.com/yuki_kaji.jpg"
@@ -2133,7 +2133,7 @@
         },
         "Hange Zoë": {
           "name": "Romi Park",
-          "img": "https://static.wikia.nocookie.net/voices/images/c/c7/%EB%B0%95%EB%A1%9C%EB%AF%B8.jpg/revision/latest?cb=20140318165325"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3H4Xy38S2EY2Ed-KW4im5y7L-CvVvd7uUew&s"
         },
         "Jean Kirstein": {
           "name": "Kisho Taniyama",
@@ -2149,7 +2149,7 @@
         },
         "Reiner Braun": {
           "name": "Yoshimasa Hosoya",
-          "img": "https://static.wikia.nocookie.net/kamenrider/images/7/75/Hosoya_Yoshimasa.jpg/revision/latest?cb=20220226004458"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBo-47xOcYuaJB2jNdv8mnrG5B3i37C-fSag&s"
         },
         "Bertolt Hoover": {
           "name": "Tomohisa Hashizume",
@@ -2221,7 +2221,7 @@
     {
       "name": "Demon Slayer",
       "genre": "Action",
-      "image-url": "https://m.media-amazon.com/images/M/MV5BMWU1OGEwNmQtNGM3MS00YTYyLThmYmMtN2FjYzQzNzNmNTE0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      "image-url": "https://resizing.flixster.com/H9j5_zrJ7pzivfH1owrTecm3uso=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzJkNGRlYzE0LTkwMTktNDA5NC1hMzlhLTMwYjQ5MTY3ODg0Ny5qcGc=",
       "total-seasons": "5",
       "released-year": "2013",
       "availability": "Not-Available",
@@ -2253,7 +2253,7 @@
         },
         "Shinobu Kocho": {
           "name": "Saori Hayami",
-          "img": "https://static.wikia.nocookie.net/japanese-voiceover/images/5/5f/Saori_Hayami.PNG/revision/latest?cb=20190119145954"
+          "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Hayami_Saori_from_%22Komada_-A_Whisky_Family-%22_at_Red_Carpet_of_the_Tokyo_International_Film_Festival_2023_%2853348308348%29_%28cropped%29.jpg/1200px-Hayami_Saori_from_%22Komada_-A_Whisky_Family-%22_at_Red_Carpet_of_the_Tokyo_International_Film_Festival_2023_%2853348308348%29_%28cropped%29.jpg"
         },
         "Kyojuro Rengoku": {
           "name": "Satoshi Hino",
@@ -2321,7 +2321,7 @@
         },
         "Daki": {
           "name": "Miyuki Sawashiro",
-          "img": "https://static.wikia.nocookie.net/japanese-voiceover/images/b/bb/Miyuki_Sawashiro.PNG/revision/latest?cb=20160908183707"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRew3rebl5pxDKYyd9IieignJpvAbstKUmDRg&s"
         },
         "Gyutaro": {
           "name": "Ryota Osaka",
@@ -2329,7 +2329,7 @@
         },
         "Kaigaku": {
           "name": "Yoshimasa Hosoya",
-          "img": "https://static.wikia.nocookie.net/kamenrider/images/7/75/Hosoya_Yoshimasa.jpg/revision/latest?cb=20220226004458"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBo-47xOcYuaJB2jNdv8mnrG5B3i37C-fSag&s"
         },
         "Nakime": {
           "name": "Marina Inoue",
@@ -2394,7 +2394,7 @@
       "released-year": "2006",
       "availability": "Not-Available",
       "trailer": "https://res.cloudinary.com/di9u60isx/video/upload/v1736958328/trailers/death-note.mp4",
-      "voice_actors": {
+      "voice-actors": {
         "Light Yagami": {
           "name": "Mamoru Miyano",
           "img": "https://example.com/mamoru_miyano.jpg"
@@ -2497,7 +2497,7 @@
     {
       "name": "Dragon Ball",
       "genre": "Action",
-      "image-url": "https://upload.wikimedia.org/wikipedia/en/thumb/7/74/Dragon_Ball_Super_Key_visual.jpg/200px-Dragon_Ball_Super_Key_visual.jpg",
+      "image-url": "https://m.media-amazon.com/images/S/pv-target-images/334f00b53cf3ef848ea7048b25711bc98e8236ce1685a096990c80d0965835ea.png",
       "total-seasons": "1",
       "released-year": "1986",
       "availability": "Not-Available",
@@ -2678,7 +2678,7 @@
       "released-year": "2016",
       "availability": "Not-Available",
       "trailer": "https://res.cloudinary.com/di9u60isx/video/upload/v1736958056/trailers/one-punch-man.mp4",
-      "voice_actors": {
+      "voice-actors": {
         "Saitama": {
           "name": "Makoto Furukawa",
           "img": "https://example.com/makoto_furukawa.jpg"
@@ -2701,7 +2701,7 @@
         },
         "Fubuki (Blizzard of Hell)": {
           "name": "Saori Hayami",
-          "img": "https://example.com/saori_hayami.jpg"
+          "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Hayami_Saori_from_%22Komada_-A_Whisky_Family-%22_at_Red_Carpet_of_the_Tokyo_International_Film_Festival_2023_%2853348308348%29_%28cropped%29.jpg/1200px-Hayami_Saori_from_%22Komada_-A_Whisky_Family-%22_at_Red_Carpet_of_the_Tokyo_International_Film_Festival_2023_%2853348308348%29_%28cropped%29.jpg"
         },
         "Sonic (Speed-o'-Sound Sonic)": {
           "name": "Yuki Kaji",
@@ -2709,7 +2709,7 @@
         },
         "King": {
           "name": "Hiroki Yasumoto",
-          "img": "https://static.wikia.nocookie.net/bakugan/images/e/e9/Yasumoto_Hiroki_%28ani-planet%29.jpg/revision/latest?cb=20241213104417"
+          "img": "https://cdn.myanimelist.net/images/voiceactors/2/42158.jpg"
         },
         "Atomic Samurai": {
           "name": "Kenjiro Tsuda",
@@ -2773,7 +2773,7 @@
         },
         "Mosquito Girl": {
           "name": "Miyuki Sawashiro",
-          "img": "https://static.wikia.nocookie.net/japanese-voiceover/images/b/bb/Miyuki_Sawashiro.PNG/revision/latest?cb=20160908183707"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRew3rebl5pxDKYyd9IieignJpvAbstKUmDRg&s"
         },
         "Carnage Kabuto": {
           "name": "Unsho Ishizuka",
@@ -2789,12 +2789,12 @@
     {
       "name": "Tokyo Revengers",
       "genre": "Action",
-      "image-url": "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=480,height=720/catalog/crunchyroll/70975a1227b453c1caf24fa05a93617d.jpg",
+      "image-url": "https://i.redd.it/47e20o1jj9u81.jpg",
       "total-seasons": "3",
       "released-year": "2021",
       "availability": "Not-Available",
       "trailer": "https://res.cloudinary.com/di9u60isx/video/upload/v1736958375/trailers/attack-on-titan.mp4",
-      "voice_actors": {
+      "voice-actors": {
         "Takemichi Hanagaki": {
           "name": "Yūki Shin",
           "img": "https://example.com/yuuki_shin.jpg"
@@ -2888,7 +2888,7 @@
       "released-year": "2019",
       "availability": "Not-Available",
       "trailer": "https://res.cloudinary.com/di9u60isx/video/upload/v1736958059/trailers/i-want-to-eat-your-pancreas.mp4",
-      "voice_actors": {
+      "voice-actors": {
         "Sakura Yamauchi": {
           "name": "Lynn",
           "img": "https://example.com/lynn.jpg"
@@ -2944,7 +2944,7 @@
       "released-year": "2014",
       "availability": "Not-Available",
       "trailer": "",
-      "voice_actors": {
+      "voice-actors": {
         "Kousei Arima": {
           "name": "Natsuki Hanae",
           "img": "https://example.com/natsuki_hanae.jpg"
@@ -2963,7 +2963,7 @@
         },
         "Emi Igawa": {
           "name": "Saori Hayami",
-          "img": "https://example.com/saori_hayami.jpg"
+          "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Hayami_Saori_from_%22Komada_-A_Whisky_Family-%22_at_Red_Carpet_of_the_Tokyo_International_Film_Festival_2023_%2853348308348%29_%28cropped%29.jpg/1200px-Hayami_Saori_from_%22Komada_-A_Whisky_Family-%22_at_Red_Carpet_of_the_Tokyo_International_Film_Festival_2023_%2853348308348%29_%28cropped%29.jpg"
         },
         "Takeshi Aiza": {
           "name": "Yuki Kaji",
@@ -3004,7 +3004,7 @@
       "released-year": "2014",
       "availability": "Not-Available",
       "trailer": "https://res.cloudinary.com/di9u60isx/video/upload/v1736955033/trailers/tamako-love-story.mp4",
-      "voice_actors": {
+      "voice-actors": {
         "Tamako Kitashirakawa": {
           "name": "Aya Suzaki",
           "img": "https://example.com/aya_suzaki.jpg"
@@ -3064,7 +3064,7 @@
       "released-year": "2019",
       "availability": "Not-Available",
       "trailer": "https://res.cloudinary.com/di9u60isx/video/upload/v1736927820/trailers/weathering-with-you.mp4",
-      "voice_actors": {
+      "voice-actors": {
         "Hodaka Morishima": {
           "name": "Kotaro Daigo",
           "img": "https://example.com/kotaro_daigo.jpg"
@@ -3116,7 +3116,7 @@
       "released-year": "2007",
       "availability": "Not-Available",
       "trailer": "https://res.cloudinary.com/di9u60isx/video/upload/v1736958051/trailers/5-centimeter-per-second.mp4",
-      "voice_actors": {
+      "voice-actors": {
         "Takaki Tōno (Child)": {
           "name": "Kenji Mizuhashi",
           "img": "https://example.com/kenji_mizuhashi.jpg"
@@ -3156,7 +3156,7 @@
       "released-year": "2022",
       "availability": "Not-Available",
       "trailer": "https://res.cloudinary.com/di9u60isx/video/upload/v1736954585/trailers/suzume.mp4",
-      "voice_actors": {
+      "voice-actors": {
         "Suzume Iwato": {
           "name": "Nanoka Hara",
           "img": "https://example.com/nanoka_hara.jpg"
@@ -3204,7 +3204,7 @@
       "released-year": "2022",
       "availability": "Not-Available",
       "trailer": "https://res.cloudinary.com/di9u60isx/video/upload/v1736954577/trailers/tunnel-to-summer.mp4",
-      "voice_actors": {
+      "voice-actors": {
         "Kaoru Tono": {
           "name": "Kouki Uchiyama",
           "img": "https://example.com/kouki_uchiyama.jpg"
@@ -3244,7 +3244,7 @@
       "released-year": "2009",
       "availability": "Not-Available",
       "trailer": "https://res.cloudinary.com/di9u60isx/video/upload/v1736958051/trailers/kimi-no-todoke.mp4",
-      "voice_actors": {
+      "voice-actors": {
         "Sawako Kuronuma": {
           "name": "Mamiko Noto",
           "img": "https://example.com/mamiko_noto.jpg"
@@ -3255,7 +3255,7 @@
         },
         "Ayane Yano": {
           "name": "Miyuki Sawashiro",
-          "img": "https://static.wikia.nocookie.net/japanese-voiceover/images/b/bb/Miyuki_Sawashiro.PNG/revision/latest?cb=20160908183707"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRew3rebl5pxDKYyd9IieignJpvAbstKUmDRg&s"
         },
         "Chizuru Oizumi": {
           "name": "Sayuri Hara",
@@ -3296,7 +3296,7 @@
       "released-year": "2014",
       "availability": "Not-Available",
       "trailer": "https://res.cloudinary.com/di9u60isx/video/upload/v1737085328/trailers/aoharaido.mp4",
-      "voice_actors": {
+      "voice-actors": {
         "Futaba Yoshioka": {
           "name": "Maaya Uchida",
           "img": "https://example.com/maaya_uchida.jpg"
@@ -3323,7 +3323,7 @@
         },
         "Narumi": {
           "name": "Hiroki Yasumoto",
-          "img": "https://static.wikia.nocookie.net/bakugan/images/e/e9/Yasumoto_Hiroki_%28ani-planet%29.jpg/revision/latest?cb=20241213104417"
+          "img": "https://cdn.myanimelist.net/images/voiceactors/2/42158.jpg"
         },
         "Futaba's Mother": {
           "name": "Sayaka Ohara",
@@ -3348,7 +3348,7 @@
       "released-year": "2021",
       "availability": "Not-Available",
       "trailer": "",
-      "voice_actors": {
+      "voice-actors": {
         "Kyouko Hori": {
           "name": "Mikako Komatsu",
           "img": "https://example.com/mikako_komatsu.jpg"
@@ -3383,7 +3383,7 @@
         },
         "Miyamura's Father": {
           "name": "Takashi Kondo",
-          "img": "https://static.wikia.nocookie.net/dancewithdevils/images/0/00/Takashi_Kond%C5%8D.jpg/revision/latest?cb=20160319203708"
+          "img": "https://www.handthatfeedshq.com/wp-content/uploads/2015/05/kondo-takashi-7-1.jpg"
         },
         "Miyamura's Mother": {
           "name": "Ami Koshimizu",
@@ -3400,7 +3400,7 @@
       "released-year": "2012",
       "availability": "Not-Available",
       "trailer": "https://res.cloudinary.com/di9u60isx/video/upload/v1737085301/trailers/kamisama-kiss.mp4",
-      "voice_actors": {
+      "voice-actors": {
         "Nanami Momozono": {
           "name": "Megumi Toda",
           "img": "https://example.com/megumi_toda.jpg"
@@ -3452,7 +3452,7 @@
       "released-year": "2010",
       "availability": "Not-Available",
       "trailer": "https://res.cloudinary.com/di9u60isx/video/upload/v1737085314/trailers/angel-beats.mp4",
-      "voice_actors": {
+      "voice-actors": {
         "Otonashi Yuzuru": {
           "name": "Jouji Nakata",
           "img": "https://m.media-amazon.com/images/M/MV5BNDBlMDZmMWEtMTcwYS00NDc1LThjYjItODliNGIzZGMyOWE1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
@@ -3508,7 +3508,7 @@
       "released-year": "2014",
       "availability": "Not-Available",
       "trailer": "",
-      "voice_actors": {
+      "voice-actors": {
         "Yona": {
           "name": "Chiwa Saito",
           "img": "https://example.com/chiwa_saito.jpg"
@@ -3531,7 +3531,7 @@
         },
         "Zeno": {
           "name": "Yoshimasa Hosoya",
-          "img": "https://static.wikia.nocookie.net/kamenrider/images/7/75/Hosoya_Yoshimasa.jpg/revision/latest?cb=20220226004458"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBo-47xOcYuaJB2jNdv8mnrG5B3i37C-fSag&s"
         },
         "Yoon": {
           "name": "Yuka Iguchi",
@@ -3543,7 +3543,7 @@
         },
         "Soo-Won": {
           "name": "Yoshimasa Hosoya",
-          "img": "https://static.wikia.nocookie.net/kamenrider/images/7/75/Hosoya_Yoshimasa.jpg/revision/latest?cb=20220226004458"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBo-47xOcYuaJB2jNdv8mnrG5B3i37C-fSag&s"
         },
         "Princess Kouren": {
           "name": "Akeno Watanabe",
@@ -3551,7 +3551,7 @@
         },
         "General Gi-Gan": {
           "name": "Yoshimasa Hosoya",
-          "img": "https://static.wikia.nocookie.net/kamenrider/images/7/75/Hosoya_Yoshimasa.jpg/revision/latest?cb=20220226004458"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBo-47xOcYuaJB2jNdv8mnrG5B3i37C-fSag&s"
         }
       },
       "description": "Yona of the Dawn follows the story of Princess Yona, who is forced to flee her kingdom after a coup d'état led by her cousin and first love, Su-won. Along with her loyal bodyguard, Hak, she embarks on a journey to gather the Four Dragon Warriors to reclaim her throne and bring peace to the kingdom."
@@ -3564,7 +3564,7 @@
       "released-year": "2008",
       "availability": "Not-Available",
       "trailer": "https://res.cloudinary.com/di9u60isx/video/upload/v1737085306/trailers/toradora.mp4",
-      "voice_actors": {
+      "voice-actors": {
         "Ryuuji Takasu": {
           "name": "Yuusuke Kuwahara",
           "img": "https://example.com/yuusuke_kuwahara.jpg"
@@ -3612,7 +3612,7 @@
       "released-year": "2016",
       "availability": "Not-Available",
       "trailer": "https://res.cloudinary.com/di9u60isx/video/upload/v1737085298/trailers/your-name.mp4",
-      "voice_actors": {
+      "voice-actors": {
         "Taki Tachibana": {
           "name": "Ryo Yoshizawa",
           "img": "https://example.com/ryo_yoshizawa.jpg"
@@ -3664,14 +3664,14 @@
       "released-year": "2017",
       "availability": "Not-Available",
       "trailer": "https://res.cloudinary.com/di9u60isx/video/upload/v1737085290/trailers/silent-voice.mp4",
-      "voice_actors": {
+      "voice-actors": {
         "Shoya Ishida": {
           "name": "Natsuki Hanae",
           "img": "https://example.com/natsuki_hanae.jpg"
         },
         "Shoko Nishimiya": {
           "name": "Saori Hayami",
-          "img": "https://example.com/saori_hayami.jpg"
+          "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Hayami_Saori_from_%22Komada_-A_Whisky_Family-%22_at_Red_Carpet_of_the_Tokyo_International_Film_Festival_2023_%2853348308348%29_%28cropped%29.jpg/1200px-Hayami_Saori_from_%22Komada_-A_Whisky_Family-%22_at_Red_Carpet_of_the_Tokyo_International_Film_Festival_2023_%2853348308348%29_%28cropped%29.jpg"
         },
         "Yuzuru Nishimiya": {
           "name": "Mikako Komatsu",
@@ -3716,7 +3716,7 @@
       "released-year": "2022",
       "availability": "Not-Available",
       "trailer": "https://res.cloudinary.com/di9u60isx/video/upload/v1737085284/trailers/my-dressup-darling.mp4",
-      "voice_actors": {
+      "voice-actors": {
         "Wakana Gojo": {
           "name": "Shouri Izumi",
           "img": "https://example.com/shouri_izumi.jpg"
@@ -3758,7 +3758,7 @@
       "released-year": "2022",
       "availability": "Not-Available",
       "trailer": "https://res.cloudinary.com/di9u60isx/video/upload/v1737085285/trailers/cyberpunk.mp4",
-      "voice_actors": {
+      "voice-actors": {
         "David Martinez": {
           "name": "Kensho Ono",
           "img": "https://example.com/kensho_ono.jpg"
@@ -3810,7 +3810,7 @@
       "released-year": "1997",
       "availability": "Not-Available",
       "trailer": "https://res.cloudinary.com/di9u60isx/video/upload/v1737085283/trailers/pokemon.mp4",
-      "voice_actors": {
+      "voice-actors": {
         "Ash Ketchum": {
           "name": "Rica Matsumoto",
           "img": "https://example.com/rica_matsumoto.jpg"
@@ -3878,7 +3878,7 @@
       "released-year": "2024",
       "availability": "Not-Available",
       "trailer": "https://res.cloudinary.com/di9u60isx/video/upload/v1737085276/trailers/dandadan.mp4",
-      "voice_actors": {
+      "voice-actors": {
         "Momo Ayase": {
           "name": "Azusa Tadokoro",
           "img": "https://example.com/azusa_tadokoro.jpg"
@@ -3946,10 +3946,10 @@
       "released-year": "2003",
       "availability": "Not-Available",
       "trailer": "https://res.cloudinary.com/di9u60isx/video/upload/v1737085306/trailers/fullmetal-alchemist.mp4",
-      "voice_actors": {
+      "voice-actors": {
         "Edward Elric": {
           "name": "Romi Park",
-          "img": "https://static.wikia.nocookie.net/voices/images/c/c7/%EB%B0%95%EB%A1%9C%EB%AF%B8.jpg/revision/latest?cb=20140318165325"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3H4Xy38S2EY2Ed-KW4im5y7L-CvVvd7uUew&s"
         },
         "Alphonse Elric": {
           "name": "Rie Kugimiya",
@@ -4038,7 +4038,7 @@
       "released-year": "2006",
       "availability": "Not-Available",
       "trailer": "https://res.cloudinary.com/di9u60isx/video/upload/v1737085306/trailers/gintama.mp4",
-      "voice_actors": {
+      "voice-actors": {
         "Gintoki Sakata": {
           "name": "Tomokazu Sugita",
           "img": "https://example.com/tomokazu_sugita.jpg"
@@ -4085,7 +4085,7 @@
         },
         "Tsukuyo": {
           "name": "Miyuki Sawashiro",
-          "img": "https://static.wikia.nocookie.net/japanese-voiceover/images/b/bb/Miyuki_Sawashiro.PNG/revision/latest?cb=20160908183707"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRew3rebl5pxDKYyd9IieignJpvAbstKUmDRg&s"
         },
         "Gintama": {
           "name": "Norio Wakamoto",
@@ -4118,7 +4118,7 @@
       "released-year": "1998",
       "availability": "Not-Available",
       "trailer": "https://res.cloudinary.com/di9u60isx/video/upload/v1737085275/trailers/cowboy-bebop.mp4",
-      "voice_actors": {
+      "voice-actors": {
         "Spike Spiegel": {
           "name": "Kazuya Nakai",
           "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk2Ilsc_Q2-81WTzYwlIg-Pg2tvF79DEtChg&s"
@@ -4170,7 +4170,7 @@
       "released-year": "2013",
       "availability": "Not-Available",
       "trailer": "https://res.cloudinary.com/di9u60isx/video/upload/v1737085261/trailers/psycho-pass.mp4",
-      "voice_actors": {
+      "voice-actors": {
         "Akane Tsunemori": {
           "name": "Kana Hanazawa",
           "img": "https://example.com/kana_hanazawa.jpg"
@@ -4224,7 +4224,7 @@
       "released-year": "2004",
       "availability": "Not-Available",
       "trailer": "https://res.cloudinary.com/di9u60isx/video/upload/v1737085267/trailers/elfed-lied.mp4",
-      "voice_actors": {
+      "voice-actors": {
         "Lucy/Nyu": {
           "name": "Atsuko Tanaka",
           "img": "https://example.com/atsuko_tanaka.jpg"
@@ -4263,7 +4263,7 @@
         },
         "Arakawa": {
           "name": "Romi Park",
-          "img": "https://static.wikia.nocookie.net/voices/images/c/c7/%EB%B0%95%EB%A1%9C%EB%AF%B8.jpg/revision/latest?cb=20140318165325"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3H4Xy38S2EY2Ed-KW4im5y7L-CvVvd7uUew&s"
         }
       },
       "description": "Elfen Lied follows Lucy, a genetically modified human with deadly telekinetic abilities, as she escapes from a research facility. After suffering memory loss, she is taken in by two kindhearted college students, but her violent past and the government's pursuit threaten their safety and unravel dark secrets."
@@ -4276,7 +4276,7 @@
       "released-year": "2018",
       "availability": "Not-Available",
       "trailer": "https://res.cloudinary.com/di9u60isx/video/upload/v1737085255/trailers/devilman-crybaby.mp4",
-      "voice_actors": {
+      "voice-actors": {
         "Ryo Asuka (Satan)": {
           "name": "Kazuya Nakai",
           "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk2Ilsc_Q2-81WTzYwlIg-Pg2tvF79DEtChg&s"
@@ -4299,7 +4299,7 @@
         },
         "Miko Kuroda": {
           "name": "Miku Itou",
-          "img": "https://static.wikia.nocookie.net/5toubun-no-hanayome/images/d/dc/Miku_Itou.png/revision/latest?cb=20190428172206"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdZNHGYSJujesv2TpqujB6vy0w1iyt4i9fsQ&s"
         },
         "Wamu": {
           "name": "Tomokazu Seki",
@@ -4328,7 +4328,7 @@
       "released-year": "2010",
       "availability": "Not-Available",
       "trailer": "https://res.cloudinary.com/di9u60isx/video/upload/v1737085255/trailers/shiki.mp4",
-      "voice_actors": {
+      "voice-actors": {
         "Toshio Ozaki": {
           "name": "Kazuya Nakai",
           "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk2Ilsc_Q2-81WTzYwlIg-Pg2tvF79DEtChg&s"
@@ -4355,7 +4355,7 @@
         },
         "Sunako Kirishiki": {
           "name": "Miyuki Sawashiro",
-          "img": "https://static.wikia.nocookie.net/japanese-voiceover/images/b/bb/Miyuki_Sawashiro.PNG/revision/latest?cb=20160908183707"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRew3rebl5pxDKYyd9IieignJpvAbstKUmDRg&s"
         },
         "Nana Takahashi": {
           "name": "Aya Hirano",
@@ -4371,7 +4371,7 @@
         },
         "Kyouko Kirishiki": {
           "name": "Romi Park",
-          "img": "https://static.wikia.nocookie.net/voices/images/c/c7/%EB%B0%95%EB%A1%9C%EB%AF%B8.jpg/revision/latest?cb=20140318165325"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3H4Xy38S2EY2Ed-KW4im5y7L-CvVvd7uUew&s"
         }
       },
       "description": "Shiki is set in a remote village where mysterious deaths occur following the arrival of a strange family. As the town's residents confront the truth about vampires among them, the series delves into moral ambiguity, human nature, and the thin line between victim and predator."
@@ -4384,14 +4384,14 @@
       "released-year": "2009",
       "availability": "Not-Available",
       "trailer": "https://res.cloudinary.com/di9u60isx/video/upload/v1737085267/trailers/another.mp4",
-      "voice_actors": {
+      "voice-actors": {
         "Koichi Sakakibara": {
           "name": "Natsuki Hanae",
           "img": "https://example.com/natsuki_hanae.jpg"
         },
         "Meyumi Saegusa": {
           "name": "Miyuki Sawashiro",
-          "img": "https://static.wikia.nocookie.net/japanese-voiceover/images/b/bb/Miyuki_Sawashiro.PNG/revision/latest?cb=20160908183707"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRew3rebl5pxDKYyd9IieignJpvAbstKUmDRg&s"
         },
         "Reiko Mikami": {
           "name": "Chiwa Saito",
@@ -4439,7 +4439,7 @@
       "total-seasons": "1",
       "released-year": "2001",
       "availability": "Not-Available",
-      "voice_actors": {
+      "voice-actors": {
         "Alucard": {
           "name": "Jouji Nakata",
           "img": "https://m.media-amazon.com/images/M/MV5BNDBlMDZmMWEtMTcwYS00NDc1LThjYjItODliNGIzZGMyOWE1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
@@ -4458,7 +4458,7 @@
         },
         "Alexander Anderson": {
           "name": "Nobuo Tobita",
-          "img": "https://static.wikia.nocookie.net/doraemon/images/a/a4/Nobuo_Tobita.jpg/revision/latest?cb=20200604100248&path-prefix=en"
+          "img": "https://m.media-amazon.com/images/M/MV5BNGYyYzI0MzAtMzZjYi00YzgwLTk0NzMtMGUyZmI0ZjkxNjc2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
         },
         "The Major": {
           "name": "Nachi Nozawa",
@@ -4466,7 +4466,7 @@
         },
         "Rip Van Winkle": {
           "name": "Romi Park",
-          "img": "https://static.wikia.nocookie.net/voices/images/c/c7/%EB%B0%95%EB%A1%9C%EB%AF%B8.jpg/revision/latest?cb=20140318165325"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3H4Xy38S2EY2Ed-KW4im5y7L-CvVvd7uUew&s"
         },
         "Pip Bernadotte": {
           "name": "Namikawa Daisuke",
@@ -4491,7 +4491,7 @@
       "total-seasons": "1",
       "released-year": "2004",
       "availability": "Not-Available",
-      "voice_actors": {
+      "voice-actors": {
         "Tsukiko Sagi": {
           "name": "Mamiko Noto",
           "img": "https://example.com/mamiko_noto.jpg"
@@ -4543,7 +4543,7 @@
       "total-seasons": "3",
       "released-year": "2014",
       "availability": "Not-Available",
-      "voice_actors": {
+      "voice-actors": {
         "Ken Kaneki": {
           "name": "Natsuki Hanae",
           "img": "https://example.com/natsuki_hanae.jpg"
@@ -4638,7 +4638,7 @@
       "released-year": "2022",
       "availability": "Not-Available",
       "trailer": "https://res.cloudinary.com/di9u60isx/video/upload/v1737085244/trailers/blue-lock.mp4",
-      "voice_actors": {
+      "voice-actors": {
         "Yoichi Isagi": {
           "name": "Kazuki Ura",
           "img": "https://example.com/kazuki_ura.jpg"
@@ -4730,7 +4730,7 @@
       "released-year": "2014",
       "availability": "Not-Available",
       "trailer": "https://res.cloudinary.com/di9u60isx/video/upload/v1737085242/trailers/haikyuu.mp4",
-      "voice_actors": {
+      "voice-actors": {
         "Shoyo Hinata": {
           "name": "Ayumu Murase",
           "img": "https://example.com/ayumu_murase.jpg"
@@ -4749,7 +4749,7 @@
         },
         "Asahi Azumane": {
           "name": "Yoshimasa Hosoya",
-          "img": "https://static.wikia.nocookie.net/kamenrider/images/7/75/Hosoya_Yoshimasa.jpg/revision/latest?cb=20220226004458"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBo-47xOcYuaJB2jNdv8mnrG5B3i37C-fSag&s"
         },
         "Yu Nishinoya": {
           "name": "Nobuhiko Okamoto",
@@ -4834,7 +4834,7 @@
       "released-year": "2013",
       "availability": "Not-Available",
       "trailer": "https://res.cloudinary.com/di9u60isx/video/upload/v1737085232/trailers/ace-of-the-diamond.mp4",
-      "voice_actors": {
+      "voice-actors": {
         "Eijun Sawamura": {
           "name": "Ryota Ohsaka",
           "img": "https://example.com/ryota_ohsaka.jpg"
@@ -4926,7 +4926,7 @@
       "released-year": "2012",
       "availability": "Not-Available",
       "trailer": "https://res.cloudinary.com/di9u60isx/video/upload/v1737085234/trailers/kurokos-basket.mp4",
-      "voice_actors": {
+      "voice-actors": {
         "Tetsuya Kuroko": {
           "name": "Kensho Ono",
           "img": "https://example.com/kensho_ono.jpg"
@@ -4965,7 +4965,7 @@
         },
         "Junpei Hyuga": {
           "name": "Yoshimasa Hosoya",
-          "img": "https://static.wikia.nocookie.net/kamenrider/images/7/75/Hosoya_Yoshimasa.jpg/revision/latest?cb=20220226004458"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBo-47xOcYuaJB2jNdv8mnrG5B3i37C-fSag&s"
         },
         "Riko Aida": {
           "name": "Chiwa Saito",
@@ -5018,7 +5018,7 @@
       "released-year": "2004",
       "availability": "Not-Available",
       "trailer": "https://res.cloudinary.com/di9u60isx/video/upload/v1737085225/trailers/major.mp4",
-      "voice_actors": {
+      "voice-actors": {
         "Goro Honda": {
           "name": "Showtaro Morikubo",
           "img": "https://example.com/showtaro_morikubo.jpg"
@@ -5077,7 +5077,7 @@
         },
         "Kaoru Yuki": {
           "name": "Rie Tanaka",
-          "img": "https://static.wikia.nocookie.net/dubbing9585/images/1/15/Rie_Tanaka.jpg/revision/latest?cb=20191106213710"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe8SC-NF0ko4ZA8KHrgWyTx3aT9DW-CCmL2A&s"
         }
       },
       "description": "Major chronicles the life of Goro Honda, from his childhood dreams of following in his father's footsteps as a baseball player to his journey as a professional athlete. The series explores themes of perseverance, family, and the love for the game across generations."
@@ -5090,7 +5090,7 @@
       "released-year": "2005",
       "availability": "Not-Available",
       "trailer": "https://res.cloudinary.com/di9u60isx/video/upload/v1736961741/trailers/the-prince-of-tennis.mp4",
-      "voice_actors": {
+      "voice-actors": {
         "Ryoma Echizen": {
           "name": "Junko Minagawa",
           "img": "https://example.com/junko_minagawa.jpg"
@@ -5178,7 +5178,7 @@
       "released-year": "2018",
       "availability": "Not-Available",
       "trailer": "https://res.cloudinary.com/di9u60isx/video/upload/v1737085223/trailers/run-with-the-wind.mp4",
-      "voice_actors": {
+      "voice-actors": {
         "Kakeru Kurahara": {
           "name": "Takeo Otsuka",
           "img": "https://example.com/takeo_otsuka.jpg"
@@ -5232,7 +5232,7 @@
       "released-year": "1999",
       "availability": "Not-Available",
       "trailer": "https://res.cloudinary.com/di9u60isx/video/upload/v1736958371/trailers/one-piece.mp4",
-      "voice_actors": {
+      "voice-actors": {
         "Monkey D. Luffy": {
           "name": "Mayumi Tanaka",
           "img": "https://preview.redd.it/ljqbdxj4mla21.jpg?auto=webp&s=8779fc700e38f0ace91cb046eeedda487b6ad2cd"
@@ -5295,7 +5295,7 @@
         },
         "Boa Hancock": {
           "name": "Miyuki Sawashiro",
-          "img": "https://static.wikia.nocookie.net/japanese-voiceover/images/b/bb/Miyuki_Sawashiro.PNG/revision/latest?cb=20160908183707"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRew3rebl5pxDKYyd9IieignJpvAbstKUmDRg&s"
         },
         "Trafalgar D. Water Law": {
           "name": "Kazuya Nakai",
@@ -5427,7 +5427,7 @@
     {
       "name": "Dragon Ball",
       "genre": "Adventure",
-      "image-url": "https://upload.wikimedia.org/wikipedia/en/thumb/7/74/Dragon_Ball_Super_Key_visual.jpg/200px-Dragon_Ball_Super_Key_visual.jpg",
+      "image-url": "https://m.media-amazon.com/images/S/pv-target-images/334f00b53cf3ef848ea7048b25711bc98e8236ce1685a096990c80d0965835ea.png",
       "total-seasons": "1",
       "released-year": "1986",
       "availability": "Not-Available",
@@ -5442,7 +5442,7 @@
       "released-year": "2011",
       "availability": "Not-Available",
       "trailer": "https://res.cloudinary.com/di9u60isx/video/upload/v1736958383/trailers/hunterxhunter.mp4",
-      "voice_actors": {
+      "voice-actors": {
         "Gon Freecss": {
           "name": "Megumi Han",
           "img": "https://example.com/megumi_han.jpg"
@@ -5453,7 +5453,7 @@
         },
         "Kurapika": {
           "name": "Miyuki Sawashiro",
-          "img": "https://static.wikia.nocookie.net/japanese-voiceover/images/b/bb/Miyuki_Sawashiro.PNG/revision/latest?cb=20160908183707"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRew3rebl5pxDKYyd9IieignJpvAbstKUmDRg&s"
         },
         "Leorio Paladiknight": {
           "name": "Keiji Fujiwara",
@@ -5530,10 +5530,10 @@
       "released-year": "2003",
       "availability": "Not-Available",
       "trailer": "",
-      "voice_actors": {
+      "voice-actors": {
         "Edward Elric": {
           "name": "Romi Park",
-          "img": "https://static.wikia.nocookie.net/voices/images/c/c7/%EB%B0%95%EB%A1%9C%EB%AF%B8.jpg/revision/latest?cb=20140318165325"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3H4Xy38S2EY2Ed-KW4im5y7L-CvVvd7uUew&s"
         },
         "Alphonse Elric": {
           "name": "Rie Kugimiya",
@@ -5617,7 +5617,7 @@
     {
       "name": "Attack on Titan",
       "genre": "Adventure",
-      "image-url": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p10701949_b_v8_ah.jpg",
+      "image-url": "https://images-cdn.ubuy.co.id/63b6146ddecbee137603e92a-attack-on-titan-24-x-36-poster-by-movie.jpg",
       "total-seasons": "3",
       "released-year": "2013",
       "availability": "Not-Available",
@@ -5627,7 +5627,7 @@
     {
       "name": "Demon Slayer",
       "genre": "Action",
-      "image-url": "https://m.media-amazon.com/images/M/MV5BMWU1OGEwNmQtNGM3MS00YTYyLThmYmMtN2FjYzQzNzNmNTE0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      "image-url": "https://resizing.flixster.com/H9j5_zrJ7pzivfH1owrTecm3uso=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzJkNGRlYzE0LTkwMTktNDA5NC1hMzlhLTMwYjQ5MTY3ODg0Ny5qcGc=",
       "total-seasons": "5",
       "released-year": "2013",
       "availability": "Not-Available",
@@ -5684,7 +5684,7 @@
       "released-year": "2008",
       "availability": "Not-Available",
       "trailer": "",
-      "voice_actors": {
+      "voice-actors": {
         "Ryuuji Takasu": {
           "name": "Yuusuke Kuwahara",
           "img": "https://example.com/yuusuke_kuwahara.jpg"
@@ -5732,7 +5732,7 @@
       "released-year": "2011",
       "availability": "Not-Available",
       "trailer": "https://res.cloudinary.com/di9u60isx/video/upload/v1736958383/trailers/hunterxhunter.mp4",
-      "voice_actors": {
+      "voice-actors": {
         "Gon Freecss": {
           "name": "Megumi Han",
           "img": "https://example.com/megumi_han.jpg"
@@ -5743,7 +5743,7 @@
         },
         "Kurapika": {
           "name": "Miyuki Sawashiro",
-          "img": "https://static.wikia.nocookie.net/japanese-voiceover/images/b/bb/Miyuki_Sawashiro.PNG/revision/latest?cb=20160908183707"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRew3rebl5pxDKYyd9IieignJpvAbstKUmDRg&s"
         },
         "Leorio Paladiknight": {
           "name": "Keiji Fujiwara",
@@ -5870,7 +5870,7 @@
       "released-year": "2014",
       "availability": "Not-Available",
       "trailer": "",
-      "voice_actors": {
+      "voice-actors": {
         "Kousei Arima": {
           "name": "Natsuki Hanae",
           "img": "https://example.com/natsuki_hanae.jpg"
@@ -5889,7 +5889,7 @@
         },
         "Emi Igawa": {
           "name": "Saori Hayami",
-          "img": "https://example.com/saori_hayami.jpg"
+          "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Hayami_Saori_from_%22Komada_-A_Whisky_Family-%22_at_Red_Carpet_of_the_Tokyo_International_Film_Festival_2023_%2853348308348%29_%28cropped%29.jpg/1200px-Hayami_Saori_from_%22Komada_-A_Whisky_Family-%22_at_Red_Carpet_of_the_Tokyo_International_Film_Festival_2023_%2853348308348%29_%28cropped%29.jpg"
         },
         "Takeshi Aiza": {
           "name": "Yuki Kaji",
@@ -6214,7 +6214,7 @@
       "released-year": "2008",
       "availability": "Not-Available",
       "trailer": "",
-      "voice_actors": {
+      "voice-actors": {
         "Ryuuji Takasu": {
           "name": "Yuusuke Kuwahara",
           "img": "https://example.com/yuusuke_kuwahara.jpg"

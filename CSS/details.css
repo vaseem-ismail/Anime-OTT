@@ -1,4 +1,16 @@
 @media screen and (min-width: 720px) {
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    font-size: 16px; /* Adjust as needed for your design */
+    overflow-x: hidden;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
   body {
     font-family: Arial, sans-serif;
     width: 100%;
@@ -22,19 +34,82 @@
     border-radius: 10px;
     text-align: center;
   }
+  /* Voice actors container */
+ /* Voice actors container */
+.voice-actors-container {
+  display: flex;
+  flex-wrap: wrap; /* Allows wrapping */
+  gap: 15px; /* Space between items */
+  justify-content: flex-start; 
+  width: 1700px;
+  margin-left:45px;
+  margin-top: 1000px;
+}
+
+/* Individual voice actor item with reduced width */
+.voice-actor {
+  display: flex;
+  align-items: center;
+  flex: 0 1 calc(25% - 15px); /* Adjust width to 4 items per row */
+  margin-bottom: 15px;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 450px;
+}
+
+/* Character name and voice actor details */
+.voice-actor h5 {
+  margin: 0;
+  font-size: 1em;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.voice-actor p {
+  margin: 0;
+  font-size: 0.9em;
+  color: #555;
+}
+
+/* Circular image styling */
+.voice-actor img {
+  width: 100px; /* Smaller image size */
+  height: 100px;
+  border-radius: 50%;
+  margin-left: auto; /* Push image to the far right */
+}
+
   /* Styling for the video player */
   .video-trailer {
     width: 100%; /* Makes the video responsive */
-    max-width: 800px; /* Limits the video width */
+    height: 90vh;
+    display: none;
+    /* max-width: 800px; Limits the video width */
     border: 3px solid #ccc; /* Adds a border around the video */
     border-radius: 10px; /* Rounds the corners */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow around the video */
-    margin-top: 1000px; /* Adds space above the video */
     transition: transform 0.3s ease-in-out;
     position: absolute;
-    left: 500px;
+    left: 10px;
+    top: 2px;
+    z-index: 1001;
+    color: white;
   }
-
+  #exit {
+    background-color: red;
+    border: 2px black solid;
+    border-radius: 10px;
+    padding: 0px 20px;
+    font-size: 40px;
+    z-index: 1002;
+    position: absolute;
+    top: -45px;
+    left: -10px;
+    display: none;
+  }
   /* Hover effect for the video */
   #trailer-btn:hover {
     transform: scale(1.05) translateX(-50%);
@@ -92,7 +167,7 @@
     top: 2%;
     left: 1%;
     width: 500px;
-    height: 800px;
+    height: 750px;
     border-radius: 10px;
     margin-bottom: 20px;
   }
@@ -106,19 +181,19 @@
   }
   #genre {
     position: absolute;
-    top: 23%;
+    top: 26%;
     left: 38%;
   }
   #description {
     position: absolute;
-    top: 48.5%;
+    top: 47.5%;
     left: 41.5%;
     width: 53%;
     text-align: left;
   }
   #season {
     position: absolute;
-    top: 34.5%;
+    top: 33%;
     left: 45%;
   }
   /* #content{
@@ -128,7 +203,7 @@
 } */
   #year {
     position: absolute;
-    top: 42%;
+    top: 40.5%;
     left: 44%;
   }
   p {
