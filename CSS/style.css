@@ -478,7 +478,10 @@
     width: 300px;
     margin-left: 10px;
     border: 2px solid gray;
-    transition: transform 0.3s ease;
+    object-fit: cover;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
     height: 400px;
     margin-right: 15px;
   }
