@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 <h1>${imageDetails.name}</h1>
                 <h4 id="val1"><strong>Genre :</strong></h4><p id="genre">${imageDetails.genre}</p>
                 <h4 id="val2"><strong>Total Seasons :</strong></h4><p id="description">${imageDetails.description}</p>
-                <h4 id="val3"><strong>Released Year :</strong></h4><p id="season">${imageDetails['released-year']}</p>
+                <h4 id="val3"><strong>Released Year :</strong></h4><p id="season">${imageDetails['total-seasons']}</p>
                 <h4 id="val4"><strong>Description :</strong></h4><p id="year">${imageDetails['released-year']}</p>
                 <p id="available">${imageDetails['availability']}</p>
             `;
@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                             <h5>${character}</h5>
                             <p>${voiceActor.name}</p>
                              </div>
-                            <img src="${voiceActor.img}" alt="${voiceActor.name}" class="voice-actor-img">
+                            <img src="${voiceActor.img}" alt="${voiceActor.name}" class="voice-actor-img draggable="false">
                         </div>
                     `;
                 }

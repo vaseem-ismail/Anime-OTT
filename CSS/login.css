@@ -103,20 +103,22 @@ html, body {
     margin: 0;
   }
   #togglePassword {
-    position: absolute;
-    top: 50.5%;
-    left: 60.5%;
-    padding: 7px;
+    transform: translateY(-50%); /* Centers vertically */
+    padding: 5px;
     cursor: pointer;
-    font-size: 15px;
+    font-size: 14px;
+    background-color: #f0f0f0; /* Optional for better visibility */
+    border: 1px solid #ccc; /* Matches input field style */
+    border-radius: 3px;
     text-align: center;
-    padding: 10px;
-    width: 80px;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    z-index: 1002;
+    margin-right: 10px;
   }
+  
+  /* Hover effect for better user feedback */
   #togglePassword:hover {
-    border: 0.5px solid black;
-    border-radius: 5px;
+    background-color: #e0e0e0;
+    border-color: #aaa;
   }
   #new-user {
     margin-left: 37%;
