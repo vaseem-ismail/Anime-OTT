@@ -266,7 +266,7 @@
     font-family: Arial, Helvetica, sans-serif;
   }
   #id-img {
-    width: 3%;
+    width: 4%;
     height: 4rem;
     border-radius: 30px;
     border: 2px white solid;
@@ -297,11 +297,11 @@
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 220px;
+    top: 180px;
     left: 5%;
     width: 90%; /* Fixed width for consistent rendering */
     max-width: 1800px; /* Prevent excessive stretching on larger screens */
-    height: 600px;
+    height: 500px;
     overflow: hidden;
     background: black;
     border: 2px white solid;
@@ -315,18 +315,17 @@
   }
 
   .carousel-image {
-    width: 390px;
-    height: 550px;
-    margin: 0 20px;
+    width: 300px;
+    height: 450px;
     opacity: 0.2;
     transform: scale(0.8);
     transition: transform 0.5s, opacity 0.5s;
-    will-change: transform, opacity; /* Helps the browser handle changes better */
-    width: auto; /* Maintains aspect ratio */
-    max-height: 100%; /* Prevents oversized images */
+    will-change: transform, opacity; 
+    width: auto; 
+    max-height: 100%; 
   }
   .carousel-image:hover {
-    transform: scale(1.05); /* Reduce scaling for better consistency */
+    transform: scale(1.05);
   }
 
   .carousel-image.center {
@@ -475,14 +474,14 @@
     left: 80%;
   }
   .video-btn {
-    width: 300px;
+    width: 250px;
     margin-left: 10px;
     border: 2px solid gray;
     object-fit: cover;
     cursor: pointer;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s;
-    height: 400px;
+    height: 350px;
     margin-right: 15px;
   }
   .video-btn:hover {
