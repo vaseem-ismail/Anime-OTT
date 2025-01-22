@@ -35,52 +35,52 @@
     text-align: center;
   }
   /* Voice actors container */
- /* Voice actors container */
-.voice-actors-container {
-  display: flex;
-  flex-wrap: wrap; /* Allows wrapping */
-  gap: 15px; /* Space between items */
-  justify-content: flex-start; 
-  width: 1700px;
-  margin-left:45px;
-  margin-top: 1000px;
-}
+  /* Voice actors container */
+  .voice-actors-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping */
+    gap: 15px; /* Space between items */
+    justify-content: flex-start;
+    width: 1700px;
+    margin-left: 45px;
+    margin-top: 1000px;
+  }
 
-/* Individual voice actor item with reduced width */
-.voice-actor {
-  display: flex;
-  align-items: center;
-  flex: 0 1 calc(25% - 15px); /* Adjust width to 4 items per row */
-  margin-bottom: 15px;
-  padding: 8px;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  background-color: #f9f9f9;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  width: 450px;
-}
+  /* Individual voice actor item with reduced width */
+  .voice-actor {
+    display: flex;
+    align-items: center;
+    flex: 0 1 calc(25% - 15px); /* Adjust width to 4 items per row */
+    margin-bottom: 15px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 450px;
+  }
 
-/* Character name and voice actor details */
-.voice-actor h5 {
-  margin: 0;
-  font-size: 1em;
-  font-weight: bold;
-  margin-right: 10px;
-}
+  /* Character name and voice actor details */
+  .voice-actor h5 {
+    margin: 0;
+    font-size: 1em;
+    font-weight: bold;
+    margin-right: 10px;
+  }
 
-.voice-actor p {
-  margin: 0;
-  font-size: 0.9em;
-  color: #555;
-}
+  .voice-actor p {
+    margin: 0;
+    font-size: 0.9em;
+    color: #555;
+  }
 
-/* Circular image styling */
-.voice-actor img {
-  width: 100px; /* Smaller image size */
-  height: 100px;
-  border-radius: 50%;
-  margin-left: auto; /* Push image to the far right */
-}
+  /* Circular image styling */
+  .voice-actor img {
+    width: 100px; /* Smaller image size */
+    height: 100px;
+    border-radius: 50%;
+    margin-left: auto; /* Push image to the far right */
+  }
 
   /* Styling for the video player */
   .video-trailer {
@@ -144,7 +144,7 @@
   }
 
   h4 {
-    font-size: 1.2em;
+    font-size: 0.5em;
     margin: 5px 0;
   }
 
@@ -173,27 +173,27 @@
   h1 {
     position: absolute;
     top: 12%;
-    left: 32%;
+    left: 50%;
     margin: 10px 0;
     color: #333;
-    font-size: 50px;
+    font-size: 40px;
   }
   #genre {
     position: absolute;
     top: 26%;
-    left: 38%;
+    left: 50%;
   }
   #description {
     position: absolute;
-    top: 47.5%;
-    left: 41.5%;
+    top: 52%;
+    left: 40%;
     width: 53%;
     text-align: left;
   }
   #season {
     position: absolute;
     top: 33%;
-    left: 45%;
+    left: 50%;
   }
   /* #content{
     background-color: blue;
@@ -203,7 +203,7 @@
   #year {
     position: absolute;
     top: 40.5%;
-    left: 44%;
+    left: 50%;
   }
   p {
     font-size: 25px;
@@ -213,38 +213,38 @@
   #val1 {
     position: absolute;
     top: 25%;
-    left: 32%;
+    left: 38%;
     color: black;
     z-index: 4;
     display: block;
-    font-size: 30px;
+    font-size: 25px;
   }
   #val2 {
     position: absolute;
     top: 32%;
-    left: 32%;
+    left: 38%;
     color: black;
     z-index: 4;
     display: block;
-    font-size: 30px;
+    font-size: 25px;
   }
   #val3 {
     position: absolute;
     top: 39%;
-    left: 32%;
+    left: 38%;
     color: black;
     z-index: 4;
     display: block;
-    font-size: 30px;
+    font-size: 25px;
   }
   #val4 {
     position: absolute;
     top: 46%;
-    left: 32%;
+    left: 38%;
     color: black;
     z-index: 4;
     display: block;
-    font-size: 30px;
+    font-size: 25px;
   }
   #append {
     width: 98%;
