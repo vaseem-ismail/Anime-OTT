@@ -12,11 +12,16 @@
 <body>
     <div class="form-container">
         <h1>WELCOME TO ANIME GALAXY</h1>
-        <h1>LOGIN</h1>
-        <input type="text" id="loginUsername" placeholder="Email" required>
-        <input type="password" id="loginPassword" placeholder="Password" required><span id="togglePassword">SHOW</span></input>
-        <button type="submit">Login</button>
-        <h3 id="new-user">NEW USER <a href="./signup.html">SIGNUP HERE!</a></h3>
+        <h2>LOGIN</h2>
+        <form id="loginForm">
+            <input type="text" id="loginUsername" placeholder="Email" required>
+            <div class="password-container">
+                <input type="password" id="loginPassword" placeholder="Password" required>
+                <span id="togglePassword">SHOW</span>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+        <h3 id="new-user">NEW USER? <a href="./signup.html">SIGNUP HERE!</a></h3>
         <div class="loading" id="loadingSpinner">
             <div class="spinner"></div>
         </div>
