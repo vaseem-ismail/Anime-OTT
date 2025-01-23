@@ -1,344 +1,124 @@
-/* @media screen and (min-width:720px) {
-    *{
-        margin: 0%;
-        padding: 0%;
-    }
-    body{
-        margin: 0;
-        padding: 0;
-        background-image: url("https://m.media-amazon.com/images/I/71PKdEcPNaL.jpg");
-        background-repeat: no-repeat;
-        background-size: 103%;
-    }
-    #form{
-        border: 1px solid black;
-        width: 800px;
-        height: 500px;
-        backdrop-filter: blur(20px);
-        border-radius: 30px;
-        position: absolute;
-        top: 18em;
-        left: 35em;
-        background-color: black;
-    }
-    h1{
-        color: white;
-        position: absolute;
-        top: 1%;
-        left: 25%;
-        font-size: 70px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: 800;
-        user-select: none;
-    }
-    #lab1{
-        color: white;
-        font-size: 30px;
-        position: absolute;
-        top: 25%;
-        left: 20%;
-        font-family: Arial, Helvetica, sans-serif;
-        user-select: none;
-    }
-    #lab2{
-        color: white;
-        font-size: 30px;
-        position: absolute;
-        top: 50%;
-        left: 20%;
-        font-family: Arial, Helvetica, sans-serif;
-        user-select: none;
-    }
-    #email{
-        width: 60%;
-        height: 3em;    
-        position: absolute;
-        top: 32%;    
-        left: 20%;
-        border-radius: 20px;
-        opacity: 0.5;
-        border: fixed;
-        font-size: large;
-        border: none;
-        outline: none;
-        padding-left: 20px;
-    }
-    #password{
-        width: 60%;
-        height: 3em;    
-        position: absolute;
-        top: 57%;    
-        left: 20%;
-        border-radius: 20px;
-        opacity: 0.5;
-        font-size: large;
-        border: none;
-        outline: none;
-        padding-left: 20px;
-    }
-    #submit{
-        width: 25%;
-        height: 10%;
-        position: absolute;
-        top: 75%;
-        left:35%;
-        border-radius: 30px;
-        font-size: 30px;
-        border: 2px solid red;
-    }
-    #sp1{
-        display: none;
-        position: absolute;
-        top: 225px;
-        left: 63%;
-    }
-    #sp2{
-        display: none;
-        position: absolute;
-        top: 350px;
-        left: 58%;
-        color: green;
-    }
-    #togglePassword{
-        position: absolute;
-        top: 60%;
-        left: 75%;
-        background-color: black;
-        border-radius: 30px;
-        padding: 5px;
-        cursor:pointer;
-    }
-    #login{
-        position: absolute;
-        left: 42%;
-        top: 87%;
-        text-decoration: none;
-        font-size: 30px;
-        color: white;
-    }
-}
-   @media screen and (max-width:720px){
-    body{
-        background-color: black;
-        background-image: url("https://i.pinimg.com/736x/98/c6/7b/98c67b1fd11a00e02c90b0fbb4b86a36.jpg");
-        background-size: 100%;
-        background-repeat: no-repeat;
-        color: white;
-    }
-    h1{
-        position: absolute;
-        left: 20%;
-        top: 1%;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    .form-container{
-        position: absolute;
-        left: 15%;
-        top: 28%;
-        width: 70%;
-        height: 50vh;
-        border-radius: 30px;
-        background-color: black;
-    }
-    #email{
-        position: absolute;
-        top: 34%;
-        left: 10%;
-        width: 80%;
-        height: 8%;
-        opacity: 0.5;
-        border-radius: 30px;
-        font-size: 15px;
-        border: none;
-        outline: none;
-    }
-    #password{
-        position: absolute;
-        top: 57%;
-        left: 10%;
-        width: 80%;
-        height: 8%;
-        opacity: 0.5;
-        border-radius: 30px;
-        font-size: 15px;
-        border: none;
-        outline: none;
-    }
-    #lab1{
-       position:absolute;
-       top: 28%;
-       left: 14%;
-       font-family: Arial, Helvetica, sans-serif;
-    }
-    #lab2{
-       position:absolute;
-       top: 51%;
-       left: 14%;
-       font-family: Arial, Helvetica, sans-serif;
-    }
-    #submit{
-        position: absolute;
-        top:75%;
-        left: 28%;
-        width: 40%;
-        height: 10%;
-        font-size: 20px;
-        border-radius: 30px;
-         border: 2px solid red;
-    }
-    #sp1{
-        display: none;
-        position: absolute;
-        top: 220px;
-        left: 30%;
-    }
-    #sp2{
-        display: none;
-        position: absolute;
-        top: 340px;
-        left: 30%;
-        color: green;
-    }
-    #togglePassword{
-        position: absolute;
-        top: 56%;
-        left: 79%;
-        background-color: transparent;
-        padding: 5px;
-        cursor: pointer;
-        border: 0.5px black solid;
-    }
-    #login{
-        position: absolute;
-        left: 37%;
-        top: 90%;
-        color: aliceblue;
-        text-decoration: none;
-    }
-   } */
-* {
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #2d2d2d;
+  color: #ffffff;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
-html,
-body {
-  height: 100%;
-  width: 100%;
-  font-size: 16px; /* Adjust as needed for your design */
-  overflow-x: hidden;
-}
-body {
-  background-image: url("https://m.media-amazon.com/images/I/71PKdEcPNaL.jpg");
-  background-size: 103%;
-  background-repeat: no-repeat;
-}
-.container {
   display: flex;
-  gap: 20px;
-}
-/* Loading Spinner Styles */
-.loading {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
   justify-content: center;
   align-items: center;
-  z-index: 9999;
+  height: 100vh;
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+  color: #ff9f43;
+}
+
+a {
+  color: #ff9f43;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Form container */
+.form-container {
+  background-color: #1e1e1e;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+/* Input fields */
+input[type="text"], input[type="email"], input[type="password"] {
+  width: 90%;
+  padding: 12px 15px;
+  margin: 10px 0;
+  border: 1px solid #444;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  font-size: 14px;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus {
+  border-color: #ff9f43;
+  outline: none;
+}
+
+/* Password container */
+.password-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+#togglePassword {
+  position: absolute;
+  right: 15px;
+  color: #ff9f43;
+  cursor: pointer;
+  font-size: 12px;
+  user-select: none;
+}
+
+#togglePassword:hover {
+  text-decoration: underline;
+}
+
+/* Buttons */
+button {
+  background-color: #ff9f43;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 90%;
+}
+
+button:hover {
+  background-color: #e88e36;
+}
+
+/* Existing user text */
+#existing-user {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+/* Loading spinner */
+.loading {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
 }
 
 .spinner {
-  width: 50px;
-  height: 50px;
-  border: 5px solid rgba(255, 255, 255, 0.2);
-  border-top: 5px solid #fff;
+  border: 4px solid #ccc;
+  border-top: 4px solid #ff9f43;
   border-radius: 50%;
+  width: 30px;
+  height: 30px;
   animation: spin 1s linear infinite;
 }
 
 @keyframes spin {
-  0% {
-    transform: rotate(0deg);
+  from {
+      transform: rotate(0deg);
   }
-  100% {
-    transform: rotate(360deg);
+  to {
+      transform: rotate(360deg);
   }
-}
-.form-container {
-  background: gray;
-  border-radius: 10px;
-  padding: 20px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  width: 600px;
-  position: absolute;
-  top: 30%;
-  left: 30%;
-}
-
-h1 {
-  font-size: 24px;
-  text-align: center;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  letter-spacing: 5px;
-  padding-bottom: 7%;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-input {
-  padding: 10px;
-  font-size: 16px;
-  border: none;
-  border-radius: 5px;
-  outline: none;
-}
-
-button {
-  background-color: #007bff;
-  color: white;
-  border: none;
-  padding: 10px;
-  font-size: 16px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: #0056b3;
-}
-
-p {
-  text-align: center;
-  font-size: 14px;
-  color: red;
-  margin: 0;
-}
-#togglePassword {
-  padding: 7px;
-  cursor: pointer;
-  position: absolute;
-  left: 86%;
-  top: 56%;
-  font-size: larger;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
-#togglePassword:hover {
-  border-left: 3px black solid;
-}
-#new-user {
-  margin-left: 32%;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
-a {
-  color: blue;
-  text-decoration: none;
-  margin-left: 3%;
 }

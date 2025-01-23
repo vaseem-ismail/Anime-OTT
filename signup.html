@@ -4,21 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>Document</title>
+    <title>Signup - Anime Galaxy</title>
     <script type="module" src="./JS/signup.js" defer></script>
     <link rel="stylesheet" href="./CSS/signup.css">
 </head>
 
 <body>
     <div class="form-container">
-        <h1>SIGNUP! NEW USER!</h1>
+        <h1>SIGNUP - NEW USER</h1>
         <form id="signupForm">
             <input type="text" id="name" placeholder="Username" required>
-            <input type="text" id="signupUsername" placeholder="Email" required>
-            <input type="password" id="signupPassword" placeholder="Password" required>
-            <span id="togglePassword">SHOW</span>
+            <input type="email" id="signupUsername" placeholder="Email" required>
+            <div class="password-container">
+                <input type="password" id="signupPassword" placeholder="Password" required>
+                <span id="togglePassword">SHOW</span>
+            </div>
             <button type="submit">Signup</button>
-            <h3 id="new-user">ALREADY USER?  <a href="./index.html">LOGIN HERE!</a></h3>
+            <h3 id="existing-user">ALREADY A USER? <a href="./index.html">LOGIN HERE!</a></h3>
         </form>
         <div class="loading" id="loadingSpinner">
             <div class="spinner"></div>
