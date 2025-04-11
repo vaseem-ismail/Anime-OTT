@@ -16,13 +16,15 @@ const localUser = localStorage.getItem("Username");
 const localName = localStorage.getItem("name");
 const firstLetter = localUser.charAt(0); // First letter
 const beforeAt = localName.split(' ')[0]; // Part before '@'
+setInterval(()=>{
+if(!localUser){
+    localStorage.clear();
+    window.location.href = "index.html";
+}
+})
 
-//Footer
-const TandC = document.getElementById("link-one");
-const PP = document.getElementById("link-two");
 
 
-document.body.style.zoom = "95%";
 
 
 
@@ -108,62 +110,63 @@ document.addEventListener("DOMContentLoaded", () => {
 window.addEventListener("load", () => {
     idUser.textContent = beforeAt;
     idImg.textContent = firstLetter;
+   
 })
 idImg.addEventListener("click", () => {
     window.location.href = "profile.html";
 })
 
-window.addEventListener("load", () => {
+// window.addEventListener("load", () => {
 
-    // Target container
-    const videoListContainer = document.getElementById("");
+//     // Target container
+//     const videoListContainer = document.getElementById("");
 
-    // Fetch and display the videos
-    fetch('../images.json') // Path to your JSON file
-        .then(response => {
-            if (!response.ok) {
-                throw new Error(`HTTP error! status: ${response.status}`);
-            }
-            return response.json();
-        })
-        .then(videos => {
-            // Filter and sort videos by genre
-            const actionVideos = videos
-                .filter(video => video.Genre.toLowerCase() === "action")
-                .sort((a, b) => a.filename.localeCompare(b.filename)); // Sort alphabetically by filename
+//     // Fetch and display the videos
+//     fetch('../images.json') // Path to your JSON file
+//         .then(response => {
+//             if (!response.ok) {
+//                 throw new Error(`HTTP error! status: ${response.status}`);
+//             }
+//             return response.json();
+//         })
+//         .then(videos => {
+//             // Filter and sort videos by genre
+//             const actionVideos = videos
+//                 .filter(video => video.Genre.toLowerCase() === "action")
+//                 .sort((a, b) => a.filename.localeCompare(b.filename)); // Sort alphabetically by filename
 
-            displayVideos(actionVideos);
-        })
-        .catch(error => {
-            console.error("Error fetching video data:", error);
-            videoListContainer.innerHTML = "<p>Error loading videos. Please try again later.</p>";
-        });
+//             displayVideos(actionVideos);
+//         })
+//         .catch(error => {
+//             console.error("Error fetching video data:", error);
+//             videoListContainer.innerHTML = "<p>Error loading videos. Please try again later.</p>";
+//         });
 
-    // Function to append videos
-    function displayVideos(videos) {
-        if (videos.length === 0) {
-            videoListContainer.innerHTML = "<p>No videos found in the Action genre.</p>";
-            return;
-        }
+//     // Function to append videos
+//     function displayVideos(videos) {
+//         if (videos.length === 0) {
+//             videoListContainer.innerHTML = "<p>No videos found in the Action genre.</p>";
+//             return;
+//         }
 
-        videos.forEach(video => {
-            // Create a container for each video
-            const videoItem = document.createElement("div");
-            videoItem.classList.add("video-item");
+//         videos.forEach(video => {
+//             // Create a container for each video
+//             const videoItem = document.createElement("div");
+//             videoItem.classList.add("video-item");
 
-            // Add video title and genre
-            videoItem.innerHTML = `
-            <h3>${video.filename}</h3>
-            <p>Genre: ${video.Genre}</p>
-            <button onclick="playVideo('${video.data}')">Play</button>
-        `;
+//             // Add video title and genre
+//             videoItem.innerHTML = `
+//             <h3>${video.filename}</h3>
+//             <p>Genre: ${video.Genre}</p>
+//             <button onclick="playVideo('${video.data}')">Play</button>
+//         `;
 
-            // Append to the main container
-            videoListContainer.appendChild(videoItem);
-        });
-    }
+//             // Append to the main container
+//             videoListContainer.appendChild(videoItem);
+//         });
+//     }
 
-})
+// })
 window.addEventListener("load", () => {
 
     // Fetch JSON data and append images to corresponding categories
@@ -204,7 +207,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const resultsContainer = document.getElementById("search-results");
 
     // Fetch data from JSON
-    fetch('./images.json') // Update the path if necessary
+    fetch('./images.json')
         .then(response => response.json())
         .then(data => {
             const allAnime = [];
@@ -212,23 +215,27 @@ document.addEventListener("DOMContentLoaded", () => {
             // Collect all anime into a flat array
             for (const category in data) {
                 allAnime.push(...data[category]);
+                console.log(category ,"+", data[category]);
             }
 
             // Function to display search results dynamically
             const displayResults = (query) => {
-                resultsContainer.innerHTML = ""; // Clear previous results
-                const seenNames = new Set(); // Track seen anime names
+                resultsContainer.innerHTML = "";
+                const seenNames = new Set();
 
                 const matches = allAnime.filter(anime =>
                     anime.name.toLowerCase().includes(query.toLowerCase())
-                );
-
+                );  
+                console.log("matches", matches);
                 if (matches.length > 0) {
                     matches.forEach(match => {
-                        // Skip if this anime name is already displayed
+                        console.log("match + "+ [match.name]);
+                        console.log(seenNames.has(match.name) ,"m   m", seenNames);
                         if (seenNames.has(match.name)) return;
-                        seenNames.add(match.name); // Mark this name as seen
+                        
+                        seenNames.add(match.name);
 
+                        
                         const resultItem = document.createElement("div");
                         resultItem.classList.add("result-item");
 
@@ -236,8 +243,8 @@ document.addEventListener("DOMContentLoaded", () => {
                         animeImg.src = match["image-url"];
                         animeImg.alt = match.name;
                         animeImg.addEventListener('click', () => {
-                            localStorage.setItem('selectedImageName', match.name); // Store name in localStorage
-                            window.location.href = 'details.html'; // Navigate to details page
+                            localStorage.setItem('selectedImageName', match.name); 
+                            window.location.href = 'details.html';
                         });
                         const animeName = document.createElement("p");
                         animeName.textContent = match.name;
@@ -247,7 +254,6 @@ document.addEventListener("DOMContentLoaded", () => {
                         resultsContainer.appendChild(resultItem);
                     });
                 } else {
-                    // Show a message if no results found
                     const noResults = document.createElement("p");
                     noResults.textContent = "No anime found. Try a different search.";
                     noResults.style.textAlign = "center";

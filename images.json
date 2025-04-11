@@ -139,11 +139,11 @@
         },
         "Dagon": {
           "name": "Takashi Kondo",
-          "img": "https://www.handthatfeedshq.com/wp-content/uploads/2015/05/kondo-takashi-7-1.jpg"
+          "img": "https://guiltygear.wiki.gg/images/a/a1/Takashi_Kondo.jpg"
         },
         "Kento Nanami": {
           "name": "Kenjiro Tsuda",
-          "img": "https://www.handthatfeedshq.com/wp-content/uploads/2017/07/kenjiro-1.jpg"
+          "img": "https://animeanime.global/wp-content/uploads/2021/12/461574.jpg"
         },
         "Tatsuya Fushiguro": {
           "name": "Yoshimasa Hosoya",
@@ -169,10 +169,6 @@
           "name": "Mikako Komatsu",
           "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsrqqScoQ9e45HJk7dmMXnEMUpabIZ9g9vzQ&s"
         },
-        "Nanami Kento": {
-          "name": "Kazuya Nakai",
-          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk2Ilsc_Q2-81WTzYwlIg-Pg2tvF79DEtChg&s"
-        },
         "Suguru Geto": {
           "name": "Takahiro Sakurai",
           "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMkOr7R1s2q2Yhw_ibO4GOiC4kN9aPQMD0Jg&s"
@@ -190,10 +186,6 @@
           "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCj8IBcendzIlj8G9OQWxnoeqiIPqA2y49rQ&s"
         },
         "Yoshinobu Gakuganji": {
-          "name": "Satoshi Hino",
-          "img": "https://image.tmdb.org/t/p/original/8ZJIiwIVF2zDyyFr7oXewj0eEuu.jpg"
-        },
-        "Gakuganji Yoshinobu": {
           "name": "Satoshi Hino",
           "img": "https://image.tmdb.org/t/p/original/8ZJIiwIVF2zDyyFr7oXewj0eEuu.jpg"
         },
@@ -234,8 +226,8 @@
           "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIup5jSmRC2lC1f1yRd8THQtQE2Ux-Qq1exQ&s"
         },
         "Minato Namikaze": {
-          "name": "Kazuya Nakai",
-          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk2Ilsc_Q2-81WTzYwlIg-Pg2tvF79DEtChg&s"
+          "name": "Toshiyuki Morikawa",
+          "img": "https://cdn.myanimelist.net/images/voiceactors/3/63480.jpg"
         },
         "Kakashi Hatake": {
           "name": "Kazuhiko Inoue",
@@ -479,7 +471,7 @@
         },
         "Zarbon": {
           "name": "Shō Hayami",
-          "img": "https://static.wikia.nocookie.net/dubbing9585/images/a/ac/Sho-hayami.jpg/revision/latest?cb=20180222021516"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5R2NFHILNtF9gs0WYZW-WJOWMmDaxJ7xkog&s"
         },
         "Dodoria": {
           "name": "Yukitoshi Hori",
@@ -495,7 +487,7 @@
         },
         "Captain Ginyu": {
           "name": "Hideyuki Hori",
-          "img": "https://static.wikia.nocookie.net/dubbing9585/images/2/20/Hideyuki_Hori.jpg/revision/latest?cb=20231027150149"
+          "img": "https://cdn.myanimelist.net/images/voiceactors/3/28219.jpg"
         },
         "Recoome": {
           "name": "Kenji Utsumi",
@@ -567,7 +559,7 @@
         },
         "Inosuke Hashibira": {
           "name": "Yoshitsugu Matsuoka",
-          "img": "https://static.wikia.nocookie.net/ideas/images/f/fd/Yoshitsugu_Matsuoka.jpg/revision/latest?cb=20220408141618"
+          "img": "https://static.tvtropes.org/pmwiki/pub/images/yoshitsugu_matsuoka_2021.png"
         },
         "Kanao Tsuyuri": {
           "name": "Reina Ueda",
@@ -595,7 +587,7 @@
         },
         "Muichiro Tokito": {
           "name": "Kengo Kawanishi",
-          "img": "https://static.wikia.nocookie.net/japanese-voiceover/images/3/34/Kengo_Kawanishi.png/revision/latest?cb=20200410193221"
+          "img": "https://upload.wikimedia.org/wikipedia/commons/4/4e/%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%83%88%E3%83%A9%E3%82%A4%E3%82%A8%E3%82%A4%E3%82%B8_%E3%83%97%E3%83%AC%E3%82%A4%E3%83%A0%E3%83%BC%E3%83%93%E3%83%BC%E7%89%B9%E5%88%A5%E7%89%88_PART3_%28%E6%B2%B3%E8%A5%BF%E5%81%A5%E5%90%BE%29.jpg"
         },
         "Gyomei Himejima": {
           "name": "Tomokazu Sugita",
@@ -607,31 +599,31 @@
         },
         "Obanai Iguro": {
           "name": "Kenichi Suzumura",
-          "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.themoviedb.org%2Fperson%2F9726&psig=AOvVaw0WVX3EGBlh_QXrRo2yE66y&ust=1737459235325000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPjIkpaahIsDFQAAAAAdAAAAABAE"
+          "img": "https://m.media-amazon.com/images/M/MV5BZTUyZjE0ZWMtMWZkMS00ZmQ5LWFlOTgtMGY4ODQ5MWNhMTRjXkEyXkFqcGc@._V1_.jpg"
         },
         "Kagaya Ubuyashiki": {
           "name": "Toshiyuki Morikawa",
-          "img": "https://static.wikia.nocookie.net/residentevil/images/b/be/Toshiyuki_Morikawa.jpg/revision/latest?cb=20210331183924"
+          "img": "https://cdn.myanimelist.net/images/voiceactors/3/63480.jpg"
         },
         "Muzan Kibutsuji": {
           "name": "Toshihiko Seki",
-          "img": "https://example.com/toshihiko_seki.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6sqgSE6I4yEee2dJKtdKaHiENIg-QpRdubWaklbygKWwotcgRoHC_eHbxoYc3gljE0Os&usqp=CAU"
         },
         "Tamayo": {
           "name": "Maaya Sakamoto",
-          "img": "https://example.com/maaya_sakamoto.jpg"
+          "img": "https://www.animenewsnetwork.com/images/encyc/P527-2381856763.1360721796.jpg"
         },
         "Yushiro": {
           "name": "Daiki Yamashita",
-          "img": "https://example.com/daiki_yamashita.jpg"
+          "img": "https://static.jojowiki.com/images/thumb/4/47/latest/20210206233619/Daiki_Yamashita_Infobox.png/1200px-Daiki_Yamashita_Infobox.png"
         },
         "Sabito": {
           "name": "Yūki Kaji",
-          "img": "https://example.com/yuki_kaji.jpg"
+          "img": "https://m.media-amazon.com/images/M/MV5BMWQzZmM2MDYtODZiNy00NDk4LWFkMzYtZDcxN2IxNjhiOGQyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
         },
         "Makomo": {
           "name": "Ai Kakuma",
-          "img": "https://example.com/ai_kakuma.jpg"
+          "img": "https://m.media-amazon.com/images/M/MV5BNGFiNmY5OTgtZmEwMy00YmYwLTlkNGEtNzhmZWEzZjA3OTA0XkEyXkFqcGc@._V1_.jpg"
         },
         "Rui": {
           "name": "Koki Uchiyama",
@@ -639,11 +631,11 @@
         },
         "Enmu": {
           "name": "Daisuke Hirakawa",
-          "img": "https://example.com/daisuke_hirakawa.jpg"
+          "img": "https://bastard-anime.com/core_sys/images/news/00000112/block/00000338/00000217.jpg?1727660521"
         },
         "Akaza": {
           "name": "Akira Ishida",
-          "img": "https://example.com/akira_ishida.jpg"
+          "img": "https://i.pinimg.com/236x/b6/1b/9b/b61b9b43333a7653d13e5ba346dc2f1f.jpg"
         },
         "Daki": {
           "name": "Miyuki Sawashiro",
@@ -651,7 +643,7 @@
         },
         "Gyutaro": {
           "name": "Ryota Osaka",
-          "img": "https://example.com/ryota_osaka.jpg"
+          "img": "https://i.namu.wiki/i/b6rjLaqELp_kjX68hcTQnr5RzCbzIx5r_YKU_JE-g1lZN3L92Qyy9ioqRQJeazOOYwO_6ceoLw7p53aqhtkl5g.webp"
         },
         "Kaigaku": {
           "name": "Yoshimasa Hosoya",
@@ -667,47 +659,47 @@
         },
         "Gyokko": {
           "name": "Kohsuke Toriumi",
-          "img": "https://example.com/kohsuke_toriumi.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9kna5PwHLKvT29ZGRmpXVekq__MYs8otnuw&s"
         },
         "Kokushibo": {
           "name": "Ryotaro Okiayu",
-          "img": "https://example.com/ryotaro_okiayu.jpg"
+          "img": "https://i.mydramalist.com/qYOLkP_5f.jpg"
         },
         "Doma": {
           "name": "Mamoru Miyano",
-          "img": "https://example.com/mamoru_miyano.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq2LUZ6RP0l8ZmRE8TkiFaQbKIBwy3si-guA&s"
         },
         "Kie Kamado": {
           "name": "Houko Kuwashima",
-          "img": "https://example.com/houko_kuwashima.jpg"
+          "img": "https://m.media-amazon.com/images/M/MV5BZDU0ZjQ0NmMtYTkxOS00Zjk0LWE5NTYtNjRjZWY5MzQyZTMxXkEyXkFqcGc@._V1_.jpg"
         },
         "Urokodaki Sakonji": {
           "name": "Hochu Otsuka",
-          "img": "https://example.com/hochu_otsuka.jpg"
+          "img": "https://media.themoviedb.org/t/p/w500/ouMRSpccmkS6iOMVkSc4fEOBiN2.jpg"
         },
         "Genya Shinazugawa": {
           "name": "Nobuhiko Okamoto",
-          "img": "https://example.com/nobuhiko_okamoto.jpg"
+          "img": "https://static.tvtropes.org/pmwiki/pub/images/nobuhiko_okamoto.jpeg"
         },
         "Aoi Kanzaki": {
           "name": "Yuki Kuwahara",
-          "img": "https://example.com/yuki_kuwahara.jpg"
+          "img": "https://cdn.myanimelist.net/images/voiceactors/3/30899.jpg"
         },
         "Kotoha Hashibira": {
           "name": "Mamiko Noto",
-          "img": "https://example.com/mamiko_noto.jpg"
+          "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Mamiko_Noto_at_Otakon_20070722.jpg/220px-Mamiko_Noto_at_Otakon_20070722.jpg"
         },
         "Spider Mother": {
           "name": "Ami Koshimizu",
-          "img": "https://example.com/ami_koshimizu.jpg"
+          "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Ami_Koshimizu_%28%E5%B0%8F%E6%B8%85%E6%B0%B4%E4%BA%9C%E7%BE%8E%29_from_acrofan.jpg/220px-Ami_Koshimizu_%28%E5%B0%8F%E6%B8%85%E6%B0%B4%E4%BA%9C%E7%BE%8E%29_from_acrofan.jpg"
         },
         "Spider Father": {
           "name": "Tetsu Inada",
-          "img": "https://example.com/tetsu_inada.jpg"
+          "img": "https://m.media-amazon.com/images/M/MV5BM2U4MTI3YTItMDUxOC00MDZkLTk2YmItZDk1YzE4M2QwZjAwXkEyXkFqcGc@._V1_.jpg"
         },
         "Spider Brother": {
           "name": "Ryota Takeuchi",
-          "img": "https://example.com/ryota_takeuchi.jpg"
+          "img": "https://static.tvtropes.org/pmwiki/pub/images/p69834_41456269413.jpg"
         }
       },
       "description": "Demon Slayer follows Tanjiro Kamado, a kind-hearted boy who becomes a demon slayer to save his sister Nezuko, who has been turned into a demon, and to avenge his family against the demon who killed them."
@@ -723,11 +715,11 @@
       "voice-actors": {
         "Eren Yaeger": {
           "name": "Yūki Kaji",
-          "img": "https://example.com/yuki_kaji.jpg"
+          "img": "https://m.media-amazon.com/images/M/MV5BMWQzZmM2MDYtODZiNy00NDk4LWFkMzYtZDcxN2IxNjhiOGQyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
         },
         "Mikasa Ackerman": {
           "name": "Yui Ishikawa",
-          "img": "https://example.com/yui_ishikawa.jpg"
+          "img": "https://m.media-amazon.com/images/M/MV5BMTZjYTM1MzQtZThlOC00YTFmLWE0NzUtMzgyYTg4YmUwMDU1XkEyXkFqcGc@._V1_.jpg"
         },
         "Armin Arlert": {
           "name": "Marina Inoue",
@@ -743,11 +735,11 @@
         },
         "Zeke Jaeger": {
           "name": "Takehito Koyasu",
-          "img": "https://example.com/takehito_koyasu.jpg"
+          "img": "https://i.namu.wiki/i/Sr_1CyU_owM82kHVpA9RmExLggl4oQNAAwQsPFLjhPR9pEXZ1o7uTOBppvB_XHHE2qd1GpUjNuSoLloibMcnuQ.webp"
         },
         "Sasha Blouse": {
           "name": "Yū Kobayashi",
-          "img": "https://example.com/yu_kobayashi.jpg"
+          "img": "https://m.media-amazon.com/images/M/MV5BYzNiZTlkODMtYmZlNi00OWE5LWFiYjUtZmY0N2U5OTY2MmRkXkEyXkFqcGc@._V1_.jpg"
         },
         "Conny Springer": {
           "name": "Hiro Shimono",
@@ -755,19 +747,19 @@
         },
         "Historia Reiss": {
           "name": "Shiori Mikami",
-          "img": "https://example.com/shiori_mikami.jpg"
+          "img": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Shiori_Mikami_20100925_%28cropped%29.jpg"
         },
         "Jean Kirstein": {
           "name": "Kishō Taniyama",
-          "img": "https://example.com/kisho_taniyama.jpg"
+          "img": "https://i.namu.wiki/i/OcqVHWKk8CT7_FP5YmSkJDMKGJSzxGhFz_AVt4HSiVYnLLMH5zCulMndS2ewmg7XL1Fo3gihg5hqa7uV8UbYQA.webp"
         },
         "Marco Bodt": {
           "name": "Ryōta Ōsaka",
-          "img": "https://example.com/ryota_osaka.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8ojEs1X4aFg1Emh0zg0Fuehsdzm3sXVr81SXp8aOr155UKApmBlOKCJ8H4FUCFTOaWW4&usqp=CAU"
         },
         "Erwin Smith": {
           "name": "Daisuke Ono",
-          "img": "https://example.com/daisuke_ono.jpg"
+          "img": "https://www.detectiveconanworld.com/wiki/images/thumb/6/62/Daisuke_Ono.jpg/275px-Daisuke_Ono.jpg"
         },
         "Hange Zoë": {
           "name": "Romi Park",
@@ -775,59 +767,59 @@
         },
         "Annie Leonhart": {
           "name": "Yū Shimamura",
-          "img": "https://example.com/yu_shimamura.jpg"
+          "img": "https://i.namu.wiki/i/1hshQSEmGiRtkqGaZoXnsYSJnB2LiaucXq4IECQsESrh6VZ64JZJjM-pDucODpNs_g0wdSWynXxqp7y5xHCENw.webp"
         },
         "Ymir": {
           "name": "Saki Fujita",
-          "img": "https://example.com/saki_fujita.jpg"
+          "img": "https://media.themoviedb.org/t/p/w500/pTHZZTerlaIHXOJkIzodMr1cfH0.jpg"
         },
         "Hannes": {
           "name": "Keiji Fujiwara",
-          "img": "https://example.com/keiji_fujiwara.jpg"
+          "img": "https://www.kh13.com/uploads/monthly_2020_04/57226.jpg.36c3ab69db9ce5650c63fef62c5bfa25.jpg"
         },
         "Dot Pixis": {
           "name": "Masahiko Tanaka",
-          "img": "https://example.com/masahiko_tanaka.jpg"
+          "img": "https://us.oricon-group.com/upimg/sns/1000/1049/img1200/22b356b5fb5b9be15b2d93feff38c8e7.jpg"
         },
         "Keith Shadis": {
           "name": "Tsuguo Mogami",
-          "img": "https://example.com/tsuguo_mogami.jpg"
+          "img": "https://www.zeldadungeon.net/wiki/images/thumb/f/f9/Tsuguo-Mogami.jpg/400px-Tsuguo-Mogami.jpg"
         },
         "Grisha Jaeger": {
           "name": "Hiroshi Tsuchida",
-          "img": "https://example.com/hiroshi_tsuchida.jpg"
+          "img": "https://image.tmdb.org/t/p/w300/ySiUpcn6UbIzPl4e411ZJMzbIsJ.jpg"
         },
         "Carla Jaeger": {
           "name": "Yoshino Takamori",
-          "img": "https://example.com/yoshino_takamori.jpg"
+          "img": "https://static.tvtropes.org/pmwiki/pub/images/hp.jpg"
         },
         "Kenny Ackerman": {
           "name": "Kazuhiro Yamaji",
-          "img": "https://example.com/kazuhiro_yamaji.jpg"
+          "img": "https://i.namu.wiki/i/1mccwOuG9Kz1lrFiEbqyOIiB0bSLpsHg-KEPnD7QhsxO8miUy_87nvGAuPjyJo88_h_0MszfueE0HSD-i5eFiA.webp"
         },
         "Petra Ral": {
           "name": "Natsuki Aikawa",
-          "img": "https://example.com/natsuki_aikawa.jpg"
+          "img": "https://www.animenewsnetwork.com/images/encyc/P121023-1347550503.1370495449.jpg"
         },
         "Moblit Berner": {
           "name": "Rintarou Nishi",
-          "img": "https://example.com/rintarou_nishi.jpg"
+          "img": "https://i.mydramalist.com/PxrV8c.jpg"
         },
         "Frieda Reiss": {
           "name": "Akeno Watanabe",
-          "img": "https://example.com/akeno_watanabe.jpg"
+          "img": "https://static.tvtropes.org/pmwiki/pub/images/akeno_watanabe.jpg"
         },
         "Rod Reiss": {
           "name": "Yasuhiro Mamiya",
-          "img": "https://example.com/yasuhiro_mamiya.jpg"
+          "img": "https://i.namu.wiki/i/nKBqssinWBe42jro55OKNgTtzwKILLEUH5zJHCQqjAEcpiRMnBmgUBVosAX9cHKFm1atCd0g0WX-EAQnb3G_IQ.webp"
         },
         "Floch Forster": {
           "name": "Kensho Ono",
-          "img": "https://example.com/kensho_ono.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc5SMX_3S58Bw4kvZyXxEgWveCH4T0fC6GIg&s"
         },
         "Gabi Braun": {
           "name": "Ayane Sakura",
-          "img": "https://example.com/ayane_sakura.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ294at1JW8T__LFyt_CuqgopTjvtIj_ozSA&s"
         },
         "Falco Grice": {
           "name": "Natsuki Hanae",
@@ -835,15 +827,15 @@
         },
         "Pieck Finger": {
           "name": "Manami Numakura",
-          "img": "https://example.com/manami_numakura.jpg"
+          "img": "https://images.entertainment.ie/person/eDbMXgeTCA2D6i7894Ag43RADrk.jpg?w=400&q=high"
         },
         "Porco Galliard": {
           "name": "Toshiki Masuda",
-          "img": "https://example.com/toshiki_masuda.jpg"
+          "img": "https://www.handthatfeedshq.com/wp-content/uploads/2020/06/toshiki-masuda-1.jpg"
         },
         "Colt Grice": {
           "name": "Masaya Matsukaze",
-          "img": "https://example.com/masaya_matsukaze.jpg"
+          "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/FanimeCon_2016_%28Masaya_Matsukaze%29.jpg/640px-FanimeCon_2016_%28Masaya_Matsukaze%29.jpg"
         },
         "Willy Tybur": {
           "name": "Kazuhiko Inoue",
@@ -851,19 +843,19 @@
         },
         "Lara Tybur": {
           "name": "Akeno Watanabe",
-          "img": "https://example.com/akeno_watanabe.jpg"
+          "img": "https://static.tvtropes.org/pmwiki/pub/images/akeno_watanabe.jpg"
         },
         "Nicolo": {
           "name": "Kōji Hiwatari",
-          "img": "https://example.com/koji_hiwatari.jpg"
+          "img": "https://cdn.myanimelist.net/images/voiceactors/2/31381.jpg"
         },
         "Onyankopon": {
           "name": "Yūta Yamazaki",
-          "img": "https://example.com/yuta_yamazaki.jpg"
+          "img": "https://images.entertainment.ie/person/w780_bLUYfBctSa7iqHL7or7sJLFlslv.jpg"
         },
         "Kiyomi Azumabito": {
           "name": "Mitsuki Saiga",
-          "img": "https://example.com/mitsuki_saiga.jpg"
+          "img": "https://i.namu.wiki/i/RxqB119b-dXWLV_IYgjzITPdtsMbvClyIqvUpI06pgEmj0M4S_i6sFqX5LzLxSxIobnaZ3g9DLrHdYbbhvRQiA.webp"
         }
       },
       "description": "Attack on Titan follows Eren Yeager and his friends as they join the military to fight gigantic humanoid creatures known as Titans, uncovering dark secrets about their world along the way."
@@ -879,19 +871,19 @@
       "voice-actors": {
         "Takemichi Hanagaki": {
           "name": "Yūki Shin",
-          "img": "https://example.com/yuuki_shin.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEMT3DjCPWWtjotKI5zK743QuHzqSJp_hKRA&s"
         },
         "Manjirō 'Mikey' Sano": {
           "name": "Yū Hayashi",
-          "img": "https://example.com/yu_hayashi.jpg"
+          "img": "data:image/jpeg;base64,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"
         },
         "Ken 'Draken' Ryūgūji": {
           "name": "Tatsuhisa Suzuki",
-          "img": "https://example.com/tatsuhisa_suzuki.jpg"
+          "img": "https://m.media-amazon.com/images/M/MV5BOGY2YjE0YmQtN2VhZS00YzkwLTk5MmEtNzdlZmVhNzZiMGUyXkEyXkFqcGc@._V1_.jpg"
         },
         "Naoto Tachibana": {
           "name": "Ryōta Ōsaka",
-          "img": "https://example.com/ryota_osaka.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8ojEs1X4aFg1Emh0zg0Fuehsdzm3sXVr81SXp8aOr155UKApmBlOKCJ8H4FUCFTOaWW4&usqp=CAU"
         },
         "Hinata Tachibana": {
           "name": "Azumi Waki",
@@ -915,7 +907,7 @@
         },
         "Takashi Mitsuya": {
           "name": "Yoshitsugu Matsuoka",
-          "img": "https://static.wikia.nocookie.net/ideas/images/f/fd/Yoshitsugu_Matsuoka.jpg/revision/latest?cb=20220408141618"
+          "img": "https://static.tvtropes.org/pmwiki/pub/images/yoshitsugu_matsuoka_2021.png"
         },
         "Haruki 'Pah-chin' Hayashida": {
           "name": "Shunsuke Takeuchi",
@@ -931,11 +923,11 @@
         },
         "Nahoya 'Smiley' Kawata": {
           "name": "Kengo Kawanishi",
-          "img": "https://static.wikia.nocookie.net/japanese-voiceover/images/3/34/Kengo_Kawanishi.png/revision/latest?cb=20200410193221"
+          "img": "https://upload.wikimedia.org/wikipedia/commons/4/4e/%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%83%88%E3%83%A9%E3%82%A4%E3%82%A8%E3%82%A4%E3%82%B8_%E3%83%97%E3%83%AC%E3%82%A4%E3%83%A0%E3%83%BC%E3%83%93%E3%83%BC%E7%89%B9%E5%88%A5%E7%89%88_PART3_%28%E6%B2%B3%E8%A5%BF%E5%81%A5%E5%90%BE%29.jpg"
         },
         "Sōya 'Angry' Kawata": {
           "name": "Kengo Kawanishi",
-          "img": "https://static.wikia.nocookie.net/japanese-voiceover/images/3/34/Kengo_Kawanishi.png/revision/latest?cb=20200410193221"
+          "img": "https://upload.wikimedia.org/wikipedia/commons/4/4e/%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%83%88%E3%83%A9%E3%82%A4%E3%82%A8%E3%82%A4%E3%82%B8_%E3%83%97%E3%83%AC%E3%82%A4%E3%83%A0%E3%83%BC%E3%83%93%E3%83%BC%E7%89%B9%E5%88%A5%E7%89%88_PART3_%28%E6%B2%B3%E8%A5%BF%E5%81%A5%E5%90%BE%29.jpg"
         },
         "Emma Sano": {
           "name": "Yumi Uchiyama",
@@ -1003,7 +995,7 @@
         },
         "Byakuya Kuchiki": {
           "name": "Ryotaro Okiayu",
-          "img": "https://example.com/ryotaro_okiyau.jpg"
+          "img": "https://i.mydramalist.com/qYOLkP_5f.jpg"
         },
         "Tōshirō Hitsugaya": {
           "name": "Romi Park",
@@ -1015,7 +1007,7 @@
         },
         "Sōsuke Aizen": {
           "name": "Shō Hayami",
-          "img": "https://static.wikia.nocookie.net/dubbing9585/images/a/ac/Sho-hayami.jpg/revision/latest?cb=20180222021516"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5R2NFHILNtF9gs0WYZW-WJOWMmDaxJ7xkog&s"
         },
         "Gin Ichimaru": {
           "name": "Kōji Yusa",
@@ -1075,7 +1067,7 @@
         },
         "Leorio Paladiknight": {
           "name": "Keiji Fujiwara",
-          "img": "https://example.com/keiji_fujiwara.jpg"
+          "img": "https://www.kh13.com/uploads/monthly_2020_04/57226.jpg.36c3ab69db9ce5650c63fef62c5bfa25.jpg"
         },
         "Hisoka Morow": {
           "name": "Daisuke Namikawa",
@@ -1083,7 +1075,7 @@
         },
         "Chrollo Lucilfer": {
           "name": "Mamoru Miyano",
-          "img": "https://example.com/mamoru_miyano.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq2LUZ6RP0l8ZmRE8TkiFaQbKIBwy3si-guA&s"
         },
         "Isaac Netero": {
           "name": "Ichirō Nagai",
@@ -1095,7 +1087,7 @@
         },
         "Illumi Zoldyck": {
           "name": "Masaya Matsukaze",
-          "img": "https://example.com/masaya_matsukaze.jpg"
+          "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/FanimeCon_2016_%28Masaya_Matsukaze%29.jpg/640px-FanimeCon_2016_%28Masaya_Matsukaze%29.jpg"
         },
         "Silva Zoldyck": {
           "name": "Kōichi Yamadera",
@@ -1163,7 +1155,7 @@
         },
         "Bondrewd": {
           "name": "Toshiyuki Morikawa",
-          "img": "https://static.wikia.nocookie.net/residentevil/images/b/be/Toshiyuki_Morikawa.jpg/revision/latest?cb=20210331183924"
+          "img": "https://cdn.myanimelist.net/images/voiceactors/3/63480.jpg"
         },
         "Ozen": {
           "name": "Sayaka Ohara",
@@ -1175,7 +1167,7 @@
         },
         "Lyza": {
           "name": "Maaya Sakamoto",
-          "img": "https://example.com/maaya_sakamoto.jpg"
+          "img": "https://www.animenewsnetwork.com/images/encyc/P527-2381856763.1360721796.jpg"
         },
         "Marulk": {
           "name": "Aki Toyosaki",
@@ -1187,7 +1179,7 @@
         },
         "Shiggy": {
           "name": "Manami Numakura",
-          "img": "https://example.com/manami_numakura.jpg"
+          "img": "https://images.entertainment.ie/person/eDbMXgeTCA2D6i7894Ag43RADrk.jpg?w=400&q=high"
         },
         "Jiruo": {
           "name": "Taishi Murata",
@@ -1195,7 +1187,7 @@
         },
         "Habolg": {
           "name": "Tetsu Inada",
-          "img": "https://example.com/tetsu_inada.jpg"
+          "img": "https://m.media-amazon.com/images/M/MV5BM2U4MTI3YTItMDUxOC00MDZkLTk2YmItZDk1YzE4M2QwZjAwXkEyXkFqcGc@._V1_.jpg"
         },
         "Kiyui": {
           "name": "Kanon Takao",
@@ -1323,7 +1315,7 @@
         },
         "Aokiji": {
           "name": "Takehito Koyasu",
-          "img": "https://example.com/takehito_koyasu.jpg"
+          "img": "https://i.namu.wiki/i/Sr_1CyU_owM82kHVpA9RmExLggl4oQNAAwQsPFLjhPR9pEXZ1o7uTOBppvB_XHHE2qd1GpUjNuSoLloibMcnuQ.webp"
         },
         "Dr. Kureha": {
           "name": "Mami Koyama",
@@ -1433,7 +1425,7 @@
         },
         "Mikasa Ackerman (Attack on Titan)": {
           "name": "Yui Ishikawa",
-          "img": "https://example.com/yui_ishikawa.jpg"
+          "img": "https://m.media-amazon.com/images/M/MV5BMTZjYTM1MzQtZThlOC00YTFmLWE0NzUtMzgyYTg4YmUwMDU1XkEyXkFqcGc@._V1_.jpg"
         },
         "Sakura Haruno": {
           "name": "Chie Nakamura",
@@ -1577,7 +1569,7 @@
         },
         "Sasha Blouse (Attack on Titan)": {
           "name": "Yu Kobayashi",
-          "img": "https://example.com/yu_kobayashi.jpg"
+          "img": "https://m.media-amazon.com/images/M/MV5BYzNiZTlkODMtYmZlNi00OWE5LWFiYjUtZmY0N2U5OTY2MmRkXkEyXkFqcGc@._V1_.jpg"
         },
         "Ritsu Kageyama (Mob Psycho)": {
           "name": "Ikue Otani",
@@ -1625,7 +1617,7 @@
         },
         "Panda": {
           "name": "Tatsuhisa Suzuki",
-          "img": "https://example.com/tatsuhisa_suzuki.jpg"
+          "img": "https://m.media-amazon.com/images/M/MV5BOGY2YjE0YmQtN2VhZS00YzkwLTk5MmEtNzdlZmVhNzZiMGUyXkEyXkFqcGc@._V1_.jpg"
         },
         "Suguru Geto": {
           "name": "Takahiro Sakurai",
@@ -1661,7 +1653,7 @@
         },
         "Kento Nanami": {
           "name": "Kenjiro Tsuda",
-          "img": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Tsuda_Kenjiro_from_%22The_Concierge%22_at_Red_Carpet_of_the_Tokyo_International_Film_Festival_2023_%2853348306038%29.jpg"
+          "img": "https://animeanime.global/wp-content/uploads/2021/12/461574.jpg22The_Concierge%22_at_Red_Carpet_of_the_Tokyo_International_Film_Festival_2023_%2853348306038%29.jpg"
         },
         "Aoi Todo": {
           "name": "Koki Uchiyama",
@@ -1689,7 +1681,7 @@
         },
         "Tatsuya Fushiguro": {
           "name": "Kenjiro Tsuda",
-          "img": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Tsuda_Kenjiro_from_%22The_Concierge%22_at_Red_Carpet_of_the_Tokyo_International_Film_Festival_2023_%2853348306038%29.jpg"
+          "img": "https://animeanime.global/wp-content/uploads/2021/12/461574.jpg22The_Concierge%22_at_Red_Carpet_of_the_Tokyo_International_Film_Festival_2023_%2853348306038%29.jpg"
         },
         "Choso": {
           "name": "Jun Fukuyama",
@@ -1713,7 +1705,7 @@
         },
         "Hanami": {
           "name": "Ami Koshimizu",
-          "img": "https://example.com/ami_koshimizu.jpg"
+          "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Ami_Koshimizu_%28%E5%B0%8F%E6%B8%85%E6%B0%B4%E4%BA%9C%E7%BE%8E%29_from_acrofan.jpg/220px-Ami_Koshimizu_%28%E5%B0%8F%E6%B8%85%E6%B0%B4%E4%BA%9C%E7%BE%8E%29_from_acrofan.jpg"
         },
         "Toudou": {
           "name": "Aoi Koga",
@@ -1973,7 +1965,7 @@
         },
         "Gaara": {
           "name": "Akira Ishida",
-          "img": "https://example.com/akira_ishida.jpg"
+          "img": "https://i.pinimg.com/236x/b6/1b/9b/b61b9b43333a7653d13e5ba346dc2f1f.jpg"
         },
         "Jiraiya": {
           "name": "Hiroshi Kamiya",
@@ -1985,7 +1977,7 @@
         },
         "Tobirama Senju": {
           "name": "Takehito Koyasu",
-          "img": "https://example.com/takehito_koyasu.jpg"
+          "img": "https://i.namu.wiki/i/Sr_1CyU_owM82kHVpA9RmExLggl4oQNAAwQsPFLjhPR9pEXZ1o7uTOBppvB_XHHE2qd1GpUjNuSoLloibMcnuQ.webp"
         },
         "Minato Namikaze": {
           "name": "Noriaki Sugiyama",
@@ -2029,7 +2021,7 @@
         },
         "Woo Jinchul": {
           "name": "Daisuke Hirakawa",
-          "img": "https://example.com/daisuke_hirakawa.jpg"
+          "img": "https://bastard-anime.com/core_sys/images/news/00000112/block/00000338/00000217.jpg?1727660521"
         },
         "Baek Yoon-Ho": {
           "name": "Hiroki Touchi",
@@ -2037,7 +2029,7 @@
         },
         "Choi Jong-In": {
           "name": "Daisuke Hirakawa",
-          "img": "https://example.com/daisuke_hirakawa.jpg"
+          "img": "https://bastard-anime.com/core_sys/images/news/00000112/block/00000338/00000217.jpg?1727660521"
         },
         "Lee Joo-Hee": {
           "name": "Rina Honizumi",
@@ -2053,7 +2045,7 @@
         },
         "Liu Zhigang": {
           "name": "Kenjiro Tsuda",
-          "img": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Tsuda_Kenjiro_from_%22The_Concierge%22_at_Red_Carpet_of_the_Tokyo_International_Film_Festival_2023_%2853348306038%29.jpg"
+          "img": "https://animeanime.global/wp-content/uploads/2021/12/461574.jpg22The_Concierge%22_at_Red_Carpet_of_the_Tokyo_International_Film_Festival_2023_%2853348306038%29.jpg"
         },
         "Christopher Reed": {
           "name": "Takahiro Sakurai",
@@ -2065,7 +2057,7 @@
         },
         "Antares": {
           "name": "Ryotaro Okiayu",
-          "img": "https://example.com/ryotaro_okiayu.jpg"
+          "img": "https://i.mydramalist.com/qYOLkP_5f.jpg"
         },
         "Esil Radiru": {
           "name": "Yui Ogura",
@@ -2077,7 +2069,7 @@
         },
         "Beru": {
           "name": "Nobuhiko Okamoto",
-          "img": "https://example.com/nobuhiko_okamoto.jpg"
+          "img": "https://static.tvtropes.org/pmwiki/pub/images/nobuhiko_okamoto.jpeg"
         },
         "Bellion": {
           "name": "Rikiya Koyama",
@@ -2117,7 +2109,7 @@
         },
         "Mikasa Ackerman": {
           "name": "Yui Ishikawa",
-          "img": "https://example.com/yui_ishikawa.jpg"
+          "img": "https://m.media-amazon.com/images/M/MV5BMTZjYTM1MzQtZThlOC00YTFmLWE0NzUtMzgyYTg4YmUwMDU1XkEyXkFqcGc@._V1_.jpg"
         },
         "Armin Arlert": {
           "name": "Marina Inoue",
@@ -2129,7 +2121,7 @@
         },
         "Erwin Smith": {
           "name": "Daisuke Ono",
-          "img": "https://example.com/daisuke_ono.jpg"
+          "img": "https://www.detectiveconanworld.com/wiki/images/thumb/6/62/Daisuke_Ono.jpg/275px-Daisuke_Ono.jpg"
         },
         "Hange Zoë": {
           "name": "Romi Park",
@@ -2137,7 +2129,7 @@
         },
         "Jean Kirstein": {
           "name": "Kisho Taniyama",
-          "img": "https://example.com/kisho_taniyama.jpg"
+          "img": "https://i.namu.wiki/i/OcqVHWKk8CT7_FP5YmSkJDMKGJSzxGhFz_AVt4HSiVYnLLMH5zCulMndS2ewmg7XL1Fo3gihg5hqa7uV8UbYQA.webp"
         },
         "Connie Springer": {
           "name": "Hiro Shimono",
@@ -2145,7 +2137,7 @@
         },
         "Sasha Blouse": {
           "name": "Yu Kobayashi",
-          "img": "https://example.com/yu_kobayashi.jpg"
+          "img": "https://m.media-amazon.com/images/M/MV5BYzNiZTlkODMtYmZlNi00OWE5LWFiYjUtZmY0N2U5OTY2MmRkXkEyXkFqcGc@._V1_.jpg"
         },
         "Reiner Braun": {
           "name": "Yoshimasa Hosoya",
@@ -2157,15 +2149,15 @@
         },
         "Annie Leonhart": {
           "name": "Yu Shimamura",
-          "img": "https://example.com/yu_shimamura.jpg"
+          "img": "https://i.namu.wiki/i/1hshQSEmGiRtkqGaZoXnsYSJnB2LiaucXq4IECQsESrh6VZ64JZJjM-pDucODpNs_g0wdSWynXxqp7y5xHCENw.webp"
         },
         "Zeke Yeager": {
           "name": "Takehito Koyasu",
-          "img": "https://example.com/takehito_koyasu.jpg"
+          "img": "https://i.namu.wiki/i/Sr_1CyU_owM82kHVpA9RmExLggl4oQNAAwQsPFLjhPR9pEXZ1o7uTOBppvB_XHHE2qd1GpUjNuSoLloibMcnuQ.webp"
         },
         "Historia Reiss": {
           "name": "Shiori Mikami",
-          "img": "https://example.com/shiori_mikami.jpg"
+          "img": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Shiori_Mikami_20100925_%28cropped%29.jpg"
         },
         "Ymir": {
           "name": "Saki Fujita",
@@ -2173,19 +2165,19 @@
         },
         "Floch Forster": {
           "name": "Kensho Ono",
-          "img": "https://example.com/kensho_ono.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc5SMX_3S58Bw4kvZyXxEgWveCH4T0fC6GIg&s"
         },
         "Pieck Finger": {
           "name": "Manami Numakura",
-          "img": "https://example.com/manami_numakura.jpg"
+          "img": "https://images.entertainment.ie/person/eDbMXgeTCA2D6i7894Ag43RADrk.jpg?w=400&q=high"
         },
         "Porco Galliard": {
           "name": "Toshiki Masuda",
-          "img": "https://example.com/toshiki_masuda.jpg"
+          "img": "https://www.handthatfeedshq.com/wp-content/uploads/2020/06/toshiki-masuda-1.jpg"
         },
         "Gabi Braun": {
           "name": "Ayane Sakura",
-          "img": "https://example.com/ayane_sakura.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ294at1JW8T__LFyt_CuqgopTjvtIj_ozSA&s"
         },
         "Falco Grice": {
           "name": "Natsuki Hanae",
@@ -2193,23 +2185,23 @@
         },
         "Kenny Ackerman": {
           "name": "Kazuhiro Yamaji",
-          "img": "https://example.com/kazuhiro_yamaji.jpg"
+          "img": "https://i.namu.wiki/i/1mccwOuG9Kz1lrFiEbqyOIiB0bSLpsHg-KEPnD7QhsxO8miUy_87nvGAuPjyJo88_h_0MszfueE0HSD-i5eFiA.webp"
         },
         "Grisha Yeager": {
           "name": "Hiroshi Tsuchida",
-          "img": "https://example.com/hiroshi_tsuchida.jpg"
+          "img": "https://image.tmdb.org/t/p/w300/ySiUpcn6UbIzPl4e411ZJMzbIsJ.jpg"
         },
         "Carla Yeager": {
           "name": "Yoshino Takamori",
-          "img": "https://example.com/yoshino_takamori.jpg"
+          "img": "https://static.tvtropes.org/pmwiki/pub/images/hp.jpg"
         },
         "Keith Shadis": {
           "name": "Tsuguo Mogami",
-          "img": "https://example.com/tsuguo_mogami.jpg"
+          "img": "https://www.zeldadungeon.net/wiki/images/thumb/f/f9/Tsuguo-Mogami.jpg/400px-Tsuguo-Mogami.jpg"
         },
         "Hannes": {
           "name": "Keiji Fujiwara",
-          "img": "https://example.com/keiji_fujiwara.jpg"
+          "img": "https://www.kh13.com/uploads/monthly_2020_04/57226.jpg.36c3ab69db9ce5650c63fef62c5bfa25.jpg"
         },
         "Marco Bodt": {
           "name": "Ryota Ohsaka",
@@ -2241,7 +2233,7 @@
         },
         "Inosuke Hashibira": {
           "name": "Yoshitsugu Matsuoka",
-          "img": "https://static.wikia.nocookie.net/ideas/images/f/fd/Yoshitsugu_Matsuoka.jpg/revision/latest?cb=20220408141618"
+          "img": "https://static.tvtropes.org/pmwiki/pub/images/yoshitsugu_matsuoka_2021.png"
         },
         "Kanao Tsuyuri": {
           "name": "Reina Ueda",
@@ -2269,7 +2261,7 @@
         },
         "Muichiro Tokito": {
           "name": "Kengo Kawanishi",
-          "img": "https://static.wikia.nocookie.net/japanese-voiceover/images/3/34/Kengo_Kawanishi.png/revision/latest?cb=20200410193221"
+          "img": "https://upload.wikimedia.org/wikipedia/commons/4/4e/%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%83%88%E3%83%A9%E3%82%A4%E3%82%A8%E3%82%A4%E3%82%B8_%E3%83%97%E3%83%AC%E3%82%A4%E3%83%A0%E3%83%BC%E3%83%93%E3%83%BC%E7%89%B9%E5%88%A5%E7%89%88_PART3_%28%E6%B2%B3%E8%A5%BF%E5%81%A5%E5%90%BE%29.jpg"
         },
         "Gyomei Himejima": {
           "name": "Tomokazu Sugita",
@@ -2281,31 +2273,31 @@
         },
         "Obanai Iguro": {
           "name": "Kenichi Suzumura",
-          "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.themoviedb.org%2Fperson%2F9726&psig=AOvVaw0WVX3EGBlh_QXrRo2yE66y&ust=1737459235325000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPjIkpaahIsDFQAAAAAdAAAAABAE"
+          "img": "https://m.media-amazon.com/images/M/MV5BZTUyZjE0ZWMtMWZkMS00ZmQ5LWFlOTgtMGY4ODQ5MWNhMTRjXkEyXkFqcGc@._V1_.jpg"
         },
         "Kagaya Ubuyashiki": {
           "name": "Toshiyuki Morikawa",
-          "img": "https://static.wikia.nocookie.net/residentevil/images/b/be/Toshiyuki_Morikawa.jpg/revision/latest?cb=20210331183924"
+          "img": "https://cdn.myanimelist.net/images/voiceactors/3/63480.jpg"
         },
         "Muzan Kibutsuji": {
           "name": "Toshihiko Seki",
-          "img": "https://example.com/toshihiko_seki.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6sqgSE6I4yEee2dJKtdKaHiENIg-QpRdubWaklbygKWwotcgRoHC_eHbxoYc3gljE0Os&usqp=CAU"
         },
         "Tamayo": {
           "name": "Maaya Sakamoto",
-          "img": "https://example.com/maaya_sakamoto.jpg"
+          "img": "https://www.animenewsnetwork.com/images/encyc/P527-2381856763.1360721796.jpg"
         },
         "Yushiro": {
           "name": "Daiki Yamashita",
-          "img": "https://example.com/daiki_yamashita.jpg"
+          "img": "https://static.jojowiki.com/images/thumb/4/47/latest/20210206233619/Daiki_Yamashita_Infobox.png/1200px-Daiki_Yamashita_Infobox.png"
         },
         "Sabito": {
           "name": "Yūki Kaji",
-          "img": "https://example.com/yuki_kaji.jpg"
+          "img": "https://m.media-amazon.com/images/M/MV5BMWQzZmM2MDYtODZiNy00NDk4LWFkMzYtZDcxN2IxNjhiOGQyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
         },
         "Makomo": {
           "name": "Ai Kakuma",
-          "img": "https://example.com/ai_kakuma.jpg"
+          "img": "https://m.media-amazon.com/images/M/MV5BNGFiNmY5OTgtZmEwMy00YmYwLTlkNGEtNzhmZWEzZjA3OTA0XkEyXkFqcGc@._V1_.jpg"
         },
         "Rui": {
           "name": "Koki Uchiyama",
@@ -2313,11 +2305,11 @@
         },
         "Enmu": {
           "name": "Daisuke Hirakawa",
-          "img": "https://example.com/daisuke_hirakawa.jpg"
+          "img": "https://bastard-anime.com/core_sys/images/news/00000112/block/00000338/00000217.jpg?1727660521"
         },
         "Akaza": {
           "name": "Akira Ishida",
-          "img": "https://example.com/akira_ishida.jpg"
+          "img": "https://i.pinimg.com/236x/b6/1b/9b/b61b9b43333a7653d13e5ba346dc2f1f.jpg"
         },
         "Daki": {
           "name": "Miyuki Sawashiro",
@@ -2325,7 +2317,7 @@
         },
         "Gyutaro": {
           "name": "Ryota Osaka",
-          "img": "https://example.com/ryota_osaka.jpg"
+          "img": "https://i.namu.wiki/i/b6rjLaqELp_kjX68hcTQnr5RzCbzIx5r_YKU_JE-g1lZN3L92Qyy9ioqRQJeazOOYwO_6ceoLw7p53aqhtkl5g.webp"
         },
         "Kaigaku": {
           "name": "Yoshimasa Hosoya",
@@ -2341,47 +2333,47 @@
         },
         "Gyokko": {
           "name": "Kohsuke Toriumi",
-          "img": "https://example.com/kohsuke_toriumi.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9kna5PwHLKvT29ZGRmpXVekq__MYs8otnuw&s"
         },
         "Kokushibo": {
           "name": "Ryotaro Okiayu",
-          "img": "https://example.com/ryotaro_okiayu.jpg"
+          "img": "https://i.mydramalist.com/qYOLkP_5f.jpg"
         },
         "Doma": {
           "name": "Mamoru Miyano",
-          "img": "https://example.com/mamoru_miyano.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq2LUZ6RP0l8ZmRE8TkiFaQbKIBwy3si-guA&s"
         },
         "Kie Kamado": {
           "name": "Houko Kuwashima",
-          "img": "https://example.com/houko_kuwashima.jpg"
+          "img": "https://m.media-amazon.com/images/M/MV5BZDU0ZjQ0NmMtYTkxOS00Zjk0LWE5NTYtNjRjZWY5MzQyZTMxXkEyXkFqcGc@._V1_.jpg"
         },
         "Urokodaki Sakonji": {
           "name": "Hochu Otsuka",
-          "img": "https://example.com/hochu_otsuka.jpg"
+          "img": "vhttps://static.wikia.nocookie.net/ultra/images/9/9e/Hochu_Otsuka.jpg/revision/latest?cb=20190731052349"
         },
         "Genya Shinazugawa": {
           "name": "Nobuhiko Okamoto",
-          "img": "https://example.com/nobuhiko_okamoto.jpg"
+          "img": "https://static.tvtropes.org/pmwiki/pub/images/nobuhiko_okamoto.jpeg"
         },
         "Aoi Kanzaki": {
           "name": "Yuki Kuwahara",
-          "img": "https://example.com/yuki_kuwahara.jpg"
+          "img": "https://cdn.myanimelist.net/images/voiceactors/3/30899.jpg"
         },
         "Kotoha Hashibira": {
           "name": "Mamiko Noto",
-          "img": "https://example.com/mamiko_noto.jpg"
+          "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Mamiko_Noto_at_Otakon_20070722.jpg/220px-Mamiko_Noto_at_Otakon_20070722.jpg"
         },
         "Spider Mother": {
           "name": "Ami Koshimizu",
-          "img": "https://example.com/ami_koshimizu.jpg"
+          "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Ami_Koshimizu_%28%E5%B0%8F%E6%B8%85%E6%B0%B4%E4%BA%9C%E7%BE%8E%29_from_acrofan.jpg/220px-Ami_Koshimizu_%28%E5%B0%8F%E6%B8%85%E6%B0%B4%E4%BA%9C%E7%BE%8E%29_from_acrofan.jpg"
         },
         "Spider Father": {
           "name": "Tetsu Inada",
-          "img": "https://example.com/tetsu_inada.jpg"
+          "img": "https://m.media-amazon.com/images/M/MV5BM2U4MTI3YTItMDUxOC00MDZkLTk2YmItZDk1YzE4M2QwZjAwXkEyXkFqcGc@._V1_.jpg"
         },
         "Spider Brother": {
           "name": "Ryota Takeuchi",
-          "img": "https://example.com/ryota_takeuchi.jpg"
+          "img": "https://static.tvtropes.org/pmwiki/pub/images/p69834_41456269413.jpg"
         }
       },
       "description": "Demon Slayer follows Tanjiro Kamado, a kind-hearted boy who becomes a demon slayer to save his sister Nezuko, who has been turned into a demon, and to avenge his family against the demon who killed them."
@@ -2397,7 +2389,7 @@
       "voice-actors": {
         "Light Yagami": {
           "name": "Mamoru Miyano",
-          "img": "https://example.com/mamoru_miyano.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq2LUZ6RP0l8ZmRE8TkiFaQbKIBwy3si-guA&s"
         },
         "L": {
           "name": "Kappei Yamaguchi",
@@ -2429,7 +2421,7 @@
         },
         "Shuichi Aizawa": {
           "name": "Keiji Fujiwara",
-          "img": "https://example.com/keiji_fujiwara.jpg"
+          "img": "https://www.kh13.com/uploads/monthly_2020_04/57226.jpg.36c3ab69db9ce5650c63fef62c5bfa25.jpg"
         },
         "Kanzo Mogi": {
           "name": "Kazuya Nakai",
@@ -2441,7 +2433,7 @@
         },
         "Kyosuke Higuchi": {
           "name": "Masaya Matsukaze",
-          "img": "https://example.com/masaya_matsukaze.jpg"
+          "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/FanimeCon_2016_%28Masaya_Matsukaze%29.jpg/640px-FanimeCon_2016_%28Masaya_Matsukaze%29.jpg"
         },
         "Teru Mikami": {
           "name": "Masaki Aizawa",
@@ -2449,7 +2441,7 @@
         },
         "Kiyomi Takada": {
           "name": "Maaya Sakamoto",
-          "img": "https://example.com/maaya_sakamoto.jpg"
+          "img": "https://www.animenewsnetwork.com/images/encyc/P527-2381856763.1360721796.jpg"
         },
         "Watari": {
           "name": "Kiyoshi Kobayashi",
@@ -2605,7 +2597,7 @@
         },
         "Zarbon": {
           "name": "Shō Hayami",
-          "img": "https://static.wikia.nocookie.net/dubbing9585/images/a/ac/Sho-hayami.jpg/revision/latest?cb=20180222021516"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5R2NFHILNtF9gs0WYZW-WJOWMmDaxJ7xkog&s"
         },
         "Dodoria": {
           "name": "Yukitoshi Hori",
@@ -2621,7 +2613,7 @@
         },
         "Captain Ginyu": {
           "name": "Hideyuki Hori",
-          "img": "https://static.wikia.nocookie.net/dubbing9585/images/2/20/Hideyuki_Hori.jpg/revision/latest?cb=20231027150149"
+          "img": "https://cdn.myanimelist.net/images/voiceactors/3/28219.jpg"
         },
         "Recoome": {
           "name": "Kenji Utsumi",
@@ -2693,7 +2685,7 @@
         },
         "Bang (Silver Fang)": {
           "name": "Kazuhiro Yamaji",
-          "img": "https://example.com/kazuhiro_yamaji.jpg"
+          "img": "https://i.namu.wiki/i/1mccwOuG9Kz1lrFiEbqyOIiB0bSLpsHg-KEPnD7QhsxO8miUy_87nvGAuPjyJo88_h_0MszfueE0HSD-i5eFiA.webp"
         },
         "Tatsumaki (Tornado of Terror)": {
           "name": "Aoi Yuki",
@@ -2713,7 +2705,7 @@
         },
         "Atomic Samurai": {
           "name": "Kenjiro Tsuda",
-          "img": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Tsuda_Kenjiro_from_%22The_Concierge%22_at_Red_Carpet_of_the_Tokyo_International_Film_Festival_2023_%2853348306038%29.jpg"
+          "img": "https://animeanime.global/wp-content/uploads/2021/12/461574.jpg22The_Concierge%22_at_Red_Carpet_of_the_Tokyo_International_Film_Festival_2023_%2853348306038%29.jpg"
         },
         "Child Emperor": {
           "name": "Minami Takayama",
@@ -2741,7 +2733,7 @@
         },
         "Boros": {
           "name": "Toshiyuki Morikawa",
-          "img": "https://static.wikia.nocookie.net/residentevil/images/b/be/Toshiyuki_Morikawa.jpg/revision/latest?cb=20210331183924"
+          "img": "https://cdn.myanimelist.net/images/voiceactors/3/63480.jpg"
         },
         "Puri-Puri Prisoner": {
           "name": "Masaya Onosaka",
@@ -2797,19 +2789,19 @@
       "voice-actors": {
         "Takemichi Hanagaki": {
           "name": "Yūki Shin",
-          "img": "https://example.com/yuuki_shin.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEMT3DjCPWWtjotKI5zK743QuHzqSJp_hKRA&s"
         },
         "Manjirō 'Mikey' Sano": {
           "name": "Yū Hayashi",
-          "img": "https://example.com/yu_hayashi.jpg"
+          "img": "data:image/jpeg;base64,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"
         },
         "Ken 'Draken' Ryūgūji": {
           "name": "Tatsuhisa Suzuki",
-          "img": "https://example.com/tatsuhisa_suzuki.jpg"
+          "img": "https://m.media-amazon.com/images/M/MV5BOGY2YjE0YmQtN2VhZS00YzkwLTk5MmEtNzdlZmVhNzZiMGUyXkEyXkFqcGc@._V1_.jpg"
         },
         "Naoto Tachibana": {
           "name": "Ryōta Ōsaka",
-          "img": "https://example.com/ryota_osaka.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8ojEs1X4aFg1Emh0zg0Fuehsdzm3sXVr81SXp8aOr155UKApmBlOKCJ8H4FUCFTOaWW4&usqp=CAU"
         },
         "Hinata Tachibana": {
           "name": "Azumi Waki",
@@ -2833,7 +2825,7 @@
         },
         "Takashi Mitsuya": {
           "name": "Yoshitsugu Matsuoka",
-          "img": "https://static.wikia.nocookie.net/ideas/images/f/fd/Yoshitsugu_Matsuoka.jpg/revision/latest?cb=20220408141618"
+          "img": "https://static.tvtropes.org/pmwiki/pub/images/yoshitsugu_matsuoka_2021.png"
         },
         "Haruki 'Pah-chin' Hayashida": {
           "name": "Shunsuke Takeuchi",
@@ -2849,11 +2841,11 @@
         },
         "Nahoya 'Smiley' Kawata": {
           "name": "Kengo Kawanishi",
-          "img": "https://static.wikia.nocookie.net/japanese-voiceover/images/3/34/Kengo_Kawanishi.png/revision/latest?cb=20200410193221"
+          "img": "https://upload.wikimedia.org/wikipedia/commons/4/4e/%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%83%88%E3%83%A9%E3%82%A4%E3%82%A8%E3%82%A4%E3%82%B8_%E3%83%97%E3%83%AC%E3%82%A4%E3%83%A0%E3%83%BC%E3%83%93%E3%83%BC%E7%89%B9%E5%88%A5%E7%89%88_PART3_%28%E6%B2%B3%E8%A5%BF%E5%81%A5%E5%90%BE%29.jpg"
         },
         "Sōya 'Angry' Kawata": {
           "name": "Kengo Kawanishi",
-          "img": "https://static.wikia.nocookie.net/japanese-voiceover/images/3/34/Kengo_Kawanishi.png/revision/latest?cb=20200410193221"
+          "img": "https://upload.wikimedia.org/wikipedia/commons/4/4e/%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%83%88%E3%83%A9%E3%82%A4%E3%82%A8%E3%82%A4%E3%82%B8_%E3%83%97%E3%83%AC%E3%82%A4%E3%83%A0%E3%83%BC%E3%83%93%E3%83%BC%E7%89%B9%E5%88%A5%E7%89%88_PART3_%28%E6%B2%B3%E8%A5%BF%E5%81%A5%E5%90%BE%29.jpg"
         },
         "Emma Sano": {
           "name": "Yumi Uchiyama",
@@ -2955,7 +2947,7 @@
         },
         "Tsubaki Sawabe": {
           "name": "Ayane Sakura",
-          "img": "https://example.com/ayane_sakura.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ294at1JW8T__LFyt_CuqgopTjvtIj_ozSA&s"
         },
         "Ryouta Watari": {
           "name": "Ryota Ohsaka",
@@ -2971,7 +2963,7 @@
         },
         "Saki Arima": {
           "name": "Mamiko Noto",
-          "img": "https://example.com/mamiko_noto.jpg"
+          "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Mamiko_Noto_at_Otakon_20070722.jpg/220px-Mamiko_Noto_at_Otakon_20070722.jpg"
         },
         "Hiroko Seto": {
           "name": "Mie Sonozaki",
@@ -3031,7 +3023,7 @@
         },
         "Fuku Kitashirakawa": {
           "name": "Keiji Fujiwara",
-          "img": "https://example.com/keiji_fujiwara.jpg"
+          "img": "https://www.kh13.com/uploads/monthly_2020_04/57226.jpg.36c3ab69db9ce5650c63fef62c5bfa25.jpg"
         },
         "Hinako Kitashirakawa": {
           "name": "Tomoko Kotani",
@@ -3231,7 +3223,7 @@
         },
         "Yuuji Kouno": {
           "name": "Daisuke Ono",
-          "img": "https://example.com/daisuke_ono.jpg"
+          "img": "https://www.detectiveconanworld.com/wiki/images/thumb/6/62/Daisuke_Ono.jpg/275px-Daisuke_Ono.jpg"
         }
       },
       "description": "The Tunnel to Summer, the Exit of Goodbyes explores the story of Kaoru Touno, who discovers a mysterious tunnel that grants wishes in exchange for time. As he forms an unexpected connection with Anzu Hanashiro, the two confront their personal struggles and make life-changing decisions in the face of the tunnel's allure."
@@ -3247,7 +3239,7 @@
       "voice-actors": {
         "Sawako Kuronuma": {
           "name": "Mamiko Noto",
-          "img": "https://example.com/mamiko_noto.jpg"
+          "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Mamiko_Noto_at_Otakon_20070722.jpg/220px-Mamiko_Noto_at_Otakon_20070722.jpg"
         },
         "Shouta Kazehaya": {
           "name": "Daisuke Namikawa",
@@ -3319,7 +3311,7 @@
         },
         "Makita": {
           "name": "Kensho Ono",
-          "img": "https://example.com/kensho_ono.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc5SMX_3S58Bw4kvZyXxEgWveCH4T0fC6GIg&s"
         },
         "Narumi": {
           "name": "Hiroki Yasumoto",
@@ -3383,11 +3375,11 @@
         },
         "Miyamura's Father": {
           "name": "Takashi Kondo",
-          "img": "https://www.handthatfeedshq.com/wp-content/uploads/2015/05/kondo-takashi-7-1.jpg"
+          "img": "https://guiltygear.wiki.gg/images/a/a1/Takashi_Kondo.jpg"
         },
         "Miyamura's Mother": {
           "name": "Ami Koshimizu",
-          "img": "https://example.com/ami_koshimizu.jpg"
+          "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Ami_Koshimizu_%28%E5%B0%8F%E6%B8%85%E6%B0%B4%E4%BA%9C%E7%BE%8E%29_from_acrofan.jpg/220px-Ami_Koshimizu_%28%E5%B0%8F%E6%B8%85%E6%B0%B4%E4%BA%9C%E7%BE%8E%29_from_acrofan.jpg"
         }
       },
       "description": "Horimiya follows the story of Kyoko Hori, a popular and outgoing high school girl, and Izumi Miyamura, a quiet and introverted boy with a hidden side. As their paths cross, they discover each other's true selves, leading to a heartfelt and humorous exploration of friendship, love, and acceptance."
@@ -3415,7 +3407,7 @@
         },
         "Mikage": {
           "name": "Nobuhiko Okamoto",
-          "img": "https://example.com/nobuhiko_okamoto.jpg"
+          "img": "https://static.tvtropes.org/pmwiki/pub/images/nobuhiko_okamoto.jpeg"
         },
         "Kanoe": {
           "name": "Rie Kugimiya",
@@ -3547,7 +3539,7 @@
         },
         "Princess Kouren": {
           "name": "Akeno Watanabe",
-          "img": "https://example.com/akeno_watanabe.jpg"
+          "img": "https://static.tvtropes.org/pmwiki/pub/images/akeno_watanabe.jpg"
         },
         "General Gi-Gan": {
           "name": "Yoshimasa Hosoya",
@@ -3683,7 +3675,7 @@
         },
         "Miki Kawai": {
           "name": "Yui Ishikawa",
-          "img": "https://example.com/yui_ishikawa.jpg"
+          "img": "https://m.media-amazon.com/images/M/MV5BMTZjYTM1MzQtZThlOC00YTFmLWE0NzUtMzgyYTg4YmUwMDU1XkEyXkFqcGc@._V1_.jpg"
         },
         "Satoshi Mashiba": {
           "name": "Kouki Uchiyama",
@@ -3691,7 +3683,7 @@
         },
         "Kei Komatsu": {
           "name": "Kengo Kawanishi",
-          "img": "https://static.wikia.nocookie.net/japanese-voiceover/images/3/34/Kengo_Kawanishi.png/revision/latest?cb=20200410193221"
+          "img": "https://upload.wikimedia.org/wikipedia/commons/4/4e/%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%83%88%E3%83%A9%E3%82%A4%E3%82%A8%E3%82%A4%E3%82%B8_%E3%83%97%E3%83%AC%E3%82%A4%E3%83%A0%E3%83%BC%E3%83%93%E3%83%BC%E7%89%B9%E5%88%A5%E7%89%88_PART3_%28%E6%B2%B3%E8%A5%BF%E5%81%A5%E5%90%BE%29.jpg"
         },
         "Tetsuya Ishida": {
           "name": "Takahiro Sakurai",
@@ -3761,11 +3753,11 @@
       "voice-actors": {
         "David Martinez": {
           "name": "Kensho Ono",
-          "img": "https://example.com/kensho_ono.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc5SMX_3S58Bw4kvZyXxEgWveCH4T0fC6GIg&s"
         },
         "Lucy": {
           "name": "Ami Koshimizu",
-          "img": "https://example.com/ami_koshimizu.jpg"
+          "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Ami_Koshimizu_%28%E5%B0%8F%E6%B8%85%E6%B0%B4%E4%BA%9C%E7%BE%8E%29_from_acrofan.jpg/220px-Ami_Koshimizu_%28%E5%B0%8F%E6%B8%85%E6%B0%B4%E4%BA%9C%E7%BE%8E%29_from_acrofan.jpg"
         },
         "Maine": {
           "name": "Takahiro Sakurai",
@@ -3797,7 +3789,7 @@
         },
         "Lucy’s Mother": {
           "name": "Maaya Sakamoto",
-          "img": "https://example.com/maaya_sakamoto.jpg"
+          "img": "https://www.animenewsnetwork.com/images/encyc/P527-2381856763.1360721796.jpg"
         }
       },
       "description": "Cyberpunk: Edgerunners follows David Martinez, a street kid trying to survive in a futuristic, tech-driven dystopian city. After a tragedy, he becomes an Edgerunner, an outlaw mercenary, and delves into the dangerous world of cyber-enhanced criminals while grappling with his humanity."
@@ -4197,7 +4189,7 @@
         },
         "Ryuuki Kasei": {
           "name": "Kenjiro Tsuda",
-          "img": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Tsuda_Kenjiro_from_%22The_Concierge%22_at_Red_Carpet_of_the_Tokyo_International_Film_Festival_2023_%2853348306038%29.jpg"
+          "img": "https://animeanime.global/wp-content/uploads/2021/12/461574.jpg22The_Concierge%22_at_Red_Carpet_of_the_Tokyo_International_Film_Festival_2023_%2853348306038%29.jpg"
         },
         "Kunizuka": {
           "name": "Megumi Han",
@@ -4205,7 +4197,7 @@
         },
         "Jouji Saiga": {
           "name": "Keiji Fujiwara",
-          "img": "https://example.com/keiji_fujiwara.jpg"
+          "img": "https://www.kh13.com/uploads/monthly_2020_04/57226.jpg.36c3ab69db9ce5650c63fef62c5bfa25.jpg"
         },
         "Shogo Makishima": {
           "name": "Takahiro Sakurai",
@@ -4243,7 +4235,7 @@
         },
         "Shinobu": {
           "name": "Mitsuki Saiga",
-          "img": "https://example.com/mitsuki_saiga.jpg"
+          "img": "https://i.namu.wiki/i/RxqB119b-dXWLV_IYgjzITPdtsMbvClyIqvUpI06pgEmj0M4S_i6sFqX5LzLxSxIobnaZ3g9DLrHdYbbhvRQiA.webp"
         },
         "Kurama": {
           "name": "Kenyu Horiuchi",
@@ -4478,7 +4470,7 @@
         },
         "Enrico Maxwell": {
           "name": "Takehito Koyasu",
-          "img": "https://example.com/takehito_koyasu.jpg"
+          "img": "https://i.namu.wiki/i/Sr_1CyU_owM82kHVpA9RmExLggl4oQNAAwQsPFLjhPR9pEXZ1o7uTOBppvB_XHHE2qd1GpUjNuSoLloibMcnuQ.webp"
         }
       },
       "trailer": "https://res.cloudinary.com/di9u60isx/video/upload/v1737085247/trailers/hell-sing.mp4",
@@ -4494,7 +4486,7 @@
       "voice-actors": {
         "Tsukiko Sagi": {
           "name": "Mamiko Noto",
-          "img": "https://example.com/mamiko_noto.jpg"
+          "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Mamiko_Noto_at_Otakon_20070722.jpg/220px-Mamiko_Noto_at_Otakon_20070722.jpg"
         },
         "Shonen Bat (Lil' Slugger)": {
           "name": "Daisuke Sakaguchi",
@@ -4506,7 +4498,7 @@
         },
         "Mitsuhiro Maniwa": {
           "name": "Toshihiko Seki",
-          "img": "https://example.com/toshihiko_seki.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6sqgSE6I4yEee2dJKtdKaHiENIg-QpRdubWaklbygKWwotcgRoHC_eHbxoYc3gljE0Os&usqp=CAU"
         },
         "Harumi Chono": {
           "name": "Kaori Nazuka",
@@ -4578,7 +4570,7 @@
         },
         "Shuu Tsukiyama": {
           "name": "Mamoru Miyano",
-          "img": "https://example.com/mamoru_miyano.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq2LUZ6RP0l8ZmRE8TkiFaQbKIBwy3si-guA&s"
         },
         "Nishiki Nishio": {
           "name": "Takahiro Sakurai",
@@ -4602,7 +4594,7 @@
         },
         "Eto Yoshimura": {
           "name": "Maaya Sakamoto",
-          "img": "https://example.com/maaya_sakamoto.jpg"
+          "img": "https://www.animenewsnetwork.com/images/encyc/P527-2381856763.1360721796.jpg"
         },
         "Tatara": {
           "name": "Shuhei Sakaguchi",
@@ -4618,7 +4610,7 @@
         },
         "Ayato Kirishima": {
           "name": "Yūki Kaji",
-          "img": "https://example.com/yuki_kaji.jpg"
+          "img": "https://m.media-amazon.com/images/M/MV5BMWQzZmM2MDYtODZiNy00NDk4LWFkMzYtZDcxN2IxNjhiOGQyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
         },
         "Seido Takizawa": {
           "name": "Toru Ohkawa",
@@ -4693,7 +4685,7 @@
         },
         "Jingo Raichi": {
           "name": "Yoshitsugu Matsuoka",
-          "img": "https://static.wikia.nocookie.net/ideas/images/f/fd/Yoshitsugu_Matsuoka.jpg/revision/latest?cb=20220408141618"
+          "img": "https://static.tvtropes.org/pmwiki/pub/images/yoshitsugu_matsuoka_2021.png"
         },
         "Eita Otoya": {
           "name": "Ryota Suzuki",
@@ -4753,11 +4745,11 @@
         },
         "Yu Nishinoya": {
           "name": "Nobuhiko Okamoto",
-          "img": "https://example.com/nobuhiko_okamoto.jpg"
+          "img": "https://static.tvtropes.org/pmwiki/pub/images/nobuhiko_okamoto.jpeg"
         },
         "Ryunosuke Tanaka": {
           "name": "Yu Hayashi",
-          "img": "https://example.com/yu_hayashi.jpg"
+          "img": "data:image/jpeg;base64,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"
         },
         "Kei Tsukishima": {
           "name": "Koki Uchiyama",
@@ -4781,15 +4773,15 @@
         },
         "Kotaro Bokuto": {
           "name": "Ryota Takeuchi",
-          "img": "https://example.com/ryota_takeuchi.jpg"
+          "img": "https://static.tvtropes.org/pmwiki/pub/images/p69834_41456269413.jpg"
         },
         "Keiji Akaashi": {
           "name": "Ryota Osaka",
-          "img": "https://example.com/ryota_osaka.jpg"
+          "img": "https://i.namu.wiki/i/b6rjLaqELp_kjX68hcTQnr5RzCbzIx5r_YKU_JE-g1lZN3L92Qyy9ioqRQJeazOOYwO_6ceoLw7p53aqhtkl5g.webp"
         },
         "Atsumu Miya": {
           "name": "Mamoru Miyano",
-          "img": "https://example.com/mamoru_miyano.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq2LUZ6RP0l8ZmRE8TkiFaQbKIBwy3si-guA&s"
         },
         "Osamu Miya": {
           "name": "Shinnosuke Tachibana",
@@ -4805,7 +4797,7 @@
         },
         "Wakatoshi Ushijima": {
           "name": "Ryota Takeuchi",
-          "img": "https://example.com/ryota_takeuchi.jpg"
+          "img": "https://static.tvtropes.org/pmwiki/pub/images/p69834_41456269413.jpg"
         },
         "Satori Tendou": {
           "name": "Subaru Kimura",
@@ -4901,11 +4893,11 @@
         },
         "Carlos Toshiki": {
           "name": "Nobuhiko Okamoto",
-          "img": "https://example.com/nobuhiko_okamoto.jpg"
+          "img": "https://static.tvtropes.org/pmwiki/pub/images/nobuhiko_okamoto.jpeg"
         },
         "Raichi Todoroki": {
           "name": "Tetsu Inada",
-          "img": "https://example.com/tetsu_inada.jpg"
+          "img": "https://m.media-amazon.com/images/M/MV5BM2U4MTI3YTItMDUxOC00MDZkLTk2YmItZDk1YzE4M2QwZjAwXkEyXkFqcGc@._V1_.jpg"
         },
         "Sanada Shunpei": {
           "name": "Ryohei Kimura",
@@ -4913,7 +4905,7 @@
         },
         "Akira Takatsu": {
           "name": "Kenichi Suzumura",
-          "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.themoviedb.org%2Fperson%2F9726&psig=AOvVaw0WVX3EGBlh_QXrRo2yE66y&ust=1737459235325000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPjIkpaahIsDFQAAAAAdAAAAABAE"
+          "img": "https://m.media-amazon.com/images/M/MV5BZTUyZjE0ZWMtMWZkMS00ZmQ5LWFlOTgtMGY4ODQ5MWNhMTRjXkEyXkFqcGc@._V1_.jpg"
         }
       },
       "description": "Ace of Diamond follows Eijun Sawamura, a gifted pitcher with an unorthodox throwing style, as he joins a prestigious high school baseball team. The series highlights Eijun's growth as a player and leader, along with the team's journey toward becoming national champions."
@@ -4929,7 +4921,7 @@
       "voice-actors": {
         "Tetsuya Kuroko": {
           "name": "Kensho Ono",
-          "img": "https://example.com/kensho_ono.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc5SMX_3S58Bw4kvZyXxEgWveCH4T0fC6GIg&s"
         },
         "Taiga Kagami": {
           "name": "Yuuki Ono",
@@ -4941,7 +4933,7 @@
         },
         "Shintaro Midorima": {
           "name": "Daisuke Ono",
-          "img": "https://example.com/daisuke_ono.jpg"
+          "img": "https://www.detectiveconanworld.com/wiki/images/thumb/6/62/Daisuke_Ono.jpg/275px-Daisuke_Ono.jpg"
         },
         "Daiki Aomine": {
           "name": "Junichi Suwabe",
@@ -4949,7 +4941,7 @@
         },
         "Atsushi Murasakibara": {
           "name": "Kenichi Suzumura",
-          "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.themoviedb.org%2Fperson%2F9726&psig=AOvVaw0WVX3EGBlh_QXrRo2yE66y&ust=1737459235325000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPjIkpaahIsDFQAAAAAdAAAAABAE"
+          "img": "https://m.media-amazon.com/images/M/MV5BZTUyZjE0ZWMtMWZkMS00ZmQ5LWFlOTgtMGY4ODQ5MWNhMTRjXkEyXkFqcGc@._V1_.jpg"
         },
         "Seijuro Akashi": {
           "name": "Hiroshi Kamiya",
@@ -4957,7 +4949,7 @@
         },
         "Teppei Kiyoshi": {
           "name": "Tatsuhisa Suzuki",
-          "img": "https://example.com/tatsuhisa_suzuki.jpg"
+          "img": "https://m.media-amazon.com/images/M/MV5BOGY2YjE0YmQtN2VhZS00YzkwLTk5MmEtNzdlZmVhNzZiMGUyXkEyXkFqcGc@._V1_.jpg"
         },
         "Satsuki Momoi": {
           "name": "Fumiko Orikasa",
@@ -4985,7 +4977,7 @@
         },
         "Himuro Tatsuya": {
           "name": "Mamoru Miyano",
-          "img": "https://example.com/mamoru_miyano.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq2LUZ6RP0l8ZmRE8TkiFaQbKIBwy3si-guA&s"
         },
         "Alexandra Garcia": {
           "name": "Yoko Hikasa",
@@ -4997,7 +4989,7 @@
         },
         "Nebuya Eikichi": {
           "name": "Tetsu Inada",
-          "img": "https://example.com/tetsu_inada.jpg"
+          "img": "https://m.media-amazon.com/images/M/MV5BM2U4MTI3YTItMDUxOC00MDZkLTk2YmItZDk1YzE4M2QwZjAwXkEyXkFqcGc@._V1_.jpg"
         },
         "Reo Mibuchi": {
           "name": "Wataru Hatano",
@@ -5005,7 +4997,7 @@
         },
         "Kotaro Hayama": {
           "name": "Toshiki Masuda",
-          "img": "https://example.com/toshiki_masuda.jpg"
+          "img": "https://www.handthatfeedshq.com/wp-content/uploads/2020/06/toshiki-masuda-1.jpg"
         }
       },
       "description": "Kuroko's Basketball follows Tetsuya Kuroko, a seemingly invisible player with exceptional passing skills, as he joins Seirin High's basketball team. Alongside the passionate Taiga Kagami, Kuroko faces off against his former teammates from the 'Generation of Miracles' in thrilling matches."
@@ -5053,7 +5045,7 @@
         },
         "Takuya Mitsuda": {
           "name": "Toshiyuki Morikawa",
-          "img": "https://static.wikia.nocookie.net/residentevil/images/b/be/Toshiyuki_Morikawa.jpg/revision/latest?cb=20210331183924"
+          "img": "https://cdn.myanimelist.net/images/voiceactors/3/63480.jpg"
         },
         "Ryoko Saotome": {
           "name": "Yuki Matsuoka",
@@ -5073,7 +5065,7 @@
         },
         "Toshi Nagai": {
           "name": "Daisuke Ono",
-          "img": "https://example.com/daisuke_ono.jpg"
+          "img": "https://www.detectiveconanworld.com/wiki/images/thumb/6/62/Daisuke_Ono.jpg/275px-Daisuke_Ono.jpg"
         },
         "Kaoru Yuki": {
           "name": "Rie Tanaka",
@@ -5097,7 +5089,7 @@
         },
         "Kunimitsu Tezuka": {
           "name": "Ryotaro Okiayu",
-          "img": "https://example.com/ryotaro_okiayu.jpg"
+          "img": "https://i.mydramalist.com/qYOLkP_5f.jpg"
         },
         "Shuichiro Oishi": {
           "name": "Takayuki Kondo",
@@ -5137,7 +5129,7 @@
         },
         "Nanjiro Echizen": {
           "name": "Takehito Koyasu",
-          "img": "https://example.com/takehito_koyasu.jpg"
+          "img": "https://i.namu.wiki/i/Sr_1CyU_owM82kHVpA9RmExLggl4oQNAAwQsPFLjhPR9pEXZ1o7uTOBppvB_XHHE2qd1GpUjNuSoLloibMcnuQ.webp"
         },
         "Hajime Mizuki": {
           "name": "Tetsuya Kakihara",
@@ -5149,7 +5141,7 @@
         },
         "Genichiro Sanada": {
           "name": "Toshiyuki Morikawa",
-          "img": "https://static.wikia.nocookie.net/residentevil/images/b/be/Toshiyuki_Morikawa.jpg/revision/latest?cb=20210331183924"
+          "img": "https://cdn.myanimelist.net/images/voiceactors/3/63480.jpg"
         },
         "Keigo Atobe": {
           "name": "Junichi Suwabe",
@@ -5161,7 +5153,7 @@
         },
         "Seiichi Yukimura": {
           "name": "Daisuke Ono",
-          "img": "https://example.com/daisuke_ono.jpg"
+          "img": "https://www.detectiveconanworld.com/wiki/images/thumb/6/62/Daisuke_Ono.jpg/275px-Daisuke_Ono.jpg"
         },
         "Ryoga Echizen": {
           "name": "Yuki Kaji",
@@ -5197,7 +5189,7 @@
         },
         "Yukihiko Iwakura (Yuki)": {
           "name": "Kensho Ono",
-          "img": "https://example.com/kensho_ono.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc5SMX_3S58Bw4kvZyXxEgWveCH4T0fC6GIg&s"
         },
         "Musa Kamara": {
           "name": "Junya Enoki",
@@ -5335,7 +5327,7 @@
         },
         "Aokiji": {
           "name": "Takehito Koyasu",
-          "img": "https://example.com/takehito_koyasu.jpg"
+          "img": "https://i.namu.wiki/i/Sr_1CyU_owM82kHVpA9RmExLggl4oQNAAwQsPFLjhPR9pEXZ1o7uTOBppvB_XHHE2qd1GpUjNuSoLloibMcnuQ.webp"
         },
         "Dr. Kureha": {
           "name": "Mami Koyama",
@@ -5415,7 +5407,7 @@
       "description": "Naruto Shippuden follows Naruto Uzumaki, a young ninja with a dream of becoming the Hokage, the leader of his village. As he grows stronger and faces numerous challenges, Naruto deals with the burden of being the host of the Nine-Tails Fox, a powerful and dangerous creature. Alongside his friends, Naruto confronts dark forces, including the Akatsuki organization, and learns the true meaning of friendship, sacrifice, and responsibility."
     },
     {
-      "name": "Naruto",
+      "name": "Naruto : classic",
       "genre": "Adventure",
       "image-url": "https://qph.cf2.quoracdn.net/main-qimg-4f5f54fe8d440e70c41bd6d57c9ee6ed-lq",
       "total-seasons": "5",
@@ -5457,7 +5449,7 @@
         },
         "Leorio Paladiknight": {
           "name": "Keiji Fujiwara",
-          "img": "https://example.com/keiji_fujiwara.jpg"
+          "img": "https://www.kh13.com/uploads/monthly_2020_04/57226.jpg.36c3ab69db9ce5650c63fef62c5bfa25.jpg"
         },
         "Hisoka Morow": {
           "name": "Daisuke Namikawa",
@@ -5465,7 +5457,7 @@
         },
         "Chrollo Lucilfer": {
           "name": "Mamoru Miyano",
-          "img": "https://example.com/mamoru_miyano.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq2LUZ6RP0l8ZmRE8TkiFaQbKIBwy3si-guA&s"
         },
         "Isaac Netero": {
           "name": "Ichirō Nagai",
@@ -5477,7 +5469,7 @@
         },
         "Illumi Zoldyck": {
           "name": "Masaya Matsukaze",
-          "img": "https://example.com/masaya_matsukaze.jpg"
+          "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/FanimeCon_2016_%28Masaya_Matsukaze%29.jpg/640px-FanimeCon_2016_%28Masaya_Matsukaze%29.jpg"
         },
         "Silva Zoldyck": {
           "name": "Kōichi Yamadera",
@@ -5747,7 +5739,7 @@
         },
         "Leorio Paladiknight": {
           "name": "Keiji Fujiwara",
-          "img": "https://example.com/keiji_fujiwara.jpg"
+          "img": "https://www.kh13.com/uploads/monthly_2020_04/57226.jpg.36c3ab69db9ce5650c63fef62c5bfa25.jpg"
         },
         "Hisoka Morow": {
           "name": "Daisuke Namikawa",
@@ -5755,7 +5747,7 @@
         },
         "Chrollo Lucilfer": {
           "name": "Mamoru Miyano",
-          "img": "https://example.com/mamoru_miyano.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq2LUZ6RP0l8ZmRE8TkiFaQbKIBwy3si-guA&s"
         },
         "Isaac Netero": {
           "name": "Ichirō Nagai",
@@ -5767,7 +5759,7 @@
         },
         "Illumi Zoldyck": {
           "name": "Masaya Matsukaze",
-          "img": "https://example.com/masaya_matsukaze.jpg"
+          "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/FanimeCon_2016_%28Masaya_Matsukaze%29.jpg/640px-FanimeCon_2016_%28Masaya_Matsukaze%29.jpg"
         },
         "Silva Zoldyck": {
           "name": "Kōichi Yamadera",
@@ -5881,7 +5873,7 @@
         },
         "Tsubaki Sawabe": {
           "name": "Ayane Sakura",
-          "img": "https://example.com/ayane_sakura.jpg"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ294at1JW8T__LFyt_CuqgopTjvtIj_ozSA&s"
         },
         "Ryouta Watari": {
           "name": "Ryota Ohsaka",
@@ -5897,7 +5889,7 @@
         },
         "Saki Arima": {
           "name": "Mamiko Noto",
-          "img": "https://example.com/mamiko_noto.jpg"
+          "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Mamiko_Noto_at_Otakon_20070722.jpg/220px-Mamiko_Noto_at_Otakon_20070722.jpg"
         },
         "Hiroko Seto": {
           "name": "Mie Sonozaki",

@@ -3,16 +3,15 @@ from flask_jwt_extended import JWTManager, create_access_token
 from pymongo import MongoClient
 from flask_cors import CORS
 import os
+from dotenv import load_dotenv
 
 app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes and origins
 
-# JWT configuration
-app.config['JWT_SECRET_KEY'] = '460680e7fe09d19e4063e23c51d3c53757920b054007273cd083703623c1cfea'
-jwt = JWTManager(app)
+
 
 # MongoDB setup
-MONGO_URI = "mongodb+srv://mohamedvaseem:mohamedvaseem@anime-galaxy.7lnts.mongodb.net/"
+MONGO_URI = os.getenv("MONGO_URI")
 mongo_client = MongoClient(MONGO_URI)
 db = mongo_client['Anime-Galaxy']
 users_collection = db['users']

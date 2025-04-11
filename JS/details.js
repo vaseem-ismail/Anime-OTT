@@ -127,6 +127,8 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
+
+
 // Notification function
 const showMessage = (message, type = 'success') => {
     const messageContainer = document.createElement('div');

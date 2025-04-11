@@ -1,7 +1,10 @@
 /* General styles */
 body {
   font-family: Arial, sans-serif;
-  background-color: #2d2d2d;
+  /* background-color: #2d2d2d; */
+  background: url("https://preview.redd.it/why-is-naruto-and-sasuke-so-weak-in-boruto-v0-ub6x67oxgfnd1.jpeg?width=640&crop=smart&auto=webp&s=1464760571e1adf27dcc5a855ba60e89c08500ce");
+  background-repeat:  no-repeat;
+  background-size: cover;
   color: #ffffff;
   margin: 0;
   padding: 0;
