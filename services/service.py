@@ -19,7 +19,7 @@ SECRET_CODE = "ANIMEGALAXY"
 
 
 def get_db():
-    MONGO_URI = os.getenv("MONGO_URI")
+    MONGO_URI = "mongodb+srv://mohamedvaseem:mohamedvaseem@anime-galaxy.7lnts.mongodb.net/"
     client = MongoClient(MONGO_URI)
     db = client["Anime-Galaxy"]
     return db
