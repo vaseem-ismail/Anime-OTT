@@ -1,6 +1,21 @@
 //header
+// const { decode } = require("jsonwebtoken");
 const userName = document.getElementById("id-name");
 const userId = document.getElementById("id-img");
+
+const token = localStorage.getItem("token");
+let UserName = "";
+
+if (token) {
+    try {
+        const decoded = jwt_decode(token);
+        UserName = decoded.user.username;
+    } catch (err) {
+        console.error("Invalid token", err);
+    }
+} else {
+    console.warn("No token found in localStorage");
+}
 
 //search input
 const searchInput = document.getElementById("search-bar");
@@ -12,15 +27,15 @@ const show_more = document.getElementsByClassName("show_more");
 //Fetching Data to insert
 const idImg = document.getElementById("id-img")
 const idUser = document.getElementById("id-name");
-const localUser = localStorage.getItem("Username");
-const localName = localStorage.getItem("name");
-const firstLetter = localUser.charAt(0); // First letter
-const beforeAt = localName.split(' ')[0]; // Part before '@'
-setInterval(()=>{
-if(!localUser){
-    localStorage.clear();
-    window.location.href = "index.html";
-}
+// const localUser = localStorage.getItem("Username");
+// const localName = localStorage.getItem("name");
+const firstLetter = UserName.charAt(0); // First letter
+const beforeAt = UserName.split(' ')[0];
+setInterval(() => {
+    if (!localStorage.getItem("token")) {
+        localStorage.clear();
+        window.location.href = "index.html";
+    }
 })
 
 
@@ -110,7 +125,7 @@ document.addEventListener("DOMContentLoaded", () => {
 window.addEventListener("load", () => {
     idUser.textContent = beforeAt;
     idImg.textContent = firstLetter;
-   
+
 })
 idImg.addEventListener("click", () => {
     window.location.href = "profile.html";
@@ -215,7 +230,7 @@ document.addEventListener("DOMContentLoaded", () => {
             // Collect all anime into a flat array
             for (const category in data) {
                 allAnime.push(...data[category]);
-                console.log(category ,"+", data[category]);
+                console.log(category, "+", data[category]);
             }
 
             // Function to display search results dynamically
@@ -225,17 +240,17 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 const matches = allAnime.filter(anime =>
                     anime.name.toLowerCase().includes(query.toLowerCase())
-                );  
+                );
                 console.log("matches", matches);
                 if (matches.length > 0) {
                     matches.forEach(match => {
-                        console.log("match + "+ [match.name]);
-                        console.log(seenNames.has(match.name) ,"m   m", seenNames);
+                        console.log("match + " + [match.name]);
+                        console.log(seenNames.has(match.name), "m   m", seenNames);
                         if (seenNames.has(match.name)) return;
-                        
+
                         seenNames.add(match.name);
 
-                        
+
                         const resultItem = document.createElement("div");
                         resultItem.classList.add("result-item");
 
@@ -243,7 +258,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         animeImg.src = match["image-url"];
                         animeImg.alt = match.name;
                         animeImg.addEventListener('click', () => {
-                            localStorage.setItem('selectedImageName', match.name); 
+                            localStorage.setItem('selectedImageName', match.name);
                             window.location.href = 'details.html';
                         });
                         const animeName = document.createElement("p");

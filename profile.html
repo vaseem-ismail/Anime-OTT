@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>Profile Page</title>
+    <script src="https://cdn.jsdelivr.net/npm/jwt-decode@3.1.2/build/jwt-decode.min.js"></script>
     <link rel="stylesheet" href="./CSS/profile.css">
 </head>
 
@@ -12,7 +13,9 @@
     <header>
         <div id="profile-header">
             <h1>Welcome, <span id="username">User</span>!</h1>
+            <button id="forgotPass" style="margin-right: 100px;">Forgot Password</button>
             <button id="logout-button">Logout</button>
+
         </div>
     </header>
 
@@ -25,10 +28,6 @@
             </div>
         </section>
 
-        <section id="forgot">
-            <h1 id="forgot-h1">Are you forgot your Password</h1>
-            <button id="forgot-btn">Get Password</button>
-        </section>
 
         <section id="watch-later-section">
             <h2>Your Watch Later List</h2>

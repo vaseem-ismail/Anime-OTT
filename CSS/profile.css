@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -11,17 +12,24 @@ body {
     color: #333;
     overflow-x: hidden;
 }
-html, body {
+
+html,
+body {
     height: 100%;
     width: 100%;
-    font-size: 16px; /* Adjust as needed for your design */
+    font-size: 16px;
+    /* Adjust as needed for your design */
     overflow-x: hidden;
 }
+
 header {
-    background-color: #1e90ff;
+    background-color: black;
+    border-bottom: 1px solid gold;
     color: #fff;
     padding: 20px;
     text-align: center;
+    animation: fadeIn 1.5s ease;
+    animation: glow 2s infinite alternate;
 }
 
 header h1 {
@@ -51,9 +59,10 @@ main {
     padding: 20px;
     max-width: 800px;
     margin: 30px auto;
-    background-color: #fff;
+    background-color: black;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 4px 4px 8px gold;
+    animation: fadeIn 1.5s ease;
 }
 
 h2 {
@@ -69,7 +78,8 @@ h2 {
     border-radius: 5px;
     background-color: #f5f5f5;
 }
-#user-info .info p{
+
+#user-info .info p {
     padding-bottom: 13px;
     font-size: large;
 }
@@ -98,9 +108,10 @@ h2 {
     cursor: pointer;
     border-radius: 5px;
 }
-.remove-btn{
-   position: absolute;
-   right: 700px;
+
+.remove-btn {
+    position: absolute;
+    right: 700px;
 }
 
 #watch-later-section ul li button:hover {
@@ -111,15 +122,19 @@ h2 {
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #1e90ff;
+    background-color: black;
     color: #fff;
     position: absolute;
     width: 100%;
     bottom: 0;
+    animation: fadeIn 1.5s ease;
+    border-top: 1px solid gold;
 }
+
 /* Style for the "Watch Now" button */
 .watch-now-btn {
-    background-color: #28a745; /* Green for positive action */
+    background-color: #28a745;
+    /* Green for positive action */
     color: #fff;
     border: none;
     padding: 5px 10px;
@@ -127,23 +142,47 @@ footer {
     font-weight: bold;
     border-radius: 4px;
     cursor: pointer;
-    margin-left: 10px; /* Space between "Remove" and "Watch Now" buttons */
+    margin-left: 10px;
+    /* Space between "Remove" and "Watch Now" buttons */
     transition: all 0.3s ease;
 }
 
 .watch-now-btn:hover {
-    background-color: #218838; /* Darker green on hover */
-    transform: scale(1.05); /* Slight scale effect */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15); /* Slight shadow on hover */
+    background-color: #218838;
+    transform: scale(1.05);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
 }
 
 .watch-now-btn:active {
-    background-color: #1e7e34; /* Even darker green on active click */
+    background-color: #1e7e34;
     transform: scale(1);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Less shadow on active click */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .watch-now-btn:focus {
     outline: none;
-    box-shadow: 0 0 5px #28a745; /* Green focus ring */
+    box-shadow: 0 0 5px #28a745
+}
+
+/* Animations */
+@keyframes glow {
+    from {
+        box-shadow: 0 0 5px gold, 0 0 10px gold, 0 0 15px gold;
+    }
+
+    to {
+        box-shadow: 0 0 20px gold, 0 0 30px gold, 0 0 40px gold;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }

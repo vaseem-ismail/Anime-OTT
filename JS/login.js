@@ -3,7 +3,8 @@ const loginMessage = document.getElementById("loginMessage");
 const loadingSpinner = document.getElementById("loadingSpinner");
 
 // Backend API URL
-const API_URL = "https://anime-ott.onrender.com";
+// const API_URL = "https://anime-ott.onrender.com";
+const API_URL = "http://127.0.0.1:5000";
 
 // Login functionality
 loginForm.addEventListener("submit", async (e) => {
@@ -29,9 +30,7 @@ loginForm.addEventListener("submit", async (e) => {
             // Save Watch Later list in localStorage
             localStorage.setItem("watchLaterList", JSON.stringify(result.watchLaterList || []));
             localStorage.setItem("isLoggedIn", "true");
-            localStorage.setItem("Username", email);
-            localStorage.setItem("Password", password);
-            localStorage.setItem("name", result.name);
+            localStorage.setItem("token", result.token);
 
             // Redirect to home page
             loginMessage.style.color = "green";

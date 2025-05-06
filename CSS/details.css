@@ -143,8 +143,8 @@
     color: #555;
   }
   #available {
-    font-size: 1.1em;
     font-weight: bold;
+    margin-right: 35px;
   }
   .img {
     position: absolute;
@@ -165,25 +165,25 @@
   }
   #genre {
     position: absolute;
-    top: 26%;
-    left: 43.5%;
+    top: 26.5%;
+    left: 45%;
   }
   #description {
     position: absolute;
-    top: 52%;
+    top: 52.2%;
     left: 40%;
     width: 53%;
     text-align: left;
   }
   #season {
     position: absolute;
-    top: 33%;
-    left: 50%;
+    top: 33.6%;
+    left: 52%;
   }
   #year {
     position: absolute;
     top: 40.5%;
-    left: 50%;
+    left: 52%;
   }
   p {
     font-size: 25px;
@@ -431,7 +431,6 @@
     transform: scale(1) translateX(-50%);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   }
-
   #watch-later-btn:disabled {
     background-color: #d3d3d3;
     color: #888;
@@ -446,6 +445,6 @@
 }
 @media (max-width: 768px) {
   .video-trailer {
-    max-width: 100%; /* Full width on smaller screens */
+    max-width: 100%;
   }
 }

@@ -1,0 +1,29 @@
+{
+  "name": "anime-ott",
+  "version": "1.0.0",
+  "description": "Anime OTT Project...\r https://vaseem-ismail.github.io/Anime-OTT/",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vaseem-ismail/Anime-OTT.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vaseem-ismail/Anime-OTT/issues"
+  },
+  "homepage": "https://github.com/vaseem-ismail/Anime-OTT#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.16.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

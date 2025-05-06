@@ -1,14 +1,30 @@
-document.addEventListener('DOMContentLoaded', () => {
-  // Load user information (example data)
-  const username = localStorage.getItem('name') || "Mohamed Vaseem";
-  const email = localStorage.getItem('Username');
+// const { decode } = require("jsonwebtoken");
+// const API_URL = "https://anime-ott.onrender.com"
+const API_URL = "http://127.0.0.1:5000"
 
-  document.getElementById('user-username').textContent = username;
-  document.getElementById('user-email').textContent = email;
+document.addEventListener('DOMContentLoaded', () => {
+  let Username = "";
+  let Email = ""
+  const token = localStorage.getItem("token");
+  if (token) {
+    try {
+      const decoded = jwt_decode(token);
+      console.log(decoded);
+      Username = decoded.user.username;
+      Email = decoded.user.email;
+    } catch (err) {
+      console.error("Invalid token", err);
+    }
+  } else {
+    console.warn("No token found in localStorage");
+  }
+
+  document.getElementById('user-username').textContent = Username;
+  document.getElementById('user-email').textContent = Email;
 
 
   const user = document.getElementById('username');
-  user.textContent = username;
+  user.textContent = Username;
   // Load Watch Later list from localStorage
   const watchLaterList = JSON.parse(localStorage.getItem('watchLaterList')) || [];
   const watchLaterListContainer = document.getElementById('watch-later-list');
@@ -63,7 +79,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const storeWatchLaterList = async () => {
       try {
         const email = localStorage.getItem('Username'); // Fetch email from localStorage
-        const response = await fetch('https://anime-ott.onrender.com/storeWatchLater', {
+        const response = await fetch(`${API_URL}/storeWatchLater`, {
 
           method: 'POST',
           headers: {
@@ -96,3 +112,9 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
 });
+
+const forgotPass = document.getElementById("forgotPass");
+
+forgotPass.addEventListener("click", () => {
+  window.location.href = "change.html";
+})

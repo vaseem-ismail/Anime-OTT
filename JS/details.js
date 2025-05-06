@@ -40,10 +40,10 @@ document.addEventListener('DOMContentLoaded', async () => {
                     voiceActorsContainer.innerHTML += `
                     
                         <div class="voice-actor">
-                          <div>
-                            <h5>${character}</h5>
-                            <p>${voiceActor.name}</p>
-                             </div>
+                            <div>
+                                <h5>${character}</h5>
+                                <p>${voiceActor.name}</p>
+                            </div>
                             <img src="${voiceActor.img}" alt="${voiceActor.name}" class="voice-actor-img draggable="false">
                         </div>
                     `;
@@ -55,23 +55,16 @@ document.addEventListener('DOMContentLoaded', async () => {
             if (imageDetails['trailer']) {
                 container.innerHTML += `
                     <button id="trailer-btn"><strong>Watch</strong></button>
-                    <video class="video-trailer" controls>
-                        <source src="${imageDetails['trailer']}" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
-                    <button id="exit">&#8592;</button>
                 `;
-                const exitButton = document.getElementById("exit");
-                exitButton.addEventListener("click", () => {
-                    const videoTrailer = document.querySelector(".video-trailer");
-                    exitButton.style.display = "none";
-                    videoTrailer.style.display = "none";
-                });
+                // const exitButton = document.getElementById("exit");
+                // exitButton.addEventListener("click", () => {
+                //     const videoTrailer = document.querySelector(".video-trailer");
+                //     exitButton.style.display = "none";
+                //     videoTrailer.style.display = "none";
+                // });
                 const trailerBtn = document.getElementById("trailer-btn");
                 trailerBtn.addEventListener("click", () => {
-                    const videoTrailer = document.querySelector(".video-trailer");
-                    videoTrailer.style.display = "block";
-                    exitButton.style.display = "block";
+                    window.location.href = "../trailer.html";  
                 });
             }
 
@@ -92,33 +85,37 @@ document.addEventListener('DOMContentLoaded', async () => {
 });
 
 
- 
+
 document.addEventListener('DOMContentLoaded', () => {
     const watchLaterButton = document.getElementById("watch-later");
+    const selectedImageName = localStorage.getItem('selectedImageName');
+    let watchLaterList = JSON.parse(localStorage.getItem('watchLaterList')) || [];
+
+    // Update button text if anime is already in list
+    if (selectedImageName && watchLaterList.includes(selectedImageName)) {
+        watchLaterButton.textContent = "Remove from Watch Later";
+    }
 
     if (watchLaterButton) {
         watchLaterButton.addEventListener('click', () => {
-            const selectedImageName = localStorage.getItem('selectedImageName');
             if (!selectedImageName) {
                 alert('No anime or movie selected!');
                 return;
             }
 
-            let watchLaterList = JSON.parse(localStorage.getItem('watchLaterList')) || [];
-
             if (watchLaterList.includes(selectedImageName)) {
-                // Remove from the list
+                // Remove from list
                 watchLaterList = watchLaterList.filter(item => item !== selectedImageName);
                 watchLaterButton.textContent = "Add to Watch Later";
                 showMessage(`${selectedImageName} has been removed from your Watch Later list!`);
             } else {
-                // Add to the list
+                // Add to list
                 watchLaterList.push(selectedImageName);
                 watchLaterButton.textContent = "Remove from Watch Later";
                 showMessage(`${selectedImageName} has been added to your Watch Later list!`);
             }
 
-            // Save updated list to localStorage
+            // Save updated list
             localStorage.setItem('watchLaterList', JSON.stringify(watchLaterList));
         });
     } else {
@@ -129,11 +126,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
+
+
+
 // Notification function
 const showMessage = (message, type = 'success') => {
     const messageContainer = document.createElement('div');
     messageContainer.textContent = message;
-    messageContainer.style.background = type === 'success' ? 'green': 'red';
+    messageContainer.style.background = type === 'success' ? 'green' : 'red';
     messageContainer.style.color = 'white';
     messageContainer.style.padding = '10px';
     messageContainer.style.position = 'fixed';
@@ -147,5 +147,6 @@ const showMessage = (message, type = 'success') => {
 
     }, 3000);
 };
+
 
 

@@ -95,6 +95,9 @@
     left: -1px;
     padding-top: 30px;
     top: 0%;
+    border-bottom: 1px solid gold;
+    box-shadow: 4px 4px 8px gold;
+    
   }
 
   .logo-container {
@@ -109,7 +112,7 @@
     width: 100px;
     height: 100px;
     background-color: transparent;
-    border: 0.5px white solid;
+    border: 1px solid gold;
     border-radius: 50px;
     user-select: none;
   }
@@ -286,7 +289,7 @@
     left: 94%;
     font-size: 30px;
     background-color: black;
-    border: 2px white solid;
+    border: 1px solid gold;
     border-radius: 10px;
     padding: 10px;
     top: 90%;
@@ -304,7 +307,7 @@
     height: 500px;
     overflow: hidden;
     background: black;
-    border: 2px white solid;
+    border: 1px solid gold;
   }
 
   .image-container {
@@ -347,7 +350,7 @@
     top: 80%;
     left: -2px;
     /* border-radius: 30px; */
-    border: 2px red solid;
+    border: 1px solid gold;
   }
   #hone,#htwo,#hthree,#hfour,#hfive,#hsix {
     color: white;
@@ -366,7 +369,7 @@
     top: 140%;
     left: -2px;
     /* border-radius: 30px; */
-    border: 2px red solid;
+    border: 1px solid gold;
   }
   #title3 {
     background-color: black;
@@ -377,7 +380,7 @@
     top: 200%;
     left: -2px;
     /* border-radius: 30px; */
-    border: 2px red solid;
+    border: 1px solid gold;
   }
   #title4 {
     background-color: black;
@@ -388,7 +391,7 @@
     top: 260%;
     left: -2px;
     /* border-radius: 30px; */
-    border: 2px red solid;
+    border: 1px solid gold;
   }
   #title5 {
     background-color: black;
@@ -399,7 +402,7 @@
     top: 320%;
     left: -2px;
     /* border-radius: 30px; */
-    border: 2px red solid;
+    border: 1px solid gold;
   }
   #title6 {
     background-color: black;
@@ -410,7 +413,7 @@
     top: 380%;
     left: -2px;
     /* border-radius: 30px; */
-    border: 2px red solid;
+    border: 1px solid gold;
   }
   #see_more {
     background-color: black;
@@ -421,7 +424,7 @@
     top: 440%;
     left: 80px;
     border-radius: 30px;
-    border: 2px green solid;
+    border: 2px gold solid;
   }
   #w-more {
     text-decoration: none;
@@ -440,7 +443,8 @@
     position: absolute;
     top: 480%;
     left: -2px;
-    border: 2px white solid;
+    border: 2px gold solid;
+
   }
   #empty {
     background-color: transparent;
@@ -494,7 +498,7 @@
     padding: 15px;
     background-color: gray;
     color: white;
-    border: 2px solid blue;
+    border: 2px solid gold;
     border-radius: 20px;
     font-size: 20px;
     text-decoration: none;

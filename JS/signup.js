@@ -5,7 +5,8 @@ window.addEventListener("load", () => {
   }
 })
 // Password toggle
-const API_URL = "https://anime-ott.onrender.com";
+// const API_URL = "https://anime-ott.onrender.com";
+const API_URL = "http://127.0.0.1:5000";
 const passwordInput = document.getElementById("signupPassword");
 const togglePassword = document.getElementById("togglePassword");
 togglePassword.addEventListener("click", () => {

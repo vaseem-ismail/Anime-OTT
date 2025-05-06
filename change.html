@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Password</title>
+    <style>
+        /* Apply a dark background to the whole page */
+        body {
+            background-color: #0d0d0d;
+            color: #f5f5f5;
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Style header */
+        header {
+            text-align: center;
+            padding: 2rem 0;
+            background: linear-gradient(90deg, #111, #222);
+            border-bottom: 2px solid gold;
+            animation: glow 2s infinite alternate;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            color: gold;
+        }
+
+        /* Main form container */
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 70vh;
+        }
+
+        form {
+            background-color: #1a1a1a;
+            padding: 2rem;
+            border: 2px solid gold;
+            border-radius: 15px;
+            box-shadow: 0 0 20px gold;
+            width: 350px;
+            animation: fadeIn 1.5s ease;
+        }
+
+        /* Form fields */
+        label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: bold;
+            color: gold;
+        }
+
+        input[type="password"] {
+            width: 97%;
+            padding: 0.7rem;
+            margin-bottom: 1.5rem;
+            background: #0d0d0d;
+            border: 1px solid gold;
+            border-radius: 8px;
+            color: white;
+            font-size: 1rem;
+            transition: border 0.3s, box-shadow 0.3s;
+        }
+
+        input[type="password"]:focus {
+            border-color: #ffd700;
+            box-shadow: 0 0 8px #ffd700;
+            outline: none;
+        }
+
+        /* Submit button */
+        button#change-btn {
+            width: 100%;
+            padding: 0.8rem;
+            background: gold;
+            color: black;
+            font-size: 1.1rem;
+            font-weight: bold;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background 0.3s, transform 0.3s;
+        }
+
+        button#change-btn:hover {
+            background: #ffd700;
+            transform: scale(1.05);
+        }
+
+        /* Message section */
+        #message {
+            text-align: center;
+            margin-top: 1rem;
+            font-size: 1.1rem;
+            color: gold;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            font-size: 0.9rem;
+            background-color: #111;
+            border-top: 1px solid gold;
+            color: #ccc;
+        }
+
+        /* Animations */
+        @keyframes glow {
+            from {
+                box-shadow: 0 0 5px gold, 0 0 10px gold, 0 0 15px gold;
+            }
+
+            to {
+                box-shadow: 0 0 20px gold, 0 0 30px gold, 0 0 40px gold;
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Change Password</h1>
+    </header>
+
+    <main>
+        <form id="change-password-form">
+            
+            <label for="new-password">New Password:</label>
+            <input type="password" id="new-password" name="new-password" required><br><br>
+
+            <label for="confirm-new-password">Confirm New Password:</label>
+            <input type="password" id="confirm-new-password" name="confirm-new-password" required><br><br>
+
+            <button id="change-btn" type="submit">Change Password</button>
+        </form>
+    </main>
+
+    <div id="message"></div>
+
+    <footer>
+        <p>© 2025 AnimeWorld. All rights reserved.</p>
+    </footer>
+
+    <script src="./JS/change.js"></script>
+</body>
+
+</html>
