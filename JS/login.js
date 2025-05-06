@@ -4,7 +4,7 @@ const loadingSpinner = document.getElementById("loadingSpinner");
 
 // Backend API URL
 // const API_URL = "https://anime-ott.onrender.com";
-const API_URL = "http://127.0.0.1:5000";
+const API_URL = "https://anime-ott-cj7e.onrender.com";
 
 // Login functionality
 loginForm.addEventListener("submit", async (e) => {

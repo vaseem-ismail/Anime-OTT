@@ -9,17 +9,25 @@ app = Flask(__name__)
 
 bcrypt = Bcrypt(app)
 
-MONGO_URI = os.getenv("MONGO_URI")
-mongo_client = MongoClient(MONGO_URI)
-db = mongo_client["Anime-Galaxy"]
-users_collection = db['users']
-watch_later_collection = db['watch-later']
+# MONGO_URI = os.getenv("MONGO_URI")
+# mongo_client = MongoClient(MONGO_URI)
+# db = mongo_client["Anime-Galaxy"]
+
 
 
 SECRET_CODE = "ANIMEGALAXY"
 
 
+def get_db():
+    MONGO_URI = os.getenv("MONGO_URI")
+    client = MongoClient(MONGO_URI)
+    db = client["Anime-Galaxy"]
+    return db
+
 def register():
+    db = get_db()
+    users_collection = db['users']
+    watch_later_collection = db['watch-later']
     data = request.get_json()
     email = data.get('email')
     password = data.get('password')
@@ -48,6 +56,9 @@ def register():
 
 
 def login():
+    db = get_db()
+    users_collection = db['users']
+    watch_later_collection = db['watch-later']
     data = request.get_json()
     email = data.get('email')
     password = data.get('password')
@@ -83,6 +94,9 @@ def login():
     }), 200
     
 def store_watch_later():
+    db = get_db()
+    # users_collection = db['users']
+    watch_later_collection = db['watch-later']
     data = request.get_json()
     email = data.get('email')
     watch_later_list = data.get('watchLaterList')
@@ -109,6 +123,9 @@ def store_watch_later():
     return jsonify({'message': 'Watch Later list updated successfully'}), 200
 
 def change_password():
+    db = get_db()
+    users_collection = db['users']
+    # watch_later_collection = db['watch-later']
     data = request.get_json()
     email = data.get('email')
     # oldPass = data.get("oldPassword")

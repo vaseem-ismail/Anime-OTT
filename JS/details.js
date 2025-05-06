@@ -6,11 +6,10 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 
     try {
-        const response = await fetch('../images.json'); // Adjust the path
+        const response = await fetch('../images.json');
         const data = await response.json();
 
-        // Search for the selected image's details
-        const categories = Object.values(data); // Get all categories
+        const categories = Object.values(data); 
         let imageDetails = null;
 
         for (const category of categories) {
@@ -19,7 +18,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
 
         if (imageDetails) {
-            // Populate the page with details
+
             const container = document.getElementById('details-container');
             container.innerHTML += `
                 <img src="${imageDetails['image-url']}" alt="${imageDetails.name}" class="img">
@@ -31,7 +30,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 <p id="available">${imageDetails['availability']}</p>
             `;
 
-            // Display voice actor details for each character
+
             if (imageDetails['voice-actors']) {
                 const voiceActorsContainer = document.createElement('div');
                 voiceActorsContainer.className = "voice-actors-container";

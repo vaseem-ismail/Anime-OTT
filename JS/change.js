@@ -2,7 +2,7 @@ const newPass = document.getElementById("new-password");
 const confirmPass = document.getElementById("confirm-new-password");
 
 // const API_URL = "https://anime-ott.onrender.com"
-const API_URL = "http://127.0.0.1:5000"
+const API_URL = "https://anime-ott-cj7e.onrender.com"
 
 const message = document.getElementById("message");
 
